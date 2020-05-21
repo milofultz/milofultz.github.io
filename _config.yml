@@ -1,17 +1,17 @@
-site: Sidey
-url: #yoururl
-title: Sidey
-description: Simple and minimalistic jekyll blogging theme.
+site: Milo's Projects and Ramblings
+url: https://milofultz.github.io/
+title: Milo's Projects and Ramblings
+description: This is my repo for all my weird ideas and projects
 twitter:
-  username: #yourusername
+  username: milofultzbass
   card: summary
-  creator: #yourusername
+  creator: milofultzbass
 author:
-  twitter: #yourusername
-  name: #yourusername
+  twitter: milofultzbass
+  name: Milo Fultz
   avatar:
-  email: #youremail
-  url: #yoururl
+  email: milopfultz@gmail.com
+  url: https://milofultz.github.io/
 permalink: pretty
 
 baseurl: ""

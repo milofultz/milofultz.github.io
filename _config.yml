@@ -1,5 +1,5 @@
 site: Milo's Projects and Ramblings
-url: http://more.milofultz.com/
+url: https://milofultz.github.io/
 title: Milo's Projects and Ramblings
 description: This is my repo for all my weird ideas and projects
 twitter:
@@ -11,7 +11,7 @@ author:
   name: Milo Fultz
   avatar:
   email: milopfultz@gmail.com
-  url: http://more.milofultz.com/
+  url: https://milofultz.github.io/
 permalink: pretty
 
 baseurl: ""
@@ -26,8 +26,8 @@ compress_html:
   comments: ["<!-- ", " -->"]
 
 sass:
-  sass_dir: _sass
-  style: :compressed
+  sass_dir:          _sass
+  style:            :compressed
 
 plugins:
   - jekyll-paginate

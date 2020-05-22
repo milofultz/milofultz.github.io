@@ -154,7 +154,8 @@ strong, b {
 }
 
 .post ul, .project ul, .post ol  {
-	//list-style-position: inside;
+	list-style-position: inside;
+	padding-left: 1rem;
 }
 
 main {
@@ -199,4 +200,8 @@ section {
 
 figcaption {
     font-size: smaller;
+}
+
+ul {
+  padding-left: 0px;
 }

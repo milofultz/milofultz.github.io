@@ -2,11 +2,15 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>http://localhost:4000/about</loc>
-<lastmod>2020-05-22T22:32:48-07:00</lastmod>
+<lastmod>2020-05-22T23:39:21-07:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/search</loc>
-<lastmod>2020-05-22T22:32:48-07:00</lastmod>
+<lastmod>2020-05-22T23:39:21-07:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/2020/05/22/just-in-case</loc>
+<lastmod>2020-05-22T00:00:00-07:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/2020/05/22/keyboard-remapping</loc>

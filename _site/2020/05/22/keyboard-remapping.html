@@ -20,12 +20,12 @@
 <p>I utilized the ideas listed in nanoant’s article, <a href="https://www.nanoant.com/mac/macos-function-key-remapping-with-hidutil" target="_blank" rel="noopener noreferrer">“macOS function key remapping with hidutil”</a>, as well as the <a href="https://www.freebsddiary.org/APC/usb_hid_usages.php" target="_blank" rel="noopener noreferrer">USB HID usage table</a> and made a couple lines of code that can be input to achieve the same effect as above.</p>
 <p><a href="http://localhost:4000/assets/20200522karabiner.png">Check out a picture of my settings here.</a></p>
 <p>Go into terminal and type the following:</p>
-<pre><code>hidutil property --set '{"UserKeyMapping":[
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>hidutil property --set '{"UserKeyMapping":[
 {"HIDKeyboardModifierMappingSrc":0x7000000e6, "HIDKeyboardModifierMappingDst":0x700000049}]}'
-</code></pre>
+</code></pre></div></div>
 <p>What this does is the hidutil (Human Interface Design utility) is setting a new key map in the following way: key “right alt” is going to now output key “insert”. At this point, it wasn’t working, so I figured I needed to do the opposite, setting the “insert” key to map to “right alt”.</p>
-<pre><code>hidutil property --set '{"UserKeyMapping":[
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>hidutil property --set '{"UserKeyMapping":[
 {"HIDKeyboardModifierMappingSrc":0x700000049, "HIDKeyboardModifierMappingDst":0x7000000e6}]}'
-</code></pre>
+</code></pre></div></div>
 <p>This made it work for me, and I don’t fully understand, but it is interesting to note. There are a lot of interesting controls in the USB HID image table, so I wonder if I would need any of these strange controls in the future. At least I’ll know how to map them … maybe?</p>
 <span class="meta"><time datetime="2020-05-22T00:00:00-07:00">May 22, 2020</time> · <a href="/tag/tracker">tracker</a>, <a href="/tag/computer">computer</a>, <a href="/tag/project">project</a></span> <!--<span class="meta"><time datetime="2020-05-22T00:00:00-07:00">May 22, 2020</time> &middot; <a class="post" href="/tag/tracker">tracker</a>, <a class="post" href="/tag/computer">computer</a>, <a class="post" href="/tag/project">project</a></span> --></section></main></body></html>

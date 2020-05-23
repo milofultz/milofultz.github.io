@@ -2,6 +2,17 @@
   
     {
 
+      "title"    : "Day planner based on location",
+      "url"      : "/2020/05/23/day-planner",
+      "category" : "",
+      "tags"     : "project, system",
+      "date"     : "2020-05-23 00:00:00 -0700",
+      "discription" : "A lateral-thinking way to encourage you into desired activities."
+
+    } ,
+  
+    {
+
       "title"    : "I just found out about Zettelkasten",
       "url"      : "/2020/05/22/zettelkasten",
       "category" : "",
@@ -40,7 +51,7 @@
       "category" : "",
       "tags"     : "minimalism",
       "date"     : "2020-05-17 00:00:00 -0700",
-      "discription" : "155 characters"
+      "discription" : "When you&#39;re starting a hobby, don&#39;t buy the expensive tools. Buy something mid-range. If you use it so much that it breaks, buy the best one to replace it."
 
     } 
   

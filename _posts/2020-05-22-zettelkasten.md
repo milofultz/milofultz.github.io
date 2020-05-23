@@ -22,5 +22,6 @@ In my short time playing with this note taking concept, I have used it to take n
 The way I see it, the longer I keep my Zettelkasten, the more robust my index of information, the more connections I can make, the better I can understand and develop my ideas.
 
 Because you’re probably wondering what it actually is and not just my real glossy surface level explanation of it, I recommend reading more in depth on it in these two articles:
-[The Zettelkasten Method](https://www.lesswrong.com/posts/NfdHG6oHBJ8Qxc26s/the-zettelkasten-method-1)
-[Zettelkasten — How One German Scholar Was So Freakishly Productive](https://writingcooperative.com/zettelkasten-how-one-german-scholar-was-so-freakishly-productive-997e4e0ca125)
+
+* [The Zettelkasten Method](https://www.lesswrong.com/posts/NfdHG6oHBJ8Qxc26s/the-zettelkasten-method-1)
+* [Zettelkasten — How One German Scholar Was So Freakishly Productive](https://writingcooperative.com/zettelkasten-how-one-german-scholar-was-so-freakishly-productive-997e4e0ca125)

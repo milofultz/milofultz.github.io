@@ -2,6 +2,17 @@
   
     {
 
+      "title"    : "Simple + Minimal Exercise Routine",
+      "url"      : "/2020/05/25/exercise-routine",
+      "category" : "",
+      "tags"     : "project",
+      "date"     : "2020-05-25 00:00:00 -0700",
+      "discription" : "A simple, minimal and modular exercise routine I developed that can be done anywhere, focusing mainly on short and simple circuits."
+
+    } ,
+  
+    {
+
       "title"    : "Day planner based on location",
       "url"      : "/2020/05/23/day-planner",
       "category" : "",

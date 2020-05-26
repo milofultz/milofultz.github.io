@@ -17,6 +17,8 @@ body {
 
 nav ul {
     border-right: 1px solid #edf2f7;
+    align-content: flex-start;
+  	flex-flow: row wrap;
 }
 
 a {

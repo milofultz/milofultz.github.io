@@ -9,5 +9,5 @@ links:
   url: /thoughts/
 - title: Search
   url: /search
-!- title: Rss
-!  url: /atom.xml
+- title: Rss
+  url: /atom.xml

@@ -4,13 +4,46 @@
  <title>Milo's Projects and Ramblings</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2020-06-10T14:09:03-07:00</updated>
+ <updated>2020-06-22T00:28:11-07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Milo Fultz</name>
    <email>milopfultz@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>Quality and quantity's relevance to critical feeling</title>
+   <link href="http://localhost:4000/2020/06/21/quantity-quality"/>
+   <updated>2020-06-21T00:00:00-07:00</updated>
+   <id>http://localhost:4000/2020/06/21/quantity-quality</id>
+   <content type="html">&lt;p&gt;Quality is an attribute you give to help label something. Quantity is a measurement you use to help label something.&lt;/p&gt;
+
+&lt;p&gt;Quality requires quantity for it to exist. One can’t measure how hard something is without two things to compare them to. Quantity requires quality for it to exist. One can’t measure something with which it has no label.&lt;/p&gt;
+
+&lt;p&gt;To attribute a quality to something, it must be fully defined. One cannot attribute a quality to something without fully knowing what it is. In turn, one cannot measure something that has not been fully defined. What is 0 or 100 if one cannot define them?&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;This struck me as I was watching a video[1] and ended up with a discussion with a roommate about this relates to &lt;a href=&quot;/2020/06/10/critical-feeling&quot;&gt;critical feeling&lt;/a&gt;. As defined by Bret Weinstein[3], critical feeling is making sure that you don’t get caught up in other people’s feelings. One can use quality and quantity to more honestly trust your critical feeling in this way:&lt;/p&gt;
+
+&lt;p&gt;When one is presented with a quality or label, either from another person or from within themselves, one must seek to define the quality as fully and completely as possible. For instance, if one is accused of being “lazy”, one must define it, and preferably with whoever is making the accusation in mind. Once this quality is defined, one can then measure if they indeed hold this attribute and the impact this quality is having upon those affected, which could be themselves, their community, their family, or whatever. Once one has this information, one can truly understand the circumstances and be critical of the quality and it’s truthfulness in it’s application.&lt;/p&gt;
+
+&lt;p&gt;If one cannot define the quality that is being attributed, they have no business attributing it. And if once defined, one cannot measure the impact the attribute has, then it is not important.&lt;/p&gt;
+
+&lt;p&gt;I believe this exercise has the potential to avoid claims of essentialism[4] (all humans are bad/good, all X people are Y), to help ground accusations or problems in the realm of the logical and the real, and to present us with further action, instead of letting our brain buck or accept a quality that may or may not be useful or important.&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;References:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://youtu.be/eOfVBqGPwi0?t=886&quot;&gt;https://youtu.be/eOfVBqGPwi0?t=886&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/2020/06/10/critical-feeling&quot;&gt;Critical Feeling&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=PfAumoTIeik&quot;&gt;https://www.youtube.com/watch?v=PfAumoTIeik&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Essentialism&quot;&gt;https://en.wikipedia.org/wiki/Essentialism&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Critical feeling is just as important as critical thinking</title>
@@ -23,9 +56,9 @@
 
 &lt;p&gt;I like this idea a lot because it clarifies a problem that I have often had. My emotional conviction on my values and ethics have often been weak, untethered on clear principled thought, and thus I have been more susceptible to bandwagoning based on big emotions. There have been many times where I later found that my actions or thoughts were not honest to what I actually desired in the situation or believed and this I think was due to a lack of critical feeling.&lt;/p&gt;
 
-&lt;p&gt;When it comes to thinking critically thinking, the analysis of facts to form a judgment[2], I tend to be more skeptical in the points or ideas of others. I usually disagree with people until I run through the scenario sufficiently and fully understand and agree with what is being presented. Emotions tends to override this skepticism and sweep me up in the romantic nature of whatever is at hand. This I believe is due to a relatively weak understanding of my own emotions and what they are trying to communicate to me, as well as a lack of practice in working with them.&lt;/p&gt;
+&lt;p&gt;When it comes to critically thinking, the analysis of facts to form a judgment[2], I tend to be more skeptical in the points or ideas of others. I usually disagree with people until I run through the scenario sufficiently and fully understand and agree with what is being presented. Emotions tend to override this skepticism and sweep me up in the romantic nature of whatever is at hand. This I believe is due to a relatively weak understanding of my own emotions and what they are trying to communicate to me, as well as a lack of practice in working with them.&lt;/p&gt;
 
-&lt;p&gt;The new question is how to practice and develop critical feeling. As for critical thinking, according to this article in the HBR[3], there are three things that can help you: question assumptions, reason through logic, and diversify thought. I believe these are the same, and for people who have had problems with their emotional development, this can include some really difficult practice, alone or with a guide (therapist, friend, family, etc.).&lt;/p&gt;
+&lt;p&gt;The new question is how to practice and develop critical feeling. &lt;em&gt;[Update 20200622: I developed a method that you can find &lt;a href=&quot;/2020/06/21/quantity-quality&quot;&gt;here&lt;/a&gt;)&lt;/em&gt;. As for critical thinking, according to this article in the HBR[3], there are three things that can help you: question assumptions, reason through logic, and diversify thought. I believe these are the same, and for people like me who have had problems with their emotional development, this can include some really difficult practice, alone or with a guide (therapist, friend, family, etc.).&lt;/p&gt;
 
 &lt;p&gt;In the last few months, I have been going to therapy weekly, devouring YouTube videos about philosophy[4][5][6], and talking a lot with my friends and family about more emotionally complex things, and I have noticed a much larger capacity to understand what is happening with my emotional state, and therefore maintain what I feel while also being able to empathize better with others.&lt;/p&gt;
 
@@ -39,6 +72,7 @@
   &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/user/thephilosophytube/videos&quot;&gt;https://www.youtube.com/user/thephilosophytube/videos&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/user/ContraPoints&quot;&gt;https://www.youtube.com/user/ContraPoints&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/user/alexjoconnor&quot;&gt;https://www.youtube.com/user/alexjoconnor&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/2020/06/21/quantity-quality&quot;&gt;Quality and quantity’s relevance to critical feeling&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 </content>
  </entry>

@@ -4,13 +4,31 @@
  <title>Milo's Projects and Ramblings</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2020-06-25T19:14:23-07:00</updated>
+ <updated>2020-06-26T02:07:49-07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Milo Fultz</name>
    <email>milopfultz@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>Nobody Takes Advice</title>
+   <link href="http://localhost:4000/2020/06/26/nobody-takes-advice"/>
+   <updated>2020-06-26T00:00:00-07:00</updated>
+   <id>http://localhost:4000/2020/06/26/nobody-takes-advice</id>
+   <content type="html">&lt;blockquote&gt;
+  &lt;p&gt;“The great, unspoken secret of advice is that no one takes it. … People always just do exactly what they want to do in every scenario.” - Nicole Cliffe[1]&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;References:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.elle.com/life-love/advice/a46441/nicole-knows-how-do-i-support-my-friends-when-they-make-bad-choices/&quot;&gt;https://www.elle.com/life-love/advice/a46441/nicole-knows-how-do-i-support-my-friends-when-they-make-bad-choices/&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Inexpensive and Minimal Equipment Games To Spend Time On</title>

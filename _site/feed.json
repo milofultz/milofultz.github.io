@@ -17,6 +17,30 @@
 "items": [
     
         {
+            "id": "http://localhost:4000/2020/06/26/nobody-takes-advice",
+            "title": "Nobody Takes Advice",
+            "summary": "\\\"The great, unspoken secret of advice is that no one takes it. ... People always just do exactly what they want to do in every scenario.\\\" - Nicole Cliffe",
+            "content_text": "  “The great, unspoken secret of advice is that no one takes it. … People always just do exactly what they want to do in every scenario.” - Nicole Cliffe[1]References:  https://www.elle.com/life-love/advice/a46441/nicole-knows-how-do-i-support-my-friends-when-they-make-bad-choices/",
+            "content_html": "<blockquote>  <p>“The great, unspoken secret of advice is that no one takes it. … People always just do exactly what they want to do in every scenario.” - Nicole Cliffe[1]</p></blockquote><hr /><p>References:</p><ol>  <li><a href=\"https://www.elle.com/life-love/advice/a46441/nicole-knows-how-do-i-support-my-friends-when-they-make-bad-choices/\">https://www.elle.com/life-love/advice/a46441/nicole-knows-how-do-i-support-my-friends-when-they-make-bad-choices/</a></li></ol>",
+            "url": "http://localhost:4000/2020/06/26/nobody-takes-advice",
+            
+            
+            
+            
+            
+            "date_published": "2020-06-26T00:00:00-07:00",
+            "date_modified": "2020-06-26T00:00:00-07:00",
+            
+                "author":  {
+                "name": "Milo Fultz",
+                "url": "http://more.milofultz.com/",
+                "avatar": null
+                }
+                
+            
+        },
+    
+        {
             "id": "http://localhost:4000/2020/06/25/inexpensive-games",
             "title": "Inexpensive and Minimal Equipment Games To Spend Time On",
             "summary": "I've always been interested in being frugal and wanted a repository of fun and inexpensive games to play by yourself and with others.",

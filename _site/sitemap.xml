@@ -2,11 +2,11 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>http://localhost:4000/about</loc>
-<lastmod>2020-06-22T00:28:11-07:00</lastmod>
+<lastmod>2020-06-25T19:14:23-07:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/search</loc>
-<lastmod>2020-06-22T00:28:11-07:00</lastmod>
+<lastmod>2020-06-25T19:14:23-07:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/2020/05/17/adam-savage</loc>
@@ -33,16 +33,16 @@
 <lastmod>2020-05-25T00:00:00-07:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/2020/06/02/inexpensive-games</loc>
-<lastmod>2020-06-02T00:00:00-07:00</lastmod>
-</url>
-<url>
 <loc>http://localhost:4000/2020/06/10/critical-feeling</loc>
 <lastmod>2020-06-10T00:00:00-07:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/2020/06/21/quantity-quality</loc>
 <lastmod>2020-06-21T00:00:00-07:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/2020/06/25/inexpensive-games</loc>
+<lastmod>2020-06-25T00:00:00-07:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/</loc>

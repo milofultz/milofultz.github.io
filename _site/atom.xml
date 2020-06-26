@@ -4,13 +4,39 @@
  <title>Milo's Projects and Ramblings</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2020-06-22T00:28:11-07:00</updated>
+ <updated>2020-06-25T19:14:23-07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Milo Fultz</name>
    <email>milopfultz@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>Inexpensive and Minimal Equipment Games To Spend Time On</title>
+   <link href="http://localhost:4000/2020/06/25/inexpensive-games"/>
+   <updated>2020-06-25T00:00:00-07:00</updated>
+   <id>http://localhost:4000/2020/06/25/inexpensive-games</id>
+   <content type="html">&lt;p&gt;I’ve always been interested in being frugal and wanted a repository of fun and inexpensive games to play by yourself and with others. Here’s a list of what I’ve found.&lt;/p&gt;
+
+&lt;h3 id=&quot;solo&quot;&gt;Solo&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://itch.io/t/54944/donsol-guide&quot;&gt;Donsol&lt;/a&gt; - Donsol is a solitaire card game made by John Eternal during Train Jam using a regular playing card deck. I found this on &lt;a href=&quot;https://www.youtube.com/watch?v=GNoZrr56GqA&quot;&gt;Hundred Rabbit’s Youtube channel&lt;/a&gt; and thought it looked like a fun game for solo play that made solitaire a lot more interesting. The rules are a bit confusing so be sure to watch the video and see them play it through.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Canfield_(solitaire)&quot;&gt;Canfield&lt;/a&gt; - When I was on a cruise ship for a week for a gig, I literally played this game for probably upwards of 7 hours and I think I won once. For some reason, I keep coming back to it.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://boardgamegeek.com/boardgame/1443/alpha-blitz&quot;&gt;Alpha Blitz&lt;/a&gt; - Not really a “game” but a good way to pass time. Find a word and then figure out the longest anagram you can using only those letters (lens = senselessness).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;2-player&quot;&gt;2+ Player&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.word-grabber.com/printable-word-games/a-mastermind-with-words-jotto&quot;&gt;Word Mastermind/Jotto&lt;/a&gt; - I played this a ton with a friend of mine in our down time in college. Super easy to play and you don’t really need anything except a paper and pencil, unless you have a good memory. It’s pretty much just the game mastermind but with words instead.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Paper_football&quot;&gt;Paper Football&lt;/a&gt; - Aside from the obvious of kicking it, the tabletop play of this game is so fun and makes waiting in a place with a floor or table much more fun. All you need is some scrap paper and a surface.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Exquisite_corpse&quot;&gt;Exquisite Corpse&lt;/a&gt; - Total absurdity and chaos through drawing. Only need a pen and paper and will create a wide range of stuff, from silly pictures to nightmare fuel.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://athleticexplorations.com/en_US/ae96/&quot;&gt;Monkey Tree&lt;/a&gt; (&lt;a href=&quot;https://www.youtube.com/watch?v=hXVRyI2ULHI&quot;&gt;video&lt;/a&gt;) - This is almost a workout more than it’s a game, but nonetheless a fun way to spend time. One person stands arms out to their sides with legs wide, stable on the ground. The other person climbs on their back and finds ways to maneuver around them. Tougher than it seems, both physically and for your friendship.&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Quality and quantity's relevance to critical feeling</title>
@@ -27,7 +53,7 @@
 
 &lt;p&gt;This struck me as I was watching a video[1] and ended up with a discussion with a roommate about this relates to &lt;a href=&quot;/2020/06/10/critical-feeling&quot;&gt;critical feeling&lt;/a&gt;. As defined by Bret Weinstein[3], critical feeling is making sure that you don’t get caught up in other people’s feelings. One can use quality and quantity to more honestly trust your critical feeling in this way:&lt;/p&gt;
 
-&lt;p&gt;When one is presented with a quality or label, either from another person or from within themselves, one must seek to define the quality as fully and completely as possible. For instance, if one is accused of being “lazy”, one must define it, and preferably with whoever is making the accusation in mind. Once this quality is defined, one can then measure if they indeed hold this attribute and the impact this quality is having upon those affected, which could be themselves, their community, their family, or whatever. Once one has this information, one can truly understand the circumstances and be critical of the quality and it’s truthfulness in it’s application.&lt;/p&gt;
+&lt;p&gt;When one is presented with a quality or label, either from another person or from within themselves, one must seek to define the quality as fully and completely as possible. For instance, if one is accused of being “lazy”, one must define it, and preferably with whoever is making the accusation in mind. Once this quality is defined, one can then measure if they indeed hold this attribute, how much, and the impact this quality is having upon those affected, which could be themselves, their community, their family, or whatever. Once one has this information, one can truly understand the circumstances and be critical of the quality and it’s truthfulness in it’s application.&lt;/p&gt;
 
 &lt;p&gt;If one cannot define the quality that is being attributed, they have no business attributing it. And if once defined, one cannot measure the impact the attribute has, then it is not important.&lt;/p&gt;
 
@@ -74,31 +100,6 @@
   &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/user/alexjoconnor&quot;&gt;https://www.youtube.com/user/alexjoconnor&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;/2020/06/21/quantity-quality&quot;&gt;Quality and quantity’s relevance to critical feeling&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
-</content>
- </entry>
- 
- <entry>
-   <title>Inexpensive and Minimal Equipment Games To Spend Time On</title>
-   <link href="http://localhost:4000/2020/06/02/inexpensive-games"/>
-   <updated>2020-06-02T00:00:00-07:00</updated>
-   <id>http://localhost:4000/2020/06/02/inexpensive-games</id>
-   <content type="html">&lt;p&gt;I’ve always been interested in being frugal and wanted a repository of fun and inexpensive games to play by yourself and with others. Here’s a list of what I’ve found.&lt;/p&gt;
-
-&lt;h3 id=&quot;solo&quot;&gt;Solo&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://itch.io/t/54944/donsol-guide&quot;&gt;Donsol&lt;/a&gt; - Donsol is a solitaire card game made by John Eternal during Train Jam using a regular playing card deck. I found this on &lt;a href=&quot;https://www.youtube.com/watch?v=GNoZrr56GqA&quot;&gt;Hundred Rabbit’s Youtube channel&lt;/a&gt; and thought it looked like a fun game for solo play that made solitaire a lot more interesting. The rules are a bit confusing so be sure to watch the video and see them play it through.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Canfield_(solitaire)&quot;&gt;Canfield&lt;/a&gt; - When I was on a cruise ship for a week for a gig, I literally played this game for probably upwards of 7 hours and I think I won once. For some reason, I keep coming back to it.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://boardgamegeek.com/boardgame/1443/alpha-blitz&quot;&gt;Alpha Blitz&lt;/a&gt; - Not really a “game” but a good way to pass time. Find a word and then figure out the longest anagram you can using only those letters (lens = senselessness).&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;2-player&quot;&gt;2+ Player&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.word-grabber.com/printable-word-games/a-mastermind-with-words-jotto&quot;&gt;Word Mastermind/Jotto&lt;/a&gt; - I played this a ton with a friend of mine in our down time in college. Super easy to play and you don’t really need anything except a paper and pencil, unless you have a good memory. It’s pretty much just the game mastermind but with words instead.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Paper_football&quot;&gt;Paper Football&lt;/a&gt; - Aside from the obvious of kicking it, the tabletop play of this game is so fun and makes waiting in a place with a floor or table much more fun. All you need is some scrap paper and a surface.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Exquisite_corpse&quot;&gt;Exquisite Corpse&lt;/a&gt; - Total absurdity and chaos through drawing. Only need a pen and paper and will create a wide range of stuff, from silly pictures to nightmare fuel.&lt;/li&gt;
-&lt;/ul&gt;
 </content>
  </entry>
  

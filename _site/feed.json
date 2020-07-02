@@ -17,6 +17,30 @@
 "items": [
     
         {
+            "id": "http://localhost:4000/2020/07/02/bmcrawl",
+            "title": "Bookmark Crawler - Make Internet Exploration More Fun",
+            "summary": "This is an experiment that utilizes a set of URL's to create a specific set of links based on the sites that you already liked enough to bookmark it.",
+            "content_text": "You can find the project here on GitHub.GoalSearch engines are too broad and do not serve people who search for interesting and curated content that does not have relevant keywords. For example, searching “DIY Projects” will not yield interesting results, as those SEO search terms are saturated by bigger scale organizations and make finding smaller creators and curators much more difficult. As the internet gets larger and larger, this will only be more of a problem with modern search engines, as their algorithm rewards good SEO and Alexa rankings, which is determined not necessarily by quality of content, but by linking and optimization.So if you want to find interesting and curated content regarding DIY projects, how can you find them? This is an experiment that utilizes a set of URL’s to create an extremely specific set of links based on the sites that you already liked enough to bookmark it. Hopefully this will provide the user with new domains and pages to explore that are related and recommended within their bookmarks.How  Take user’s bookmarks (exported from Firefox as an HTML file) and create a list of URLs to scrape.  Scrape each URL in bookmarks for links.  Allow process to repeat up to N degrees away from initial source URL.  Return an HTML file of new sites to explore.Future ImplementationsI would love to see a StumbleUpon-style random button, but for now that is way beyond my capabilities.I want to make it usable with any given site as well; where you put in a URL that you find interesting and it spits back all the sites it links to up to N degrees away. I feel like this will almost be more usable and fun than it’s current implementation.Usage  Download the .py file.  Download bookmarks as an HTML file named ‘bookmarks.html’.  Place both files in same directory.  python3 bmcrawlv3.py",
+            "content_html": "<p><a href=\"https://github.com/milofultz/bmcrawl\">You can find the project here on GitHub.</a></p><h2 id=\"goal\">Goal</h2><p>Search engines are too broad and do not serve people who search for interesting and curated content that does not have relevant keywords. For example, searching “DIY Projects” will not yield interesting results, as those SEO search terms are saturated by bigger scale organizations and make finding smaller creators and curators much more difficult. As the internet gets larger and larger, this will only be more of a problem with modern search engines, as their algorithm rewards good SEO and Alexa rankings, which is determined not necessarily by quality of content, but by linking and optimization.</p><p>So if you want to find interesting and curated content regarding DIY projects, how can you find them? This is an experiment that utilizes a set of URL’s to create an extremely specific set of links based on the sites that you already liked enough to bookmark it. Hopefully this will provide the user with new domains and pages to explore that are related and recommended within their bookmarks.</p><h2 id=\"how\">How</h2><ul>  <li>Take user’s bookmarks (exported from Firefox as an HTML file) and create a list of URLs to scrape.</li>  <li>Scrape each URL in bookmarks for links.</li>  <li>Allow process to repeat up to N degrees away from initial source URL.</li>  <li>Return an HTML file of new sites to explore.</li></ul><h2 id=\"future-implementations\">Future Implementations</h2><p>I would love to see a StumbleUpon-style random button, but for now that is way beyond my capabilities.</p><p>I want to make it usable with any given site as well; where you put in a URL that you find interesting and it spits back all the sites it links to up to N degrees away. I feel like this will almost be more usable and fun than it’s current implementation.</p><hr /><h2 id=\"usage\">Usage</h2><ol>  <li>Download the .py file.</li>  <li>Download bookmarks as an HTML file named ‘bookmarks.html’.</li>  <li>Place both files in same directory.</li>  <li><code class=\"highlighter-rouge\">python3 bmcrawlv3.py</code></li></ol>",
+            "url": "http://localhost:4000/2020/07/02/bmcrawl",
+            
+            
+            
+            
+            
+            "date_published": "2020-07-02T00:00:00-07:00",
+            "date_modified": "2020-07-02T00:00:00-07:00",
+            
+                "author":  {
+                "name": "Milo Fultz",
+                "url": "http://more.milofultz.com/",
+                "avatar": null
+                }
+                
+            
+        },
+    
+        {
             "id": "http://localhost:4000/2020/06/26/nobody-takes-advice",
             "title": "Nobody Takes Advice",
             "summary": "\\\"The great, unspoken secret of advice is that no one takes it. ... People always just do exactly what they want to do in every scenario.\\\" - Nicole Cliffe",

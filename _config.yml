@@ -1,17 +1,12 @@
 site: Milo's Projects and Ramblings
-url: http://more.milofultz.com/
+url: http://more.milofultz.com
 title: Milo's Projects and Ramblings
 description: This is my repo for all my weird ideas and projects
-twitter:
-  username: milofultzbass
-  card: summary
-  creator: milofultzbass
 author:
-  twitter: milofultzbass
   name: Milo Fultz
   avatar:
   email: milopfultz@gmail.com
-  url: http://more.milofultz.com/
+  url: http://more.milofultz.com
 permalink: pretty
 
 baseurl: ""

@@ -2,11 +2,11 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>http://more.milofultz.com/about</loc>
-<lastmod>2020-07-02T22:31:47-07:00</lastmod>
+<lastmod>2020-07-02T23:44:07-07:00</lastmod>
 </url>
 <url>
 <loc>http://more.milofultz.com/search</loc>
-<lastmod>2020-07-02T22:31:47-07:00</lastmod>
+<lastmod>2020-07-02T23:44:07-07:00</lastmod>
 </url>
 <url>
 <loc>http://more.milofultz.com/2020/05/17/adam-savage</loc>
@@ -84,5 +84,13 @@
 </url>
 <url>
 <loc>http://more.milofultz.com/tag/stuff/</loc>
+</url>
+<url>
+<loc>http://more.milofultz.com/newlinks_0.html</loc>
+<lastmod>2020-07-02T23:35:06-07:00</lastmod>
+</url>
+<url>
+<loc>http://more.milofultz.com/newlinks_1.html</loc>
+<lastmod>2020-07-02T23:35:06-07:00</lastmod>
 </url>
 </urlset>

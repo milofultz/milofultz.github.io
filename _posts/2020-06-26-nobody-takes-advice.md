@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Nobody Takes Advice
-description: \"The great, unspoken secret of advice is that no one takes it. ... People always just do exactly what they want to do in every scenario.\" - Nicole Cliffe
-summary: \"The great, unspoken secret of advice is that no one takes it. ... People always just do exactly what they want to do in every scenario.\" - Nicole Cliffe
+description: The great, unspoken secret of advice is that no one takes it. ... People always just do exactly what they want to do in every scenario. - Nicole Cliffe
+summary: The great, unspoken secret of advice is that no one takes it. ... People always just do exactly what they want to do in every scenario. - Nicole Cliffe
 comments: true
 tags: stuff
 ---

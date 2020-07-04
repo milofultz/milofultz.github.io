@@ -4,13 +4,38 @@
  <title>Milo's Projects and Ramblings</title>
  <link href="http://more.milofultz.com/atom.xml" rel="self"/>
  <link href="http://more.milofultz.com/"/>
- <updated>2020-07-03T02:37:56-07:00</updated>
+ <updated>2020-07-03T19:18:59-07:00</updated>
  <id>http://more.milofultz.com</id>
  <author>
    <name>Milo Fultz</name>
    <email>milopfultz@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>Wordsmash Explosion on Python - It's Mastermind With Words</title>
+   <link href="http://more.milofultz.com/2020/07/03/wordsmash"/>
+   <updated>2020-07-03T00:00:00-07:00</updated>
+   <id>http://more.milofultz.com/2020/07/03/wordsmash</id>
+   <content type="html">&lt;p&gt;&lt;a href=&quot;https://github.com/milofultz/wordmastermind&quot;&gt;You can visit the project and download the files on GitHub.&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;the-game&quot;&gt;The Game&lt;/h2&gt;
+
+&lt;p&gt;The easiest way to think of this game is as Mastermind but with words. &lt;a href=&quot;https://www.word-grabber.com/printable-word-games/a-mastermind-with-words-jotto&quot;&gt;You can see a more detailed explanation of the rules here.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The program will pick a random 5 letter word that the user will try to guess. The user will guess a 5 letter word and the program will return how many of the letters from the user’s word exist in the random word. This process will repeat until the user guesses the word correctly.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;future-implementation&quot;&gt;Future Implementation&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Different word lengths as a measure of difficulty.&lt;/li&gt;
+  &lt;li&gt;Options for keeping tabs on which letters you’ve guessed.&lt;/li&gt;
+  &lt;li&gt;Hints.&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Bookmark Crawler - Make Internet Exploration More Fun</title>

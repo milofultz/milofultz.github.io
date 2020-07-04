@@ -2,6 +2,17 @@
   
     {
 
+      "title"    : "Wordsmash Explosion on Python - It&#39;s Mastermind With Words",
+      "url"      : "/2020/07/03/wordsmash",
+      "category" : "",
+      "tags"     : "project",  
+      "date"     : "2020-07-03 00:00:00 -0700",
+      "description" : "This game is Mastermind but with words. Guess a random word chosen by the computer based on how many letters there are in common."
+
+    } ,
+  
+    {
+
       "title"    : "Bookmark Crawler - Make Internet Exploration More Fun",
       "url"      : "/2020/07/02/bmcrawl",
       "category" : "",

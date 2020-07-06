@@ -11,7 +11,7 @@ I've written so much spaghetti code for so long and finally learned from my room
 
 First, **stay in abstract thinking as long as possible. The longer you take to implement your concepts, the better.**
 
-For this example, I will use my [Bookmark Crawler]({{ site.baseurl }}{% post_url 2020-07-02-bmcrawl %}) idea.
+For this example, I will use my [Bookmark Crawler]({{ site.baseurl }}{% post_url 2020-07-02-bmcrawl %}) idea, which was written in Python.
 
 ---
 

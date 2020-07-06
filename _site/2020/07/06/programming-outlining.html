@@ -1,0 +1,113 @@
+<!DOCTYPE html><html lang="en" ><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="generator" content="Jekyll v4.0.1" /><meta property="og:title" content="Create a better program faster with an outline" /><meta name="author" content="Milo Fultz" /><meta property="og:locale" content="en_US" /><meta name="description" content="I’ve written so much spaghetti code for so long and finally learned from my roommate how to write better code. This is how I use this method." /><meta property="og:description" content="I’ve written so much spaghetti code for so long and finally learned from my roommate how to write better code. This is how I use this method." /><link rel="canonical" href="http://more.milofultz.com/2020/07/06/programming-outlining" /><meta property="og:url" content="http://more.milofultz.com/2020/07/06/programming-outlining" /><meta property="og:site_name" content="Milo’s Projects and Ramblings" /><meta property="og:type" content="article" /><meta property="article:published_time" content="2020-07-06T00:00:00-07:00" /> <script type="application/ld+json"> {"description":"I’ve written so much spaghetti code for so long and finally learned from my roommate how to write better code. This is how I use this method.","author":{"@type":"Person","name":"Milo Fultz"},"@type":"BlogPosting","url":"http://more.milofultz.com/2020/07/06/programming-outlining","headline":"Create a better program faster with an outline","dateModified":"2020-07-06T00:00:00-07:00","datePublished":"2020-07-06T00:00:00-07:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://more.milofultz.com/2020/07/06/programming-outlining"},"@context":"https://schema.org"}</script><title> Create a better program faster with an outline - Milo&#39;s Projects and Ramblings</title><link rel="shortcut icon" href="/favicon.png"><link rel="alternate" type="application/atom+xml" title="Milo's Projects and Ramblings" href="/atom.xml"><link rel="alternate" type="application/json" title="Milo's Projects and Ramblings" href="http://more.milofultz.com/feed.json" /><link rel="sitemap" type="application/xml" title="sitemap" href="/sitemap.xml" /><style> *,:after,:before{box-sizing:border-box;background-color:inherit;color:inherit;margin:0;padding:0}body{font-family:sans-serif, system-ui;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;line-height:1.5;font-size:1rem;color:#16171a;overflow-wrap:break-word;word-wrap:break-word}nav ul{border-right:1px solid #edf2f7;display:flex;flex-flow:row-reverse wrap}a{color:#000;text-decoration-skip-ink:auto;text-decoration:underline}.prewrap{white-space:pre-wrap}pre{margin:.5rem 0;padding:.5rem}.post p{margin:.5rem 0}.post h1,.post h2,.post h3,.post h4{margin:1rem 0}.post h2:first-child,.project h2:first-child,.photo h2:first-child{margin-top:0}.meta{margin:2rem 0}code,pre{background:#ecedee}code{padding:.1rem}pre code{border:none}pre{padding:1rem;overflow-x:auto}img{max-width:100%}hr{background:#000;height:1px;border:0;margin:20px 0px}header{flex-basis:10rem;flex-grow:1;position:relative;overflow-wrap:break-word;word-wrap:break-word}header a{text-decoration:none}header li{margin-bottom:.2rem;text-align:right;margin-right:2rem}header a.active{font-weight:bold}header,section{padding:1rem}li{margin-left:20px}blockquote{font-style:italic;border-left:5px solid #ececec;padding-left:1rem}h1,h2,h3,h4,h5{line-height:1;margin:1rem 0;font-weight:600}section h1:first-child{margin-top:0}strong,b{font-weight:bold}.myface{line-height:.8em;letter-spacing:-.2em;font-family:monospace;font-size:.6em}.photos ul{list-style:none}.photos li{margin-bottom:1.5rem}.photo picture,.project picture{margin-bottom:0.5rem}.posts ul,header ul{list-style:none}.posts li{align-items:center;display:flex;justify-content:space-between;margin-bottom:.5rem}.posts li a,.posts li div,.projects li a{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;text-decoration:none}.posts li time,.projects li time{padding-left:1rem;white-space:nowrap;font-variant-numeric:tabular-nums}main{display:flex;flex-wrap:wrap;max-width:60rem;margin:2rem auto;padding:1rem}@media screen and (max-width: 45rem){header li{display:inline;margin-right:1rem}.logo{padding-bottom:1rem}header ul{border-bottom:1px solid #edf2f7;padding-bottom:2rem}nav ul{border-right:0px}.photos ul{margin-top:0.5rem}}section{flex-basis:0;flex-grow:999;min-width:70%;display:flex;flex-direction:column}figcaption{font-size:smaller}</style></head><body><main role="main"><header role="banner"><nav role="navigation"><ul>
+<li><a href="/">Home</a></li>
+<li><a href="/about">About</a></li>
+<li><a href="/projects/">Projects</a></li>
+<li><a href="/thoughts/">Thoughts</a></li>
+<li><a href="/search">Search</a></li>
+<li><a href="/atom.xml">Rss</a></li>
+</ul></nav></header><section class="post"><h2>Create a better program faster with an outline</h2>
+<p>I’ve written so much spaghetti code for so long and finally learned from my roommate how to write better code. This is how I use this method.</p>
+<p>First, <strong>stay in abstract thinking as long as possible. The longer you take to implement your concepts, the better.</strong></p>
+<p>For this example, I will use my <a href="/2020/07/02/bmcrawl">Bookmark Crawler</a> idea.</p>
+<hr>
+<h2 id="big-picture">Big Picture</h2>
+<p>Describe what your program will do in abstract terms, as if it was a person doing it, not a computer.</p>
+<blockquote><p>The bookmark crawler will go through your bookmarks and make a list of all the links it can find. Then it will go through all of <em>those</em> links, repeating the process and making an even bigger list of links. After doing this, it will make an HTML file that you can look at and click around.</p></blockquote>
+<p>From there, describe how your program will handle data. Start BIG as possible.</p>
+<blockquote><p>The bookmark crawler will take an HTML file of your bookmarks as input and output an HTML file of new links to check out.</p></blockquote>
+<h2 id="chunking">Chunking</h2>
+<p>Break down the process further in abstract terms. What are the distinct actions it will need to take? What would a random stupid guy need if you wanted him to do it?</p>
+<blockquote><p>The bookmark crawler will start by opening your bookmarks file and searching for links. These links, along with their titles, will be added to a list. This list will then be sent off to be crawled. This crawling process will be: opening each page that was found in the bookmarks; opening all the links on the page; and copying down all the links with their titles. This process is repeated with the new links that are found X amount of times, whatever the user determines. Once the crawling process is finished, then a list of these new links will be added to an HTML page for browsing.</p></blockquote>
+<p>Determine the biggest distinct functions you can perceive in the description you just created.</p>
+<blockquote><ul>
+<li>
+<strong>Input</strong>: Take bookmark file and turn it into a list of links that the program can use.</li>
+<li>
+<strong>Crawler</strong>: Crawl new links from the bookmark, as well as further links received, taking down needed info.</li>
+<li>
+<strong>Export</strong>: Make all new links usable in a user-friendly file.</li>
+</ul></blockquote>
+<p>What data types would be best to transfer in between these functions?</p>
+<blockquote><ul>
+<li>
+<strong>Input</strong> - IN: HTML file, OUT: List containing relevant information from bookmarks.</li>
+<li>
+<strong>Crawler</strong> - IN: List of bookmarks info from Input, OUT: List of new links information.</li>
+<li>
+<strong>Export</strong> - IN: List of new links information, OUT: HTML file.</li>
+</ul></blockquote>
+<h2 id="outlining-functions">Outlining Functions</h2>
+<p>Make a very rough outline of the program using information from chunking steps. Include only necessary in/out information.</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code># Input: Take bookmark file and turn it into a list of links that the program can use.
+# IN: HTML file, OUT: List containing relevant information from bookmarks.
+def input(filename):
+	url_list = []
+	return url_list
+	
+# Crawler: Crawl new links from the bookmark, as well as further links received, taking down needed info.
+# IN: List of bookmarks info from Input, OUT: List of new links information.
+def crawler(urls):
+	found_urls = []
+	return found_urls
+	
+# Export: Make all new links usable in a user-friendly file.
+# IN: List of new links information, OUT: HTML file.
+def export(urls):
+	# Pseudocode: create pretty HTML file of new links.
+	pass
+</code></pre></div></div>
+<p>Write out overview for each function as if you were telling a random stupid guy to do it.</p>
+<blockquote><p>Input: Open the file. Go through the whole file looking for links. Copy down all URLs, titles, and include that you found the link on the bookmarks page. When finished, compile it into a document that can be handled by the Crawler.</p></blockquote>
+<p>Do this for all functions and see how you can break down the process into atomistic functions. The more that functions can be used and reused all around the whole program, the better.</p>
+<p>Once the program has been broken down into its most atomistic functions, start writing pseudocode into them to have an idea of what you’re going to do.</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code># Input: Take bookmark file and turn it into a list of links that the program can use.
+# IN: HTML file, OUT: List containing relevant information from bookmarks.
+def input(filename):
+	#Open the file
+	#Go through the whole file looking for links
+	#Copy down all URLs, titles, and include that
+	#you found the link on the bookmarks page.
+	#Compile it into a document that can be 
+	#handled by the Crawler
+	url_list = []
+	return url_list
+</code></pre></div></div>
+<h2 id="further-chunking">Further Chunking</h2>
+<p>Look for similarities in between functions and see if there is any process the functions could share. If so, then take that and break it down into it’s own function. (e.g. in this program, both the crawler and the input need to take all the links off of a given page)</p>
+<h2 id="testing">Testing</h2>
+<p>When you feel it has been broken down fully and the flow of data makes sense, make a basic way to test it as it goes. In Python, this is by adding an <code class="highlighter-rouge">if __name__ == '__main__':</code> section. Start with more pseudocode and continue with it until you feel that you can correctly write out the flow using the functions you’ve already created.</p>
+<h2 id="start-writing-code">Start Writing Code</h2>
+<p>Figure out what is the easiest thing to program and test. Go with the pseudocode you’ve written and start fleshing it out with real functionality. Test each part as you go in the terminal. In the following example, I’ll first test that I can open a file and return the contents of the file.</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code># Input: Take bookmark file and turn it into a list of links that the program can use.
+# IN: HTML file, OUT: List containing relevant information from bookmarks.
+def input(filename):
+	#Open the file
+	with open(filename, 'r') as f:
+		html = f.read()
+	#Go through the whole file looking for links
+	#Copy down all URLs, titles, and include that
+	#you found the link on the bookmarks page.
+	#Compile it into a document that can be 
+	#handled by the Crawler
+	url_list = []
+	# return url_list
+	return html
+	
+if __name__ = '__main__':
+	print(input('bookmarks.html'))
+	
+############
+Terminal
+############
+
+$ python3 bm_crawl.py
+<span class="nt">&lt;html&gt;</span>
+	<span class="nt">&lt;head&gt;</span>
+	...
+	<span class="nt">&lt;/body&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+$
+</code></pre></div></div>
+<p>Repeat this process with each element of your code, ensuring that it works exactly as you expect. You don’t have to go in a linear fashion, if it is easier or more sensible to jump around.</p>
+<p>Don’t be afraid to go back to previous steps if you realize further possibilities of chunking or other revisions.</p>
+<span class="meta"><time datetime="2020-07-06T00:00:00-07:00">July 6, 2020</time> · <a href="mailto:milopfultz@gmail.com">Send me your thoughts</a></span> <!--<span class="meta"><time datetime="2020-07-06T00:00:00-07:00">July 6, 2020</time> &middot; <a class="post" href="/tag/project">project</a></span> --></section></main></body></html>

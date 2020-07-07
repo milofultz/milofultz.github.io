@@ -4,7 +4,7 @@ title: The Adam Savage Trial Method
 description: When you're starting a hobby, don't buy the expensive tools. Buy something mid-range. If you use it so much that it breaks, buy the best one to replace it.
 summary: When you're starting a hobby, don't buy the expensive tools. Buy something mid-range. If you use it so much that it breaks, buy the best one to replace it.
 comments: true
-tags: minimalism
+tags: thoughts
 ---
 
 Adam Savage agreed with the following advice regarding buying tools:

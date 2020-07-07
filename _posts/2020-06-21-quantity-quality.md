@@ -4,7 +4,7 @@ title: Quality and quantity's relevance to critical feeling
 description: Quality and quantity are immensely useful in the developing of critical feeling and the ability for honest and effective communication.
 summary: Quality and quantity are immensely useful in the developing of critical feeling and the ability for honest and effective communication.
 comments: true
-tags: stuff
+tags: thoughts
 ---
 
 Quality is an attribute you give to help label something. Quantity is a measurement you use to help label something. 

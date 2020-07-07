@@ -4,7 +4,7 @@ title: Keyboard Remapping on OSX - Adding the Missing Insert Key
 description: Keyboard Remapping on OSX - Adding the Missing Insert Key for using Trackers And/Or Other Old DOS Programs (Reality Adlib Tracker, MilkyTracker, etc.)
 summary: Keyboard Remapping on OSX - Adding the Missing Insert Key for using Trackers And/Or Other Old DOS Programs (Reality Adlib Tracker, MilkyTracker, etc.)
 comments: true
-tags: tracker computer project
+tags: project
 ---
 
 I downloaded [Reality Adlib Tracker](https://www.3eality.com/productions/reality-adlib-tracker) and [MilkyTracker](https://milkytracker.titandemo.org/) the other day and realized that Apple removed their insert key abilities a LONG time ago. The insert key is used quite a bit in these older programs for basic things like adding a line in your tracker, creating your pattern sequence, etc. Along with things like Dosbox, where these old relics are utilized, most of these older programs don’t allow new keybindings, so I had to dig around and find a new solution. I unfortunately couldn’t find anything directly related to trackers and stuff on any of their forums, so I figured I’d try and make something that could be found when searching for trackers, DOS, etc. 

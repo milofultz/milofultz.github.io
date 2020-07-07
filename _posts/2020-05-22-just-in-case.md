@@ -4,7 +4,7 @@ title: Buying Things "Just In Case" vs. Real Estate
 description: Does buying a thing just in case I need it in the future outweigh the costs? Putting extreme situations aside, I pretty much always feel the answer is no.
 summary: Does buying a thing just in case I need it in the future outweigh the costs? Putting extreme situations aside, I pretty much always feel the answer is no.
 comments: true
-tags: minimalism
+tags: thoughts
 ---
 
 In wondering if I should make a purchase, I noticed a problem with my thinking early on: if something was on sale, I'd buy it, just in case I needed it later to accomplish some goal or in a project I had in mind. The reasoning was that if I bought it now, in a year when I need that very specific thing on that project, then I won't have to pay what feels like an extra amount, as well as extra time, to go and buy it. 

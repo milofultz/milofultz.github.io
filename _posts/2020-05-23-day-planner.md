@@ -4,7 +4,7 @@ title: Day planner based on location
 description: A lateral-thinking way to encourage you into desired activities.
 summary: A day planner where the axis around which you plan is not time, but location; a lateral-thinking way to encourage you into desired activities.
 comments: true
-tags: project system
+tags: project
 ---
 
 I found this idea on the internet probably around 2009, made my own version, and then unfortunately lost the reference to the original page. If you know where or from whom this originated, **please** tell me!

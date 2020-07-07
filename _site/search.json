@@ -2,6 +2,17 @@
   
     {
 
+      "title"    : "spacelove.xm",
+      "url"      : "/2020/07/07/spacelove",
+      "category" : "",
+      "tags"     : "project,, tracker,, music",  
+      "date"     : "2020-07-07 00:00:00 -0700",
+      "description" : "spacelove.xm - Made in MilkyTracker with an old E-MAX sample"
+
+    } ,
+  
+    {
+
       "title"    : "Create a better program faster with an outline",
       "url"      : "/2020/07/06/programming-outlining",
       "category" : "",
@@ -13,7 +24,7 @@
   
     {
 
-      "title"    : "Wordsmash Explosion on Python - It&#39;s Mastermind With Words",
+      "title"    : "Wordsmash Explosion in Python - It&#39;s Mastermind With Words",
       "url"      : "/2020/07/03/wordsmash",
       "category" : "",
       "tags"     : "project",  
@@ -24,7 +35,7 @@
   
     {
 
-      "title"    : "Bookmark Crawler - Make Internet Exploration More Fun",
+      "title"    : "Bookmark Crawler in Python - Make Internet Exploration More Fun",
       "url"      : "/2020/07/02/bmcrawl",
       "category" : "",
       "tags"     : "project",  

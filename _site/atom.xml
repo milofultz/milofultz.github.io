@@ -4,7 +4,7 @@
  <title>Milo's Projects</title>
  <link href="http://more.milofultz.com/atom.xml" rel="self"/>
  <link href="http://more.milofultz.com/"/>
- <updated>2020-07-08T00:44:51-07:00</updated>
+ <updated>2020-07-08T11:12:42-07:00</updated>
  <id>http://more.milofultz.com</id>
  <author>
    <name>Milo Fultz</name>
@@ -208,7 +208,7 @@ $
 
 &lt;ul&gt;
   &lt;li&gt;Different word lengths as a measure of difficulty.&lt;/li&gt;
-  &lt;li&gt;Options for keeping tabs on which letters you’ve guessed.&lt;/li&gt;
+  &lt;li&gt;&lt;del&gt;Options for keeping tabs on which letters you’ve guessed.&lt;/del&gt; &lt;em&gt;Implemented 20200708&lt;/em&gt;&lt;/li&gt;
   &lt;li&gt;Hints.&lt;/li&gt;
 &lt;/ul&gt;
 </content>

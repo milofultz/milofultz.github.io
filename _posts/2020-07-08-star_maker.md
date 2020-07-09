@@ -14,3 +14,4 @@ star_maker is a lo-fi screen saver or ambient visual using blessed. I originally
 It looks like [this]({% post_url 2020-07-07-spacelove %}), but much more interesting.
 
 - *20200708: Added color and more special characters*
+- *20200708: Added parallax effect in  c o l o r*

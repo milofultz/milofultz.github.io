@@ -4,7 +4,7 @@
  <title>Milo's Projects</title>
  <link href="http://more.milofultz.com/atom.xml" rel="self"/>
  <link href="http://more.milofultz.com/"/>
- <updated>2020-07-08T11:13:26-07:00</updated>
+ <updated>2020-07-08T23:00:04-07:00</updated>
  <id>http://more.milofultz.com</id>
  <author>
    <name>Milo Fultz</name>
@@ -19,13 +19,14 @@
    <id>http://more.milofultz.com/2020/07/08/star_maker</id>
    <content type="html">&lt;p&gt;&lt;a href=&quot;https://github.com/milofultz/star_maker&quot;&gt;You can visit the project and download the files on GitHub.&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;star_maker is a lo-fi screen saver or ambient visual using blessed. I originally made it so I could make a star visual for &lt;a href=&quot;https://more.milofultz.com/2020/07/07/spacelove&quot;&gt;a page on my website&lt;/a&gt; and then mucked around and realized it offered me both a chance to mess around with &lt;a href=&quot;https://github.com/jquast/blessed&quot;&gt;blessed&lt;/a&gt; and a really funny but relatively simple challenge.&lt;/p&gt;
+&lt;p&gt;star_maker is a lo-fi screen saver or ambient visual using blessed. I originally made it so I could make a star visual for &lt;a href=&quot;/2020/07/07/spacelove&quot;&gt;a page on my website&lt;/a&gt; and then mucked around and realized it offered me both a chance to mess around with &lt;a href=&quot;https://github.com/jquast/blessed&quot;&gt;blessed&lt;/a&gt; and a really funny but relatively simple challenge.&lt;/p&gt;
+
+&lt;p&gt;It looks like &lt;a href=&quot;/2020/07/07/spacelove&quot;&gt;this&lt;/a&gt;, but much more interesting.&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;&lt;em&gt;20200708: Added color and more special characters&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;20200708: Added parallax effect in  c o l o r&lt;/em&gt;&lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/milofultz/star_maker/master/screenshot.gif&quot; alt=&quot;screenshot of star_maker&quot; /&gt;&lt;/p&gt;
 </content>
  </entry>
  

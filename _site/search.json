@@ -2,6 +2,17 @@
   
     {
 
+      "title"    : "Create a better program faster with an outline V2",
+      "url"      : "/2020/07/18/programming-outline",
+      "category" : "",
+      "tags"     : "project",  
+      "date"     : "2020-07-18 00:00:00 -0700",
+      "description" : "I&#39;ve written so much spaghetti code for so long and finally learned from my roommate how to write better code. This is how I use this method."
+
+    } ,
+  
+    {
+
       "title"    : "star_maker in Python - a lo-fi ambient visual",
       "url"      : "/2020/07/08/star-maker",
       "category" : "",

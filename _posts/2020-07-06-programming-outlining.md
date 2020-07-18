@@ -7,6 +7,8 @@ comments: true
 tags: project
 ---
 
+*An updated version can be found here: [Create a better program faster with an outline V2]({{ site.baseurl }}{% post_url 2020-07-18-programming-outline %})*
+
 I've written so much spaghetti code for so long and finally learned from my roommate how to write better code. This is how I use this method.
 
 First, **stay in abstract thinking as long as possible. The longer you take to implement your concepts, the better.**

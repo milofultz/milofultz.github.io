@@ -4,7 +4,7 @@ title: Create a better program faster with an outline V2
 description: I've written so much spaghetti code for so long and finally learned from my roommate how to write better code. This is how I use this method.
 summary: I've written so much spaghetti code for so long and finally learned from my roommate how to write better code. This is how I use this method.
 comments: true
-tags: project
+tags: thoughts
 ---
 
 *This is an update of an older post: [Create a better program faster with an outline]({{ site.baseurl }}{% post_url 2020-07-06-programming-outlining %})*

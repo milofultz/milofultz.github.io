@@ -2,6 +2,17 @@
   
     {
 
+      "title"    : "Make Python &#39;Apps&#39; and Shortcuts To Run Them on OSX",
+      "url"      : "/2020/07/22/make-python-apps",
+      "category" : "",
+      "tags"     : "project",  
+      "date"     : "2020-07-22 00:00:00 -0700",
+      "description" : "Using Automator and the built in Services of OSX, you can make simple Python apps run on command."
+
+    } ,
+  
+    {
+
       "title"    : "Create a better program faster with an outline V2",
       "url"      : "/2020/07/18/programming-outline",
       "category" : "",

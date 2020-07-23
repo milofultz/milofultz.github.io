@@ -7,7 +7,9 @@ comments: true
 tags: project
 ---
 
-After experimenting with [PyInstaller](https://pyinstaller.readthedocs.io/en/stable/) and [Platypus](https://sveinbjorn.org/platypus) to create a standalone app in OSX with no success, I went the much lower fidelity route. But it was successful, so I'm happy with it. The goal of this was first to make a standalone app that will run Python script, but second to assign it to a keystroke. I have only tested this with running a Python script, but I can't imagine it would be much more difficult for any other bash script. So here is the process:
+After experimenting with [PyInstaller](https://pyinstaller.readthedocs.io/en/stable/) and [Platypus](https://sveinbjorn.org/platypus) to create a standalone app in OSX with no success, I went the much lower fidelity route. But it was successful, so I'm happy with it. YOu can see the script I made [here](https://github.com/milofultz/email_service/). 
+
+The goal of this was first to make a standalone app that will run Python script, but second to assign it to a keystroke. I have only tested this with running a Python script, but I can't imagine it would be much more difficult for any other bash script. So here is the process:
 
 1. Open Script Editor (in Applications/Utilities).
 1. Using the `do shell script` command, add the script you want to run. Essentially, you'll want to write in what you normally put into the Terminal, separated by semicolons.

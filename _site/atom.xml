@@ -4,7 +4,7 @@
  <title>Milo's Projects</title>
  <link href="http://more.milofultz.com/atom.xml" rel="self"/>
  <link href="http://more.milofultz.com/"/>
- <updated>2020-07-22T17:03:05-07:00</updated>
+ <updated>2020-07-22T17:05:09-07:00</updated>
  <id>http://more.milofultz.com</id>
  <author>
    <name>Milo Fultz</name>
@@ -17,7 +17,7 @@
    <link href="http://more.milofultz.com/2020/07/22/make-python-apps"/>
    <updated>2020-07-22T00:00:00-07:00</updated>
    <id>http://more.milofultz.com/2020/07/22/make-python-apps</id>
-   <content type="html">&lt;p&gt;After experimenting with &lt;a href=&quot;https://pyinstaller.readthedocs.io/en/stable/&quot;&gt;PyInstaller&lt;/a&gt; and &lt;a href=&quot;https://sveinbjorn.org/platypus&quot;&gt;Platypus&lt;/a&gt; with no success, I went the much lower fidelity route. But it was successful, so I’m happy with it. I have only tested this with running a Python script, but I can’t imagine it would be much more difficult for any other bash script. So here is the process:&lt;/p&gt;
+   <content type="html">&lt;p&gt;After experimenting with &lt;a href=&quot;https://pyinstaller.readthedocs.io/en/stable/&quot;&gt;PyInstaller&lt;/a&gt; and &lt;a href=&quot;https://sveinbjorn.org/platypus&quot;&gt;Platypus&lt;/a&gt; to create a standalone app in OSX with no success, I went the much lower fidelity route. But it was successful, so I’m happy with it. The goal of this was first to make a standalone app that will run Python script, but second to assign it to a keystroke. I have only tested this with running a Python script, but I can’t imagine it would be much more difficult for any other bash script. So here is the process:&lt;/p&gt;
 
 &lt;ol&gt;
   &lt;li&gt;Open Script Editor (in Applications/Utilities).&lt;/li&gt;

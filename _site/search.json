@@ -2,6 +2,17 @@
   
     {
 
+      "title"    : "Awfulizer - Make Surfing The Web Awful",
+      "url"      : "/2020/07/23/awfulizer",
+      "category" : "",
+      "tags"     : "project",  
+      "date"     : "2020-07-23 00:00:00 -0700",
+      "description" : "I made this Firefox extension to see if I could do it, and I could. This extension cycles colors on every element 6 times per second."
+
+    } ,
+  
+    {
+
       "title"    : "Make Python &#39;Apps&#39; and Shortcuts To Run Them on OSX",
       "url"      : "/2020/07/22/make-python-apps",
       "category" : "",

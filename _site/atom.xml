@@ -4,7 +4,7 @@
  <title>Milo's Projects</title>
  <link href="http://more.milofultz.com/atom.xml" rel="self"/>
  <link href="http://more.milofultz.com/"/>
- <updated>2020-07-25T23:29:00-07:00</updated>
+ <updated>2020-07-27T15:11:36-07:00</updated>
  <id>http://more.milofultz.com</id>
  <author>
    <name>Milo Fultz</name>
@@ -21,7 +21,7 @@
 
 &lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=dx7hZAAHFuk&amp;amp;feature=youtu.be&quot;&gt;Watch a video of it in action.&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;While studying some CSS and HTML on &lt;a href=&quot;https://www.freecodecamp.org/&quot;&gt;FreeCodeCamp&lt;/a&gt;, I was trying to figure out how I could exercise some of the skills I was learning. One of the basics of CSS is just changing style of fonts and backgrounds, so I figured why not try and make some program that cycles all of those over and over? I found that &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Your_first_WebExtension&quot;&gt;making your first extension is very easy&lt;/a&gt;, so I tried it. After a ton of trial and error, I made a button that allows you to manually turn it on on a given tab, but you can only turn it off through refreshing it. In the future, I’m hoping to add an option for choosing static color change vs. cycling, as well as a way to turn it off once it starts.&lt;/p&gt;
+&lt;p&gt;While studying some CSS and HTML on &lt;a href=&quot;https://www.freecodecamp.org/&quot;&gt;FreeCodeCamp&lt;/a&gt;, I was trying to figure out how I could exercise some of the skills I was learning. One of the basics of CSS is just changing style of fonts and backgrounds, so I figured why not try and make some program that cycles all of those over and over? I found that &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Your_first_WebExtension&quot;&gt;making your first extension is very easy&lt;/a&gt;, so I tried it. After a ton of trial and error, I made a button that allows you to manually turn it on on a given tab, but you can only turn it off through refreshing it. I’ve added a static feature and the ability to choose (wow!) in v1.2. In the future, I’m hoping to add an option to turn it off once it starts.&lt;/p&gt;
 
 &lt;hr /&gt;
 &lt;p&gt;References:&lt;/p&gt;

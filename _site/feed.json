@@ -17,6 +17,30 @@
 "items": [
     
         {
+            "id": "http://more.milofultz.com/2020/08/04/piu-piu-ringtone",
+            "title": "Piu Piu ringtone but it's only Avgustina's laugh",
+            "summary": "Piu Piu ringtone but it's only Avgustina's laugh",
+            "content_text": "I am starting a project to see how long my roommates and I can handle listening to Avgustina’s laugh as my text message notification sound. I set it to where it only does it when my partner messages me, but it should be horrible enough.You can download this atrocity as an m4r file here. Made using Mediahuman Audio Converter for OSX.",
+            "content_html": "<p>I am starting a project to see how long my roommates and I can handle listening to Avgustina’s laugh as my text message notification sound. I set it to where it only does it when my partner messages me, but it should be horrible enough.</p><p>You can download this atrocity as an m4r file <a href=\"/assets/20200804PiuPiu.m4r\">here</a>. Made using Mediahuman Audio Converter for OSX.</p>",
+            "url": "http://more.milofultz.com/2020/08/04/piu-piu-ringtone",
+            
+            
+            
+            
+            
+            "date_published": "2020-08-04T00:00:00-07:00",
+            "date_modified": "2020-08-04T00:00:00-07:00",
+            
+                "author":  {
+                "name": "Milo Fultz",
+                "url": "http://more.milofultz.com",
+                "avatar": null
+                }
+                
+            
+        },
+    
+        {
             "id": "http://more.milofultz.com/2020/07/23/awfulizer",
             "title": "Awfulizer - Make Surfing The Web Awful (Firefox Addon)",
             "summary": "I made this Firefox extension to see if I could do it, and I could. This extension cycles colors on every element 6 times per second.",

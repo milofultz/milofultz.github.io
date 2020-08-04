@@ -4,13 +4,24 @@
  <title>Milo's Projects</title>
  <link href="http://more.milofultz.com/atom.xml" rel="self"/>
  <link href="http://more.milofultz.com/"/>
- <updated>2020-07-27T15:11:36-07:00</updated>
+ <updated>2020-08-04T09:39:30-07:00</updated>
  <id>http://more.milofultz.com</id>
  <author>
    <name>Milo Fultz</name>
    <email>milopfultz@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>Piu Piu ringtone but it's only Avgustina's laugh</title>
+   <link href="http://more.milofultz.com/2020/08/04/piu-piu-ringtone"/>
+   <updated>2020-08-04T00:00:00-07:00</updated>
+   <id>http://more.milofultz.com/2020/08/04/piu-piu-ringtone</id>
+   <content type="html">&lt;p&gt;I am starting a project to see how long my roommates and I can handle listening to Avgustina’s laugh as my text message notification sound. I set it to where it only does it when my partner messages me, but it should be horrible enough.&lt;/p&gt;
+
+&lt;p&gt;You can download this atrocity as an m4r file &lt;a href=&quot;/assets/20200804PiuPiu.m4r&quot;&gt;here&lt;/a&gt;. Made using Mediahuman Audio Converter for OSX.&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Awfulizer - Make Surfing The Web Awful (Firefox Addon)</title>

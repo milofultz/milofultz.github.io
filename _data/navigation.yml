@@ -11,5 +11,5 @@ links:
   url: /music/
 - title: Search
   url: /search
-- title: Rss
+- title: RSS
   url: /atom.xml

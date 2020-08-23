@@ -17,6 +17,30 @@
 "items": [
     
         {
+            "id": "http://more.milofultz.com/2020/08/22/purple-rain-outro",
+            "title": "Purple Rain Outro Transcription",
+            "summary": "A transcription of the DX7 strings outro for Purple Rain.",
+            "content_text": "You can listen to it here on YouTube.",
+            "content_html": "<p><img src=\"/assets/20200822PurpleRain.jpg\" alt=\"Purple Rain Outro Transcription\" /></p><p><a href=\"https://www.youtube.com/watch?v=km6Ryvor5_k\">You can listen to it here on YouTube.</a></p>",
+            "url": "http://more.milofultz.com/2020/08/22/purple-rain-outro",
+            
+            
+            
+            
+            
+            "date_published": "2020-08-22T00:00:00-07:00",
+            "date_modified": "2020-08-22T00:00:00-07:00",
+            
+                "author":  {
+                "name": "Milo Fultz",
+                "url": "http://more.milofultz.com",
+                "avatar": null
+                }
+                
+            
+        },
+    
+        {
             "id": "http://more.milofultz.com/2020/08/19/soulja-realms",
             "title": "Soulja Realms",
             "summary": "I mashed up the Star Realms music with a bunch of Soulja Boy acapellas.",

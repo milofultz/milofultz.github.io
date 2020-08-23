@@ -4,13 +4,24 @@
  <title>Milo's Projects</title>
  <link href="http://more.milofultz.com/atom.xml" rel="self"/>
  <link href="http://more.milofultz.com/"/>
- <updated>2020-08-19T20:35:45-07:00</updated>
+ <updated>2020-08-22T18:14:20-07:00</updated>
  <id>http://more.milofultz.com</id>
  <author>
    <name>Milo Fultz</name>
    <email>milopfultz@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>Purple Rain Outro Transcription</title>
+   <link href="http://more.milofultz.com/2020/08/22/purple-rain-outro"/>
+   <updated>2020-08-22T00:00:00-07:00</updated>
+   <id>http://more.milofultz.com/2020/08/22/purple-rain-outro</id>
+   <content type="html">&lt;p&gt;&lt;img src=&quot;/assets/20200822PurpleRain.jpg&quot; alt=&quot;Purple Rain Outro Transcription&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=km6Ryvor5_k&quot;&gt;You can listen to it here on YouTube.&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Soulja Realms</title>

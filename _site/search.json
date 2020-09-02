@@ -2,6 +2,17 @@
   
     {
 
+      "title"    : "Open A Random Note (low fidelity Idea Generator) - Python",
+      "url"      : "/2020/08/26/random-note",
+      "category" : "",
+      "tags"     : "project",  
+      "date"     : "2020-08-26 00:00:00 -0700",
+      "description" : "I got inspired by Tiago Forte&#39;s RandomNote Web and decided to make my own simple version using Python, Applescript, and nvALT, and it&#39;s easy to port."
+
+    } ,
+  
+    {
+
       "title"    : "Purple Rain Outro Transcription",
       "url"      : "/2020/08/22/purple-rain-outro",
       "category" : "",

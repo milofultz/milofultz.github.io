@@ -17,7 +17,7 @@ The goal of this was first to make a standalone app that will run Python script,
 	`do shell script "cd 'path/to/script'; source venv/bin/activate; python main.py"`
 
 1. Save this as an Application to your Applications folder (or wherever makes sense).
-1. Close Script Editor.
+1. Close Script Editor. *(If you don't want to add a shortcut, you can stop here)*
 1. Open Automator (in Applications).
 1. Create a "Quick Action" or "Service", whatever one your OS says.
 1. In the top bar, set the following setting: Workflow receives current **no input** in **any application**.

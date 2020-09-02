@@ -4,13 +4,83 @@
  <title>Milo's Projects</title>
  <link href="http://more.milofultz.com/atom.xml" rel="self"/>
  <link href="http://more.milofultz.com/"/>
- <updated>2020-08-22T18:15:05-07:00</updated>
+ <updated>2020-09-01T21:44:35-07:00</updated>
  <id>http://more.milofultz.com</id>
  <author>
    <name>Milo Fultz</name>
    <email>milopfultz@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>Open A Random Note (low fidelity Idea Generator) - Python</title>
+   <link href="http://more.milofultz.com/2020/08/26/random-note"/>
+   <updated>2020-08-26T00:00:00-07:00</updated>
+   <id>http://more.milofultz.com/2020/08/26/random-note</id>
+   <content type="html">&lt;p&gt;For the last few months, I have been feeding my &lt;a href=&quot;/2020/05/22/zettelkasten&quot;&gt;Zettelkasten&lt;/a&gt; with essentially anything that I find interesting: programming, emotional development, quotes, productivity, book or video reviews, whatever. If I think it’s something that will help me or make me excited later, I put it in there.&lt;/p&gt;
+
+&lt;p&gt;The problem I had was that even though I had these notes for reference, I wasn’t finding myself reviewing them just for creating those interesting and random connections, which was something that I had initially started using the Zettelkasten for. Those random connections are what creates interesting ideas and diffuse connections, as well as a spaced repetition for ideas that I already decided are worth knowing.&lt;/p&gt;
+
+&lt;p&gt;I found a solution that was implemented by productivity dude and Twitter instigator Tiago Forte. Essentially, his “second brain”, analogous to a Zettelkasten, is housed in Evernote, and he had &lt;a href=&quot;&quot;&gt;an app&lt;/a&gt; developed that would pop open a random Evernote every time he clicked it. He found that this boosted his creativity and because of how easy it was, he was able to do it between meetings, during his breaks, essentially in any spare moment. In doing some research, I found somebody who made a &lt;a href=&quot;&quot;&gt;random note Applescript for the Evernote app&lt;/a&gt; that looks like this:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# Applescript
+tell application &quot;Evernote&quot;
+	set noteList to find notes
+	set randomNote to some item of noteList
+	set query string of window 1 to (title of randomNote as string)
+end tell
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;I figured it was just as simple of a task if you had your notes saved locally, which I do as text/Markdown files, so I set out to make a Python script that did this, along with an app implementation that can sit in my dock. I used the same process I did in my “&lt;a href=&quot;/2020/07/22/make-python-apps&quot;&gt;Make Python ‘Apps’ and Shortcuts To Run Them on OSX&lt;/a&gt;” post, so obviously this is geared towards OSX users.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Create your Python script, replacing the paths and extension to yours:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;import os
+import random
+
+folder = &quot;/path/to/notes&quot;
+prog = &quot;/path/to/application.app&quot;
+ext = &quot;txt&quot;
+
+file_list = os.listdir(folder)
+txt_list = [file for file in file_list if file.endswith(ext)]
+random_file = random.choice(file_list)
+random_fp = os.path.join(folder, random_file)
+os.system('open &quot;{}&quot; -a &quot;{}&quot;'.format(random_fp, prog))
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Save this file and name it whatever you like &lt;code class=&quot;highlighter-rouge&quot;&gt;.py&lt;/code&gt;, like &lt;code class=&quot;highlighter-rouge&quot;&gt;random_note.py&lt;/code&gt;. (I saved it where all my code projects are, but you could also create a folder in your Applications folder and stick it there)&lt;/li&gt;
+  &lt;li&gt;Open Script Editor and make a new document. Ensure that AppleScript is selected in the dropdown menu in the upper left of the window.&lt;/li&gt;
+  &lt;li&gt;Create your Applescript, replacing the paths and script name to yours:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;do shell script &quot;cd '/path/to/script'; python script_name.py&quot;&lt;/code&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Save the script in your Applications folder as an “Application” file format.&lt;/li&gt;
+  &lt;li&gt;Put it on your dock and go wild.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I added a little light bulb icon on mine[6], as is tradition, and it is a great way to pass the time. I spent all this time curating ideas, recipes, thoughts, information, and experiences I thought were interesting, and now I can really enjoy the payoff in a very fun way.&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;References:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;&quot;&gt;&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;&quot;&gt;RandomNote app from Tiago Forte&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;&quot;&gt;RandomNote Web&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;&quot;&gt;random note Applescript for the Evernote app&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/2020/07/22/make-python-apps&quot;&gt;Make Python ‘Apps’ and Shortcuts To Run Them on OSX&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;&quot;&gt;Add icon&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Purple Rain Outro Transcription</title>
@@ -83,7 +153,7 @@
     &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;do shell script &quot;cd 'path/to/script'; source venv/bin/activate; python main.py&quot;&lt;/code&gt;&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;Save this as an Application to your Applications folder (or wherever makes sense).&lt;/li&gt;
-  &lt;li&gt;Close Script Editor.&lt;/li&gt;
+  &lt;li&gt;Close Script Editor. &lt;em&gt;(If you don’t want to add a shortcut, you can stop here)&lt;/em&gt;&lt;/li&gt;
   &lt;li&gt;Open Automator (in Applications).&lt;/li&gt;
   &lt;li&gt;Create a “Quick Action” or “Service”, whatever one your OS says.&lt;/li&gt;
   &lt;li&gt;In the top bar, set the following setting: Workflow receives current &lt;strong&gt;no input&lt;/strong&gt; in &lt;strong&gt;any application&lt;/strong&gt;.&lt;/li&gt;

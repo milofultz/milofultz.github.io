@@ -2,6 +2,17 @@
   
     {
 
+      "title"    : "Domine (game from Hundred Rabbits)",
+      "url"      : "/2020/09/01/domine",
+      "category" : "",
+      "tags"     : "project",  
+      "date"     : "2020-09-01 00:00:00 -0700",
+      "description" : "I transcribed the rules for this simple game from Hundred Rabbits since it looks really fun and I can&#39;t find their rules page anymore."
+
+    } ,
+  
+    {
+
       "title"    : "Open A Random Note (low fidelity Idea Generator) - Python",
       "url"      : "/2020/08/26/random-note",
       "category" : "",

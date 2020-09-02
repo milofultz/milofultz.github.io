@@ -4,13 +4,45 @@
  <title>Milo's Projects</title>
  <link href="http://more.milofultz.com/atom.xml" rel="self"/>
  <link href="http://more.milofultz.com/"/>
- <updated>2020-09-01T21:46:42-07:00</updated>
+ <updated>2020-09-01T22:08:31-07:00</updated>
  <id>http://more.milofultz.com</id>
  <author>
    <name>Milo Fultz</name>
    <email>milopfultz@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>Domine (game from Hundred Rabbits)</title>
+   <link href="http://more.milofultz.com/2020/09/01/domine"/>
+   <updated>2020-09-01T00:00:00-07:00</updated>
+   <id>http://more.milofultz.com/2020/09/01/domine</id>
+   <content type="html">&lt;p&gt;I recently came across this &lt;a href=&quot;https://www.youtube.com/watch?v=fjZb190qn00&quot;&gt;video&lt;/a&gt; from Hundred Rabbits of a game called Domine. Super simple game you can play with a set of dominoes. I transcribed the rules for this game from the video since it looks really fun and I can’t find the rules page anymore.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Equipment: Double 9 domino set&lt;/p&gt;
+
+&lt;p&gt;Goal: To have the most “living” dominoes at the end of the round.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Each player draws a hand of seven dominoes and keeps them hidden from their opponent. The two numbers on either side of a domino are the attack and defense points, facing the opponent and the player respectively. The dominoes can be flipped as long as it’s before they are played.&lt;/li&gt;
+  &lt;li&gt;Each turn consists of an attack using a domino and choosing which is the attack side and which is the defense.&lt;/li&gt;
+  &lt;li&gt;Players alternate turns until all dominoes have been played. The player with the most living dominoes wins.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;attack-rules&quot;&gt;Attack Rules&lt;/h3&gt;
+
+&lt;p&gt;When a player attacks with a domino, the opponent must defend with a value equal to or higher than the attack. If the opponent’s domino defense value is lower than the attack, the domino is killed. If the opponent’s domino defense value is equal to or higher, then they have survived. If the opponent can defend and has an attack number higher than the player’s domino defense value, the opponent can counter to kill the player’s domino. Double dominoes get first strike, regardless if they initiate the attack.&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;References:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;/2020/06/25/inexpensive-games&quot;&gt;Inexpensive and Minimal Equipment Games To Spend Time On&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Open A Random Note (low fidelity Idea Generator) - Python</title>
@@ -552,7 +584,7 @@ $
   &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Paper_football&quot;&gt;Paper Football&lt;/a&gt; - Aside from the obvious of kicking it, the tabletop play of this game is so fun and makes waiting in a place with a floor or table much more fun. All you need is some scrap paper and a surface.&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Exquisite_corpse&quot;&gt;Exquisite Corpse&lt;/a&gt; - Total absurdity and chaos through drawing. Only need a pen and paper and will create a wide range of stuff, from silly pictures to nightmare fuel.&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://athleticexplorations.com/en_US/ae96/&quot;&gt;Monkey Tree&lt;/a&gt; (&lt;a href=&quot;https://www.youtube.com/watch?v=hXVRyI2ULHI&quot;&gt;video&lt;/a&gt;) - This is almost a workout more than it’s a game, but nonetheless a fun way to spend time. One person stands arms out to their sides with legs wide, stable on the ground. The other person climbs on their back and finds ways to maneuver around them. Tougher than it seems, both physically and for your friendship.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=fjZb190qn00&quot;&gt;Domine&lt;/a&gt; - Another one from Hundred Rabbits. All you need is a double 9 domino set. Super quick and fun!&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/2020/09/01/domine&quot;&gt;Domine&lt;/a&gt; (&lt;a href=&quot;https://www.youtube.com/watch?v=fjZb190qn00&quot;&gt;video&lt;/a&gt;) - Another one from Hundred Rabbits. All you need is a double 9 domino set. Super quick and fun!&lt;/li&gt;
 &lt;/ul&gt;
 </content>
  </entry>

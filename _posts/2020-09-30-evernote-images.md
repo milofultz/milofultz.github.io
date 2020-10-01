@@ -9,7 +9,9 @@ tags: project
 
 [**Check out the up-to-date version on GitHub**](https://github.com/milofultz/no-images)
 
-I was using too much of my upload cap with Evernote every month, mostly because images are too big when cropping the whole article. So I decided to practice some JS and see if I could make it work better without paying an $8 per month subscription for just a few extra megs of upload per month.
+When using Evernote's web clipper, I was using too much of my upload cap with Evernote every month, mostly because images are too big when cropping the whole article. So I decided to practice some JS and see if I could make it work better without paying an $8 per month subscription for just a few extra megs of upload per month.
+
+This method only works so far with the "Article" and not with "Simplified Article".
 
 
 ## Cheap and Easy No-Install Browser Agnostic Version

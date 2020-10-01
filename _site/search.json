@@ -2,6 +2,17 @@
   
     {
 
+      "title"    : "Maximize Free Evernote With Less Images In Web Clipper",
+      "url"      : "/2020/09/30/evernote-images",
+      "category" : "",
+      "tags"     : "project",  
+      "date"     : "2020-09-30 00:00:00 -0700",
+      "description" : "Either using a Google Chrome extension or one line of JS, maximize your snippets in Evernote and stay away from $8 subscriptions for a tiny feature."
+
+    } ,
+  
+    {
+
       "title"    : "Zentube - Youtube Lite w/Note Taking (HTML/CSS/JS)",
       "url"      : "/2020/09/26/zentube",
       "category" : "",

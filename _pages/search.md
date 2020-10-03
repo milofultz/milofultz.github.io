@@ -12,12 +12,15 @@ title: Search
 		font-size: normal;
 	    outline: none;
 	    padding: 1rem;
-		background: rgb(236, 237, 238);
+		background: rgb(20, 5, 15);
+		color: inherit;
 	    width: 100%;
 		-webkit-appearance: none;
 		font-family: inherit;
 		font-size: 100%;
 		border: none;
+		border: 1px solid #ddd;
+		border-radius: 10px;
 	}
 	#results-container {
 		margin: .5rem 0;

@@ -25,9 +25,13 @@ nav ul {
 }
 
 a {
-    color: #FFF;
+    /*color: #7bf;*/
     text-decoration-skip-ink: auto;
     text-decoration: underline;
+}
+
+a:hover {
+	color: #7bf;
 }
 
 .prewrap {

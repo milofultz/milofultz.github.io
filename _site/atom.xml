@@ -4,7 +4,7 @@
  <title>Milo's Projects</title>
  <link href="http://milofultz.com/atom.xml" rel="self"/>
  <link href="http://milofultz.com/"/>
- <updated>2020-10-04T11:56:40-07:00</updated>
+ <updated>2020-10-04T15:10:08-07:00</updated>
  <id>http://milofultz.com</id>
  <author>
    <name>Milo Fultz</name>
@@ -40,7 +40,7 @@
 
 &lt;p&gt;When using Evernote’s web clipper, I was using too much of my upload cap with Evernote every month, mostly because images are too big when cropping the whole article. So I decided to practice some JS and see if I could make it work better without paying an $8 per month subscription for just a few extra megs of upload per month.&lt;/p&gt;
 
-&lt;p&gt;This method only works so far with the “Article” and not with “Simplified Article”.&lt;/p&gt;
+&lt;p&gt;This method only works so far sporadically between the “Article” and the “Simplified Article” options.&lt;/p&gt;
 
 &lt;h2 id=&quot;cheap-and-easy-no-install-browser-agnostic-version&quot;&gt;Cheap and Easy No-Install Browser Agnostic Version&lt;/h2&gt;
 

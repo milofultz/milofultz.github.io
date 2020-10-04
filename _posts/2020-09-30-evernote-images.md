@@ -41,6 +41,8 @@ _I would put it on the Chrome extension site but I don't really want to pay a $5
 
 ### Future Implementation
 
+* Ensure it keeps images removed when syncing the page to Evernote
+* Ensure it works with both simplified formatting and with entire article
 * Include containers that show images but aren't obviously `img` elements
 * Include SVGs
 * Include anything else that may bloat my snippets

@@ -4,7 +4,7 @@
  <title>Milo's Projects</title>
  <link href="http://milofultz.com/atom.xml" rel="self"/>
  <link href="http://milofultz.com/"/>
- <updated>2020-10-04T15:10:52-07:00</updated>
+ <updated>2020-10-04T15:12:12-07:00</updated>
  <id>http://milofultz.com</id>
  <author>
    <name>Milo Fultz</name>
@@ -70,6 +70,8 @@
 &lt;h3 id=&quot;future-implementation&quot;&gt;Future Implementation&lt;/h3&gt;
 
 &lt;ul&gt;
+  &lt;li&gt;Ensure it keeps images removed when syncing the page to Evernote&lt;/li&gt;
+  &lt;li&gt;Ensure it works with both simplified formatting and with entire article&lt;/li&gt;
   &lt;li&gt;Include containers that show images but aren’t obviously &lt;code class=&quot;highlighter-rouge&quot;&gt;img&lt;/code&gt; elements&lt;/li&gt;
   &lt;li&gt;Include SVGs&lt;/li&gt;
   &lt;li&gt;Include anything else that may bloat my snippets&lt;/li&gt;

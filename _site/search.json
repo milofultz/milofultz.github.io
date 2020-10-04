@@ -2,7 +2,7 @@
   
     {
 
-      "title"    : "Maximize Free Evernote With Less Images In Web Clipper",
+      "title"    : "Maximize Evernote With Less Images In Web Clipper (JS)",
       "url"      : "/2020/09/30/evernote-images",
       "category" : "",
       "tags"     : "project",  
@@ -57,7 +57,7 @@
   
     {
 
-      "title"    : "Open A Random Note (low fidelity Idea Generator) - Python",
+      "title"    : "Open A Random Note/Lo-Fi Idea Generator (Python)",
       "url"      : "/2020/08/26/random-note",
       "category" : "",
       "tags"     : "project",  
@@ -134,12 +134,12 @@
   
     {
 
-      "title"    : "star_maker in Python - a lo-fi ambient visual",
+      "title"    : "star_maker - a lo-fi ambient visual (Python)",
       "url"      : "/2020/07/08/star-maker",
       "category" : "",
       "tags"     : "project",  
       "date"     : "2020-07-08 00:00:00 -0700",
-      "description" : "star_maker in Python - a lo-fi ambient visual"
+      "description" : "star_maker - a lo-fi ambient visual (Python)"
 
     } ,
   
@@ -167,7 +167,7 @@
   
     {
 
-      "title"    : "Wordsmash Explosion in Python - It&#39;s Mastermind With Words",
+      "title"    : "Wordsmash Explosion - Mastermind With Words (Python)",
       "url"      : "/2020/07/03/wordsmash",
       "category" : "",
       "tags"     : "project",  
@@ -178,7 +178,7 @@
   
     {
 
-      "title"    : "Bookmark Crawler in Python - Make Internet Exploration More Fun",
+      "title"    : "Bookmark Crawler - Make Internet More Fun (Python)",
       "url"      : "/2020/07/02/bmcrawl",
       "category" : "",
       "tags"     : "project",  
@@ -266,7 +266,7 @@
   
     {
 
-      "title"    : "Keyboard Remapping on OSX - Adding the Missing Insert Key",
+      "title"    : "Keyboard Remapping on OSX - Adding the Insert Key",
       "url"      : "/2020/05/22/keyboard-remapping",
       "category" : "",
       "tags"     : "project",  

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Keyboard Remapping on OSX - Adding the Missing Insert Key
+title: Keyboard Remapping on OSX - Adding the Insert Key
 description: Keyboard Remapping on OSX - Adding the Missing Insert Key for using Trackers And/Or Other Old DOS Programs (Reality Adlib Tracker, MilkyTracker, etc.)
 summary: Keyboard Remapping on OSX - Adding the Missing Insert Key for using Trackers And/Or Other Old DOS Programs (Reality Adlib Tracker, MilkyTracker, etc.)
 comments: true
@@ -43,3 +43,5 @@ hidutil property --set '{"UserKeyMapping":[
 {"HIDKeyboardModifierMappingSrc":0x700000049, "HIDKeyboardModifierMappingDst":0x7000000e6}]}'
 ```
 This made it work for me, and I don’t fully understand, but it is interesting to note. There are a lot of interesting controls in the USB HID image table, so I wonder if I would need any of these strange controls in the future. At least I’ll know how to map them ... maybe?
+
+- _20201001: Used to make caps lock key the escape key for use with Vim_

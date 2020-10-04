@@ -4,7 +4,7 @@
  <title>Milo's Projects</title>
  <link href="http://milofultz.com/atom.xml" rel="self"/>
  <link href="http://milofultz.com/"/>
- <updated>2020-10-02T17:20:18-07:00</updated>
+ <updated>2020-10-04T11:14:51-07:00</updated>
  <id>http://milofultz.com</id>
  <author>
    <name>Milo Fultz</name>
@@ -13,7 +13,7 @@
 
  
  <entry>
-   <title>Maximize Free Evernote With Less Images In Web Clipper</title>
+   <title>Maximize Evernote With Less Images In Web Clipper (JS)</title>
    <link href="http://milofultz.com/2020/09/30/evernote-images"/>
    <updated>2020-09-30T00:00:00-07:00</updated>
    <id>http://milofultz.com/2020/09/30/evernote-images</id>
@@ -42,7 +42,7 @@
 
 &lt;ol&gt;
   &lt;li&gt;Download the files and store them.&lt;/li&gt;
-  &lt;li&gt;Open Chrome and go to &lt;a href=&quot;chrome://extensions&quot;&gt;chrome://extensions&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;Open Chrome and go to &lt;code class=&quot;highlighter-rouge&quot;&gt;chrome://extensions&lt;/code&gt;.&lt;/li&gt;
   &lt;li&gt;Click on “Developer Mode” in the upper right corner.&lt;/li&gt;
   &lt;li&gt;Click “Load Unpacked” and select the folder containing the downloaded files.&lt;/li&gt;
   &lt;li&gt;Find the extension in your “Extensions” menu and pin or unpin it if you want.&lt;/li&gt;
@@ -132,7 +132,7 @@
  </entry>
  
  <entry>
-   <title>Open A Random Note (low fidelity Idea Generator) - Python</title>
+   <title>Open A Random Note/Lo-Fi Idea Generator (Python)</title>
    <link href="http://milofultz.com/2020/08/26/random-note"/>
    <updated>2020-08-26T00:00:00-07:00</updated>
    <id>http://milofultz.com/2020/08/26/random-note</id>
@@ -399,7 +399,7 @@ os.system('open &quot;{}&quot; -a &quot;{}&quot;'.format(random_fp, prog))
  </entry>
  
  <entry>
-   <title>star_maker in Python - a lo-fi ambient visual</title>
+   <title>star_maker - a lo-fi ambient visual (Python)</title>
    <link href="http://milofultz.com/2020/07/08/star-maker"/>
    <updated>2020-07-08T00:00:00-07:00</updated>
    <id>http://milofultz.com/2020/07/08/star_maker</id>
@@ -583,7 +583,7 @@ $
  </entry>
  
  <entry>
-   <title>Wordsmash Explosion in Python - It's Mastermind With Words</title>
+   <title>Wordsmash Explosion - Mastermind With Words (Python)</title>
    <link href="http://milofultz.com/2020/07/03/wordsmash"/>
    <updated>2020-07-03T00:00:00-07:00</updated>
    <id>http://milofultz.com/2020/07/03/wordsmash</id>
@@ -608,7 +608,7 @@ $
  </entry>
  
  <entry>
-   <title>Bookmark Crawler in Python - Make Internet Exploration More Fun</title>
+   <title>Bookmark Crawler - Make Internet More Fun (Python)</title>
    <link href="http://milofultz.com/2020/07/02/bmcrawl"/>
    <updated>2020-07-02T00:00:00-07:00</updated>
    <id>http://milofultz.com/2020/07/02/bmcrawl</id>
@@ -838,7 +838,7 @@ $
  </entry>
  
  <entry>
-   <title>Keyboard Remapping on OSX - Adding the Missing Insert Key</title>
+   <title>Keyboard Remapping on OSX - Adding the Insert Key</title>
    <link href="http://milofultz.com/2020/05/22/keyboard-remapping"/>
    <updated>2020-05-22T00:00:00-07:00</updated>
    <id>http://milofultz.com/2020/05/22/keyboard-remapping</id>
@@ -876,6 +876,10 @@ $
 {&quot;HIDKeyboardModifierMappingSrc&quot;:0x700000049, &quot;HIDKeyboardModifierMappingDst&quot;:0x7000000e6}]}'
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p&gt;This made it work for me, and I don’t fully understand, but it is interesting to note. There are a lot of interesting controls in the USB HID image table, so I wonder if I would need any of these strange controls in the future. At least I’ll know how to map them … maybe?&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;em&gt;20201001: Used to make caps lock key the escape key for use with Vim&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </content>
  </entry>
  

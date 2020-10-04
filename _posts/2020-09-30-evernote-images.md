@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Maximize Free Evernote With Less Images In Web Clipper
+title: Maximize Evernote With Less Images In Web Clipper (JS)
 description: Either using a Google Chrome extension or one line of JS, maximize your snippets in Evernote and stay away from $8 subscriptions for a tiny feature.
 summary: Either using a Google Chrome extension or one line of JS, maximize your snippets in Evernote and stay away from $8 subscriptions for a tiny feature.
 comments: true
@@ -33,7 +33,7 @@ This extension is really simple: on click, it goes through all the `img` element
 _I would put it on the Chrome extension site but I don't really want to pay a $5 fee just for a fun project. `¯\_(ツ)_/¯`_
 
 1. Download the files and store them.
-1. Open Chrome and go to [chrome://extensions](chrome://extensions).
+1. Open Chrome and go to `chrome://extensions`.
 1. Click on "Developer Mode" in the upper right corner.
 1. Click "Load Unpacked" and select the folder containing the downloaded files.
 1. Find the extension in your "Extensions" menu and pin or unpin it if you want.

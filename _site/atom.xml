@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
  <title>Milo's Projects</title>
- <link href="http://milofultz.com/atom.xml" rel="self"/>
- <link href="http://milofultz.com/"/>
- <updated>2020-10-04T19:29:57-07:00</updated>
- <id>http://milofultz.com</id>
+ <link href="http://localhost:4000/atom.xml" rel="self"/>
+ <link href="http://localhost:4000/"/>
+ <updated>2020-10-05T15:24:45-07:00</updated>
+ <id>http://localhost:4000</id>
  <author>
    <name>Milo Fultz</name>
    <email>milopfultz@gmail.com</email>
@@ -14,9 +14,9 @@
  
  <entry>
    <title>The Two-Minute Rule</title>
-   <link href="http://milofultz.com/2020/10/04/two-minute-rule"/>
+   <link href="http://localhost:4000/2020/10/04/two-minute-rule"/>
    <updated>2020-10-04T00:00:00-07:00</updated>
-   <id>http://milofultz.com/2020/10/04/two-minute-rule</id>
+   <id>http://localhost:4000/2020/10/04/two-minute-rule</id>
    <content type="html">&lt;p&gt;I’m a big self-help junkie and there honestly isn’t a lot that I feel I have taken action and eventually has stuck. Usually it’s a lot of “should”ing about random things in my life that in hindsight is not that big of a deal. Or it’s &lt;a href=&quot;https://tjcx.me/posts/defense-self-help/&quot;&gt;stuff that makes a real difference but is really hard[1]&lt;/a&gt;, which means a lot more work.&lt;/p&gt;
 
 &lt;p&gt;But one thing has amazingly made it through this filter in the background, being both successful and impactful in my life: the Two-Minute Rule from Getting Things Done.&lt;/p&gt;
@@ -38,9 +38,9 @@
  
  <entry>
    <title>Trying to become reacquainted with being bored</title>
-   <link href="http://milofultz.com/2020/10/04/doing"/>
+   <link href="http://localhost:4000/2020/10/04/doing"/>
    <updated>2020-10-04T00:00:00-07:00</updated>
-   <id>http://milofultz.com/2020/10/04/doing</id>
+   <id>http://localhost:4000/2020/10/04/doing</id>
    <content type="html">&lt;p&gt;During quarantine, I’ve been trying to just be bored and not constantly DO things and it’s weird how hard that is. Blah blah, every complaint about technology bad. But that aside, I &lt;em&gt;do&lt;/em&gt; like techology and love spending time with it. And trying to reconcile these two things in particular has been difficult.&lt;/p&gt;
 
 &lt;p&gt;Tech has had a weird hold on me since I was a kid, and it has been what I have always wanted to spend my time doing. But I felt like I was also getting signals from various places that technology was bad and I shouldn’t spend so much time on it, probably a recoil from video games and the like.&lt;/p&gt;
@@ -57,9 +57,9 @@
  
  <entry>
    <title>Maximize Evernote With Less Images In Web Clipper (JS)</title>
-   <link href="http://milofultz.com/2020/09/30/evernote-images"/>
+   <link href="http://localhost:4000/2020/09/30/evernote-images"/>
    <updated>2020-09-30T00:00:00-07:00</updated>
-   <id>http://milofultz.com/2020/09/30/evernote-images</id>
+   <id>http://localhost:4000/2020/09/30/evernote-images</id>
    <content type="html">&lt;p&gt;&lt;a href=&quot;https://github.com/milofultz/no-images&quot;&gt;&lt;strong&gt;Check out the up-to-date version on GitHub&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;When using Evernote’s web clipper, I was using too much of my upload cap with Evernote every month, mostly because images are too big when cropping the whole article. So I decided to practice some JS and see if I could make it work better without paying an $8 per month subscription for just a few extra megs of upload per month.&lt;/p&gt;
@@ -105,9 +105,9 @@
  
  <entry>
    <title>Zentube - Youtube Lite w/Note Taking (HTML/CSS/JS)</title>
-   <link href="http://milofultz.com/2020/09/26/zentube"/>
+   <link href="http://localhost:4000/2020/09/26/zentube"/>
    <updated>2020-09-26T00:00:00-07:00</updated>
-   <id>http://milofultz.com/2020/09/26/zentube</id>
+   <id>http://localhost:4000/2020/09/26/zentube</id>
    <content type="html">&lt;p&gt;&lt;a href=&quot;/assets/20200926zentube/index.html&quot;&gt;&lt;strong&gt;Try it out here&lt;/strong&gt;&lt;/a&gt; // &lt;a href=&quot;https://github.com/milofultz/zentube&quot;&gt;You can find the updated project and all necessary files here on GitHub.&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;I wanted to be able to take notes on a Youtube video without having to tab out of the window to a text editor all of the time. After seeing Josh Alvanier’s &lt;a href=&quot;https://down.avanier.now.sh&quot;&gt;Down&lt;/a&gt; and Hundred Rabbit’s &lt;a href=&quot;https://github.com/hundredrabbits/left&quot;&gt;Left&lt;/a&gt;, I realized I didn’t need to do anything fancy, and in fact I preferred the minimalist layout that vanilla JS can provide.&lt;/p&gt;
@@ -122,18 +122,18 @@
  
  <entry>
    <title>Mastodon</title>
-   <link href="http://milofultz.com/2020/09/23/mastodon"/>
+   <link href="http://localhost:4000/2020/09/23/mastodon"/>
    <updated>2020-09-23T00:00:00-07:00</updated>
-   <id>http://milofultz.com/2020/09/23/mastodon</id>
+   <id>http://localhost:4000/2020/09/23/mastodon</id>
    <content type="html">&lt;p&gt;Been digging into Mastodon, as it brings all the good things I like about social media and none of the trash. &lt;a rel=&quot;me&quot; href=&quot;https://mastodon.social/@milofultz&quot;&gt;Find me there.&lt;/a&gt;&lt;/p&gt;
 </content>
  </entry>
  
  <entry>
    <title>What I'm Listening To</title>
-   <link href="http://milofultz.com/2020/09/20/listening"/>
+   <link href="http://localhost:4000/2020/09/20/listening"/>
    <updated>2020-09-20T00:00:00-07:00</updated>
-   <id>http://milofultz.com/2020/09/20/listening</id>
+   <id>http://localhost:4000/2020/09/20/listening</id>
    <content type="html">&lt;p&gt;&lt;a href=&quot;https://open.spotify.com/album/5AcOa8jiTLbwlBaIIbCjYn?si=d_bZjUPCSUSgfA6eqgFPqg&quot;&gt;&lt;strong&gt;Black Banshee - Black Banshee 0&lt;/strong&gt;&lt;/a&gt; - Top track: Bathsalts&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://open.spotify.com/album/7wIvILO6pAlr0jl46GLXLf?si=NhxEfH4US4GrFLAke07Sqg&quot;&gt;&lt;strong&gt;Wendy Carlos - Tron (1982) Original Soundtrack&lt;/strong&gt;&lt;/a&gt; - Top tracks: &lt;a href=&quot;https://open.spotify.com/track/3YR2owONfW3nowA5yuggRH?si=q2Ezb6yMS0KzLGU1J1jiPw&quot;&gt;Water, Music, and Tronaction&lt;/a&gt;; Scherzo; Anthem for Keyboard Solo&lt;/p&gt;
@@ -146,9 +146,9 @@
  
  <entry>
    <title>Domine (game from Hundred Rabbits)</title>
-   <link href="http://milofultz.com/2020/09/01/domine"/>
+   <link href="http://localhost:4000/2020/09/01/domine"/>
    <updated>2020-09-01T00:00:00-07:00</updated>
-   <id>http://milofultz.com/2020/09/01/domine</id>
+   <id>http://localhost:4000/2020/09/01/domine</id>
    <content type="html">&lt;p&gt;I recently came across this &lt;a href=&quot;https://www.youtube.com/watch?v=fjZb190qn00&quot;&gt;video&lt;/a&gt; from Hundred Rabbits of a game called Domine. Super simple game you can play with a set of dominoes. I transcribed the rules for this game from the video since it looks really fun and I can’t find the rules page anymore.&lt;/p&gt;
 
 &lt;hr /&gt;
@@ -178,9 +178,9 @@
  
  <entry>
    <title>Open A Random Note/Lo-Fi Idea Generator (Python)</title>
-   <link href="http://milofultz.com/2020/08/26/random-note"/>
+   <link href="http://localhost:4000/2020/08/26/random-note"/>
    <updated>2020-08-26T00:00:00-07:00</updated>
-   <id>http://milofultz.com/2020/08/26/random-note</id>
+   <id>http://localhost:4000/2020/08/26/random-note</id>
    <content type="html">&lt;p&gt;For the last few months, I have been feeding my &lt;a href=&quot;/2020/05/22/zettelkasten&quot;&gt;Zettelkasten&lt;/a&gt; with essentially anything that I find interesting: programming, emotional development, quotes, productivity, book or video reviews, whatever. If I think it’s something that will help me or make me excited later, I put it in there.&lt;/p&gt;
 
 &lt;p&gt;The problem I had was that even though I had these notes for reference, I wasn’t finding myself reviewing them just for creating those interesting and random connections, which was something that I had initially started using the Zettelkasten for. Those random connections are what creates interesting ideas and diffuse connections, as well as a spaced repetition for ideas that I already decided are worth knowing.&lt;/p&gt;
@@ -248,9 +248,9 @@ os.system('open &quot;{}&quot; -a &quot;{}&quot;'.format(random_fp, prog))
  
  <entry>
    <title>Purple Rain Outro Transcription</title>
-   <link href="http://milofultz.com/2020/08/22/purple-rain-outro"/>
+   <link href="http://localhost:4000/2020/08/22/purple-rain-outro"/>
    <updated>2020-08-22T00:00:00-07:00</updated>
-   <id>http://milofultz.com/2020/08/22/purple-rain-outro</id>
+   <id>http://localhost:4000/2020/08/22/purple-rain-outro</id>
    <content type="html">&lt;p&gt;&lt;img src=&quot;/assets/20200822PurpleRain.jpg&quot; alt=&quot;Purple Rain Outro Transcription&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=km6Ryvor5_k&quot;&gt;You can listen to it here on YouTube.&lt;/a&gt;&lt;/p&gt;
@@ -259,9 +259,9 @@ os.system('open &quot;{}&quot; -a &quot;{}&quot;'.format(random_fp, prog))
  
  <entry>
    <title>Soulja Realms</title>
-   <link href="http://milofultz.com/2020/08/19/soulja-realms"/>
+   <link href="http://localhost:4000/2020/08/19/soulja-realms"/>
    <updated>2020-08-19T00:00:00-07:00</updated>
-   <id>http://milofultz.com/2020/08/19/soulja-realms</id>
+   <id>http://localhost:4000/2020/08/19/soulja-realms</id>
    <content type="html">&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=xb6MV25Ktjc&quot;&gt;&lt;img src=&quot;https://i.ytimg.com/vi/xb6MV25Ktjc/maxresdefault.jpg&quot; alt=&quot;Soulja Realms&quot; /&gt;&lt;/a&gt;
 &lt;a href=&quot;https://www.youtube.com/watch?v=xb6MV25Ktjc&quot;&gt;Listen here&lt;/a&gt;&lt;/p&gt;
 
@@ -271,9 +271,9 @@ os.system('open &quot;{}&quot; -a &quot;{}&quot;'.format(random_fp, prog))
  
  <entry>
    <title>Piu Piu ringtone but it's only Avgustina's laugh</title>
-   <link href="http://milofultz.com/2020/08/04/piu-piu-ringtone"/>
+   <link href="http://localhost:4000/2020/08/04/piu-piu-ringtone"/>
    <updated>2020-08-04T00:00:00-07:00</updated>
-   <id>http://milofultz.com/2020/08/04/piu-piu-ringtone</id>
+   <id>http://localhost:4000/2020/08/04/piu-piu-ringtone</id>
    <content type="html">&lt;p&gt;I am starting a project to see how long my roommates and I can handle listening to Avgustina’s laugh as my text message notification sound. I set it to where it only does it when my partner messages me, but it should be horrible enough.&lt;/p&gt;
 
 &lt;p&gt;You can download this atrocity as an m4r file &lt;a href=&quot;/assets/20200804PiuPiu.m4r&quot;&gt;here&lt;/a&gt;. Made using Mediahuman Audio Converter for OSX.&lt;/p&gt;
@@ -282,9 +282,9 @@ os.system('open &quot;{}&quot; -a &quot;{}&quot;'.format(random_fp, prog))
  
  <entry>
    <title>Awfulizer - Make Surfing The Web Awful (Firefox Addon)</title>
-   <link href="http://milofultz.com/2020/07/23/awfulizer"/>
+   <link href="http://localhost:4000/2020/07/23/awfulizer"/>
    <updated>2020-07-23T00:00:00-07:00</updated>
-   <id>http://milofultz.com/2020/07/23/awfulizer</id>
+   <id>http://localhost:4000/2020/07/23/awfulizer</id>
    <content type="html">&lt;p&gt;You can get the add-on &lt;a href=&quot;https://addons.mozilla.org/en-US/firefox/addon/awfulizer/&quot;&gt;here&lt;/a&gt; and see the code on &lt;a href=&quot;https://github.com/milofultz/awfulizer&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=dx7hZAAHFuk&amp;amp;feature=youtu.be&quot;&gt;Watch a video of it in action.&lt;/a&gt;&lt;/p&gt;
@@ -302,9 +302,9 @@ os.system('open &quot;{}&quot; -a &quot;{}&quot;'.format(random_fp, prog))
  
  <entry>
    <title>Make Python 'Apps' and Shortcuts To Run Them on OSX</title>
-   <link href="http://milofultz.com/2020/07/22/make-python-apps"/>
+   <link href="http://localhost:4000/2020/07/22/make-python-apps"/>
    <updated>2020-07-22T00:00:00-07:00</updated>
-   <id>http://milofultz.com/2020/07/22/make-python-apps</id>
+   <id>http://localhost:4000/2020/07/22/make-python-apps</id>
    <content type="html">&lt;p&gt;After experimenting with &lt;a href=&quot;https://pyinstaller.readthedocs.io/en/stable/&quot;&gt;PyInstaller&lt;/a&gt; and &lt;a href=&quot;https://sveinbjorn.org/platypus&quot;&gt;Platypus&lt;/a&gt; to create a standalone app in OSX with no success, I went the much lower fidelity route. But it was successful, so I’m happy with it. YOu can see the script I made &lt;a href=&quot;https://github.com/milofultz/email_service/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;The goal of this was first to make a standalone app that will run Python script, but second to assign it to a keystroke. I have only tested this with running a Python script, but I can’t imagine it would be much more difficult for any other bash script. So here is the process:&lt;/p&gt;
@@ -349,9 +349,9 @@ os.system('open &quot;{}&quot; -a &quot;{}&quot;'.format(random_fp, prog))
  
  <entry>
    <title>Create a better program faster with an outline V2</title>
-   <link href="http://milofultz.com/2020/07/18/programming-outline"/>
+   <link href="http://localhost:4000/2020/07/18/programming-outline"/>
    <updated>2020-07-18T00:00:00-07:00</updated>
-   <id>http://milofultz.com/2020/07/18/programming-outline</id>
+   <id>http://localhost:4000/2020/07/18/programming-outline</id>
    <content type="html">&lt;p&gt;&lt;em&gt;This is an update of an older post: &lt;a href=&quot;/2020/07/06/programming-outlining&quot;&gt;Create a better program faster with an outline&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;Like before, &lt;strong&gt;stay in abstract thinking as long as possible. The longer you take to implement your concepts, the better.&lt;/strong&gt;&lt;/p&gt;
@@ -445,9 +445,9 @@ os.system('open &quot;{}&quot; -a &quot;{}&quot;'.format(random_fp, prog))
  
  <entry>
    <title>star_maker - a lo-fi ambient visual (Python)</title>
-   <link href="http://milofultz.com/2020/07/08/star-maker"/>
+   <link href="http://localhost:4000/2020/07/08/star-maker"/>
    <updated>2020-07-08T00:00:00-07:00</updated>
-   <id>http://milofultz.com/2020/07/08/star_maker</id>
+   <id>http://localhost:4000/2020/07/08/star_maker</id>
    <content type="html">&lt;p&gt;&lt;a href=&quot;https://github.com/milofultz/star_maker&quot;&gt;You can visit the project and download the files on GitHub.&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;star_maker is a lo-fi screen saver or ambient visual using blessed. I originally made it so I could make a star visual for &lt;a href=&quot;/2020/07/07/spacelove&quot;&gt;a page on my website&lt;/a&gt; and then mucked around and realized it offered me both a chance to mess around with &lt;a href=&quot;https://github.com/jquast/blessed&quot;&gt;blessed&lt;/a&gt; and a really funny but relatively simple challenge.&lt;/p&gt;
@@ -463,16 +463,16 @@ os.system('open &quot;{}&quot; -a &quot;{}&quot;'.format(random_fp, prog))
  
  <entry>
    <title>spacelove.xm</title>
-   <link href="http://milofultz.com/2020/07/07/spacelove"/>
+   <link href="http://localhost:4000/2020/07/07/spacelove"/>
    <updated>2020-07-07T00:00:00-07:00</updated>
-   <id>http://milofultz.com/2020/07/07/spacelove</id>
+   <id>http://localhost:4000/2020/07/07/spacelove</id>
    <content type="html">&lt;p class=&quot;stars&quot;&gt;&amp;nbsp;` &amp;nbsp; &amp;nbsp; ' . &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&quot; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&quot; &amp;nbsp; &amp;nbsp; ` &amp;nbsp; ` &amp;nbsp;. , &amp;nbsp; &amp;nbsp;' &amp;nbsp; &amp;nbsp; &amp;nbsp; + &amp;nbsp; &amp;nbsp; &amp;nbsp; . &amp;nbsp; &quot; &amp;nbsp; &amp;nbsp; ` &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; , &amp;nbsp; &amp;nbsp; &amp;nbsp;` &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;' &amp;nbsp;+ &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;, &amp;nbsp; &amp;nbsp; &amp;nbsp;. &amp;nbsp; &amp;nbsp; &amp;nbsp;+ &amp;nbsp; &amp;nbsp;, &amp;nbsp; &amp;nbsp; + &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;' &amp;nbsp; &amp;nbsp; &amp;nbsp;, &amp;nbsp; &amp;nbsp; &amp;nbsp;&quot; &amp;nbsp; &amp;nbsp; &amp;nbsp; , &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; , &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;. &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;` &amp;nbsp; &amp;nbsp; ` &quot; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;` &amp;nbsp; &amp;nbsp;, &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;' &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;` &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; ' &amp;nbsp; &amp;nbsp; &amp;nbsp; ' &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;+ &amp;nbsp; . &amp;nbsp; + , ' &amp;nbsp; &amp;nbsp; &amp;nbsp;+ &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot; &amp;nbsp; &amp;nbsp; &amp;nbsp;. ` &amp;nbsp; &amp;nbsp; &amp;nbsp;+ &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;, &amp;nbsp; &amp;nbsp;` &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;' &amp;nbsp; &amp;nbsp; &amp;nbsp; . &amp;nbsp; &amp;nbsp; &quot; &amp;nbsp; &amp;nbsp;. &amp;nbsp; &amp;nbsp; &amp;nbsp;&quot; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;. &amp;nbsp; + . &amp;nbsp; ` &amp;nbsp; &amp;nbsp; &amp;nbsp; . &amp;nbsp; &amp;nbsp; &amp;nbsp;. &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;. &amp;nbsp; &amp;nbsp;` &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot; &amp;nbsp; &amp;nbsp; &amp;nbsp;, &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; , &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;' &amp;nbsp; + &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;' &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;. &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; ' &amp;nbsp;` &amp;nbsp; &amp;nbsp;` ' ` &amp;nbsp; &amp;nbsp;, + &amp;nbsp; &amp;nbsp; &amp;nbsp;&quot; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;, &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;. ` &amp;nbsp; , &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;. . &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;. &amp;nbsp; &amp;nbsp; &amp;nbsp; ' &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;. &amp;nbsp; &amp;nbsp; . &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;+ &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; . &amp;nbsp; &amp;nbsp; &amp;nbsp; , &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; . &amp;nbsp; &amp;nbsp;+ &amp;nbsp; ' &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;' &amp;nbsp; &amp;nbsp; &amp;nbsp;` &amp;nbsp;&quot; &amp;nbsp; &amp;nbsp; &amp;nbsp;&quot; , &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&quot; &amp;nbsp; &amp;nbsp; &amp;nbsp;` &amp;nbsp; &amp;nbsp; &amp;nbsp;. &amp;nbsp; &amp;nbsp;' &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;` &amp;nbsp; &amp;nbsp; &amp;nbsp; ` &amp;nbsp; &amp;nbsp; ' &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&quot; &amp;nbsp; &amp;nbsp;&quot; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;, &amp;nbsp; &amp;nbsp;' &amp;nbsp; &amp;nbsp;. &amp;nbsp; &amp;nbsp; ' &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; , &amp;nbsp; &amp;nbsp; ' &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;, , &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot; ' &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; ' &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;, &amp;nbsp; &amp;nbsp;` &amp;nbsp;` &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; ' &amp;nbsp; &amp;nbsp;+ &amp;nbsp; &amp;nbsp; &amp;nbsp; ' &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&quot; &amp;nbsp;. &amp;nbsp; ' &amp;nbsp; &amp;nbsp; . ' &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;` &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;, &amp;nbsp;&quot; . &amp;nbsp; &amp;nbsp;&quot; &amp;nbsp; &amp;nbsp;+ &amp;nbsp;+ &amp;nbsp; &amp;nbsp;&quot; + &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;` &amp;nbsp; &amp;nbsp; &amp;nbsp;+ , &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; ' &amp;nbsp; &amp;nbsp;+ &amp;nbsp; &amp;nbsp;` &amp;nbsp;, &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;+ &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;, &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;. &amp;nbsp; ` &quot; &quot; &amp;nbsp; ' &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;' &amp;nbsp; &amp;nbsp; &amp;nbsp; , &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;' &amp;nbsp; &amp;nbsp; , . &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;` &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; + . &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot; &amp;nbsp; &amp;nbsp; &amp;nbsp;, ` &amp;nbsp; &amp;nbsp; &amp;nbsp;, &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; + ` &amp;nbsp; &amp;nbsp; &quot; &amp;nbsp;. &amp;nbsp; &amp;nbsp; ' &amp;nbsp; &amp;nbsp; + &amp;nbsp; + &amp;nbsp; + &quot; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; + &amp;nbsp; ' &amp;nbsp; &amp;nbsp;` &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; ` &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; . &quot; &amp;nbsp; &amp;nbsp;&quot; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&quot; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; . &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;. &amp;nbsp; &amp;nbsp; &amp;nbsp;&quot; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; ` &amp;nbsp; &amp;nbsp; + &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; ' &amp;nbsp; &amp;nbsp; &amp;nbsp;+ &amp;nbsp; &amp;nbsp;+ &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;+ &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;` &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot; &amp;nbsp; &amp;nbsp; ' &amp;nbsp; ` &amp;nbsp; &amp;nbsp; &amp;nbsp;&quot; . &amp;nbsp; &amp;nbsp; &amp;nbsp;+ &amp;nbsp; ` &amp;nbsp; &amp;nbsp; &amp;nbsp; ' &amp;nbsp; ' &amp;nbsp; &quot; &quot; &amp;nbsp;&quot; &amp;nbsp; &amp;nbsp; &amp;nbsp; ` &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;+ &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;, &amp;nbsp; &amp;nbsp; &amp;nbsp;' &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; ' &amp;nbsp;' &amp;nbsp; &amp;nbsp; + &amp;nbsp; &amp;nbsp; &amp;nbsp; + &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;+ &amp;nbsp; &amp;nbsp; ` &amp;nbsp; &amp;nbsp; &amp;nbsp;, &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; ` &amp;nbsp; ` &amp;nbsp; &amp;nbsp; &amp;nbsp;' &amp;nbsp;. &amp;nbsp; &quot; &amp;nbsp; + . , &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; ' &amp;nbsp; , &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;' &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;+ &amp;nbsp; &amp;nbsp;+ &amp;nbsp; &amp;nbsp; &amp;nbsp;' . &amp;nbsp; , &amp;nbsp;&quot; &amp;nbsp;. &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;, &amp;nbsp;+ , &amp;nbsp; &amp;nbsp; ` &amp;nbsp; &amp;nbsp; &amp;nbsp; ' &amp;nbsp;&quot; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;+ &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;' &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot; &amp;nbsp; &amp;nbsp; , &amp;nbsp; &amp;nbsp; ` ` &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot; &amp;nbsp; . &amp;nbsp; &amp;nbsp; &amp;nbsp;&quot; &amp;nbsp; &amp;nbsp; &amp;nbsp;&quot; &amp;nbsp;` &amp;nbsp; &amp;nbsp; &amp;nbsp; . &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;. &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&quot; &amp;nbsp;, &amp;nbsp; &amp;nbsp; ` &amp;nbsp;` ` &amp;nbsp; &amp;nbsp; &amp;nbsp;, &amp;nbsp;' &amp;nbsp;&quot; &amp;nbsp; &amp;nbsp; + &amp;nbsp; &amp;nbsp; &amp;nbsp; + &amp;nbsp; &amp;nbsp; &amp;nbsp; , &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot; &amp;nbsp;, &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;. &amp;nbsp;. &amp;nbsp; &amp;nbsp; ' ` &amp;nbsp; &amp;nbsp;+ &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;` &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;` &amp;nbsp; . &amp;nbsp; &amp;nbsp; + &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;. &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;. &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&quot; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; . &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;' &amp;nbsp; &amp;nbsp; &amp;nbsp; , &amp;nbsp; &amp;nbsp; &amp;nbsp;+ &amp;nbsp; &amp;nbsp; &amp;nbsp; + + &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;+ &amp;nbsp; &amp;nbsp; &amp;nbsp; , &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot; &amp;nbsp; &amp;nbsp; &amp;nbsp;, &amp;nbsp; &amp;nbsp; ` &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; , &amp;nbsp; , &amp;nbsp; &amp;nbsp; ' &amp;nbsp; &amp;nbsp; &amp;nbsp;, &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;` &amp;nbsp; &amp;nbsp; + &amp;nbsp; ' + &amp;nbsp; &amp;nbsp; &amp;nbsp; + . + &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;. &amp;nbsp; &amp;nbsp; &amp;nbsp;+ &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&quot; &amp;nbsp;. &amp;nbsp; &amp;nbsp; + &amp;nbsp;+ &amp;nbsp; &amp;nbsp;' &amp;nbsp; &amp;nbsp; &amp;nbsp; . &amp;nbsp; &amp;nbsp; + &amp;nbsp; &amp;nbsp; &amp;nbsp; ' &amp;nbsp; &amp;nbsp; &amp;nbsp;+ &amp;nbsp; ' &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; ` &amp;nbsp;' &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;+ &amp;nbsp; &amp;nbsp; &amp;nbsp;. &amp;nbsp; &amp;nbsp; &amp;nbsp;&quot; &amp;nbsp; &amp;nbsp;. &amp;nbsp; &amp;nbsp; &amp;nbsp;, &amp;nbsp; ' &amp;nbsp; &amp;nbsp; &amp;nbsp;` &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;` &amp;nbsp; &amp;nbsp; &amp;nbsp;&quot; &amp;nbsp;` &amp;nbsp; ' &amp;nbsp; &amp;nbsp;, &amp;nbsp;. &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; , &amp;nbsp;&quot; &amp;nbsp; &amp;nbsp; &amp;nbsp;` &amp;nbsp; &amp;nbsp;' , ' &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; . &amp;nbsp; &amp;nbsp;, &amp;nbsp;. &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; , ` &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; . &amp;nbsp; &amp;nbsp; &amp;nbsp; ' &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;' &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; , &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; , &amp;nbsp; &amp;nbsp; &amp;nbsp; , &amp;nbsp; &amp;nbsp;` &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&quot; &amp;nbsp; &amp;nbsp;` &amp;nbsp;+ &amp;nbsp;` &amp;nbsp; &amp;nbsp; &amp;nbsp;. &amp;nbsp; &amp;nbsp; &amp;nbsp; ` &amp;nbsp; &amp;nbsp; &amp;nbsp;&quot; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;` &amp;nbsp; ' &quot; + &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;` &amp;nbsp; &amp;nbsp; &amp;nbsp;+ ' &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;+ &amp;nbsp;, &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;, &amp;nbsp; &amp;nbsp; &amp;nbsp; . &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;` &amp;nbsp; &amp;nbsp; &amp;nbsp;+ , . &amp;nbsp; &amp;nbsp; , &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; + &amp;nbsp; + &amp;nbsp; &amp;nbsp;+ &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot; &amp;nbsp; &amp;nbsp; + &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;, &amp;nbsp; &amp;nbsp; &amp;nbsp; ` &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&quot; , &amp;nbsp; &amp;nbsp; &amp;nbsp;, &amp;nbsp;` &amp;nbsp; &amp;nbsp; &amp;nbsp;+ &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;, ' ' &amp;nbsp; ` &quot; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;. &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;' &amp;nbsp; &quot; &amp;nbsp;' &amp;nbsp;` &quot; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&quot; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; ` &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; ' &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; , &amp;nbsp; &amp;nbsp;&quot; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;, &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; + &amp;nbsp; &amp;nbsp; ` &quot; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; ' &amp;nbsp;` &amp;nbsp; ' &amp;nbsp; &amp;nbsp; &amp;nbsp;+ &amp;nbsp; &amp;nbsp; . &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot; &amp;nbsp; `&lt;/p&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;audio controls=&quot;&quot;&gt;
-  &lt;source src=&quot;http://milofultz.com/assets/20200707spacelove.mp3&quot; type=&quot;audio/mpeg&quot; /&gt;
+  &lt;source src=&quot;http://localhost:4000/assets/20200707spacelove.mp3&quot; type=&quot;audio/mpeg&quot; /&gt;
 Your browser does not support the audio element.
 &lt;/audio&gt;
-&lt;p&gt;&lt;a href=&quot;http://milofultz.com/assets/20200707spacelove.xm&quot;&gt;Download the XM file here&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://localhost:4000/assets/20200707spacelove.xm&quot;&gt;Download the XM file here&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;p class=&quot;stars&quot;&gt; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;' &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;+ &amp;nbsp;+ &amp;nbsp; . &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;, &amp;nbsp; &amp;nbsp; &amp;nbsp;+ &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;. &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;` &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; ` &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; . &amp;nbsp; &amp;nbsp; &amp;nbsp;, &amp;nbsp; &amp;nbsp; &amp;nbsp;+ &amp;nbsp; + &amp;nbsp; &amp;nbsp;` &amp;nbsp; &amp;nbsp; &amp;nbsp; + &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;' &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;` &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;' &amp;nbsp; &amp;nbsp; &amp;nbsp; + &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;+ &amp;nbsp; + &amp;nbsp; &amp;nbsp;+ &amp;nbsp;+ &amp;nbsp; &amp;nbsp; + &amp;nbsp; &amp;nbsp; ' &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot; &amp;nbsp; &amp;nbsp; &amp;nbsp;` &amp;nbsp; &amp;nbsp;, &amp;nbsp; &amp;nbsp; &quot; &amp;nbsp; , &amp;nbsp; &amp;nbsp; &amp;nbsp;. &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;+ ` &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;. &amp;nbsp; &amp;nbsp;` &amp;nbsp; &amp;nbsp; &amp;nbsp; , &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;' &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;. &amp;nbsp; &amp;nbsp; + &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;, &amp;nbsp; &amp;nbsp;' &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;. &amp;nbsp; + &amp;nbsp;. &amp;nbsp; &amp;nbsp; &amp;nbsp;, &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;+ &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; ' &amp;nbsp; &amp;nbsp;, &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; . &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; ' &amp;nbsp; &amp;nbsp;` &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;. &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;` &amp;nbsp; + , &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; , &amp;nbsp; &amp;nbsp; &amp;nbsp;+ &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;` &amp;nbsp; ' &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;+ &amp;nbsp; + &amp;nbsp; &amp;nbsp;' &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;` &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; ' &amp;nbsp; &amp;nbsp; &amp;nbsp;&quot; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;, &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&quot; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&quot; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; . &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;+ &amp;nbsp; . . &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; + &amp;nbsp; &amp;nbsp; &amp;nbsp; + &amp;nbsp;, &amp;nbsp; &amp;nbsp; &amp;nbsp; + &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&quot; ' &amp;nbsp; &amp;nbsp;+ &amp;nbsp; &amp;nbsp;. &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; ' &amp;nbsp; &amp;nbsp; &amp;nbsp; , &amp;nbsp; &amp;nbsp;+ &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;` &amp;nbsp; &amp;nbsp; &amp;nbsp; ` &amp;nbsp;+ &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&quot; &amp;nbsp; &amp;nbsp;, &amp;nbsp; &amp;nbsp; &quot; &amp;nbsp; &amp;nbsp; ' &amp;nbsp; + ` &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;. &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;' &amp;nbsp; &amp;nbsp;, &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; ` &amp;nbsp;` &amp;nbsp; , &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;` ` &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;. &amp;nbsp; ' &amp;nbsp; . &amp;nbsp; &amp;nbsp; ` &amp;nbsp; + , &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;+ &amp;nbsp; &amp;nbsp; &amp;nbsp;. &amp;nbsp; &amp;nbsp; . &amp;nbsp; &amp;nbsp;&quot; &amp;nbsp; &amp;nbsp; &amp;nbsp; ` &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;' &amp;nbsp; &amp;nbsp; &amp;nbsp;&quot; + &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot; &amp;nbsp; &amp;nbsp; &amp;nbsp;+ &amp;nbsp; . &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;+ &amp;nbsp; &amp;nbsp; &amp;nbsp;. &amp;nbsp;, &amp;nbsp;. &amp;nbsp; &amp;nbsp; ` &amp;nbsp; &amp;nbsp;, &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; ' &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;, &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot; &amp;nbsp;, &amp;nbsp; &amp;nbsp; &amp;nbsp; , &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;. &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; ` &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot; &amp;nbsp;&quot; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;' &amp;nbsp;' &amp;nbsp;&quot; &amp;nbsp; &amp;nbsp;. &amp;nbsp; &amp;nbsp; , &amp;nbsp; &amp;nbsp;' &amp;nbsp; . &amp;nbsp; &amp;nbsp; &amp;nbsp;' &amp;nbsp;, &amp;nbsp; &amp;nbsp; &amp;nbsp;` &amp;nbsp; &amp;nbsp; &amp;nbsp; ` &amp;nbsp; &amp;nbsp; &amp;nbsp;, &amp;nbsp;&quot; &amp;nbsp; , &amp;nbsp; &amp;nbsp; , &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;` &amp;nbsp; &amp;nbsp; + &amp;nbsp; &amp;nbsp; &quot; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;, &amp;nbsp;. &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;' &amp;nbsp; + &amp;nbsp; ' &amp;nbsp; &amp;nbsp; &amp;nbsp;. &amp;nbsp; &amp;nbsp;. &amp;nbsp; &amp;nbsp;+ &amp;nbsp; &amp;nbsp; &amp;nbsp; + &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&quot; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;. &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;. &amp;nbsp; &amp;nbsp;. &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;` &amp;nbsp; &amp;nbsp; &amp;nbsp;&quot; &amp;nbsp; &amp;nbsp; , &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;, + &amp;nbsp; &amp;nbsp; ` &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;. &amp;nbsp; &amp;nbsp; &amp;nbsp;, &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; ` &amp;nbsp;&quot; &amp;nbsp;' &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&quot; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;, &amp;nbsp; , &quot; &amp;nbsp; ' &amp;nbsp; ' &amp;nbsp;+ &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&quot; &amp;nbsp; &amp;nbsp; ' &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; + &amp;nbsp; &amp;nbsp; , &amp;nbsp;` &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;` &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;` &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;` &amp;nbsp; ' &amp;nbsp;, &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;, &amp;nbsp; &amp;nbsp;' &amp;nbsp; &amp;nbsp; &amp;nbsp;' &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;' &amp;nbsp; &amp;nbsp; + &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;` &amp;nbsp; &amp;nbsp;, . &amp;nbsp; &amp;nbsp; &amp;nbsp; , &amp;nbsp; &amp;nbsp;' ` &amp;nbsp;` &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;` ` &amp;nbsp; &amp;nbsp; &amp;nbsp;. &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;. &amp;nbsp; &amp;nbsp; &amp;nbsp;` &amp;nbsp;' &amp;nbsp;&quot; &amp;nbsp; &quot; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&quot; &amp;nbsp;&quot; &amp;nbsp; &amp;nbsp;+ &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;+ &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&quot; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;` &amp;nbsp; &amp;nbsp; + &amp;nbsp; &amp;nbsp; &quot; &amp;nbsp; &amp;nbsp; &amp;nbsp; , &amp;nbsp; . &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; + ' &quot; &amp;nbsp; &amp;nbsp; &amp;nbsp; ' &amp;nbsp; &amp;nbsp;+ &amp;nbsp;. &quot; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&quot; &amp;nbsp;, &amp;nbsp;. &amp;nbsp; . &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot; &amp;nbsp; &amp;nbsp; &amp;nbsp;+ &quot; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; + &amp;nbsp;+ &amp;nbsp; &amp;nbsp; ' ` &amp;nbsp;' &amp;nbsp;+ &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;, &amp;nbsp; ' , &amp;nbsp; &amp;nbsp; , &amp;nbsp; &amp;nbsp; ` &amp;nbsp;+ &amp;nbsp; ` ' &amp;nbsp; &amp;nbsp; &amp;nbsp;` &amp;nbsp; &amp;nbsp;` &amp;nbsp; &amp;nbsp; . &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;+ &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;+ &amp;nbsp; &amp;nbsp; &amp;nbsp; ' + &amp;nbsp; &quot; &amp;nbsp; &amp;nbsp; &quot; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; + &amp;nbsp; &amp;nbsp;' , &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; ` &amp;nbsp; &amp;nbsp;&quot; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;' &amp;nbsp; &amp;nbsp; &amp;nbsp; ` &amp;nbsp;&quot; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;+ &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&quot; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; ` &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;, &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;, &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;' &amp;nbsp;+ &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; . &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;+ &amp;nbsp; &amp;nbsp;' &amp;nbsp;&quot; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&quot; ' &amp;nbsp; ' &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;+ &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;, &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;` , &amp;nbsp; &amp;nbsp;, &amp;nbsp; &amp;nbsp; ' &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;' &amp;nbsp; &amp;nbsp; + &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;. &amp;nbsp;&quot; &amp;nbsp; &amp;nbsp;. &amp;nbsp;' &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;+ &amp;nbsp; &amp;nbsp;' &amp;nbsp;+ &amp;nbsp; &amp;nbsp; &amp;nbsp;+ &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;, &amp;nbsp; &amp;nbsp; ` &amp;nbsp; &amp;nbsp; &amp;nbsp; . &amp;nbsp; + + &amp;nbsp; &amp;nbsp; ' &amp;nbsp; &amp;nbsp; &amp;nbsp;&quot; &amp;nbsp; &amp;nbsp; &amp;nbsp;&quot; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; . &amp;nbsp; ' + &amp;nbsp;. &amp;nbsp; + + &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;' &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;' &amp;nbsp;+ &quot; &amp;nbsp;' &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; , &amp;nbsp; &amp;nbsp; &amp;nbsp;&quot; &amp;nbsp; , &amp;nbsp; &amp;nbsp;, &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; ' &amp;nbsp; &amp;nbsp; + &amp;nbsp; &quot; &amp;nbsp; &amp;nbsp; &amp;nbsp; , &amp;nbsp;+ &amp;nbsp; , &amp;nbsp;, &amp;nbsp; &amp;nbsp; , &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;' &amp;nbsp; &amp;nbsp; &amp;nbsp; ' &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; , &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot; &amp;nbsp;&quot; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; + &amp;nbsp; &amp;nbsp; &amp;nbsp; . &amp;nbsp; &amp;nbsp; &amp;nbsp;+ &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; + , &amp;nbsp; &amp;nbsp; &amp;nbsp;+ &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;` ' &amp;nbsp; &amp;nbsp; &quot; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;' &amp;nbsp; &amp;nbsp; &quot; &amp;nbsp; . &amp;nbsp; &amp;nbsp;` &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;. &amp;nbsp; &amp;nbsp; &amp;nbsp; ` &amp;nbsp; &amp;nbsp; &amp;nbsp;+ &amp;nbsp; &amp;nbsp;` &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;, &amp;nbsp; , &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&quot; &amp;nbsp; &amp;nbsp; ` &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&quot; &quot; &amp;nbsp; &amp;nbsp; &amp;nbsp; + &amp;nbsp; &amp;nbsp; &amp;nbsp;' &amp;nbsp; &amp;nbsp; &amp;nbsp; ` &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&quot; &amp;nbsp; &amp;nbsp; &amp;nbsp;, ` &amp;nbsp; &amp;nbsp; &amp;nbsp; + &amp;nbsp;` &amp;nbsp; &amp;nbsp; . &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;. &amp;nbsp; &amp;nbsp;' , &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; + &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&quot; &amp;nbsp; . &amp;nbsp; . &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; , &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; + &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;+ &amp;nbsp;+ &amp;nbsp; ` &amp;nbsp; &amp;nbsp; &amp;nbsp;, &amp;nbsp;' &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;, + &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;` ' &amp;nbsp; &amp;nbsp; , &amp;nbsp; &amp;nbsp; . &amp;nbsp;' &amp;nbsp; &amp;nbsp; &amp;nbsp;+ &amp;nbsp; &amp;nbsp;`&lt;/p&gt;
 </content>
@@ -480,9 +480,9 @@ Your browser does not support the audio element.
  
  <entry>
    <title>Create a better program faster with an outline</title>
-   <link href="http://milofultz.com/2020/07/06/programming-outlining"/>
+   <link href="http://localhost:4000/2020/07/06/programming-outlining"/>
    <updated>2020-07-06T00:00:00-07:00</updated>
-   <id>http://milofultz.com/2020/07/06/programming-outlining</id>
+   <id>http://localhost:4000/2020/07/06/programming-outlining</id>
    <content type="html">&lt;p&gt;&lt;em&gt;An updated version can be found here: &lt;a href=&quot;/2020/07/18/programming-outline&quot;&gt;Create a better program faster with an outline V2&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;I’ve written so much spaghetti code for so long and finally learned from my roommate how to write better code. This is how I use this method.&lt;/p&gt;
@@ -629,9 +629,9 @@ $
  
  <entry>
    <title>Wordsmash Explosion - Mastermind With Words (Python)</title>
-   <link href="http://milofultz.com/2020/07/03/wordsmash"/>
+   <link href="http://localhost:4000/2020/07/03/wordsmash"/>
    <updated>2020-07-03T00:00:00-07:00</updated>
-   <id>http://milofultz.com/2020/07/03/wordsmash</id>
+   <id>http://localhost:4000/2020/07/03/wordsmash</id>
    <content type="html">&lt;p&gt;&lt;a href=&quot;https://github.com/milofultz/wordmastermind&quot;&gt;You can visit the project and download the files on GitHub.&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;the-game&quot;&gt;The Game&lt;/h2&gt;
@@ -654,9 +654,9 @@ $
  
  <entry>
    <title>Bookmark Crawler - Make Internet More Fun (Python)</title>
-   <link href="http://milofultz.com/2020/07/02/bmcrawl"/>
+   <link href="http://localhost:4000/2020/07/02/bmcrawl"/>
    <updated>2020-07-02T00:00:00-07:00</updated>
-   <id>http://milofultz.com/2020/07/02/bmcrawl</id>
+   <id>http://localhost:4000/2020/07/02/bmcrawl</id>
    <content type="html">&lt;p&gt;&lt;a href=&quot;https://github.com/milofultz/bmcrawl&quot;&gt;You can find the updated project and all necessary files here on GitHub.&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;goal&quot;&gt;Goal&lt;/h2&gt;
@@ -678,9 +678,9 @@ $
  
  <entry>
    <title>Nobody Takes Advice</title>
-   <link href="http://milofultz.com/2020/06/26/nobody-takes-advice"/>
+   <link href="http://localhost:4000/2020/06/26/nobody-takes-advice"/>
    <updated>2020-06-26T00:00:00-07:00</updated>
-   <id>http://milofultz.com/2020/06/26/nobody-takes-advice</id>
+   <id>http://localhost:4000/2020/06/26/nobody-takes-advice</id>
    <content type="html">&lt;blockquote&gt;
   &lt;p&gt;“The great, unspoken secret of advice is that no one takes it. … People always just do exactly what they want to do in every scenario.” - Nicole Cliffe[1]&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -696,9 +696,9 @@ $
  
  <entry>
    <title>Inexpensive and Minimal Equipment Games To Spend Time On</title>
-   <link href="http://milofultz.com/2020/06/25/inexpensive-games"/>
+   <link href="http://localhost:4000/2020/06/25/inexpensive-games"/>
    <updated>2020-06-25T00:00:00-07:00</updated>
-   <id>http://milofultz.com/2020/06/25/inexpensive-games</id>
+   <id>http://localhost:4000/2020/06/25/inexpensive-games</id>
    <content type="html">&lt;p&gt;I’ve always been interested in being frugal and wanted a repository of fun and inexpensive games to play by yourself and with others. Here’s a list of what I’ve found.&lt;/p&gt;
 
 &lt;h3 id=&quot;solo&quot;&gt;Solo&lt;/h3&gt;
@@ -723,9 +723,9 @@ $
  
  <entry>
    <title>Quality and quantity's relevance to critical feeling</title>
-   <link href="http://milofultz.com/2020/06/21/quantity-quality"/>
+   <link href="http://localhost:4000/2020/06/21/quantity-quality"/>
    <updated>2020-06-21T00:00:00-07:00</updated>
-   <id>http://milofultz.com/2020/06/21/quantity-quality</id>
+   <id>http://localhost:4000/2020/06/21/quantity-quality</id>
    <content type="html">&lt;p&gt;Quality is an attribute you give to help label something. Quantity is a measurement you use to help label something.&lt;/p&gt;
 
 &lt;p&gt;Quality requires quantity for it to exist. One can’t measure how hard something is without two things to compare them to. Quantity requires quality for it to exist. One can’t measure something with which it has no label.&lt;/p&gt;
@@ -756,9 +756,9 @@ $
  
  <entry>
    <title>Critical feeling is just as important as critical thinking</title>
-   <link href="http://milofultz.com/2020/06/10/critical-feeling"/>
+   <link href="http://localhost:4000/2020/06/10/critical-feeling"/>
    <updated>2020-06-10T00:00:00-07:00</updated>
-   <id>http://milofultz.com/2020/06/10/critical-feeling</id>
+   <id>http://localhost:4000/2020/06/10/critical-feeling</id>
    <content type="html">&lt;blockquote&gt;
   &lt;p&gt;Critical feeling is making sure that you don’t get caught up in other people’s feelings.[1]&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -788,9 +788,9 @@ $
  
  <entry>
    <title>Simple + Minimal Exercise Routine</title>
-   <link href="http://milofultz.com/2020/05/25/exercise-routine"/>
+   <link href="http://localhost:4000/2020/05/25/exercise-routine"/>
    <updated>2020-05-25T00:00:00-07:00</updated>
-   <id>http://milofultz.com/2020/05/25/exercise-routine</id>
+   <id>http://localhost:4000/2020/05/25/exercise-routine</id>
    <content type="html">&lt;p&gt;A couple of weeks ago, I worked on starting my &lt;a href=&quot;/2020/05/22/zettelkasten&quot;&gt;Zettelkasten&lt;/a&gt; and just to try it out and see how it worked, I started with exercise. Using it and a few resources, I was able to come up with a list of various strength, mobility, and flexibility exercises that target various areas and a very basic framework with which to apply them. I won’t be posting all the exercises here, but I will show the system, my focus areas, and my general guidelines it is based on.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;My dream was to be able to do this anywhere and at anytime.&lt;/strong&gt;&lt;/p&gt;
@@ -841,14 +841,14 @@ $
  
  <entry>
    <title>Day planner based on location</title>
-   <link href="http://milofultz.com/2020/05/23/day-planner"/>
+   <link href="http://localhost:4000/2020/05/23/day-planner"/>
    <updated>2020-05-23T00:00:00-07:00</updated>
-   <id>http://milofultz.com/2020/05/23/day-planner</id>
+   <id>http://localhost:4000/2020/05/23/day-planner</id>
    <content type="html">&lt;p&gt;I found this idea on the internet probably around 2009, made my own version, and then unfortunately lost the reference to the original page. If you know where or from whom this originated, &lt;strong&gt;please&lt;/strong&gt; tell me!&lt;/p&gt;
 
 &lt;p&gt;The idea of this is to have a day planner where the axis around which you plan is not time, but location. Instead of thinking about what you are going to do between 9am and 10am, this has you think about what you can do in a given space.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://milofultz.com/assets/20200523dayplan.jpg&quot; alt=&quot;Example of the day planner&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/20200523dayplan.jpg&quot; alt=&quot;Example of the day planner&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;The thing I like best about this is that it is really good for keeping you in touch with activities you enjoy and places you like, making it easy to do those things by choosing it off of a menu. It’s almost like a worksheet for the day, with the bottom of the page open for note taking, drawing, and scribbling ideas down. Appointments and other real-life things aside, this is a lateral-thinking way to encourage you into desired activities.&lt;/p&gt;
 </content>
@@ -856,9 +856,9 @@ $
  
  <entry>
    <title>I just found out about Zettelkasten</title>
-   <link href="http://milofultz.com/2020/05/22/zettelkasten"/>
+   <link href="http://localhost:4000/2020/05/22/zettelkasten"/>
    <updated>2020-05-22T00:00:00-07:00</updated>
-   <id>http://milofultz.com/2020/05/22/zettelkasten</id>
+   <id>http://localhost:4000/2020/05/22/zettelkasten</id>
    <content type="html">&lt;p&gt;I’m probably going to do a hack job explaining this, so TL;DR: Zettelkasten makes all of your notes easier to develop, utilize, and organize for whatever you need them.&lt;/p&gt;
 
 &lt;p&gt;Zettelkasten is a way of note taking and cataloguing that was popularized by sociologist Niklas Luhmann. This particular system intrigued me because it seems to overcome the issues that some basic note taking strategies have.&lt;/p&gt;
@@ -884,9 +884,9 @@ $
  
  <entry>
    <title>Keyboard Remapping on OSX - Adding the Insert Key</title>
-   <link href="http://milofultz.com/2020/05/22/keyboard-remapping"/>
+   <link href="http://localhost:4000/2020/05/22/keyboard-remapping"/>
    <updated>2020-05-22T00:00:00-07:00</updated>
-   <id>http://milofultz.com/2020/05/22/keyboard-remapping</id>
+   <id>http://localhost:4000/2020/05/22/keyboard-remapping</id>
    <content type="html">&lt;p&gt;I downloaded &lt;a href=&quot;https://www.3eality.com/productions/reality-adlib-tracker&quot;&gt;Reality Adlib Tracker&lt;/a&gt; and &lt;a href=&quot;https://milkytracker.titandemo.org/&quot;&gt;MilkyTracker&lt;/a&gt; the other day and realized that Apple removed their insert key abilities a LONG time ago. The insert key is used quite a bit in these older programs for basic things like adding a line in your tracker, creating your pattern sequence, etc. Along with things like Dosbox, where these old relics are utilized, most of these older programs don’t allow new keybindings, so I had to dig around and find a new solution. I unfortunately couldn’t find anything directly related to trackers and stuff on any of their forums, so I figured I’d try and make something that could be found when searching for trackers, DOS, etc.&lt;/p&gt;
 
 &lt;p&gt;Here’s one very simple and one not very simple but extremely interesting (read: difficult to understand for a rube like me) solution.&lt;/p&gt;
@@ -897,7 +897,7 @@ $
 
 &lt;p&gt;Karabiner-Elements is an open-source program that allows you to remap any key on any device to another key. In this instance, I remapped my right alt/option key to the insert key, as I do not use that option key almost ever. In Karabiner, it’s honestly so simple, as you can see in the screenshot. Choose what key you want to press and what you want it to output. I tested this in RAD and it works beautifully.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;http://milofultz.com/assets/20200522karabiner.png&quot;&gt;Check out a picture of my settings here.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://localhost:4000/assets/20200522karabiner.png&quot;&gt;Check out a picture of my settings here.&lt;/a&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -907,7 +907,7 @@ $
 
 &lt;p&gt;I utilized the ideas listed in nanoant’s article, &lt;a href=&quot;https://www.nanoant.com/mac/macos-function-key-remapping-with-hidutil&quot;&gt;“macOS function key remapping with hidutil”&lt;/a&gt;, as well as the &lt;a href=&quot;https://www.freebsddiary.org/APC/usb_hid_usages.php&quot;&gt;USB HID usage table&lt;/a&gt; and made a couple lines of code that can be input to achieve the same effect as above.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;http://milofultz.com/assets/20200522karabiner.png&quot;&gt;Check out a picture of my settings here.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://localhost:4000/assets/20200522karabiner.png&quot;&gt;Check out a picture of my settings here.&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Go into terminal and type the following:&lt;/p&gt;
 
@@ -930,9 +930,9 @@ $
  
  <entry>
    <title>Buying Things &quot;Just In Case&quot; vs. Real Estate</title>
-   <link href="http://milofultz.com/2020/05/22/just-in-case"/>
+   <link href="http://localhost:4000/2020/05/22/just-in-case"/>
    <updated>2020-05-22T00:00:00-07:00</updated>
-   <id>http://milofultz.com/2020/05/22/just-in-case</id>
+   <id>http://localhost:4000/2020/05/22/just-in-case</id>
    <content type="html">&lt;p&gt;In wondering if I should make a purchase, I noticed a problem with my thinking early on: if something was on sale, I’d buy it, just in case I needed it later to accomplish some goal or in a project I had in mind. The reasoning was that if I bought it now, in a year when I need that very specific thing on that project, then I won’t have to pay what feels like an extra amount, as well as extra time, to go and buy it.&lt;/p&gt;
 
 &lt;p&gt;There were a lot of problems with this line of thinking, mostly that the allure of a sale deluded me into thinking that I will use the thing, making me think about all the things I may need this thing for and justifying it that way. But what finally broke this down for me was thinking about the real estate these things take up and how it affects me.&lt;/p&gt;
@@ -958,9 +958,9 @@ $
  
  <entry>
    <title>The Adam Savage Trial Method</title>
-   <link href="http://milofultz.com/2020/05/17/adam-savage"/>
+   <link href="http://localhost:4000/2020/05/17/adam-savage"/>
    <updated>2020-05-17T00:00:00-07:00</updated>
-   <id>http://milofultz.com/2020/05/17/adam-savage</id>
+   <id>http://localhost:4000/2020/05/17/adam-savage</id>
    <content type="html">&lt;p&gt;Adam Savage agreed with the following advice regarding buying tools:&lt;/p&gt;
 
 &lt;blockquote&gt;

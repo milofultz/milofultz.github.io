@@ -6,7 +6,7 @@ layout: default
 <ul>
 {% for post in site.posts %}
 {% if post.tags contains "project" %}
-<li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%m-%d-%Y" }}</time></li>
+<li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a><time datetime="{{ post.date | date_to_xmlschema }}" class="post-datetime">{{ post.date | date: "%m-%d-%Y" }}</time></li>
 {% endif %}
 {% endfor %}
 </ul>

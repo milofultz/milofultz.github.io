@@ -203,25 +203,33 @@ main {
 
 
 @media screen and (max-width: 45rem ) {
-header li {
-    display: inline;
-	margin-right: 1rem;
-}
-.logo {
-	padding-bottom: 1rem;
-}
-header ul {
-	border-bottom: 1px solid #edf2f7;
-	padding-bottom: 2rem;	
-}
-nav ul {
-    border-right: 0px;
-}
+	header {
+		flex-basis:100%;
+		flex-grow:1;
+	}
 
-.photos ul {
-	margin-top: 0.5rem;
-}
+	header li {
+	    display: inline;
+		margin-right: 1rem;
+	}
+	.logo {
+		padding-bottom: 1rem;
+	}
+	header ul {
+		border-bottom: 1px solid #edf2f7;
+		padding-bottom: 2rem;	
+	}
+	nav ul {
+	    border-right: 0px;
+	    flex-flow: row wrap;
+	}
 
+	.photos ul {
+		margin-top: 0.5rem;
+	}
+	.post-datetime {
+		display: none;
+	}
 }
 
 section {

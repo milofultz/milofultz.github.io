@@ -15,6 +15,6 @@ The thing that I like most about this is that it's not about ""getting things do
 ---
 References:
 
-1. https://tjcx.me/posts/defense-self-help/
+1. <https://tjcx.me/posts/defense-self-help/>
 
 <!-- - _202XXXXX: Update format_ -->

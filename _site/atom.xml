@@ -4,7 +4,7 @@
  <title>Milo's Projects</title>
  <link href="http://milofultz.com/atom.xml" rel="self"/>
  <link href="http://milofultz.com/"/>
- <updated>2020-10-07T13:57:39-07:00</updated>
+ <updated>2020-10-07T14:25:57-07:00</updated>
  <id>http://milofultz.com</id>
  <author>
    <name>Milo Fultz</name>
@@ -81,7 +81,7 @@
 
 &lt;p&gt;When using Evernote’s web clipper, I was using too much of my upload cap with Evernote every month, mostly because images are too big when cropping the whole article. So I decided to practice some JS and see if I could make it work better without paying an $8 per month subscription for just a few extra megs of upload per month.&lt;/p&gt;
 
-&lt;p&gt;This method only works so far sporadically between the “Article” and the “Simplified Article” options.&lt;/p&gt;
+&lt;p&gt;This extension has been tested to work on the “Article”, “Simplified Article”, and “Full Page” options.&lt;/p&gt;
 
 &lt;h2 id=&quot;cheap-and-easy-no-install-browser-agnostic-version&quot;&gt;Cheap and Easy No-Install Browser Agnostic Version&lt;/h2&gt;
 
@@ -94,29 +94,15 @@
 
 &lt;h2 id=&quot;chrome-extension&quot;&gt;Chrome Extension&lt;/h2&gt;
 
-&lt;p&gt;This extension is really simple: on click, it goes through all the &lt;code class=&quot;highlighter-rouge&quot;&gt;img&lt;/code&gt; elements on the page and sets their display to &lt;code class=&quot;highlighter-rouge&quot;&gt;none&lt;/code&gt;; on clicking the button again, all display settings for the images are set to their original value.&lt;/p&gt;
+&lt;p&gt;This extension is really simple: on click, it goes through all the &lt;code class=&quot;highlighter-rouge&quot;&gt;img&lt;/code&gt; elements on the page and removes them from the DOM. On another click, the page is refreshed.&lt;/p&gt;
+
+&lt;p&gt;The original implementation set the element’s display to &lt;code class=&quot;highlighter-rouge&quot;&gt;none&lt;/code&gt;; on clicking the button again, all display settings for the images were set to their original value. Unfortunately, Evernote adds and modifies inline style on import, so it negated this otherwise more elegant implementation.&lt;/p&gt;
 
 &lt;h3 id=&quot;installation&quot;&gt;Installation:&lt;/h3&gt;
 
-&lt;p&gt;&lt;em&gt;I would put it on the Chrome extension site but I don’t really want to pay a $5 fee just for a fun project. &lt;code class=&quot;highlighter-rouge&quot;&gt;¯\_(ツ)_/¯&lt;/code&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;To install this extension, please go to the Github page for updated information and instructions.&lt;/p&gt;
 
-&lt;ol&gt;
-  &lt;li&gt;Download the files and store them.&lt;/li&gt;
-  &lt;li&gt;Open Chrome and go to &lt;code class=&quot;highlighter-rouge&quot;&gt;chrome://extensions&lt;/code&gt;.&lt;/li&gt;
-  &lt;li&gt;Click on “Developer Mode” in the upper right corner.&lt;/li&gt;
-  &lt;li&gt;Click “Load Unpacked” and select the folder containing the downloaded files.&lt;/li&gt;
-  &lt;li&gt;Find the extension in your “Extensions” menu and pin or unpin it if you want.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&quot;future-implementation&quot;&gt;Future Implementation&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Ensure it keeps images removed when syncing the page to Evernote&lt;/li&gt;
-  &lt;li&gt;Ensure it works with both simplified formatting and with entire article&lt;/li&gt;
-  &lt;li&gt;Include containers that show images but aren’t obviously &lt;code class=&quot;highlighter-rouge&quot;&gt;img&lt;/code&gt; elements&lt;/li&gt;
-  &lt;li&gt;Include SVGs&lt;/li&gt;
-  &lt;li&gt;Include anything else that may bloat my snippets&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;&lt;em&gt;- 20201007: Changed to avoid Evernote’s inline styling on import.&lt;/em&gt;&lt;/p&gt;
 </content>
  </entry>
  

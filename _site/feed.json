@@ -1,9 +1,9 @@
 {
     "version": "https://jsonfeed.org/version/1",
-    "title": "Milo's Projects",
+    "title": "Milo Fultz",
     "home_page_url": "http://milofultz.com/",
     "feed_url": "http://milofultz.com/feed.json",
-    "description": "This is the place for all my weird ideas and projects",
+    "description": null,
     "icon": "http://milofultz.com/apple-touch-icon.png",
     "favicon": "http://milofultz.com/favicon.ico",
     "expired": false,

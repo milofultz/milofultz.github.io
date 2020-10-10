@@ -5,11 +5,11 @@
 <li><a href="/thoughts/">Thoughts</a></li>
 <li><a href="/music/">Music</a></li>
 <li><a href="/search">Search</a></li>
-<li><a href="https://github.com/milofultz/" target="_blank" rel="noopener noreferrer">Github</a></li>
-<li><a href="https://merveilles.town/@milofultz" target="_blank" rel="noopener noreferrer">Mastodon</a></li>
+<li><a href="https://github.com/milofultz/" target="_blank" rel="noopener noreferrer me">Github</a></li>
+<li><a href="https://merveilles.town/@milofultz" target="_blank" rel="noopener noreferrer me">Mastodon</a></li>
 <li><a href="/atom.xml">RSS</a></li>
 </ul></nav></header><section class="post"><h2>Keyboard Remapping on OSX - Adding the Insert Key</h2>
-<p>I downloaded <a href="https://www.3eality.com/productions/reality-adlib-tracker" target="_blank" rel="noopener noreferrer">Reality Adlib Tracker</a> and <a href="https://milkytracker.titandemo.org/" target="_blank" rel="noopener noreferrer">MilkyTracker</a> the other day and realized that Apple removed their insert key abilities a LONG time ago. The insert key is used quite a bit in these older programs for basic things like adding a line in your tracker, creating your pattern sequence, etc. Along with things like Dosbox, where these old relics are utilized, most of these older programs don’t allow new keybindings, so I had to dig around and find a new solution. I unfortunately couldn’t find anything directly related to trackers and stuff on any of their forums, so I figured I’d try and make something that could be found when searching for trackers, DOS, etc.</p>
+<p>I downloaded <a href="https://www.3eality.com/productions/reality-adlib-tracker" target="_blank" rel="noopener noreferrer me">Reality Adlib Tracker</a> and <a href="https://milkytracker.titandemo.org/" target="_blank" rel="noopener noreferrer me">MilkyTracker</a> the other day and realized that Apple removed their insert key abilities a LONG time ago. The insert key is used quite a bit in these older programs for basic things like adding a line in your tracker, creating your pattern sequence, etc. Along with things like Dosbox, where these old relics are utilized, most of these older programs don’t allow new keybindings, so I had to dig around and find a new solution. I unfortunately couldn’t find anything directly related to trackers and stuff on any of their forums, so I figured I’d try and make something that could be found when searching for trackers, DOS, etc.</p>
 <p>Here’s one very simple and one not very simple but extremely interesting (read: difficult to understand for a rube like me) solution.</p>
 <hr>
 <h3 id="simple-and-recommended">SIMPLE And Recommended:</h3>
@@ -18,7 +18,7 @@
 <hr>
 <h3 id="not-as-simple-and-honestly-not-recommended">NOT AS SIMPLE And Honestly Not Recommended:</h3>
 <p>So this way is much more in depth and I honestly don’t really know a lot of what I am doing here. What I tested works for me, but of course YMMV.</p>
-<p>I utilized the ideas listed in nanoant’s article, <a href="https://www.nanoant.com/mac/macos-function-key-remapping-with-hidutil" target="_blank" rel="noopener noreferrer">“macOS function key remapping with hidutil”</a>, as well as the <a href="https://www.freebsddiary.org/APC/usb_hid_usages.php" target="_blank" rel="noopener noreferrer">USB HID usage table</a> and made a couple lines of code that can be input to achieve the same effect as above.</p>
+<p>I utilized the ideas listed in nanoant’s article, <a href="https://www.nanoant.com/mac/macos-function-key-remapping-with-hidutil" target="_blank" rel="noopener noreferrer me">“macOS function key remapping with hidutil”</a>, as well as the <a href="https://www.freebsddiary.org/APC/usb_hid_usages.php" target="_blank" rel="noopener noreferrer me">USB HID usage table</a> and made a couple lines of code that can be input to achieve the same effect as above.</p>
 <p><a href="http://milofultz.com/assets/20200522karabiner.png">Check out a picture of my settings here.</a></p>
 <p>Go into terminal and type the following:</p>
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>hidutil property --set '{"UserKeyMapping":[

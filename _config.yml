@@ -30,6 +30,9 @@ plugins:
   - jekyll-sitemap  
   - jekyll-target-blank
 
+target-blank:
+  rel: me
+
 collections:
   pages:
     output: true

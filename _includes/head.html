@@ -17,9 +17,9 @@
         Page {{ paginator.page }} of {{ paginator.total_pages }} -
       {% endif %}
       {{ site.title | escape }}
-      {% unless page.tag or page.title %}
+      <!-- {% unless page.tag or page.title %}
         - {{ site.description | escape }}
-      {% endunless %}
+      {% endunless %} -->
   </title>
   
   <link rel="shortcut icon" href="data:,">

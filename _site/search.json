@@ -2,17 +2,6 @@
   
     {
 
-      "title"    : "What I&#39;m Listening To",
-      "url"      : "/2020/10/05/listening",
-      "category" : "",
-      "tags"     : "music",  
-      "date"     : "2020-10-05 00:00:00 -0700",
-      "description" : ""
-
-    } ,
-  
-    {
-
       "title"    : "The Two-Minute Rule",
       "url"      : "/2020/10/04/two-minute-rule",
       "category" : "",
@@ -62,17 +51,6 @@
       "category" : "",
       "tags"     : "thoughts",  
       "date"     : "2020-09-23 00:00:00 -0700",
-      "description" : ""
-
-    } ,
-  
-    {
-
-      "title"    : "What I&#39;m Listening To",
-      "url"      : "/2020/09/20/listening",
-      "category" : "",
-      "tags"     : "music",  
-      "date"     : "2020-09-20 00:00:00 -0700",
       "description" : ""
 
     } ,
@@ -327,6 +305,17 @@
       "tags"     : "thoughts",  
       "date"     : "2020-05-17 00:00:00 -0700",
       "description" : "When you&#39;re starting a hobby, don&#39;t buy the expensive tools. Buy something mid-range. If you use it so much that it breaks, buy the best one to replace it."
+
+    } ,
+  
+    {
+
+      "title"    : "I Miss The Old Internet",
+      "url"      : "/2020/05/01/old-internet",
+      "category" : "",
+      "tags"     : "thoughts",  
+      "date"     : "2020-05-01 00:00:00 -0700",
+      "description" : ""
 
     } 
   

@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Track - Accomplishment, Mood, MIT, and Journal (Python)
-description: Track your accomplishments, mood, most important task, and journal entries over time in a cimple CLI Python program.
-summary: Track your accomplishments, mood, most important task, and journal entries over time in a cimple CLI Python program.
+description: Track your accomplishments, mood, most important task, and journal entries over time in a simple CLI Python program.
+summary: Track your accomplishments, mood, most important task, and journal entries over time in a simple CLI Python program.
 comments: true
 tags: project
 ---

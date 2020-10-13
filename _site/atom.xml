@@ -4,7 +4,7 @@
  <title>Milo Fultz</title>
  <link href="http://milofultz.com/atom.xml" rel="self"/>
  <link href="http://milofultz.com/"/>
- <updated>2020-10-12T23:06:54-07:00</updated>
+ <updated>2020-10-12T23:27:10-07:00</updated>
  <id>http://milofultz.com</id>
  <author>
    <name>Milo Fultz</name>
@@ -53,6 +53,21 @@ the side streets are.
 Been listening to vogue ball playlists all night.
 
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;!-- - _202XXXXX: Update format_ --&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Sleep Realms</title>
+   <link href="http://milofultz.com/2020/10/12/sleep-realms"/>
+   <updated>2020-10-12T00:00:00-07:00</updated>
+   <id>http://milofultz.com/2020/10/12/sleep-realms</id>
+   <content type="html">&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=ie5z6AsEMQU&quot;&gt;&lt;img src=&quot;https://i.ytimg.com/vi/ie5z6AsEMQU/hqdefault.jpg&quot; alt=&quot;Sleep Realms&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=ie5z6AsEMQU&quot;&gt;Listen here&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;If you want to get better at Star Realms, listen to this while you sleep and it will increase your ability to win by 341%.&lt;/p&gt;
 
 &lt;!-- - _202XXXXX: Update format_ --&gt;
 </content>
@@ -281,8 +296,9 @@ os.system('open &quot;{}&quot; -a &quot;{}&quot;'.format(random_fp, prog))
    <link href="http://milofultz.com/2020/08/19/soulja-realms"/>
    <updated>2020-08-19T00:00:00-07:00</updated>
    <id>http://milofultz.com/2020/08/19/soulja-realms</id>
-   <content type="html">&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=xb6MV25Ktjc&quot;&gt;&lt;img src=&quot;https://i.ytimg.com/vi/xb6MV25Ktjc/maxresdefault.jpg&quot; alt=&quot;Soulja Realms&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;https://www.youtube.com/watch?v=xb6MV25Ktjc&quot;&gt;Listen here&lt;/a&gt;&lt;/p&gt;
+   <content type="html">&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=xb6MV25Ktjc&quot;&gt;&lt;img src=&quot;https://i.ytimg.com/vi/xb6MV25Ktjc/maxresdefault.jpg&quot; alt=&quot;Soulja Realms&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=xb6MV25Ktjc&quot;&gt;Listen here&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;My brain started mashing together &lt;a href=&quot;https://www.youtube.com/watch?v=8UFIYGkROII&quot;&gt;Crank Dat Soulja Boy&lt;/a&gt; with the first Star Realms song and I could not stop until they were all combined into one dumb megamix. If you don’t know Star Realms or Soulja Boy, this probably won’t make much sense, but you should at least check out &lt;a href=&quot;https://www.starrealms.com/&quot;&gt;Star Realms&lt;/a&gt;, because it’s a great deck-building game and a fun app to pass the time.&lt;/p&gt;
 </content>

@@ -4,13 +4,24 @@
  <title>Milo Fultz</title>
  <link href="http://milofultz.com/atom.xml" rel="self"/>
  <link href="http://milofultz.com/"/>
- <updated>2020-10-12T23:27:10-07:00</updated>
+ <updated>2020-10-16T16:02:29-07:00</updated>
  <id>http://milofultz.com</id>
  <author>
    <name>Milo Fultz</name>
    <email>milopfultz@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>Friends don't let friends look at pageviews</title>
+   <link href="http://milofultz.com/2020/10/16/friends-dont"/>
+   <updated>2020-10-16T00:00:00-07:00</updated>
+   <id>http://milofultz.com/2020/10/16/friends-dont</id>
+   <content type="html">&lt;p&gt;“Friends don’t let friends look at pageviews. Ever.” - Avinash Kaushik (&lt;em&gt;from Algorithms To Live By&lt;/em&gt;)&lt;/p&gt;
+
+&lt;!-- - _202XXXXX: Update format_ --&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Track - Accomplishment, Mood, MIT, and Journal (Python)</title>

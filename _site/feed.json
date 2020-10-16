@@ -17,6 +17,30 @@
 "items": [
     
         {
+            "id": "http://milofultz.com/2020/10/16/friends-dont",
+            "title": "Friends don't let friends look at pageviews",
+            "summary": null,
+            "content_text": "“Friends don’t let friends look at pageviews. Ever.” - Avinash Kaushik (from Algorithms To Live By)",
+            "content_html": "<p>“Friends don’t let friends look at pageviews. Ever.” - Avinash Kaushik (<em>from Algorithms To Live By</em>)</p><!-- - _202XXXXX: Update format_ -->",
+            "url": "http://milofultz.com/2020/10/16/friends-dont",
+            
+            
+            
+            
+            
+            "date_published": "2020-10-16T00:00:00-07:00",
+            "date_modified": "2020-10-16T00:00:00-07:00",
+            
+                "author":  {
+                "name": "Milo Fultz",
+                "url": "http://milofultz.com",
+                "avatar": null
+                }
+                
+            
+        },
+    
+        {
             "id": "http://milofultz.com/2020/10/12/track-python",
             "title": "Track - Accomplishment, Mood, MIT, and Journal (Python)",
             "summary": "Track your accomplishments, mood, most important task, and journal entries over time in a simple CLI Python program.",

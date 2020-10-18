@@ -4,7 +4,7 @@
  <title>Milo Fultz</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2020-10-17T23:14:05-07:00</updated>
+ <updated>2020-10-18T12:08:11-07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Milo Fultz</name>
@@ -27,6 +27,10 @@
   &lt;li&gt;Pulls most recent MIT from &lt;a href=&quot;/2020/10/12/track-python&quot;&gt;Track&lt;/a&gt; when starting a new set of daily tasks&lt;/li&gt;
   &lt;li&gt;Allows pulling of completed tasks for &lt;a href=&quot;/2020/10/12/track-python&quot;&gt;Track’s&lt;/a&gt; accomplishment tracking&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Tasks on screen are shown as below. On the left is the task number, followed by the task name, and lastly the time spent on that task so far, if any. Time spent can be changed manually or can be changed automatically through use of the timer. A green task represents a completed task.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/20201017tod/tod1.png&quot; /&gt;
 &lt;img src=&quot;http://localhost:4000/assets/20201017tod/tod2.png&quot; /&gt;&lt;/p&gt;

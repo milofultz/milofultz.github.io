@@ -16,6 +16,10 @@ Plan and manage daily tasks. Deliberately simple so I can stay focused on what I
 * Pulls most recent MIT from [Track]({{ site.baseurl }}{% post_url 2020-10-12-track-python %}) when starting a new set of daily tasks
 * Allows pulling of completed tasks for [Track's]({{ site.baseurl }}{% post_url 2020-10-12-track-python %}) accomplishment tracking
 
+---
+
+Tasks on screen are shown as below. On the left is the task number, followed by the task name, and lastly the time spent on that task so far, if any. Time spent can be changed manually or can be changed automatically through use of the timer. A green task represents a completed task.
+
 <img src="{{site.url}}/assets/20201017tod/tod1.png">
 <img src="{{site.url}}/assets/20201017tod/tod2.png">
 

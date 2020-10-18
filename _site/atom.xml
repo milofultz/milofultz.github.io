@@ -4,7 +4,7 @@
  <title>Milo Fultz</title>
  <link href="http://milofultz.com/atom.xml" rel="self"/>
  <link href="http://milofultz.com/"/>
- <updated>2020-10-17T18:18:54-07:00</updated>
+ <updated>2020-10-17T22:00:08-07:00</updated>
  <id>http://milofultz.com</id>
  <author>
    <name>Milo Fultz</name>
@@ -27,6 +27,9 @@
   &lt;li&gt;Pulls most recent MIT from &lt;a href=&quot;/2020/10/12/track-python&quot;&gt;Track&lt;/a&gt; when starting a new set of daily tasks&lt;/li&gt;
   &lt;li&gt;Allows pulling of completed tasks for &lt;a href=&quot;/2020/10/12/track-python&quot;&gt;Track’s&lt;/a&gt; accomplishment tracking&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://milofultz.com/assets/20201017tod/tod1.png&quot; alt=&quot;Tod Screenshot&quot; /&gt;
+&lt;img src=&quot;http://milofultz.com/assets/20201017tod/tod2.png&quot; alt=&quot;Tod Screenshot&quot; /&gt;&lt;/p&gt;
 
 &lt;!-- - _202XXXXX: Update format_ --&gt;
 </content>

@@ -13,6 +13,11 @@ I wanted to have a way to track my mood and accomplishments over time, keep trac
 
 Inspo from [lon by dstn](https://github.com/0xdstn/lon).
 
+* Tracks mood, accomplishments, journal entries, and MIT for next day
+* Saves data in an easy to read plaintext file in the root folder called `~/.track`
+* Integrates with [Tod]({{ site.baseurl }}{% post_url 2020-10-17-tod-python %}) to pull in completed accomplishments
+* Allows pulling of MIT into [Tod's]({{ site.baseurl }}{% post_url 2020-10-17-tod-python %}) task list
+
 ### Usage
 
 On prompting, input:

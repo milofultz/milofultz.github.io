@@ -2,6 +2,17 @@
   
     {
 
+      "title"    : "Tod - Plan and Manage Daily Tasks In The CLI (Python)",
+      "url"      : "/2020/10/17/tod-python",
+      "category" : "",
+      "tags"     : "project",  
+      "date"     : "2020-10-17 00:00:00 -0700",
+      "description" : "Tod helps you plan and manage daily tasks. Deliberately simple so I can stay focused on what I need to do."
+
+    } ,
+  
+    {
+
       "title"    : "Friends don&#39;t let friends look at pageviews",
       "url"      : "/2020/10/16/friends-dont",
       "category" : "",

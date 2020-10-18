@@ -1,9 +1,9 @@
 @font-face {
 	font-family: "Atkinson Hyperlegible";
-	src: url("Atkinson-Hyperlegible-Regular-102.eot");
-	src: url("Atkinson-Hyperlegible-Regular-102.woff") format("woff"),
-	     url("Atkinson-Hyperlegible-Regular-102.otf") format("opentype"),
-	     url("Atkinson-Hyperlegible-Regular-102.svg#AtkinsonHyperlegible") format("svg");
+	src: url("../assets/webfonts/Atkinson-Hyperlegible-Regular-102.eot");
+	src: url("../assets/webfonts/Atkinson-Hyperlegible-Regular-102.woff") format("woff"),
+	     url("../assets/webfonts/Atkinson-Hyperlegible-Regular-102.otf") format("opentype"),
+	     url("../assets/webfonts/Atkinson-Hyperlegible-Regular-102.svg#AtkinsonHyperlegible") format("svg");
 }
 
 *,:after,:before {
@@ -248,6 +248,10 @@ section {
 	display:flex;
 	flex-direction:column;
 	
+}
+
+table {
+	text-align: left;
 }
 
 figcaption {

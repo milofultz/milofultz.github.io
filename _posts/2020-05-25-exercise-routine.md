@@ -9,7 +9,7 @@ tags: project
 
 A couple of weeks ago, I worked on starting my [Zettelkasten]({{ site.baseurl }}{% post_url 2020-05-22-zettelkasten %}) and just to try it out and see how it worked, I started with exercise. Using it and a few resources, I was able to come up with a list of various strength, mobility, and flexibility exercises that target various areas and a very basic framework with which to apply them. I won't be posting all the exercises here, but I will show the system, my focus areas, and my general guidelines it is based on.
 
-**My dream was to be able to do this anywhere and at anytime.**
+**My dream is to be able to do this anywhere and at anytime.**
 
 My motivation to exercise is certainly not to get ripped or super swole. As anybody who knows me could probably guess, that's a bit out of reach, as I am a tiny stick with the metabolism of a squirrel. So knowing that, I wanted my system to take the least amount of time and have the least amount of gear to haul around (preferably zero). I also knew after having purchased and selling gear multiple times that having exercise gear doesn't really inspire me to exercise, anyway, so I aimed mostly for bodyweight exercises for this reason.
 

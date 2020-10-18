@@ -1,9 +1,9 @@
 @font-face {
 	font-family: "Atkinson Hyperlegible";
-	src: url("../assets/webfonts/Atkinson-Hyperlegible-Regular-102.eot");
-	src: url("../assets/webfonts/Atkinson-Hyperlegible-Regular-102.woff") format("woff"),
-	     url("../assets/webfonts/Atkinson-Hyperlegible-Regular-102.otf") format("opentype"),
-	     url("../assets/webfonts/Atkinson-Hyperlegible-Regular-102.svg#AtkinsonHyperlegible") format("svg");
+	src: url("/assets/webfonts/Atkinson-Hyperlegible-Regular-102.eot");
+	src: url("/assets/webfonts/Atkinson-Hyperlegible-Regular-102.woff") format("woff"),
+	     url("/assets/webfonts/Atkinson-Hyperlegible-Regular-102.otf") format("opentype"),
+	     url("/assets/webfonts/Atkinson-Hyperlegible-Regular-102.svg#AtkinsonHyperlegible") format("svg");
 }
 
 *,:after,:before {
@@ -19,6 +19,7 @@ body {
 	-webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
 	text-align: justify;
+	text-justify: initial;
 	line-height:1.5;
 	font-size: 1rem;
 	/*color: rgb(22, 23, 26);*/

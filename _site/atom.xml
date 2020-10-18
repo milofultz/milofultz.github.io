@@ -4,13 +4,33 @@
  <title>Milo Fultz</title>
  <link href="http://milofultz.com/atom.xml" rel="self"/>
  <link href="http://milofultz.com/"/>
- <updated>2020-10-16T16:02:29-07:00</updated>
+ <updated>2020-10-17T17:58:40-07:00</updated>
  <id>http://milofultz.com</id>
  <author>
    <name>Milo Fultz</name>
    <email>milopfultz@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>Tod - Plan and Manage Daily Tasks In The CLI (Python)</title>
+   <link href="http://milofultz.com/2020/10/17/tod-python"/>
+   <updated>2020-10-17T00:00:00-07:00</updated>
+   <id>http://milofultz.com/2020/10/17/tod-python</id>
+   <content type="html">&lt;p&gt;&lt;a href=&quot;https://github.com/milofultz/tod&quot;&gt;&lt;strong&gt;Check out the up-to-date version on GitHub&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Plan and manage daily tasks. Deliberately simple so I can stay focused on what I need to do.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Saves tasks in an easy to read plaintext file in the root folder called &lt;code class=&quot;highlighter-rouge&quot;&gt;~/.tod&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Includes built in timer for timeboxing/focused work time&lt;/li&gt;
+  &lt;li&gt;Pulls most recent MIT from &lt;a href=&quot;/2020/10/12/track-python&quot;&gt;Track&lt;/a&gt; when starting a new set of daily tasks&lt;/li&gt;
+  &lt;li&gt;Allows pulling of completed tasks for &lt;a href=&quot;/2020/10/12/track-python&quot;&gt;Track’s&lt;/a&gt; accomplishment tracking&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;!-- - _202XXXXX: Update format_ --&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Friends don't let friends look at pageviews</title>
@@ -33,6 +53,13 @@
 &lt;p&gt;I wanted to have a way to track my mood and accomplishments over time, keep track of my priority for the next day, as well as a basic journaling platform that was not pretentious or leading. Seemed like a good project and I had seen a few people on &lt;a href=&quot;http://merveilles.town&quot;&gt;http://merveilles.town&lt;/a&gt; making some fun CLI tools in this vein, so I took a swing at it.&lt;/p&gt;
 
 &lt;p&gt;Inspo from &lt;a href=&quot;https://github.com/0xdstn/lon&quot;&gt;lon by dstn&lt;/a&gt;.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Tracks mood, accomplishments, journal entries, and MIT for next day&lt;/li&gt;
+  &lt;li&gt;Saves data in an easy to read plaintext file in the root folder called &lt;code class=&quot;highlighter-rouge&quot;&gt;~/.track&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Integrates with &lt;a href=&quot;/2020/10/17/tod-python&quot;&gt;Tod&lt;/a&gt; to pull in completed accomplishments&lt;/li&gt;
+  &lt;li&gt;Allows pulling of MIT into &lt;a href=&quot;/2020/10/17/tod-python&quot;&gt;Tod’s&lt;/a&gt; task list&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h3 id=&quot;usage&quot;&gt;Usage&lt;/h3&gt;
 

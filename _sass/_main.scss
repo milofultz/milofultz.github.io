@@ -1,3 +1,11 @@
+@font-face {
+	font-family: "Atkinson Hyperlegible";
+	src: url("../assets/webfonts/Atkinson-Hyperlegible-Regular-102.eot");
+	src: url("../assets/webfonts/Atkinson-Hyperlegible-Regular-102.woff") format("woff"),
+	     url("../assets/webfonts/Atkinson-Hyperlegible-Regular-102.otf") format("opentype"),
+	     url("../assets/webfonts/Atkinson-Hyperlegible-Regular-102.svg#AtkinsonHyperlegible") format("svg");
+}
+
 *,:after,:before {
 	box-sizing:border-box;
 	background-color: #191b22;
@@ -7,9 +15,10 @@
 }
 
 body {
-	font-family: "Open Sans", sans-serif, system-ui;
+	font-family: "Atkinson Hyperlegible", "Open Sans", sans-serif, system-ui;
 	-webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
+	text-align: justify;
 	line-height:1.5;
 	font-size: 1rem;
 	/*color: rgb(22, 23, 26);*/
@@ -239,6 +248,10 @@ section {
 	display:flex;
 	flex-direction:column;
 	
+}
+
+table {
+	text-align: left;
 }
 
 figcaption {

@@ -2,6 +2,17 @@
   
     {
 
+      "title"    : "HTML / CSS / JS Resources",
+      "url"      : "/2020/10/21/html-css-js",
+      "category" : "",
+      "tags"     : "project",  
+      "date"     : "2020-10-21 00:00:00 -0700",
+      "description" : "A compilation of various HTML / CSS / JS resources I think are rad, compelling, or helpful."
+
+    } ,
+  
+    {
+
       "title"    : "Tod - Plan and Manage Daily Tasks In The CLI (Python)",
       "url"      : "/2020/10/17/tod-python",
       "category" : "",

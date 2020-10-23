@@ -31,6 +31,30 @@ After digging around and settling on a bunch of options for exercises in each of
 
 Using bodyweight exercises, this can essentially be done in tiny space with nothing, which is really useful for getting me to do it instead of making excuses. 
 
+## Examples
+
+These are some examples of circuits I have been using. One of these circuits per session, 4x through the circuit with 30s on each exercise and 10s rest in between each:
+
+**Circuit 1**
+*  Pushups
+*  Squats
+*  Situps
+*  Shoulder to Foot Taps
+
+**Circuit 2**
+*  Superman
+*  Lunges
+*  Mountain Climbers
+*  Jumping Jacks
+
+**Circuit 3**
+*  Pullup Superman
+*  Lunges
+*  Bicycle Crunches
+*  Jumping Jacks
+
+_20201023: Added example circuits_
+
 ---
 References:
 

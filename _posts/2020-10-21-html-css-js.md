@@ -16,5 +16,9 @@ tags: project
 * [58 bytes of css to look great nearly everywhere](https://jrl.ninja/etc/1/) - It's like a hyper-minimal version of [Skeleton CSS](http://getskeleton.com/). Does one thing really well, but if that's what you need, it's perfect.
 * [Web Design in 4 minutes](https://jgthms.com/web-design-in-4-minutes/)
 
+*JS*
+
+* [Modern JavaScript From The Beginning](https://www.udemy.com/course/modern-javascript-from-the-beginning/)
+
 
 <!-- - _202XXXXX: Update format_ -->

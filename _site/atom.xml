@@ -4,7 +4,7 @@
  <title>Milo Fultz</title>
  <link href="http://milofultz.com/atom.xml" rel="self"/>
  <link href="http://milofultz.com/"/>
- <updated>2020-10-21T22:31:40-07:00</updated>
+ <updated>2020-10-22T21:54:02-07:00</updated>
  <id>http://milofultz.com</id>
  <author>
    <name>Milo Fultz</name>
@@ -28,6 +28,12 @@
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://jrl.ninja/etc/1/&quot;&gt;58 bytes of css to look great nearly everywhere&lt;/a&gt; - It’s like a hyper-minimal version of &lt;a href=&quot;http://getskeleton.com/&quot;&gt;Skeleton CSS&lt;/a&gt;. Does one thing really well, but if that’s what you need, it’s perfect.&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://jgthms.com/web-design-in-4-minutes/&quot;&gt;Web Design in 4 minutes&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;em&gt;JS&lt;/em&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.udemy.com/course/modern-javascript-from-the-beginning/&quot;&gt;Modern JavaScript From The Beginning&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;!-- - _202XXXXX: Update format_ --&gt;

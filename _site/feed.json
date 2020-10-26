@@ -17,6 +17,30 @@
 "items": [
     
         {
+            "id": "http://milofultz.com/2020/10/25/hiitimer",
+            "title": "HIITimer - Exercise Timer w/Routines and TTS (Python)",
+            "summary": "I made a basic HIIT timer so I wouldn't have to rely on online pages and terrible phone apps. Loads up premade routines and uses TTS for the workout.",
+            "content_text": "Check out the up-to-date version on GitHubI made a basic HIIT timer so I wouldn’t have to rely on online pages and really terrible HIIT phone apps that do too much for me anyway. It’s thebare minimum:  Say (with TTS) and display the current state of the routine (exercise name, rest, upcoming exercise)  Make your routine on the fly  Load up created plaintext routinesIt doesn’t do anything else and there is no reason I can find for it to do anything more.Preset RoutinesPreset routines can be loaded into HIITimer with the -f flag followed by the filename:python3 hiitimer.py -f preset1.hiitThere are four fields necessary for a successful routine file:  exercises: - A list of exercises which will comprise one rep. This list is comprised of an exercises: line, followed by an exercise oneach subsequent line.  exercise_time: - How long to spend on one exercise in seconds. This and all the following fields are to be comprised of the key and value onthe same line.  rest_time: - How long to spend resting between exercises in seconds.  reps: - How many cycles of the list of exercises to do in total.The parser overlooks blank lines and lines that begin with #.A sample routine looks like this:# Sample Exercise Routine 1exercises:\tPushups\tSquats\tPlank\tJumping Jacksexercise_time: 30rest_time: 10reps: 4This program and all the TTS has only been tested on OSX, so please letme know if you get any errors, as I’d love to figure it out :)",
+            "content_html": "<p><a href=\"https://github.com/milofultz/hiitimer\"><strong>Check out the up-to-date version on GitHub</strong></a></p><p>I made a basic HIIT timer so I wouldn’t have to rely on online pages and really terrible HIIT phone apps that do too much for me anyway. It’s thebare minimum:</p><ul>  <li>Say (with TTS) and display the current state of the routine (exercise name, rest, upcoming exercise)</li>  <li>Make your routine on the fly</li>  <li>Load up created plaintext routines</li></ul><p>It doesn’t do anything else and there is no reason I can find for it to do anything more.</p><h3 id=\"preset-routines\">Preset Routines</h3><p>Preset routines can be loaded into HIITimer with the <code class=\"highlighter-rouge\">-f</code> flag followed by the filename:</p><div class=\"highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>python3 hiitimer.py -f preset1.hiit</code></pre></div></div><p>There are four fields necessary for a successful routine file:</p><ul>  <li><code class=\"highlighter-rouge\">exercises:</code> - A list of exercises which will comprise one rep. This list is comprised of an <code class=\"highlighter-rouge\">exercises:</code> line, followed by an exercise oneach subsequent line.</li>  <li><code class=\"highlighter-rouge\">exercise_time:</code> - How long to spend on one exercise in seconds. This and all the following fields are to be comprised of the key and value onthe same line.</li>  <li><code class=\"highlighter-rouge\">rest_time:</code> - How long to spend resting between exercises in seconds.</li>  <li><code class=\"highlighter-rouge\">reps:</code> - How many cycles of the list of exercises to do in total.</li></ul><p>The parser overlooks blank lines and lines that begin with <code class=\"highlighter-rouge\">#</code>.</p><p>A sample routine looks like this:</p><div class=\"highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code># Sample Exercise Routine 1exercises:\tPushups\tSquats\tPlank\tJumping Jacksexercise_time: 30rest_time: 10reps: 4</code></pre></div></div><p><em>This program and all the TTS has only been tested on OSX, so please letme know if you get any errors, as I’d love to figure it out :)</em></p><!-- - _202XXXXX: Update format_ -->",
+            "url": "http://milofultz.com/2020/10/25/hiitimer",
+            
+            
+            
+            
+            
+            "date_published": "2020-10-25T00:00:00-07:00",
+            "date_modified": "2020-10-25T00:00:00-07:00",
+            
+                "author":  {
+                "name": "Milo Fultz",
+                "url": "http://milofultz.com",
+                "avatar": null
+                }
+                
+            
+        },
+    
+        {
             "id": "http://milofultz.com/2020/10/21/html-css-js",
             "title": "HTML / CSS / JS Resources",
             "summary": "A compilation of various HTML / CSS / JS resources I think are rad, compelling, or helpful.",

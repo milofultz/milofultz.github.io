@@ -4,13 +4,80 @@
  <title>Milo Fultz</title>
  <link href="http://milofultz.com/atom.xml" rel="self"/>
  <link href="http://milofultz.com/"/>
- <updated>2020-10-23T16:41:25-07:00</updated>
+ <updated>2020-10-25T17:21:10-07:00</updated>
  <id>http://milofultz.com</id>
  <author>
    <name>Milo Fultz</name>
    <email>milopfultz@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>HIITimer - Exercise Timer w/Routines and TTS (Python)</title>
+   <link href="http://milofultz.com/2020/10/25/hiitimer"/>
+   <updated>2020-10-25T00:00:00-07:00</updated>
+   <id>http://milofultz.com/2020/10/25/hiitimer</id>
+   <content type="html">&lt;p&gt;&lt;a href=&quot;https://github.com/milofultz/hiitimer&quot;&gt;&lt;strong&gt;Check out the up-to-date version on GitHub&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I made a basic HIIT timer so I wouldn’t have to rely on online pages and 
+really terrible HIIT phone apps that do too much for me anyway. It’s the
+bare minimum:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Say (with TTS) and display the current state of the routine (exercise 
+name, rest, upcoming exercise)&lt;/li&gt;
+  &lt;li&gt;Make your routine on the fly&lt;/li&gt;
+  &lt;li&gt;Load up created plaintext routines&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;It doesn’t do anything else and there is no reason I can find for it to 
+do anything more.&lt;/p&gt;
+
+&lt;h3 id=&quot;preset-routines&quot;&gt;Preset Routines&lt;/h3&gt;
+
+&lt;p&gt;Preset routines can be loaded into HIITimer with the &lt;code class=&quot;highlighter-rouge&quot;&gt;-f&lt;/code&gt; flag followed by the filename:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;python3 hiitimer.py -f preset1.hiit
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;There are four fields necessary for a successful routine file:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;exercises:&lt;/code&gt; - A list of exercises which will comprise one rep. This 
+list is comprised of an &lt;code class=&quot;highlighter-rouge&quot;&gt;exercises:&lt;/code&gt; line, followed by an exercise on
+each subsequent line.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;exercise_time:&lt;/code&gt; - How long to spend on one exercise in seconds. This 
+and all the following fields are to be comprised of the key and value on
+the same line.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;rest_time:&lt;/code&gt; - How long to spend resting between exercises in seconds.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;reps:&lt;/code&gt; - How many cycles of the list of exercises to do in total.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The parser overlooks blank lines and lines that begin with &lt;code class=&quot;highlighter-rouge&quot;&gt;#&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;A sample routine looks like this:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# Sample Exercise Routine 1
+
+exercises:
+	Pushups
+	Squats
+	Plank
+	Jumping Jacks
+
+exercise_time: 30
+
+rest_time: 10
+
+reps: 4
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;em&gt;This program and all the TTS has only been tested on OSX, so please let
+me know if you get any errors, as I’d love to figure it out :)&lt;/em&gt;&lt;/p&gt;
+
+&lt;!-- - _202XXXXX: Update format_ --&gt;
+</content>
+ </entry>
  
  <entry>
    <title>HTML / CSS / JS Resources</title>

@@ -2,6 +2,17 @@
   
     {
 
+      "title"    : "HIITimer - Exercise Timer w/Routines and TTS (Python)",
+      "url"      : "/2020/10/25/hiitimer",
+      "category" : "",
+      "tags"     : "project",  
+      "date"     : "2020-10-25 00:00:00 -0700",
+      "description" : "I made a basic HIIT timer so I wouldn&#39;t have to rely on online pages and terrible phone apps. Loads up premade routines and uses TTS for the workout."
+
+    } ,
+  
+    {
+
       "title"    : "HTML / CSS / JS Resources",
       "url"      : "/2020/10/21/html-css-js",
       "category" : "",

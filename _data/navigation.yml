@@ -1,8 +1,6 @@
 links:
-- title: Home
-  url: /
 - title: Now
-  url: /now
+  url: /
 - title: Projects
   url: /projects/
 - title: Thoughts

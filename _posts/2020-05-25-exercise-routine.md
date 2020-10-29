@@ -26,12 +26,12 @@ After digging around and settling on a bunch of options for exercises in each of
 
 1. Dynamic stretching[3] of whole body, top to bottom[4]
 2. Circuit using one exercise from each of the four categories above in timed increments in any order
-3. Repeat 2 with a short break until you feel well exercised
+3. Repeat step 2 with a short break until you feel well exercised
 4. Flexibility exercises of joints[5][6] and static stretching of whole body, top to bottom
 
 Using bodyweight exercises, this can essentially be done in tiny space with nothing, which is really useful for getting me to do it instead of making excuses. 
 
-## Examples
+### Examples
 
 These are some examples of circuits I have been using. One of these circuits per session, 4x through the circuit with 30s on each exercise and 10s rest in between each:
 
@@ -53,7 +53,13 @@ These are some examples of circuits I have been using. One of these circuits per
 *  Bicycle Crunches
 *  Jumping Jacks
 
+### HIITimer
+
+I made a super basic program that utilizes the native TTS on your computer to help time your exercise routine and loads exercise presets from plaintext files you can create and edit. <a href="{{ site.baseurl }}{% post_url 2020-10-25-hiitimer %}">Check it out here.</a>
+
 _20201023: Added example circuits_
+
+_20201028: Added HIITimer program_
 
 ---
 References:

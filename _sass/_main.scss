@@ -64,7 +64,7 @@ pre {
 .post h2,
 .post h3,
 .post h4 {
-    margin: 1rem 0;
+    margin: 1.5rem 0 1rem -.5rem;
 }
 
 .post h2:first-child,
@@ -79,7 +79,7 @@ pre {
 
 code,
 pre {
-    background: #666;
+    background: #444;
     color: #EEE;
 }
 
@@ -202,6 +202,7 @@ header ul {
     display: flex;
     justify-content: space-between;
     margin-bottom: .5rem;
+    margin-left: 0;
 }
 
 .posts li a,

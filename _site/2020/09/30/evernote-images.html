@@ -10,6 +10,7 @@
 </ul></nav></header><section class="post"><h2>Maximize Evernote With Less Images In Web Clipper (JS)</h2>
 <p><a href="https://github.com/milofultz/no-images" target="_blank" rel="noopener noreferrer me"><strong>Check out the up-to-date version on GitHub</strong></a></p>
 <p>When using Evernote’s web clipper, I was using too much of my upload cap with Evernote every month, mostly because images are too big when cropping the whole article. So I decided to practice some JS and see if I could make it work better without paying an $8 per month subscription for just a few extra megs of upload per month.</p>
+<p>On an average article with supporting (but not necessarily useful) pictures, I’ve seen about a <strong>90%+ reduction</strong> in note sizes.</p>
 <p>This extension has been tested to work on the “Article”, “Simplified Article”, and “Full Page” options.</p>
 <h2 id="cheap-and-easy-no-install-browser-agnostic-version">Cheap and Easy No-Install Browser Agnostic Version</h2>
 <p>In the console of your browser, type the following:</p>
@@ -18,8 +19,12 @@
 <p>To reset this, reload your page.</p>
 <h2 id="chrome-extension">Chrome Extension</h2>
 <p>This extension is really simple: on click, it goes through all the <code class="highlighter-rouge">img</code> elements on the page and removes them from the DOM. On another click, the page is refreshed.</p>
-<p>The original implementation set the element’s display to <code class="highlighter-rouge">none</code>; on clicking the button again, all display settings for the images were set to their original value. Unfortunately, Evernote adds and modifies inline style on import, so it negated this otherwise more elegant implementation.</p>
+<p>The original implementation set the element’s display to <code class="highlighter-rouge">none</code> on clicking the button again, all display settings for the images were set to their original value. Unfortunately, Evernote adds and modifies inline style on import, so it negated this otherwise more elegant implementation.</p>
 <h3 id="installation">Installation:</h3>
 <p>To install this extension, please go to the Github page for updated information and instructions.</p>
-<p><em>- 20201007: Changed to avoid Evernote’s inline styling on import.</em></p>
+<hr>
+<ul>
+<li><em>20201007: Changed to avoid Evernote’s inline styling on import</em></li>
+<li><em>20201030: Added average space savings</em></li>
+</ul>
 <span class="meta"><time datetime="2020-09-30T00:00:00-07:00">September 30, 2020</time> · <a href="mailto:milopfultz@gmail.com">Send me your thoughts</a></span> <!--<span class="meta"><time datetime="2020-09-30T00:00:00-07:00">September 30, 2020</time> &middot; <a class="post" href="/tag/project">project</a></span> --></section></main></body></html>

@@ -4,7 +4,7 @@
  <title>Milo Fultz</title>
  <link href="http://milofultz.com/atom.xml" rel="self"/>
  <link href="http://milofultz.com/"/>
- <updated>2020-10-29T09:49:10-07:00</updated>
+ <updated>2020-10-30T09:39:28-07:00</updated>
  <id>http://milofultz.com</id>
  <author>
    <name>Milo Fultz</name>
@@ -35,7 +35,8 @@ do anything more.&lt;/p&gt;
 
 &lt;h3 id=&quot;preset-routines&quot;&gt;Preset Routines&lt;/h3&gt;
 
-&lt;p&gt;Preset routines can be loaded into HIITimer with the &lt;code class=&quot;highlighter-rouge&quot;&gt;-f&lt;/code&gt; flag followed by the filename:&lt;/p&gt;
+&lt;p&gt;Preset routines can be loaded into HIITimer with the &lt;code class=&quot;highlighter-rouge&quot;&gt;-f&lt;/code&gt; flag followed 
+by the filename:&lt;/p&gt;
 
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;python3 hiitimer.py -f preset1.hiit
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
@@ -55,7 +56,7 @@ the same line.&lt;/li&gt;
 
 &lt;p&gt;The parser overlooks blank lines and lines that begin with &lt;code class=&quot;highlighter-rouge&quot;&gt;#&lt;/code&gt;.&lt;/p&gt;
 
-&lt;p&gt;A sample routine looks like this:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;/2020/05/25/exercise-routine&quot;&gt;A sample routine that I created&lt;/a&gt; looks like this:&lt;/p&gt;
 
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# Sample Exercise Routine 1
 
@@ -265,6 +266,8 @@ Been listening to vogue ball playlists all night.
 
 &lt;p&gt;When using Evernote’s web clipper, I was using too much of my upload cap with Evernote every month, mostly because images are too big when cropping the whole article. So I decided to practice some JS and see if I could make it work better without paying an $8 per month subscription for just a few extra megs of upload per month.&lt;/p&gt;
 
+&lt;p&gt;On an average article with supporting (but not necessarily useful) pictures, I’ve seen about a &lt;strong&gt;90%+ reduction&lt;/strong&gt; in note sizes.&lt;/p&gt;
+
 &lt;p&gt;This extension has been tested to work on the “Article”, “Simplified Article”, and “Full Page” options.&lt;/p&gt;
 
 &lt;h2 id=&quot;cheap-and-easy-no-install-browser-agnostic-version&quot;&gt;Cheap and Easy No-Install Browser Agnostic Version&lt;/h2&gt;
@@ -280,13 +283,18 @@ Been listening to vogue ball playlists all night.
 
 &lt;p&gt;This extension is really simple: on click, it goes through all the &lt;code class=&quot;highlighter-rouge&quot;&gt;img&lt;/code&gt; elements on the page and removes them from the DOM. On another click, the page is refreshed.&lt;/p&gt;
 
-&lt;p&gt;The original implementation set the element’s display to &lt;code class=&quot;highlighter-rouge&quot;&gt;none&lt;/code&gt;; on clicking the button again, all display settings for the images were set to their original value. Unfortunately, Evernote adds and modifies inline style on import, so it negated this otherwise more elegant implementation.&lt;/p&gt;
+&lt;p&gt;The original implementation set the element’s display to &lt;code class=&quot;highlighter-rouge&quot;&gt;none&lt;/code&gt; on clicking the button again, all display settings for the images were set to their original value. Unfortunately, Evernote adds and modifies inline style on import, so it negated this otherwise more elegant implementation.&lt;/p&gt;
 
 &lt;h3 id=&quot;installation&quot;&gt;Installation:&lt;/h3&gt;
 
 &lt;p&gt;To install this extension, please go to the Github page for updated information and instructions.&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;- 20201007: Changed to avoid Evernote’s inline styling on import.&lt;/em&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;em&gt;20201007: Changed to avoid Evernote’s inline styling on import&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;20201030: Added average space savings&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </content>
  </entry>
  
@@ -1026,11 +1034,13 @@ $
 
 &lt;p&gt;I made a super basic program that utilizes the native TTS on your computer to help time your exercise routine and loads exercise presets from plaintext files you can create and edit. &lt;a href=&quot;/2020/10/25/hiitimer&quot;&gt;Check it out here.&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;20201023: Added example circuits&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;20201028: Added HIITimer program&lt;/em&gt;&lt;/p&gt;
-
 &lt;hr /&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;em&gt;20201023: Added example circuits&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;20201028: Added HIITimer program&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
 &lt;p&gt;References:&lt;/p&gt;
 
 &lt;ol&gt;

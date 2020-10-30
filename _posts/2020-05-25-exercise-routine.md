@@ -55,13 +55,13 @@ These are some examples of circuits I have been using. One of these circuits per
 
 ### HIITimer
 
-I made a super basic program that utilizes the native TTS on your computer to help time your exercise routine and loads exercise presets from plaintext files you can create and edit. <a href="{{ site.baseurl }}{% post_url 2020-10-25-hiitimer %}">Check it out here.</a>
-
-_20201023: Added example circuits_
-
-_20201028: Added HIITimer program_
+I made a super basic program that utilizes the native TTS on your computer to help time your exercise routine and loads exercise presets from plaintext files you can create and edit. [Check it out here.]({{ site.baseurl }}{% post_url 2020-10-25-hiitimer %})
 
 ---
+
+- _20201023: Added example circuits_
+- _20201028: Added HIITimer program_
+
 References:
 
 1. <http://www.fitnessauthority247.com/fitness/fit-for-life-the-top-five-areas-to-work-on/>

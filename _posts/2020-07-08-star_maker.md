@@ -1,6 +1,6 @@
 ---
 layout: post
-title: star_maker - a lo-fi ambient visual (Python)
+title: 💻 star_maker - a lo-fi ambient visual (Python)
 description: star_maker - a lo-fi ambient visual (Python)
 summary: star_maker - a lo-fi ambient visual (Python)
 comments: true

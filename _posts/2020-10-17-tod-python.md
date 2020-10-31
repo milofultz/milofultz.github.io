@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Tod - Plan and Manage Daily Tasks In The CLI (Python)
+title: 💻 Tod - Plan and Manage Daily Tasks In The CLI (Python)
 description: Tod helps you plan and manage daily tasks. Deliberately simple so I can stay focused on what I need to do.
 summary: Tod helps you plan and manage daily tasks. Deliberately simple so I can stay focused on what I need to do.
 comments: true

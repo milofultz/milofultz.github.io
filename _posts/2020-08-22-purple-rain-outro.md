@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Purple Rain Outro Transcription
+title: 🎼 Purple Rain Outro Transcription
 description: A transcription of the DX7 strings outro for Purple Rain.
 summary: A transcription of the DX7 strings outro for Purple Rain.
 comments: true
-tags: music
+tags: project
 ---
 
 ![Purple Rain Outro Transcription]({% link assets/20200822PurpleRain.jpg %})

@@ -4,7 +4,7 @@ title: Simple + Minimal Exercise Routine
 description: A simple, minimal and modular exercise routine I developed that can be done anywhere, focusing mainly on short and simple circuits.
 summary: A simple, minimal and modular exercise routine I developed that can be done anywhere, focusing mainly on short and simple circuits.
 comments: true
-tags: project
+tags: reference
 ---
 
 A couple of weeks ago, I worked on starting my [Zettelkasten]({{ site.baseurl }}{% post_url 2020-05-22-zettelkasten %}) and just to try it out and see how it worked, I started with exercise. Using it and a few resources, I was able to come up with a list of various strength, mobility, and flexibility exercises that target various areas and a very basic framework with which to apply them. I won't be posting all the exercises here, but I will show the system, my focus areas, and my general guidelines it is based on.

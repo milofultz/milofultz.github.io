@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Soulja Realms
+title: 🎧 Soulja Realms
 description: I mashed up the Star Realms music with a bunch of Soulja Boy acapellas.
 summary: I mashed up the Star Realms music with a bunch of Soulja Boy acapellas.
 comments: true
-tags: music
+tags: project
 ---
 
 [![Soulja Realms](https://i.ytimg.com/vi/xb6MV25Ktjc/maxresdefault.jpg)](https://www.youtube.com/watch?v=xb6MV25Ktjc)

@@ -4,7 +4,7 @@ title: Make Python 'Apps' and Shortcuts To Run Them on OSX
 description: Using Automator and the built in Services of OSX, you can make simple Python apps run on command.
 summary: Using Automator and the built in Services of OSX, you can make simple Python apps run on command.
 comments: true
-tags: project
+tags: reference
 ---
 
 After experimenting with [PyInstaller](https://pyinstaller.readthedocs.io/en/stable/) and [Platypus](https://sveinbjorn.org/platypus) to create a standalone app in OSX with no success, I went the much lower fidelity route. But it was successful, so I'm happy with it. YOu can see the script I made [here](https://github.com/milofultz/email_service/). 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Day planner based on location
+title: 🗺 Day planner based on location
 description: A lateral-thinking way to encourage you into desired activities.
 summary: A day planner where the axis around which you plan is not time, but location; a lateral-thinking way to encourage you into desired activities.
 comments: true

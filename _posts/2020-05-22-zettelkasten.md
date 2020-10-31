@@ -4,7 +4,7 @@ title: I just found out about Zettelkasten
 description: Zettelkasten makes all of your notes easier to develop, utilize, and organize for whatever you need them
 summary: Zettelkasten makes all of your notes easier to develop, utilize, and organize for whatever you need them
 comments: true
-tags: thoughts
+tags: reference
 ---
 
 I’m probably going to do a hack job explaining this, so TL;DR: Zettelkasten makes all of your notes easier to develop, utilize, and organize for whatever you need them.

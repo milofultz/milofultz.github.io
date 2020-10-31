@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Awfulizer - Make Surfing The Web Awful (Firefox Addon)
+title: 💻 Awfulizer - Make Surfing The Web Awful (Firefox)
 description: I made this Firefox extension to see if I could do it, and I could. This extension cycles colors on every element 6 times per second.
 summary: I made this Firefox extension to see if I could do it, and I could. This extension cycles colors on every element 6 times per second.
 comments: true

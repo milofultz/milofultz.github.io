@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Wordsmash Explosion - Mastermind With Words (Python)
+title: 💻 Wordsmash Explosion - Mastermind With Words (Python)
 description: This game is Mastermind but with words. Guess a random word chosen by the computer based on how many letters there are in common.
 summary: This game is Mastermind but with words. Guess a random word chosen by the computer based on how many letters there are in common.
 comments: true

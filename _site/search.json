@@ -2,7 +2,7 @@
   
     {
 
-      "title"    : "HIITimer - Exercise Timer w/Routines and TTS (Python)",
+      "title"    : "💻 HIITimer - Exercise Timer w/Routines and TTS (Python)",
       "url"      : "/2020/10/25/hiitimer",
       "category" : "",
       "tags"     : "project",  
@@ -16,7 +16,7 @@
       "title"    : "HTML / CSS / JS Resources",
       "url"      : "/2020/10/21/html-css-js",
       "category" : "",
-      "tags"     : "project",  
+      "tags"     : "reference",  
       "date"     : "2020-10-21 00:00:00 -0700",
       "description" : "A compilation of various HTML / CSS / JS resources I think are rad, compelling, or helpful."
 
@@ -24,7 +24,7 @@
   
     {
 
-      "title"    : "Tod - Plan and Manage Daily Tasks In The CLI (Python)",
+      "title"    : "💻 Tod - Plan and Manage Daily Tasks In The CLI (Python)",
       "url"      : "/2020/10/17/tod-python",
       "category" : "",
       "tags"     : "project",  
@@ -46,7 +46,7 @@
   
     {
 
-      "title"    : "Track - Accomplishment, Mood, MIT, and Journal (Python)",
+      "title"    : "💻 Track - Daily Journal and Log (Python)",
       "url"      : "/2020/10/12/track-python",
       "category" : "",
       "tags"     : "project",  
@@ -57,10 +57,10 @@
   
     {
 
-      "title"    : "Sleep Realms",
+      "title"    : "💻 Sleep Realms (Paulstretch)",
       "url"      : "/2020/10/12/sleep-realms",
       "category" : "",
-      "tags"     : "music",  
+      "tags"     : "project",  
       "date"     : "2020-10-12 00:00:00 -0700",
       "description" : "Amp up your Star Realms game through osmotically absorbing the epic music."
 
@@ -90,7 +90,7 @@
   
     {
 
-      "title"    : "Maximize Evernote With Less Images In Web Clipper (JS)",
+      "title"    : "💻 Maximize Evernote Storage Using Web Clipper (JS)",
       "url"      : "/2020/09/30/evernote-images",
       "category" : "",
       "tags"     : "project",  
@@ -101,7 +101,7 @@
   
     {
 
-      "title"    : "Zentube - Youtube Lite w/Note Taking (HTML/CSS/JS)",
+      "title"    : "💻 Zentube - Youtube Lite w/Note Taking (HTML/CSS/JS)",
       "url"      : "/2020/09/26/zentube",
       "category" : "",
       "tags"     : "project",  
@@ -123,7 +123,7 @@
   
     {
 
-      "title"    : "Domine (game from Hundred Rabbits)",
+      "title"    : "🀾 Domine (game from Hundred Rabbits)",
       "url"      : "/2020/09/01/domine",
       "category" : "",
       "tags"     : "project",  
@@ -134,7 +134,7 @@
   
     {
 
-      "title"    : "Open A Random Note/Lo-Fi Idea Generator (Python)",
+      "title"    : "💻 Open A Random Note/Lo-Fi Idea Generator (Python)",
       "url"      : "/2020/08/26/random-note",
       "category" : "",
       "tags"     : "project",  
@@ -145,10 +145,10 @@
   
     {
 
-      "title"    : "Purple Rain Outro Transcription",
+      "title"    : "🎼 Purple Rain Outro Transcription",
       "url"      : "/2020/08/22/purple-rain-outro",
       "category" : "",
-      "tags"     : "music",  
+      "tags"     : "project",  
       "date"     : "2020-08-22 00:00:00 -0700",
       "description" : "A transcription of the DX7 strings outro for Purple Rain."
 
@@ -156,10 +156,10 @@
   
     {
 
-      "title"    : "Soulja Realms",
+      "title"    : "🎧 Soulja Realms",
       "url"      : "/2020/08/19/soulja-realms",
       "category" : "",
-      "tags"     : "music",  
+      "tags"     : "project",  
       "date"     : "2020-08-19 00:00:00 -0700",
       "description" : "I mashed up the Star Realms music with a bunch of Soulja Boy acapellas."
 
@@ -167,7 +167,7 @@
   
     {
 
-      "title"    : "Piu Piu ringtone but it&#39;s only Avgustina&#39;s laugh",
+      "title"    : "🎧 Piu Piu ringtone but it&#39;s only Avgustina&#39;s laugh",
       "url"      : "/2020/08/04/piu-piu-ringtone",
       "category" : "",
       "tags"     : "project",  
@@ -178,7 +178,7 @@
   
     {
 
-      "title"    : "Awfulizer - Make Surfing The Web Awful (Firefox Addon)",
+      "title"    : "💻 Awfulizer - Make Surfing The Web Awful (Firefox)",
       "url"      : "/2020/07/23/awfulizer",
       "category" : "",
       "tags"     : "project",  
@@ -192,7 +192,7 @@
       "title"    : "Make Python &#39;Apps&#39; and Shortcuts To Run Them on OSX",
       "url"      : "/2020/07/22/make-python-apps",
       "category" : "",
-      "tags"     : "project",  
+      "tags"     : "reference",  
       "date"     : "2020-07-22 00:00:00 -0700",
       "description" : "Using Automator and the built in Services of OSX, you can make simple Python apps run on command."
 
@@ -203,7 +203,7 @@
       "title"    : "Create a better program faster with an outline V2",
       "url"      : "/2020/07/18/programming-outline",
       "category" : "",
-      "tags"     : "thoughts",  
+      "tags"     : "reference",  
       "date"     : "2020-07-18 00:00:00 -0700",
       "description" : "I&#39;ve written so much spaghetti code for so long and finally learned from my roommate how to write better code. This is how I use this method."
 
@@ -211,7 +211,7 @@
   
     {
 
-      "title"    : "star_maker - a lo-fi ambient visual (Python)",
+      "title"    : "💻 star_maker - a lo-fi ambient visual (Python)",
       "url"      : "/2020/07/08/star-maker",
       "category" : "",
       "tags"     : "project",  
@@ -222,10 +222,10 @@
   
     {
 
-      "title"    : "spacelove.xm",
+      "title"    : "🎧 spacelove.xm - Made using an old E-MAX sample",
       "url"      : "/2020/07/07/spacelove",
       "category" : "",
-      "tags"     : "music",  
+      "tags"     : "project",  
       "date"     : "2020-07-07 00:00:00 -0700",
       "description" : "spacelove.xm - Made in MilkyTracker with an old E-MAX sample"
 
@@ -244,7 +244,7 @@
   
     {
 
-      "title"    : "Wordsmash Explosion - Mastermind With Words (Python)",
+      "title"    : "💻 Wordsmash Explosion - Mastermind With Words (Python)",
       "url"      : "/2020/07/03/wordsmash",
       "category" : "",
       "tags"     : "project",  
@@ -255,7 +255,7 @@
   
     {
 
-      "title"    : "Bookmark Crawler - Make Internet More Fun (Python)",
+      "title"    : "💻 Bookmark Crawler - Make Internet More Fun (Python)",
       "url"      : "/2020/07/02/bmcrawl",
       "category" : "",
       "tags"     : "project",  
@@ -277,10 +277,10 @@
   
     {
 
-      "title"    : "Inexpensive and Minimal Equipment Games To Spend Time On",
+      "title"    : "Inexpensive and Minimal Equipment Games To Play",
       "url"      : "/2020/06/25/inexpensive-games",
       "category" : "",
-      "tags"     : "project",  
+      "tags"     : "reference",  
       "date"     : "2020-06-25 00:00:00 -0700",
       "description" : "I&#39;ve always been interested in being frugal and wanted a repository of fun and inexpensive games to play by yourself and with others."
 
@@ -299,7 +299,7 @@
   
     {
 
-      "title"    : "Critical feeling is just as important as critical thinking",
+      "title"    : "Critical feeling is as important as critical thinking",
       "url"      : "/2020/06/10/critical-feeling",
       "category" : "",
       "tags"     : "thoughts",  
@@ -313,7 +313,7 @@
       "title"    : "Simple + Minimal Exercise Routine",
       "url"      : "/2020/05/25/exercise-routine",
       "category" : "",
-      "tags"     : "project",  
+      "tags"     : "reference",  
       "date"     : "2020-05-25 00:00:00 -0700",
       "description" : "A simple, minimal and modular exercise routine I developed that can be done anywhere, focusing mainly on short and simple circuits."
 
@@ -321,7 +321,7 @@
   
     {
 
-      "title"    : "Day planner based on location",
+      "title"    : "🗺 Day planner based on location",
       "url"      : "/2020/05/23/day-planner",
       "category" : "",
       "tags"     : "project",  
@@ -335,7 +335,7 @@
       "title"    : "I just found out about Zettelkasten",
       "url"      : "/2020/05/22/zettelkasten",
       "category" : "",
-      "tags"     : "thoughts",  
+      "tags"     : "reference",  
       "date"     : "2020-05-22 00:00:00 -0700",
       "description" : "Zettelkasten makes all of your notes easier to develop, utilize, and organize for whatever you need them"
 
@@ -346,7 +346,7 @@
       "title"    : "Keyboard Remapping on OSX - Adding the Insert Key",
       "url"      : "/2020/05/22/keyboard-remapping",
       "category" : "",
-      "tags"     : "project",  
+      "tags"     : "reference",  
       "date"     : "2020-05-22 00:00:00 -0700",
       "description" : "Keyboard Remapping on OSX - Adding the Missing Insert Key for using Trackers And/Or Other Old DOS Programs (Reality Adlib Tracker, MilkyTracker, etc.)"
 

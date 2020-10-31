@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Maximize Evernote With Less Images In Web Clipper (JS)
+title: 💻 Maximize Evernote Storage Using Web Clipper (JS)
 description: Either using a Google Chrome extension or one line of JS, maximize your snippets in Evernote and stay away from $8 subscriptions for a tiny feature.
 summary: Either using a Google Chrome extension or one line of JS, maximize your snippets in Evernote and stay away from $8 subscriptions for a tiny feature.
 comments: true

@@ -4,7 +4,7 @@ title: HTML / CSS / JS Resources
 description: A compilation of various HTML / CSS / JS resources I think are rad, compelling, or helpful.
 summary: A compilation of various HTML / CSS / JS resources I think are rad, compelling, or helpful.
 comments: true
-tags: project
+tags: reference
 ---
 
 *HTML*

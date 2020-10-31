@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Piu Piu ringtone but it's only Avgustina's laugh
+title: 🎧 Piu Piu ringtone but it's only Avgustina's laugh
 description: Piu Piu ringtone but it's only Avgustina's laugh
 summary: Piu Piu ringtone but it's only Avgustina's laugh
 comments: true

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Critical feeling is just as important as critical thinking
+title: Critical feeling is as important as critical thinking
 description: Critical feeling is making sure that you don't get caught up in other people's feelings. I believe this can improve and better our communication.
 summary: Critical feeling is making sure that you don't get caught up in other people's feelings. I believe this can improve and better our communication.
 comments: true

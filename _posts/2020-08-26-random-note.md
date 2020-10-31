@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Open A Random Note/Lo-Fi Idea Generator (Python)
+title: 💻 Open A Random Note/Lo-Fi Idea Generator (Python)
 description: I got inspired by Tiago Forte's RandomNote Web and decided to make my own simple version using Python, Applescript, and nvALT, and it's easy to port.
 summary: I got inspired by Tiago Forte's RandomNote Web and decided to make my own simple version using Python, Applescript (barely), and nvALT, and it's easy to port.
 comments: true

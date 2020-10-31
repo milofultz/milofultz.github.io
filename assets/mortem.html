@@ -1,0 +1,94 @@
+<!doctype html>
+<!--
+
+Mortem
+Morbid stats
+
+@author Josh Avanier
+@license MIT
+
+ -->
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mortem</title>
+    <meta name="author" content="Josh Avanier">
+    <meta name="description" content="Morbid stats">
+    <style>
+    * {
+        margin: 0;
+        padding: 0
+    }
+
+    body {
+        font: 16px/1.618em monospace;
+        background-color: #0c0c0c;
+        color: #f8f8f8;
+        padding: 4em
+    }
+
+    h1,
+    p {
+        font-size: .7862em
+    }
+
+    h1 {
+        margin-bottom: 1em;
+        letter-spacing: .1em;
+        text-transform: uppercase
+    }
+    </style>
+    <script>
+    function Mortem(d = new Date()) {
+        this.d = d;
+
+        this.ley = 70, // human life expectancy (years)
+            this.led = 25567.5, // human life expectancy (days)
+
+            /**
+             * Calculate estimated time remaining
+             * @return {number} ETR (days)
+             */
+            this.etr = () => this.led - this.ndl();
+
+        /**
+         * Calculate estimate year of death
+         * @return {number} EYD
+         */
+        this.eyd = () => this.d.getFullYear() + this.ley;
+
+        /**
+         * Calculate the number of days lived so far
+         * @return {number} number of days
+         */
+        this.ndl = () => {
+                return Math.round(Math.abs((+this.d - +(new Date())) / 864E5));
+            },
+
+            /**
+             * Calculate progress
+             * @return {number} progress percentage
+             */
+            this.pro = () => this.ndl() / this.led * 100;
+    }
+    </script>
+</head>
+
+<body>
+    <h1>Mortem</h1>
+    <p><b title="Number of Days Lived">NDL:</b> <span id="A"></span>
+        <p><b title="Progress Percentage">PRO:</b> <span id="B"></span>
+            <p><b title="Est. Time Remaining (Days)">ETR:</b> <span id="C"></span>
+                <p><b title="Est. Date of Death">EYD:</b> <span id="D"></span>
+                    <script>
+                    const m = new Mortem(new Date(1989, 3, 22));
+                    A.innerHTML = m.ndl();
+                    B.innerHTML = `${m.pro().toFixed(2)}%`;
+                    C.innerHTML = m.etr();
+                    D.innerHTML = m.eyd();
+                    </script>
+</body>
+
+</html>

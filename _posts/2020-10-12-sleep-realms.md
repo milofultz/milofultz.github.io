@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 💻 Sleep Realms (Paulstretch)
+title: 🎧 Sleep Realms (Paulstretch)
 description: Amp up your Star Realms game through osmotically absorbing the epic music.
 summary: Amp up your Star Realms game through osmotically absorbing the epic music.
 comments: true

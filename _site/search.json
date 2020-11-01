@@ -2,6 +2,17 @@
   
     {
 
+      "title"    : "Rules for Hanafuda game &quot;Koi-Koi&quot;",
+      "url"      : "/2020/11/01/koi-koi-rules",
+      "category" : "",
+      "tags"     : "reference",  
+      "date"     : "2020-11-01 00:00:00 -0700",
+      "description" : "Rules for Hanafuda game Koi-Koi: Hanafuda, meaning &#39;flower cards&#39; is a traditional Japanese card game that dates back to the 1500s."
+
+    } ,
+  
+    {
+
       "title"    : "📊 Tablatal Parser - Plaintext Database to JSON (Python)",
       "url"      : "/2020/10/31/tablatal-parser",
       "category" : "",

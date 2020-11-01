@@ -26,6 +26,10 @@ format, though the tradeoff is malleability, as you must define how large
 the field sizes are before getting going (I'll solve this with some kind of
 utility if it ever comes up as a problem). 
 
+There is both a to- and from-Tablatal utility. Both use a list of dicts as
+their starting point, but can also be used directly in the CLI to interface
+with JSON files.
+
 
 ### Syntax
 
@@ -64,6 +68,9 @@ from giving it a useful name. This can be remedied via the CLI:
 
 `python3 tbtl_parse.py input.tbtl output.json --headers "DATE, CODE, HOST, PIC,
  NAME"`
+
+ The JSON-to-Tablatal parser needs a little user input to determine the
+ order of the fields, but otherwise operates the same as the other utility.
 
 <!-- --- 
 

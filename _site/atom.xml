@@ -4,13 +4,81 @@
  <title>Milo Fultz</title>
  <link href="http://milofultz.com/atom.xml" rel="self"/>
  <link href="http://milofultz.com/"/>
- <updated>2020-10-31T11:09:03-07:00</updated>
+ <updated>2020-10-31T20:57:15-07:00</updated>
  <id>http://milofultz.com</id>
  <author>
    <name>Milo Fultz</name>
    <email>milopfultz@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>📊 Tablatal Parser - Plaintext Database to JSON (Python)</title>
+   <link href="http://milofultz.com/2020/10/31/tablatal-parser"/>
+   <updated>2020-10-31T00:00:00-07:00</updated>
+   <id>http://milofultz.com/2020/10/31/tablatal-parser</id>
+   <content type="html">&lt;p&gt;&lt;a href=&quot;https://github.com/milofultz/tablatal_parser&quot;&gt;&lt;strong&gt;Check out the up-to-date version on GitHub&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I’m rethinking my Track and Tod apps for tracking my tasks, mood, and other
+data after checking out &lt;a href=&quot;https://avanier.now.sh/w/log.html&quot;&gt;Josh Avanier’s Log&lt;/a&gt;,
+&lt;a href=&quot;https://v-os.ca/timekeeping&quot;&gt;V’s Log&lt;/a&gt;, 
+&lt;a href=&quot;https://wiki.xxiivv.com/site/horaire.html&quot;&gt;Devine Lu Linvega’s Horaire&lt;/a&gt; and
+others. I am determined to keep my log plaintext and was not
+satisfied with options like CSV or TSV, as they look terrible when reading
+in a plain text editor. I eventually found 
+&lt;a href=&quot;https://wiki.xxiivv.com/site/tablatal.html&quot;&gt;Devine’s Tablatal&lt;/a&gt; and am looking
+forward to using it with my system.&lt;/p&gt;
+
+&lt;p&gt;From Devine’s site: “In the Tablatal file, the first line declares the key, the
+spacing between each key defines the length of the parameters for all
+subsequent lines.” It is a much more aesthetically pleasing plaintext data
+format, though the tradeoff is malleability, as you must define how large
+the field sizes are before getting going (I’ll solve this with some kind of
+utility if it ever comes up as a problem).&lt;/p&gt;
+
+&lt;h3 id=&quot;syntax&quot;&gt;Syntax&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Comments are preceded by a semicolon.&lt;/li&gt;
+  &lt;li&gt;The header line is expected to be all caps and may be preceded by a
+semicolon as if a comment. The spacing of this header line sets the spacing
+for all content that follows.&lt;/li&gt;
+  &lt;li&gt;The content is everything that follows the header line. Empty fields
+default to None.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Examples can be found 
+&lt;a href=&quot;https://github.com/XXIIVV/oscean/tree/master/src/database&quot;&gt;here at neauoire’s page&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;usage&quot;&gt;Usage&lt;/h3&gt;
+
+&lt;p&gt;As a CLI, the parser takes in a plaintext Tablatal file (&lt;code class=&quot;highlighter-rouge&quot;&gt;tbtl&lt;/code&gt;) and
+returns a &lt;code class=&quot;highlighter-rouge&quot;&gt;JSON&lt;/code&gt; file. There is one optional argument &lt;code class=&quot;highlighter-rouge&quot;&gt;--headers&lt;/code&gt;, which
+you can supply a set of custom headers separated by commas for the parser
+to use when outputting. For instance, if the beginning of your file
+including your headers looks like this:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;; The horaire is a collection of logs.
+; https://wiki.xxiivv.com/site/tablatal.html
+;     CODE HOST                 PIC NAME
+;     7    12                   33  37
+20X09 +300 talk                     Talk at Speakers Series, SNSYC
+20X07 +300 talk                     Grundlagen der digitalen Kommunikation
+20V08 -332 orca
+...
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;The header line is started by a semicolon, which would obfuscate the parser
+from giving it a useful name. This can be remedied via the CLI:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;python3 tbtl_parse.py input.tbtl output.json --headers &quot;DATE, CODE, HOST, PIC,
+ NAME&quot;&lt;/code&gt;&lt;/p&gt;
+
+&lt;!-- --- 
+
+- _202XXXXX: Update format_ --&gt;
+</content>
+ </entry>
  
  <entry>
    <title>💻 HIITimer - Exercise Timer w/Routines and TTS (Python)</title>

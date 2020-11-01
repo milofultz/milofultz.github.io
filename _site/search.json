@@ -2,6 +2,17 @@
   
     {
 
+      "title"    : "📊 Tablatal Parser - Plaintext Database to JSON (Python)",
+      "url"      : "/2020/10/31/tablatal-parser",
+      "category" : "",
+      "tags"     : "project",  
+      "date"     : "2020-10-31 00:00:00 -0700",
+      "description" : "Tablatal is a flat file plaintext database, and this parser made in Python allows you to utilize it with other software."
+
+    } ,
+  
+    {
+
       "title"    : "💻 HIITimer - Exercise Timer w/Routines and TTS (Python)",
       "url"      : "/2020/10/25/hiitimer",
       "category" : "",

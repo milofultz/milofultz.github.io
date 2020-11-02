@@ -1,6 +1,8 @@
 links:
 - title: Now
   url: /
+- title: About
+  url: /about
 - title: Projects
   url: /projects/
 - title: Thoughts

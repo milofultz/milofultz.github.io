@@ -134,6 +134,15 @@ section {
     padding: 1rem;
 }
 
+footer {
+    /*position: absolute;*/
+    left: 0px;
+    bottom: 0px;
+    height: 3em;
+    width: 100%;
+    padding: 1em;
+}
+
 li {
     margin-left: 20px;
 }
@@ -170,13 +179,9 @@ b {
     font-size: .6em;
 }
 
-.myface {
-    line-height: .8em;
-    letter-spacing: -.2em;
-    font-family: monospace;
-    font-size: .6em;
-    width: 36em;
-    /*text-align: center;*/
+.footer-image {
+    width: 3em;
+    float: right;
 }
 
 .photos ul {

@@ -13,7 +13,5 @@ links:
   url: /search
 - title: Github
   url: https://github.com/milofultz/
-- title: Mastodon
-  url: https://merveilles.town/@milofultz
 - title: RSS
   url: /atom.xml

@@ -16,6 +16,7 @@ Morbid stats
     <title>Mortem</title>
     <meta name="author" content="Josh Avanier">
     <meta name="description" content="Morbid stats">
+    <link rel="icon" href="data:," />
     <style>
     * {
         margin: 0;
@@ -45,13 +46,13 @@ Morbid stats
         this.d = d;
 
         this.ley = 70, // human life expectancy (years)
-            this.led = 25567.5, // human life expectancy (days)
+        this.led = 25567.5, // human life expectancy (days)
 
-            /**
-             * Calculate estimated time remaining
-             * @return {number} ETR (days)
-             */
-            this.etr = () => this.led - this.ndl();
+        /**
+         * Calculate estimated time remaining
+         * @return {number} ETR (days)
+         */
+        this.etr = () => this.led - this.ndl();
 
         /**
          * Calculate estimate year of death
@@ -65,23 +66,23 @@ Morbid stats
          */
         this.ndl = () => {
                 return Math.round(Math.abs((+this.d - +(new Date())) / 864E5));
-            },
+        },
 
-            /**
-             * Calculate progress
-             * @return {number} progress percentage
-             */
-            this.pro = () => this.ndl() / this.led * 100;
+        /**
+         * Calculate progress
+         * @return {number} progress percentage
+         */
+        this.pro = () => this.ndl() / this.led * 100;
     }
     </script>
 </head>
 
 <body>
     <h1>Mortem</h1>
-    <p><b title="Number of Days Lived">NDL:</b> <span id="A"></span>
-        <p><b title="Progress Percentage">PRO:</b> <span id="B"></span>
-            <p><b title="Est. Time Remaining (Days)">ETR:</b> <span id="C"></span>
-                <p><b title="Est. Date of Death">EYD:</b> <span id="D"></span>
+    <p><b title="Number of Days Lived">Number of Days Lived:</b> <span id="A"></span>
+        <p><b title="Progress Percentage">Progress Percentage:</b> <span id="B"></span>
+            <p><b title="Est. Time Remaining (Days)">Est. Time Remaining (Days):</b> <span id="C"></span>
+                <p><b title="Est. Date of Death">Est. Date of Death:</b> <span id="D"></span>
                     <script>
                     const m = new Mortem(new Date(1989, 3, 22));
                     A.innerHTML = m.ndl();

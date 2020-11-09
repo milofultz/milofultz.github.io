@@ -4,13 +4,26 @@
  <title>Milo Fultz</title>
  <link href="http://milofultz.com/atom.xml" rel="self"/>
  <link href="http://milofultz.com/"/>
- <updated>2020-11-02T19:47:58-08:00</updated>
+ <updated>2020-11-09T11:44:03-08:00</updated>
  <id>http://milofultz.com</id>
  <author>
    <name>Milo Fultz</name>
    <email>milopfultz@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>The point of diminishing returns is already here</title>
+   <link href="http://milofultz.com/2020/11/09/the-point-of-diminis"/>
+   <updated>2020-11-09T00:00:00-08:00</updated>
+   <id>http://milofultz.com/2020/11/09/the-point-of-diminis</id>
+   <content type="html">&lt;p&gt;The point of diminishing returns is well before we think it is. What is the point of a crazy fast computer when most of what you do is send messages to people and read text? We were able to download and watch videos on our computer 15 years ago and were only limited by internet speed. Now we have it all and we want more for some reason. Is convenience via minimal time saved with a faster piece of hardware worth the money, your time, and the waste it makes?&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://idlewords.com/talks/web_design_first_100_years.htm&quot;&gt;Here is the talk that got me really thinking about this today.&lt;/a&gt;&lt;/p&gt;
+
+&lt;!-- - _202XXXXX: Update format_ --&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Rules for Hanafuda game &quot;Koi-Koi&quot;</title>

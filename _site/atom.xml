@@ -4,13 +4,153 @@
  <title>Milo Fultz</title>
  <link href="http://milofultz.com/atom.xml" rel="self"/>
  <link href="http://milofultz.com/"/>
- <updated>2020-11-09T11:44:03-08:00</updated>
+ <updated>2020-11-10T15:28:23-08:00</updated>
  <id>http://milofultz.com</id>
  <author>
    <name>Milo Fultz</name>
    <email>milopfultz@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>Bytebeat - Overview and How To Make/Record on OSX</title>
+   <link href="http://milofultz.com/2020/11/10/bytebeat"/>
+   <updated>2020-11-10T00:00:00-08:00</updated>
+   <id>http://milofultz.com/2020/11/10/bytebeat</id>
+   <content type="html">&lt;p&gt;“Bytebeat” is the name given to the method of piping mathematical equations to an audio device make lo-fidelity gritty sounds. They often sound pretty musical due to the mathematical nature of the equations and bitwise operations. But that does not mean that it has to be “musical” to be good either, as you will discover when messing around with it.&lt;/p&gt;
+
+&lt;p&gt;For a good dive into what Bytebeat is and how it started, check out these links:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://canonical.org/~kragen/bytebeat/&quot;&gt;Kragen’s Writeup&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://countercomplex.blogspot.com/2011/10/algorithmic-symphonies-from-one-line-of.html&quot;&gt;The original post from  Ville-Matias Heikkilä&lt;/a&gt; and &lt;a href=&quot;https://countercomplex.blogspot.com/2011/10/some-deep-analysis-of-one-line-music.html&quot;&gt;his follow up post&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://zserge.com/posts/etude-in-c/&quot;&gt;ZSerge’s article where I first heard about it&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;examples&quot;&gt;Examples:&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=GtQdIYUtAHg&quot;&gt;Bytebeat: Experimental music from very short C programs&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=qlrs2Vorw2Y&quot;&gt;Bytebeat: Experimental one-line algorithmic music - the 2nd iteration&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=tCRPUv8V22o&quot;&gt;Bytebeat: Music from very short programs - the 3rd iteration&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;how-to-make-your-own&quot;&gt;How To Make Your Own&lt;/h3&gt;
+
+&lt;p&gt;A fantastic how-to of the basics including the math operations and how to use them can be found in PDF at &lt;a href=&quot;https://github.com/TuesdayNightMachines/Bytebeats&quot;&gt;TuesdayNightMachine’s Github page&lt;/a&gt;. I would highly recommend starting here if you don’t get binary or bitwise operations.&lt;/p&gt;
+
+&lt;p&gt;The super simplest way to implement and test (hear) Bytebeat code is through the many online HTML5/JS apps online.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://greggman.com/downloads/examples/html5bytebeat/html5bytebeat.html#t=0&amp;amp;e=0&amp;amp;s=8000&amp;amp;bb=5d00000100180000000000000000141d0150043e1f062919296ab90380807628655b351388d1ffe7d4a000&quot;&gt;Gregg Tavares&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://wurstcaptures.untergrund.net/music/&quot;&gt;Bemmu and rarefluid (in stereo!)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;making-it-offline-on-osx&quot;&gt;Making It Offline On OSX&lt;/h3&gt;
+
+&lt;p&gt;My desire when starting to mess with this stuff was trying to figure out how I could do it in the command line, as that was how I had seen it laid out in many examples in Linux. The problem was that the built in tools to pipe data into your audio device was not built in to OSX the way it is built in to Linux, so I had to do some sleuthing. With &lt;a href=&quot;https://merveilles.town/web/statuses/105096777143471978&quot;&gt;a lot of help from the Merveilles community&lt;/a&gt;, I was able to finally figure out the process and I wanted to document it here.&lt;/p&gt;
+
+&lt;h4 id=&quot;step-1-install-sox-with-homebrew&quot;&gt;Step 1. Install SoX with homebrew&lt;/h4&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;brew install sox&lt;/code&gt; (&lt;a href=&quot;https://chrisrosser.net/posts/2020/04/06/using-sox-on-macos/&quot;&gt;you can follow this tutorial here if you are confused&lt;/a&gt;)&lt;/p&gt;
+
+&lt;h4 id=&quot;step-2-create-a-bash-script-to-automate-the-build-compile-and-piping-of-your-bytebeat-formulas-all-on-the-cli&quot;&gt;Step 2. Create a bash script to automate the build, compile, and piping of your Bytebeat formulas all on the CLI.&lt;/h4&gt;
+
+&lt;p&gt;The way that I did this was pretty much completely stolen from &lt;a href=&quot;https://web.archive.org/web/20160610140821/http://coleingraham.com/2013/04/28/bytebeat-shell-script/&quot;&gt;Cole Ingraham’s post&lt;/a&gt; that I dug up on archive.org. Essentially without this, you have to do quite a few very boring and uninteresting steps which means very little instant gratification, which is what we want.&lt;/p&gt;
+
+&lt;p&gt;Here is the script that I created for using it in bash on OSX:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;#!/bin/bash&lt;/span&gt;
+
+&lt;span class=&quot;c&quot;&gt;# This script creates and plays a simple ByteBeat&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;# ARGS&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;# $1: a string with the ByteBeat algorithm e.g. &quot;((t * 3) &amp;amp; (t &amp;gt;&amp;gt; 5))&quot;&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;# $2: the name of the file to be creates (without an extension)&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;###&lt;/span&gt;
+
+&lt;span class=&quot;c&quot;&gt;# create the C program&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;#include &amp;lt;math.h&amp;gt;
+
+int s(double num){
+    return 256*sin(num);
+};
+
+int c(double num){
+    return 256*cos(num);
+};
+
+main(t){
+    for(t=0;;t++){
+        putchar( &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$1&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt; );
+    }
+};&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$2&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;.c&quot;&lt;/span&gt;
+
+&lt;span class=&quot;c&quot;&gt;# compile the source&lt;/span&gt;
+gcc &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$2&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;.c&quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-o&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$2&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+
+&lt;span class=&quot;c&quot;&gt;# play it with standard ByteBeat settings&lt;/span&gt;
+./&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$2&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt; | sox &lt;span class=&quot;nt&quot;&gt;-t&lt;/span&gt; u8 &lt;span class=&quot;nt&quot;&gt;-r&lt;/span&gt; 8k &lt;span class=&quot;nt&quot;&gt;-c&lt;/span&gt; 1 - &lt;span class=&quot;nt&quot;&gt;-d&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Take this script and copy it into a code editor/text editor, saving it as a file with an &lt;code class=&quot;highlighter-rouge&quot;&gt;.sh&lt;/code&gt; extension (I called it &lt;code class=&quot;highlighter-rouge&quot;&gt;bytebeat.sh&lt;/code&gt;). Put it in a folder where you can access it easily with the command line in your terminal. There you will be able to make the audio using the arguments written in the script. But before that,&lt;/p&gt;
+
+&lt;h4 id=&quot;step-3-turn-down-your-volume&quot;&gt;Step 3. Turn down your volume!&lt;/h4&gt;
+
+&lt;p&gt;Trust me, it’s LOUD. Don’t forget!&lt;/p&gt;
+
+&lt;h4 id=&quot;step-4-try-it-out&quot;&gt;Step 4. Try it out!&lt;/h4&gt;
+
+&lt;p&gt;Once you have saved that script and you have navigated to the enclosing folder in your terminal, you can make some noises! Your script takes two arguments:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;The Bytebeat algorithm/equation&lt;/li&gt;
+  &lt;li&gt;The name of the file that will be gnenerated and played (can be whatever, I usually go with test)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;For example:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;./bytebeat.sh &quot;(t/4)*(t&amp;gt;&amp;gt;8|((14 &amp;amp; t)^3))&quot; test
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;This runs the bash script (&lt;code class=&quot;highlighter-rouge&quot;&gt;bytebeat.sh&lt;/code&gt;) and uses the Bytebeat algorithm/equation &lt;code class=&quot;highlighter-rouge&quot;&gt;&quot;(t/4)*(t&amp;gt;&amp;gt;8|((14 &amp;amp; t)^3))&quot;&lt;/code&gt; to generate the compiled C program &lt;code class=&quot;highlighter-rouge&quot;&gt;test&lt;/code&gt;. This program &lt;code class=&quot;highlighter-rouge&quot;&gt;test&lt;/code&gt; is then piped into sox and plays through the speakers. You’re done!&lt;/p&gt;
+
+&lt;h3 id=&quot;record-it&quot;&gt;Record it!&lt;/h3&gt;
+
+&lt;p&gt;There are two ways you can save the audio you’ve created. One is fairly user friendly and the other one is a bit clunky.&lt;/p&gt;
+
+&lt;p&gt;The easiest way is to download and install Rogue Amoeba’s &lt;a href=&quot;https://rogueamoeba.com/loopback/&quot;&gt;Loopback&lt;/a&gt; to record your system audio. THis is very simple and highly recommend it.&lt;/p&gt;
+
+&lt;p&gt;If for whatever reason that doesn’t work for you, you can create a raw audio file on your computer and use &lt;a href=&quot;https://www.audacityteam.org/&quot;&gt;Audacity&lt;/a&gt; to open it. This may not output exactly what you heard when playing it using the bash script, but it may yield some cool variations.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Run your script to create the compiled Bytebeat script (give it a proper name instead of &lt;code class=&quot;highlighter-rouge&quot;&gt;test&lt;/code&gt; if that’s easier to find). Within your folder, you should find a file of that name.&lt;/li&gt;
+  &lt;li&gt;Send the output of this newly compiled script to a file instead of piped to SoX. (NOTE: This can create endlessly large files on your computer and possibly eat up all empty memory if you don’t stop it quickly. To avoid this, cancel (ctrl + C) the process around a half-second to a second after you start it.) To do this, write this in your shell, assuming your newly compiled file is called &lt;code class=&quot;highlighter-rouge&quot;&gt;test&lt;/code&gt; and the output file is called &lt;code class=&quot;highlighter-rouge&quot;&gt;output.raw&lt;/code&gt;: &lt;code class=&quot;highlighter-rouge&quot;&gt;./test &amp;gt; output.raw&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;As said before, you will want to cancel this process very quickly after you start it with ctrl + C, as it can otherwise create a massive file.&lt;/li&gt;
+  &lt;li&gt;Open Audacity. Select &lt;code class=&quot;highlighter-rouge&quot;&gt;File&lt;/code&gt; &amp;gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;Import&lt;/code&gt; &amp;gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;Raw Data...&lt;/code&gt; and choose your newly output file (&lt;code class=&quot;highlighter-rouge&quot;&gt;output.raw&lt;/code&gt; in our example). Use the following settings in the dialog box:
+    &lt;ul&gt;
+      &lt;li&gt;Encoding: Unsigned 8-bit PCM&lt;/li&gt;
+      &lt;li&gt;Byte Order: No endianness&lt;/li&gt;
+      &lt;li&gt;Channels: 1 (Mono)&lt;/li&gt;
+      &lt;li&gt;Start Offset: 0&lt;/li&gt;
+      &lt;li&gt;Amount to Import: 100&lt;/li&gt;
+      &lt;li&gt;Sample Rate: 8000&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Listen to your hideous creation.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;other-resourcesimplementations&quot;&gt;Other Resources/Implementations&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;C and Python: http://royal-paw.com/2012/01/bytebeats-in-c-and-python-generative-symphonies-from-extremely-small-programs/&lt;/li&gt;
+  &lt;li&gt;Python: https://gist.github.com/bzamecnik/a2d45dc0addb8d602d70b1d8df0f9fd0&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;!-- --- 
+
+- _202XXXXX: Update format_ --&gt;
+</content>
+ </entry>
  
  <entry>
    <title>The point of diminishing returns is already here</title>

@@ -4,7 +4,7 @@
  <title>Milo Fultz</title>
  <link href="http://milofultz.com/atom.xml" rel="self"/>
  <link href="http://milofultz.com/"/>
- <updated>2020-11-24T18:15:41-08:00</updated>
+ <updated>2020-11-24T18:17:25-08:00</updated>
  <id>http://milofultz.com</id>
  <author>
    <name>Milo Fultz</name>
@@ -738,7 +738,7 @@ Been listening to vogue ball playlists all night.
 
 &lt;p&gt;I wanted to be able to take notes on a Youtube video without having to tab out of the window to a text editor all of the time. After seeing Josh Alanier’s &lt;a href=&quot;https://down.avanier.now.sh&quot;&gt;Down&lt;/a&gt; and Hundred Rabbit’s &lt;a href=&quot;https://github.com/hundredrabbits/left&quot;&gt;Left&lt;/a&gt;, I realized I didn’t need to do anything fancy, and in fact I preferred the minimalist layout that vanilla JS can provide.&lt;/p&gt;
 
-&lt;p&gt;This saves the text you write for a given Youtube video into local storage and will load it up again upon returning to the same video. Supports exporting to a text file with &lt;code&gt;ctrl + s&lt;/code&gt; and adding automatic timestamps with &lt;code&gt;ctrl + d&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;This saves the text you write for a given Youtube video into local storage and will load it up again upon returning to the same video. Supports exporting to a text file and adding automatic timestamps.&lt;/p&gt;
 
 &lt;p&gt;Borrowed/stole heavily from &lt;a href=&quot;http://getskeleton.com/&quot;&gt;Skeleton CSS&lt;/a&gt; and Josh Alanier’s &lt;a href=&quot;https://down.avanier.now.sh&quot;&gt;Down&lt;/a&gt; for code, stylesheets, and ideas.&lt;/p&gt;
 

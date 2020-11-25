@@ -7,8 +7,6 @@ comments: true
 tags: reference
 ---
 
-*This is an update of an older post: [Create a better program faster with an outline]({{ site.baseurl }}{% post_url 2020-07-06-programming-outlining %})*
-
 Like before, **stay in abstract thinking as long as possible. The longer you take to implement your concepts, the better.**
 
 # Big Overview:
@@ -30,6 +28,7 @@ Like before, **stay in abstract thinking as long as possible. The longer you tak
 
 4. From there, describe how your program will handle data on the way in and the way out (not within the program). What do you as the user want to give it and what do you want it to spit back out? Like when you give the dry cleaner your clothes: input is dirty clothes, output is clean clothes.
 
+
 ## Breaking It Down
 
 5. Break down the process further in abstract terms. What are the distinct actions the program will need to take to solve this problem? If you were asking a very pedantic person to do this task for you, what would you tell them?
@@ -46,6 +45,7 @@ Like before, **stay in abstract thinking as long as possible. The longer you tak
 
 11. See if you can break down elements of the functions into even smaller parts. The more that functions can be used and reused all around the whole program, the better.
 
+
 ## Inspection
 
 12. Once the program has been broken down into its most atomistic functions, start writing pseudocode into them to have an idea of what you're going to do.
@@ -53,6 +53,7 @@ Like before, **stay in abstract thinking as long as possible. The longer you tak
 13. Look again for similarities in between functions and see if there is any process the functions could share. If so, then take that and break it down into it's own function.
 
 14. When you feel it has been fully broken down and the flow of data makes sense, create a basic outline of how the different functions will flow together from beginning to the end of the program. Do the data types match? If not, can you use a different data type? Is an adaptation needed between one function and another?
+
 
 ## Development/Testing
 

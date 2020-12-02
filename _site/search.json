@@ -2,6 +2,17 @@
   
     {
 
+      "title"    : "🧩 Advent Of Code 2020 - Solutions",
+      "url"      : "/2020/12/01/advent-of-code",
+      "category" : "",
+      "tags"     : "project",  
+      "date"     : "2020-12-01 00:00:00 -0800",
+      "description" : "Here&#39;s some solutions I made for the AoC 2020"
+
+    } ,
+  
+    {
+
       "title"    : "Bytebeat - Overview and How To Make/Record on OSX",
       "url"      : "/2020/11/10/bytebeat",
       "category" : "",

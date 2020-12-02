@@ -4,13 +4,28 @@
  <title>Milo Fultz</title>
  <link href="http://milofultz.com/atom.xml" rel="self"/>
  <link href="http://milofultz.com/"/>
- <updated>2020-11-24T18:17:25-08:00</updated>
+ <updated>2020-12-01T22:34:33-08:00</updated>
  <id>http://milofultz.com</id>
  <author>
    <name>Milo Fultz</name>
    <email>milopfultz@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>🧩 Advent Of Code 2020 - Solutions</title>
+   <link href="http://milofultz.com/2020/12/01/advent-of-code"/>
+   <updated>2020-12-01T00:00:00-08:00</updated>
+   <id>http://milofultz.com/2020/12/01/advent-of-code</id>
+   <content type="html">&lt;p&gt;These are my solutions. I’m trying to do as many as I can in both Python and in Javascript. Plus I’m going to scope out people’s answers in C and see what I can glean.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/milofultz/aoc2020&quot;&gt;&lt;strong&gt;Check out the solutions on GitHub&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;em&gt;20201201: Solved the first challenge, starting up number 2&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Bytebeat - Overview and How To Make/Record on OSX</title>
@@ -780,12 +795,13 @@ Been listening to vogue ball playlists all night.
 
 &lt;p&gt;When a player attacks with a domino, the opponent must defend with a value equal to or higher than the attack. If the opponent’s domino defense value is lower than the attack, the domino is killed. If the opponent’s domino defense value is equal to or higher, then they have survived. If the opponent can defend and has an attack number higher than the player’s domino defense value, the opponent can counter to kill the player’s domino. Double dominoes get first strike, regardless if they initiate the attack.&lt;/p&gt;
 
-&lt;hr /&gt;
-&lt;p&gt;References:&lt;/p&gt;
+&lt;p&gt;Part of &lt;a href=&quot;/2020/06/25/inexpensive-games&quot;&gt;Inexpensive and Minimal Equipment Games To Spend Time On&lt;/a&gt;&lt;/p&gt;
 
-&lt;ol&gt;
-  &lt;li&gt;&lt;a href=&quot;/2020/06/25/inexpensive-games&quot;&gt;Inexpensive and Minimal Equipment Games To Spend Time On&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
+&lt;hr /&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;em&gt;20201127: Played as I finally got a hold of dominoes. Can it be played with playing cards?&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </content>
  </entry>
  

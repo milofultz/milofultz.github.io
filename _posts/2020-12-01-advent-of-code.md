@@ -12,3 +12,4 @@ These are my solutions. I'm trying to do as many as I can in both Python and in 
 [**Check out the solutions on GitHub**](https://github.com/milofultz/aoc2020)
 
 - _20201201: Solved the first challenge, starting up number 2_
+- _20201202: Solved day 2_

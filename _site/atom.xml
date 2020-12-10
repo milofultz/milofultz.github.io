@@ -4,7 +4,7 @@
  <title>Milo Fultz</title>
  <link href="http://milofultz.com/atom.xml" rel="self"/>
  <link href="http://milofultz.com/"/>
- <updated>2020-12-09T10:37:27-08:00</updated>
+ <updated>2020-12-10T11:18:41-08:00</updated>
  <id>http://milofultz.com</id>
  <author>
    <name>Milo Fultz</name>
@@ -540,12 +540,14 @@ me know if you get any errors, as I’d love to figure it out :)&lt;/em&gt;&lt;/
    <content type="html">&lt;p&gt;&lt;em&gt;HTML&lt;/em&gt;&lt;/p&gt;
 
 &lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://learn.shayhowe.com/html-css/&quot;&gt;Learn to Code HTML &amp;amp; CSS&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://secretgeek.github.io/html_wysiwyg/html.html&quot;&gt;This page is a truly naked, brutalist html quine.&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;em&gt;CSS&lt;/em&gt;&lt;/p&gt;
 
 &lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://learn.shayhowe.com/html-css/&quot;&gt;Learn to Code HTML &amp;amp; CSS&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://jrl.ninja/etc/1/&quot;&gt;58 bytes of css to look great nearly everywhere&lt;/a&gt; - It’s like a hyper-minimal version of &lt;a href=&quot;http://getskeleton.com/&quot;&gt;Skeleton CSS&lt;/a&gt;. Does one thing really well, but if that’s what you need, it’s perfect.&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://jgthms.com/web-design-in-4-minutes/&quot;&gt;Web Design in 4 minutes&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;

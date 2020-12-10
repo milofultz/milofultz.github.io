@@ -14,7 +14,7 @@ tags: reference
 
 *CSS*
 
-* [Learn to Code HTML & CSS](https://learn.shayhowe.com/html-css/)
+* [Learn to Code HTML & CSS](https://learn.shayhowe.com/html-css/) (pre-Flex or Grid)
 * [58 bytes of css to look great nearly everywhere](https://jrl.ninja/etc/1/) - It's like a hyper-minimal version of [Skeleton CSS](http://getskeleton.com/). Does one thing really well, but if that's what you need, it's perfect.
 * [Web Design in 4 minutes](https://jgthms.com/web-design-in-4-minutes/)
 

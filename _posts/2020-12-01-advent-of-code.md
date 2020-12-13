@@ -25,3 +25,4 @@ These are my solutions. I'm trying to do as many as I can in both Python and in 
 - 20201211: Solved day 12
 - 20201211: Solved day 13 part 1 and have a brute force solution for part 2; however this solution has been spinning for a half hour at least and is showing no signs of progress.
 - 20201213: Went and searched for solutions and [found one that I was really able to understand from gravitar64](https://www.reddit.com/r/adventofcode/comments/kc4njx/comment/gfqeouq), using a ["sieving" method](https://en.wikipedia.org/wiki/Sieve_theory). This didn't use some intense number theory, like other solutions which used the [Chinese Remainder Theorem](https://en.wikipedia.org/wiki/Chinese_remainder_theorem). I did cheat, but I understand the answer and how it works and that's all I wanted anyway.
+- 20201213: [Made a write up of how the sieve method works to repent for what feels like cheating.]({{ site.baseurl }}{% post_url 2020-12-13-aoc-day-13 %})

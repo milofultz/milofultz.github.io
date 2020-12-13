@@ -2,6 +2,17 @@
   
     {
 
+      "title"    : "Solution to Advent of Code 13 - LCM with Offsets",
+      "url"      : "/2020/12/13/aoc-day-13",
+      "category" : "",
+      "tags"     : "reference",  
+      "date"     : "2020-12-13 00:00:00 -0800",
+      "description" : "Solution to Advent of Code 13 - LCM with Offsets"
+
+    } ,
+  
+    {
+
       "title"    : "🧩 Advent Of Code 2020 - Solutions",
       "url"      : "/2020/12/01/advent-of-code",
       "category" : "",

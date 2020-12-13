@@ -4,13 +4,165 @@
  <title>Milo Fultz</title>
  <link href="http://milofultz.com/atom.xml" rel="self"/>
  <link href="http://milofultz.com/"/>
- <updated>2020-12-13T13:07:18-08:00</updated>
+ <updated>2020-12-13T14:53:00-08:00</updated>
  <id>http://milofultz.com</id>
  <author>
    <name>Milo Fultz</name>
    <email>milopfultz@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>Solution to Advent of Code 13 - LCM with Offsets</title>
+   <link href="http://milofultz.com/2020/12/13/aoc-day-13"/>
+   <updated>2020-12-13T00:00:00-08:00</updated>
+   <id>http://milofultz.com/2020/12/13/aoc-day-13</id>
+   <content type="html">&lt;p&gt;Here, to help justify that I definitely stole an answer from somebody on Reddit to answer this question, I’m going to explain &lt;em&gt;why&lt;/em&gt; the answer works. Mainly for myself to truly understand this, but also so that if somebody searches for something like this at a later date, there will be a reference. (I’ll be using the smaller sample data for the explanation because it is way easier to grok)&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://adventofcode.com/2020/day/13&quot;&gt;&lt;strong&gt;Check out the problem here, or this won’t make any sense.&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;brute-force&quot;&gt;Brute Force&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/milofultz/aoc2020/blob/master/13/aoc13-2-brute.py&quot;&gt;My initial solution used brute force&lt;/a&gt;, as essentially all of my solutions have so far, and this…didn’t work. My computer was working really hard, fans spinning and everything, but wasn’t getting anywhere (because the answer for me ended up being 667,437,230,788,118 and I started at &lt;em&gt;1&lt;/em&gt;). I went to bed and tried to not think about it. First of course we start with parsing the data, which is a line of “bus IDs”, which actually correspond to the intervals at which the buses leave the station.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;7,13,x,x,59,x,31,19
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;I put these into an array, converting the numbers to integers and leaving the x’s as strings.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;[7, 13, 'x', 'x', 59, 'x', 31, 19]
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Here’s the pseudocode of the brute force solution:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Set 'largest_number' to the largest number in the array
+Set 'largest_offset' to the index of 'largest_number' in the array
+Set the initial value of the 'multiple' by which to multiply the 'largest_number' to 1
+Set a 'found' variable to let the program know the solution has not been found
+While the solution has not been 'found':
+    Set that the solution is 'found' until proven otherwise
+    Set the 'target' test value to the 'multiple' times the 'largest_number'
+    For each 'index' of each 'bus_ID' in the array
+        Set the 'offset' to the 'index' minus the 'largest_offset'
+        If the 'bus_ID' is an 'x', then continue to the next 'bus_ID'
+        If the remainder of (the sum of the 'target' and the 'offset') divided by the 'bus_ID' is not zero:
+        	Set that the solution was not found and break out of the loop
+    Add one to the 'multiple'
+Return the 'target'
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;I used the largest number in the array to try and speed up the already long search, as their multiples of 59 would get searched way faster than the multiples of 7. As this iterates through, it tests every multiple of the largest number against each number plus or minus its relative offset. Unfortunately, even though this works, it is not fast (at all) for the much longer and much more complex final puzzle input.&lt;/p&gt;
+
+&lt;p&gt;One way I could have improved this was in the parsing of the data. Instead of trying to calculate weird offsets, I should have just included the offsets with the bus IDs as a tuple. The result would be a list of tuples, each of which include the &lt;strong&gt;offset&lt;/strong&gt; and the &lt;strong&gt;bus ID/interval&lt;/strong&gt;. The ‘x’s are also discarded, as they are no longer necessary.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# (offset, bus_id)
+[(0,7), (1,13), (4,59), (6,31), (7,19)]
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;sieving&quot;&gt;Sieving&lt;/h2&gt;
+
+&lt;p&gt;The idea of a &lt;a href=&quot;https://en.wikipedia.org/wiki/Sieve_theory&quot;&gt;‘sieve’&lt;/a&gt; in math is to use it to ‘sieve’ out all non-possibilities, leaving you with a much smaller pool to test. Most notable is the &lt;a href=&quot;https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes&quot;&gt;Sieve of Erastosthenes&lt;/a&gt;, which is used to calculate prime numbers.&lt;/p&gt;
+
+&lt;p&gt;The most base case of this problem that I found was to find the least common multiple of a given set of integers. To find this using the sieve method, we can use this pseudocode:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Set the initial value of the 'answer' number to 0
+Set the initial value of 'least common multiple' to 1
+For each 'number' in the array:
+	While the remainder of the 'answer' value divided by the 'number' is not zero:
+		Add the value of the 'least common multiple' to the 'answer'
+	Set the 'least common multiple' to the `answer`
+Return the 'answer'
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h4 id=&quot;example&quot;&gt;Example:&lt;/h4&gt;
+
+&lt;p&gt;Let’s say our given &lt;code class=&quot;highlighter-rouge&quot;&gt;array&lt;/code&gt; of integers are [2,3,8]. We start by setting our &lt;code class=&quot;highlighter-rouge&quot;&gt;answer&lt;/code&gt; as 0 and the &lt;code class=&quot;highlighter-rouge&quot;&gt;least common multiple&lt;/code&gt; to 1. Then we reach the For loop, which will cycle through the &lt;code class=&quot;highlighter-rouge&quot;&gt;number&lt;/code&gt;s in the &lt;code class=&quot;highlighter-rouge&quot;&gt;array&lt;/code&gt;:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Set the `number` to the first number in the `array`, 2.
+While `answer` % `number` ≠ 0: 
+	0 % 2 ≠ 0 is true, so add `least common multiple` to the `answer`. `answer` now equals 1.
+	1 % 2 ≠ 0 is true, so add `least common multiple` to the `answer`. `answer` now equals 2.
+	2 % 2 ≠ 0 is false, so break out of the while loop.
+Set `least common multiple` to `least common multiple` times `number`: 2.
+We continue through the for loop: `number` is the next in the `array`: 3.
+While `answer` % `number` ≠ 0: 
+	2 % 3 ≠ 0 is true, so add `least common multiple` to `answer`: 4.
+	4 % 3 ≠ 0 is true, so add `least common multiple` to `answer`:  6.
+	6 % 3 ≠ 0 is false, so break out of the while loop.
+Set `least common multiple` to `least common multiple` times `number`: 6. 
+We continue through the for loop: `number` is the next in the `array`: 8.
+While `answer` % `number` ≠ 0: 
+	6 % 8 ≠ 0 is true, so add `least common multiple` to `answer`: 12.
+	12 % 8 ≠ 0 is true, so add `least common multiple` to `answer`: 18.
+	18 % 8 ≠ 0 is true, so add `least common multiple` to `answer`: 24.
+	24 % 8 ≠ 0 is false, so break out of the while loop.
+Set `least common multiple` to `least common multiple` times `number`: 24.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;One thing to note going forward is that &lt;strong&gt;all the numbers of the bus IDs are prime numbers&lt;/strong&gt;, as if they were not, there would have to be some factorization in preparing to find the least common multiple. Finding the LCM of all primes is to just multiply them together, but with the offsets, we need this longhand to get there.&lt;/p&gt;
+
+&lt;h3 id=&quot;adding-the-offsets&quot;&gt;Adding the Offsets&lt;/h3&gt;
+
+&lt;p&gt;Now that we have this pseudocode, adding the offsets is easier for me to grok. The biggest difference is that we are going to utilize the &lt;code class=&quot;highlighter-rouge&quot;&gt;least common multiple&lt;/code&gt; and the &lt;code class=&quot;highlighter-rouge&quot;&gt;answer&lt;/code&gt; a &lt;em&gt;tiny&lt;/em&gt; bit differently. Assuming we have our list of bus IDs from before, where each ID is a tuple containing the &lt;strong&gt;offset&lt;/strong&gt; and the &lt;strong&gt;bus ID/interval&lt;/strong&gt;, we now have to adjust our test in the while loop. Instead of testing for if the remainder of the &lt;code class=&quot;highlighter-rouge&quot;&gt;answer&lt;/code&gt; divided by the &lt;code class=&quot;highlighter-rouge&quot;&gt;number&lt;/code&gt; is not zero, we are going to test whether the remainder of the sum of the &lt;code class=&quot;highlighter-rouge&quot;&gt;answer&lt;/code&gt; and the &lt;code class=&quot;highlighter-rouge&quot;&gt;offset&lt;/code&gt; all divided by the &lt;code class=&quot;highlighter-rouge&quot;&gt;number&lt;/code&gt; is not zero.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;('answer' + 'offset') % `number` ≠ 0
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Now, here is the pseudocode, taking into account the &lt;code class=&quot;highlighter-rouge&quot;&gt;offset&lt;/code&gt; needed to calculate the answer.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Set the initial value of the 'answer' number to 0
+Set the initial value of 'least common multiple' to 1
+For each 'offset' and 'number' in the array:
+	While the remainder of the sum of the 'answer' and the 'offset' value all divided by the 'number' is not zero:
+		Add the value of the 'least common multiple' to the 'answer'
+	Set the 'least common multiple' to the 'least common multiple' multiplied by the 'number'
+Return the 'answer'
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h4 id=&quot;example-1&quot;&gt;Example&lt;/h4&gt;
+
+&lt;p&gt;I’ll again use an &lt;code class=&quot;highlighter-rouge&quot;&gt;array&lt;/code&gt; containing [2,3,8], keeping in mind the new problem: our solution must look for what number is:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;A multiple of the first element, and&lt;/li&gt;
+  &lt;li&gt;The sum of the offset plus a multiple of the number, for every other element.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;First we will need to parse our array into tuples containing their &lt;strong&gt;offsets&lt;/strong&gt; and &lt;strong&gt;numbers&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;[(0, 2), (1, 3), (2, 4)]
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Next, we define &lt;code class=&quot;highlighter-rouge&quot;&gt;answer&lt;/code&gt; as 0 and &lt;code class=&quot;highlighter-rouge&quot;&gt;least common multiple&lt;/code&gt; as 1. Then we continue into the For loop:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Set `offset` to the first number of the first tuple in `array`: 0; and set `number` to second number in the first tuple in `array`: 2.
+While (`answer` + `offset`) % `number` ≠ 0: 
+	(0 + 0) % 2 ≠ 0 is true, so add `least common multiple` to `answer`: 1.
+	(1 + 0) % 2 ≠ 0 is true, so add `least common multiple` to `answer`: 2.
+	(2 + 0) % 2 ≠ 0 is false, so break out of the while loop.
+Set `least common multiple` to `least common multiple` times `number`: 2.
+We continue through the for loop: set `offset` and `number` as the numbers in the next tuple: 1 and 3.
+While (`answer` + `offset`) % `number` ≠ 0: 
+	(2 + 1) % 3 ≠ 0 is true, so break out of the while loop.
+Set `least common multiple` to `least common multiple` times `number`: 6.
+We continue through the for loop: set `offset` and `number` as the numbers in the next tuple: 2 and 8.
+While (`answer` + `offset`) % `number` ≠ 0: 
+	(2 + 2) % 8 ≠ 0 is true, so add `least common multiple` to `answer`: 8.
+	(8 + 2) % 8 ≠ 0 is true, so add `least common multiple` to `answer`: 14.
+	(14 + 2) % 8 ≠ 0 is false, so break out of the while loop.
+Set `least common multiple` to `least common multiple` times `number`: 48.
+Return the `answer`: 14.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;other-solutions&quot;&gt;Other Solutions&lt;/h2&gt;
+
+&lt;p&gt;The ones using the &lt;a href=&quot;https://en.wikipedia.org/wiki/Chinese_remainder_theorem&quot;&gt;Chinese remainder theorem&lt;/a&gt; went &lt;em&gt;way&lt;/em&gt; over my head and the videos I watched were not enough to compel me to spend time trying to: first, understand it and then second, write the program out. It was well beyond my understanding, but I think it probably is the “desired” solution.&lt;/p&gt;
+
+&lt;!-- --- 
+
+- _202XXXXX: Update format_ --&gt;
+</content>
+ </entry>
  
  <entry>
    <title>🧩 Advent Of Code 2020 - Solutions</title>
@@ -36,6 +188,7 @@
   &lt;li&gt;20201211: Solved day 12&lt;/li&gt;
   &lt;li&gt;20201211: Solved day 13 part 1 and have a brute force solution for part 2; however this solution has been spinning for a half hour at least and is showing no signs of progress.&lt;/li&gt;
   &lt;li&gt;20201213: Went and searched for solutions and &lt;a href=&quot;https://www.reddit.com/r/adventofcode/comments/kc4njx/comment/gfqeouq&quot;&gt;found one that I was really able to understand from gravitar64&lt;/a&gt;, using a &lt;a href=&quot;https://en.wikipedia.org/wiki/Sieve_theory&quot;&gt;“sieving” method&lt;/a&gt;. This didn’t use some intense number theory, like other solutions which used the &lt;a href=&quot;https://en.wikipedia.org/wiki/Chinese_remainder_theorem&quot;&gt;Chinese Remainder Theorem&lt;/a&gt;. I did cheat, but I understand the answer and how it works and that’s all I wanted anyway.&lt;/li&gt;
+  &lt;li&gt;20201213: &lt;a href=&quot;/2020/12/13/aoc-day-13&quot;&gt;Made a write up of how the sieve method works to repent for what feels like cheating.&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </content>
  </entry>

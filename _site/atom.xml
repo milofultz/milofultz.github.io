@@ -4,7 +4,7 @@
  <title>Milo Fultz</title>
  <link href="http://milofultz.com/atom.xml" rel="self"/>
  <link href="http://milofultz.com/"/>
- <updated>2020-12-13T14:53:00-08:00</updated>
+ <updated>2020-12-19T17:49:51-08:00</updated>
  <id>http://milofultz.com</id>
  <author>
    <name>Milo Fultz</name>
@@ -189,6 +189,10 @@ Return the `answer`: 14.
   &lt;li&gt;20201211: Solved day 13 part 1 and have a brute force solution for part 2; however this solution has been spinning for a half hour at least and is showing no signs of progress.&lt;/li&gt;
   &lt;li&gt;20201213: Went and searched for solutions and &lt;a href=&quot;https://www.reddit.com/r/adventofcode/comments/kc4njx/comment/gfqeouq&quot;&gt;found one that I was really able to understand from gravitar64&lt;/a&gt;, using a &lt;a href=&quot;https://en.wikipedia.org/wiki/Sieve_theory&quot;&gt;“sieving” method&lt;/a&gt;. This didn’t use some intense number theory, like other solutions which used the &lt;a href=&quot;https://en.wikipedia.org/wiki/Chinese_remainder_theorem&quot;&gt;Chinese Remainder Theorem&lt;/a&gt;. I did cheat, but I understand the answer and how it works and that’s all I wanted anyway.&lt;/li&gt;
   &lt;li&gt;20201213: &lt;a href=&quot;/2020/12/13/aoc-day-13&quot;&gt;Made a write up of how the sieve method works to repent for what feels like cheating.&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;20201215: Solved day 14 and 15. Day 15 was really tough to understand while I was doing it, as there was a lot to juggle, but it was a very fun one to solve. Ended up refactoring quite a bit by reading the code of &lt;a href=&quot;https://github.com/Scarygami/aoc2020/blob/main/15/day15.py&quot;&gt;Scarymagi&lt;/a&gt; I found on Reddit.&lt;/li&gt;
+  &lt;li&gt;20201216: Solved day 16, and parsing was the majority of the work. It was kind of its own challenge in itself. The problem for part 1 after that was pretty straightforward with a set. Part 2 presented an interesting challenge of essentially trying to solve a &lt;a href=&quot;https://en.wikipedia.org/wiki/Logic_puzzle#Logic_grid_puzzles&quot;&gt;logic grid puzzle&lt;/a&gt; using programming, which I hadn’t done before. That was a good time!&lt;/li&gt;
+  &lt;li&gt;20201218: Started on day 17 and realized I need to finally learn how to use Numpy and deal with 3 dimensional arrays, as this is essentially &lt;a href=&quot;https://en.wikipedia.org/wiki/Conway's_Game_of_Life&quot;&gt;Conway’s Game of Life&lt;/a&gt; but in 3 dimensions.&lt;/li&gt;
+  &lt;li&gt;20201219: Solved day 17 and learned how to use Numpy fairly well with it. Ended up doing Game of Life as a 3 dimensional and &lt;em&gt;4 dimensional&lt;/em&gt; version, which was wild. 3-dimensions required a lot from me, a guy who doesn’t ever do anything like this and probably solved it in a very long-winded inelegant way, but dammit I solved it.&lt;/li&gt;
 &lt;/ul&gt;
 </content>
  </entry>

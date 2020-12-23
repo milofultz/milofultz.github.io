@@ -4,7 +4,7 @@
  <title>Milo Fultz</title>
  <link href="http://milofultz.com/atom.xml" rel="self"/>
  <link href="http://milofultz.com/"/>
- <updated>2020-12-19T23:26:06-08:00</updated>
+ <updated>2020-12-22T23:45:40-08:00</updated>
  <id>http://milofultz.com</id>
  <author>
    <name>Milo Fultz</name>
@@ -194,6 +194,8 @@ Return the `answer`: 14.
   &lt;li&gt;20201218: Started on day 17 and realized I need to finally learn how to use Numpy and deal with 3 dimensional arrays, as this is essentially &lt;a href=&quot;https://en.wikipedia.org/wiki/Conway's_Game_of_Life&quot;&gt;Conway’s Game of Life&lt;/a&gt; but in 3 dimensions.&lt;/li&gt;
   &lt;li&gt;20201219: Solved day 17 and learned how to use Numpy fairly well with it. Ended up doing Game of Life as a 3 dimensional and &lt;em&gt;4 dimensional&lt;/em&gt; version, which was wild. 3-dimensions required a lot from me, a guy who doesn’t ever do anything like this and probably solved it in a very long-winded inelegant way, but dammit I solved it.&lt;/li&gt;
   &lt;li&gt;20201219: Solved day 10 part 2 finally. Tried a recursive solution but it was blasting my computer and taking way too long, so I went searching. The solutions I found using &lt;code class=&quot;highlighter-rouge&quot;&gt;defaultdict&lt;/code&gt; was super elegant, so went with that and am pretty happy with it.&lt;/li&gt;
+  &lt;li&gt;20201221: Solved day 18, which was all about essentially making math that solved in the wrong order (i.e. not &lt;a href=&quot;https://blog.prepscholar.com/pemdas-meaning-rule&quot;&gt;PEMDAS&lt;/a&gt;).&lt;/li&gt;
+  &lt;li&gt;20201222: Solved day 19 part 1, which was really hard to grok, but I got it. A recursion puzzle that was hard to wrap my head around the initial parts. Part 2 is beyond the scope of what my late night brain can handle.&lt;/li&gt;
 &lt;/ul&gt;
 </content>
  </entry>

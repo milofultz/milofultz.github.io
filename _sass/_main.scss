@@ -1,11 +1,3 @@
-@font-face {
-  font-family: "Atkinson Hyperlegible";
-  src: url("http://www.milofultz.com/assets/webfonts/Atkinson-Hyperlegible-Regular-102.eot");
-  src: url("http://www.milofultz.com/assets/webfonts/Atkinson-Hyperlegible-Regular-102.woff") format("woff"),
-    url("http://www.milofultz.com/assets/webfonts/Atkinson-Hyperlegible-Regular-102.otf") format("opentype"),
-    url("http://www.milofultz.com/assets/webfonts/Atkinson-Hyperlegible-Regular-102.svg#AtkinsonHyperlegible") format("svg");
-}
-
 *,
 :after,
 :before {
@@ -16,7 +8,7 @@
 }
 
 body {
-  font-family: "Atkinson Hyperlegible", "Open Sans", sans-serif, system-ui;
+  font-family: sans-serif, system-ui;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   text-align: justify;

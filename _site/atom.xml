@@ -4,13 +4,553 @@
  <title>Milo Fultz</title>
  <link href="http://milofultz.com/atom.xml" rel="self"/>
  <link href="http://milofultz.com/"/>
- <updated>2020-12-26T17:52:21-08:00</updated>
+ <updated>2020-12-27T11:52:42-08:00</updated>
  <id>http://milofultz.com</id>
  <author>
    <name>Milo Fultz</name>
    <email>milopfultz@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>📕 Algorithms To Live By - Book Notes</title>
+   <link href="http://milofultz.com/2020/12/27/atlb-notes"/>
+   <updated>2020-12-27T00:00:00-08:00</updated>
+   <id>http://milofultz.com/2020/12/27/atlb-notes</id>
+   <content type="html">&lt;p&gt;These are notes from the book &lt;a href=&quot;https://openlibrary.org/works/OL17357767W/Algorithms_to_Live_By&quot;&gt;&lt;em&gt;Algorithms To Live By&lt;/em&gt; by Brian Christian and Tom Griffiths&lt;/a&gt;. These are all just my paraphrasings and may not be 100% accurate, but I tried to transcribe what I thought were the most salient points and put them up. All unattributed quotes are merely citations from the book.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;exploreexploit-aka-whats-newwhats-best&quot;&gt;Explore/Exploit: AKA What’s New/What’s Best&lt;/h2&gt;
+
+&lt;h3 id=&quot;interval&quot;&gt;Interval&lt;/h3&gt;
+
+&lt;p&gt;The length of an interval and where you are within it defines whether one should be in a mode of explore or exploit. At the beginning of an interval, one has time and necessity to explore and the highest return on investment of time. At the end, the ROI are almost none to exploring and therefore exploit becomes much more valuable.&lt;/p&gt;
+
+&lt;h3 id=&quot;ab-tests&quot;&gt;A/B Tests&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;A/B tests are when multiple presentations or implementations are used until the best option is decided upon; then the process repeats with the winner and another option.&lt;/li&gt;
+  &lt;li&gt;In A/B testing, the user is the product. The user is being used to gain something that can’t otherwise be gained. This is why online services can be free, is that the providers are getting valuable data.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;zelens-algorithm&quot;&gt;Zelen’s Algorithm&lt;/h3&gt;
+
+&lt;p&gt;Zelen’s algorithm is a variant of the A/B test that increases the likelihood of the most successful choice and minimizes the likelihood of the other. It is one way to better quantify the A/B test.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;There are two choices or tests (A and B). These are chosen at random as if balls in a hat.&lt;/li&gt;
+  &lt;li&gt;When one of the random choices or tests succeeds, the successful choice or test is increased in probability, as in adding another of those balls to the hat. If the choice is a failure, the other choice is increased in probability, as in adding another of those balls to the hat.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;regret-and-optimism&quot;&gt;Regret and Optimism&lt;/h3&gt;
+
+&lt;p&gt;Your amount of regret will always increase, even if you chose the best choice. If you choose the best choice, it may increase more slowly or slow down, but it is still there. The minimum possible regret increases &lt;strong&gt;logarithmically&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;In the long run, optimism is the best prevention for regret.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Upper Confidence Bounds are the highest payout that an option could possibly have, based on the knowledge we have.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The UCB is always higher than the expected value but by less and less as we get more experience with a particular option.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;summary&quot;&gt;Summary&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;&lt;strong&gt;Explore&lt;/strong&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;strong&gt;Exploit&lt;/strong&gt;&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Necessary at the beginning&lt;/td&gt;
+      &lt;td&gt;Impossible without explore&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Only explore means no ability to connect or grow with discoveries&lt;/td&gt;
+      &lt;td&gt;Only exploit means no more potential bests; can’t find any new&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Exploring determines there is not a clear end in sight&lt;/td&gt;
+      &lt;td&gt;Exploiting signals an end of the interval&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Children are almost exclusively here&lt;/td&gt;
+      &lt;td&gt;Adults are almost exclusively here&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;optimal-stopping---knowing-when-to-move-on&quot;&gt;Optimal Stopping - Knowing When To Move On&lt;/h2&gt;
+
+&lt;p&gt;Optimal stopping is a way to know when to cut losses and move on. Don’t waste potential opportunities or resources on irrational ideas or scenarios.&lt;/p&gt;
+
+&lt;h3 id=&quot;no-information-scenarios&quot;&gt;No Information Scenarios&lt;/h3&gt;
+
+&lt;p&gt;This applies only in “no information” games, where no information is provided on the data that is being looked through: the number of things, the things to come, the total population, etc. In this situation, you can only compare the elements to one another and not to a standard or metric.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Look then leap: set a predetermined time to gather data and don’t choose anything. After that, be willing to commit to anything that is better than what you saw before.&lt;/li&gt;
+  &lt;li&gt;37%: A variant of Look then leap, the 37% rule is a rule derived from the idea of optimal stopping. 37% into a search, one should be prepared to pounce on the first thing they find that is better than what they saw before. First 37% is only looking and gathering data. Used in house searches, hiring, etc.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;second-chance-scenarios&quot;&gt;Second Chance Scenarios&lt;/h3&gt;
+
+&lt;p&gt;In second chance scenarios, being restless and having doubt is important. Since you never know if you have the best **and **you have a second chance, this is important in getting the best.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;To live in a restless word requires a certain restlessness in oneself.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;full-information-scenarios&quot;&gt;Full Information Scenarios&lt;/h3&gt;
+
+&lt;p&gt;This is when you are using knowable and measurable things as a criteria or a standard with no second chances.
+The problem of when to sell an item is a full information problem. In this case, the cost of holding an item is the equivalent of a cost of running out of elements to search through. In both cases, the longer you wait, the less chance you have of turning a profit (or in the latter, the less chance of choosing an ideal element). The cost of holding goes up, be willing to accept less sooner, and vice versa.&lt;/p&gt;
+
+&lt;p&gt;The &lt;strong&gt;threshold&lt;/strong&gt; rule is used to pick somebody based upon their rating within the group after X amount of elements have passed by. If an element at X position within Y total elements has a rating above Z percentile, then you should choose them and look at any following elements. Or, choose element if over Z percentile and Y elements are left.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;sorting---reducing-future-search-time&quot;&gt;Sorting - Reducing Future Search Time&lt;/h2&gt;
+
+&lt;p&gt;Sorting is &lt;strong&gt;only&lt;/strong&gt; important in reducing future search time. As the cost of searching drops, the value of sorting goes down, and similarly, as the amount of elements to sort goes up, the speed in which it is done goes down.&lt;/p&gt;
+
+&lt;p&gt;Instead of sorting by comparing elements to each other, a more efficient way to sort is by comparing to an external standard or measure. This is called a “cardinal number” instead of an “ordinal number”. A benchmark like this allows sorting without time intensive systems. Overall it may be incorrect, but it’s good enough , saves time and potential problems, and is therefore acceptable. (Example: The “law of gross tonnage” states that smaller yields to bigger. This may not always be true, but it is true a large amount of the time and will yield less expended less resources for a high accuracy.)&lt;/p&gt;
+
+&lt;h3 id=&quot;algorithms&quot;&gt;Algorithms&lt;/h3&gt;
+
+&lt;h4 id=&quot;big-o&quot;&gt;Big O&lt;/h4&gt;
+
+&lt;p&gt;Big O notation is about hard guarantees and deadlines.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;&lt;strong&gt;Notation&lt;/strong&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;strong&gt;Name&lt;/strong&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;strong&gt;Analogy&lt;/strong&gt;&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;O(1)&lt;/td&gt;
+      &lt;td&gt;Constant&lt;/td&gt;
+      &lt;td&gt;Cleaning the house before a party&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;O(n)&lt;/td&gt;
+      &lt;td&gt;Linear&lt;/td&gt;
+      &lt;td&gt;Giving drinks to every guest&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;O(n log n)&lt;/td&gt;
+      &lt;td&gt;Linearithmic&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;O(n2)&lt;/td&gt;
+      &lt;td&gt;Quadratic&lt;/td&gt;
+      &lt;td&gt;Every person meeting every person&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;O(2n)&lt;/td&gt;
+      &lt;td&gt;Exponential&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;O(n!)&lt;/td&gt;
+      &lt;td&gt;Factorial&lt;/td&gt;
+      &lt;td&gt;Must organize everyone in every possible permutation&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;The fastest way to sort a list can’t be less than O(n) because you have to check all of the elements and that is at least the length of the list itself.&lt;/p&gt;
+
+&lt;p&gt;More efficient algorithms can sacrifice accuracy for speed. For instance, errors in Mergesort can compound quickly, when simpler sorts like Bubblesort are much safer.&lt;/p&gt;
+
+&lt;h4 id=&quot;quadratic-sorts&quot;&gt;Quadratic Sorts&lt;/h4&gt;
+
+&lt;h5 id=&quot;bubble-sort&quot;&gt;Bubble Sort&lt;/h5&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Start at the beginning&lt;/li&gt;
+  &lt;li&gt;Test each element against the next one&lt;/li&gt;
+  &lt;li&gt;If A &amp;gt; B, swap A and B&lt;/li&gt;
+  &lt;li&gt;Continue to the end of the elements&lt;/li&gt;
+  &lt;li&gt;Repeat the above steps until all elements are sorted&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;insertion-sort&quot;&gt;Insertion Sort&lt;/h5&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Start at the beginning&lt;/li&gt;
+  &lt;li&gt;Copy each element into a new array&lt;/li&gt;
+  &lt;li&gt;Put the copied element in order in the new array&lt;/li&gt;
+  &lt;li&gt;Repeat the above steps until all elements have been copied into the new array&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;linearithmic-sort&quot;&gt;Linearithmic Sort&lt;/h4&gt;
+
+&lt;h5 id=&quot;mergesort&quot;&gt;Mergesort&lt;/h5&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Start at the beginning of the array and take every two elements out as a pair&lt;/li&gt;
+  &lt;li&gt;Compare each pair of elements and put them in order (element 1 and element 2, element 3 and element 4, etc.)&lt;/li&gt;
+  &lt;li&gt;Now pair each group up with another group&lt;/li&gt;
+  &lt;li&gt;Compare each pair of elements across groups and place them in order&lt;/li&gt;
+  &lt;li&gt;Repeat this process until all groups have become one group&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;caching---minimize-searching-maximize-use&quot;&gt;Caching - Minimize Searching, Maximize Use&lt;/h2&gt;
+
+&lt;p&gt;The goal of a cache management system is to minimize the amount of times you need to search your “base” and maximize the times you find what you need in your “cache”. Memory hierarchies are like a pyramid: the base in largest and accessed the least; the highest is accessed the most and is the smallest. For example, a library is the base and your checked out books are at the top.&lt;/p&gt;
+
+&lt;p&gt;The alogirthms with which information in the cache is replaced by new information is similar to many algorithms and heuristics used in minimalism and getting rid of stuff (how long have I had it? when did I use it last?).&lt;/p&gt;
+
+&lt;h3 id=&quot;least-recently-used&quot;&gt;Least Recently Used&lt;/h3&gt;
+
+&lt;p&gt;The Least Recently Used (LRU) algorithm is where you make LRU data more accessible, either via distance, ease, speed, location, etc. LRU is effective because of “Temporal Locality”: if it is in cache, it will probably be used again. Self organizing lists use LRU:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Put documents in a pile&lt;/li&gt;
+  &lt;li&gt;When a document is recalled, put it on top when finished.&lt;/li&gt;
+  &lt;li&gt;End result: least recently used is at the bottom (long term storage), most recently used at the top (cache)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The nearest thing to clairvoyance is to assume that history will repeat itself backwards.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Our human memory is not limited but the time spent searching is. It is a library with one infinitely long bookshelf. Using LRU, the most popular things come to the front/top of mind, and vice versa. The aging mind getting slower is not due to lack of agility or speed. It is due to abundance of information and difficulty in successfully caching.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;scheduling---focus-not-on-getting-things-done-but-getting-weighty-things-done&quot;&gt;Scheduling - Focus not on getting things done, but getting “weighty” things done&lt;/h2&gt;
+
+&lt;p&gt;How you tackle your todo list is based on your goal. If your goal is to &lt;strong&gt;minimize time to total completion&lt;/strong&gt;, do what has the shortest completion time first. THis makes each person waiting for their deliverables with the shortest amount of time. This also reduces total tasks on the todo list quickest. If your goal is to &lt;strong&gt;minimize oppressiveness/weight of tasks&lt;/strong&gt;, divide the oppressiveness/weight of each task by the estimated completion time, and then do the tasks with the highest unit of weight per unit of time.&lt;/p&gt;
+
+&lt;p&gt;The oppressiveness/weight metric needs an importance or price as a scale. The example below you could think of the weight metric as importance or dollars per hour to illustrate. Example (using a 1-10 scale of weight/oppressiveness with higher numbers being more oppressive, and an hour scale for time):&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Task 1:&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Weight: 1 (low)&lt;/li&gt;
+      &lt;li&gt;Time: 8&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Result: 1/8&lt;/strong&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Task 2:&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Weight: 10 (high)&lt;/li&gt;
+      &lt;li&gt;Time: 1&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Result: 10/1&lt;/strong&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Comparison&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Task 1 vs. Task 2 == 1/8 : 10/1 == Task 1 (1/8) is less important to do now than Task 2 (10/1).&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In the context of debt reduction, stemming from these two algorithms are two different schools of thought:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Debt Snowball&lt;/strong&gt;: focus is on removing the sources of the smallest balances first (using the “minimize time to total completion” algorithm above).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Debt Avalanche:&lt;/strong&gt; focus on removing the sources with the highest interest rates first (using the “minimize oppressiveness/weight of tasks” algorithm above)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;anti-patterns&quot;&gt;Anti-Patterns&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Preemption&lt;/strong&gt; is the ability to stop mid-task and start another. Using previous algorithms, preemption allows flexibility with tasks that can’t be started until a certain time or requisite is met. If receiving a new task in the middle of another one, comparing them using a weighted SPT ratio of weight/time is the best option.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Context switching&lt;/strong&gt; is work that is done in switching tasks to ensure that new task can be done, also known as &lt;strong&gt;meta-work&lt;/strong&gt;. The cost of context switching is throughput. More responsiveness (more context switching with a lower threshold of rejection) leads to less throughput overall Lower responsiveness (less context switching with a higher threshold of rejection) leads to higher throughput overall.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Thrashing&lt;/strong&gt; is when this meta-work is taking up all of your time and no actual work can be done. If one finds themselves in a thrashing state, the best thing to do at that point is to do whatever tasks in whatever order to open up more resources.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Priority inversion&lt;/strong&gt; is where a lower level task is blocking a higher level task.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Pre-crastination&lt;/strong&gt; is when you choose smaller subtasks over a major task, with the goal being to lessen the total load of tasks. Pre-crastinators act with the wrong metric in mind: when a major task is difficult to manage, they try to lessen this difficulty by going for the “minimize time to total completion” algorithm instead of the “minimize oppressiveness” algorithm. This is most common in systems with no weighting system in place. For instance, email icons show all unread messages, including those messages that are unimportant as well as those that are. In trying to deal with the most weighty emails, this leads people to lower the total number of unread messages instead of dealing with those weighty emails, in an attempt to relieve the problem. If the goal is just to have less unreads, then this is the best choice, but if the goal is to do what is important, then the other algorithm is best, and therefore, managing the most weighty emails first is the best choice.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;In the case of app badges, if we can’t get them to reflect our actual priorities, and can’t overcome the impulse to optimally reduce any numerical figure thrown in out face, then perhaps the next best thing is to turn the badges off.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;best-practices&quot;&gt;Best Practices&lt;/h3&gt;
+
+&lt;p&gt;Setting minimum periods with no interruptions allow both the throughput and responsiveness without sacrificing either, a la Pomodoro Method. &lt;strong&gt;Determine the minimum acceptable limit of responsiveness and then be no more responsive than that.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Interrupt coalescing&lt;/strong&gt; is the grouping of like interrupts to all be done at once. Let all interrupts of type X wait until a minimum acceptable responsiveness and then attend to them all at once.&lt;/p&gt;
+
+&lt;p&gt;When &lt;strong&gt;priority inversion&lt;/strong&gt; is an issue, use &lt;strong&gt;priority inheritance&lt;/strong&gt;, where that lower level task that is blocking the higher level task inherits the priority of that task. If you can’t do task Y because task Z isn’t done yet, then task Z is now the most important task to be done.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;predictions&quot;&gt;Predictions&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Events are always experienced at their proper frequencies, but this isn’t true of language.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Good predictions require good priors. People generally have a ton of information from past experience and this allows good models. However, we retell interesting stories because of how interesting they are. This makes them seem to be more likely than they really are to be.&lt;/p&gt;
+
+&lt;p&gt;The Stanford Marshmallow Experiment and its successive study to replicate it’s findings was not at its core a study of delayed gratification, as much as it was trust that the system will honor its word in giving you the marshmallow it promised. Kids who lived in places with less trust in authority or the words of others were less likely to wait as it would have no perceived benefit to them.&lt;/p&gt;
+
+&lt;h3 id=&quot;laws-and-rules&quot;&gt;Laws and Rules&lt;/h3&gt;
+
+&lt;h4 id=&quot;laplaces-law&quot;&gt;Laplace’s Law&lt;/h4&gt;
+
+&lt;p&gt;With no priors or prior information given or known, the probability of a given event happening is &lt;code class=&quot;highlighter-rouge&quot;&gt;(the number of successes + 1) / (the number of attempts + 2)&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h4 id=&quot;bayess-rule&quot;&gt;Bayes’s Rule&lt;/h4&gt;
+
+&lt;p&gt;This shows the probability of &lt;strong&gt;one scenario&lt;/strong&gt; given that &lt;strong&gt;another scenario&lt;/strong&gt; is true. The formula is written as &lt;code class=&quot;highlighter-rouge&quot;&gt;Probability of A given B = [(Probability of B given A) multiplied by (Probability of A)] / (Probability of B)&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Example: What is the probability that &lt;strong&gt;the person is a librarian and not a farmer&lt;/strong&gt; given &lt;strong&gt;a description&lt;/strong&gt;? (from &lt;a href=&quot;https://www.youtube.com/watch?v=HZGCoVF3YvM&quot;&gt;3Blue1Brown’s video on Bayes Rule&lt;/a&gt;)&lt;/p&gt;
+
+&lt;p&gt;The total options available are that the person described is either a &lt;strong&gt;farmer&lt;/strong&gt; or a &lt;strong&gt;librarian&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;P(librarian | description) = ( P(description | librarian) * P(librarian) ) / P(description)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;P(description | librarian)&lt;/code&gt; = the likelihood that the description fits a given librarian, let’s say 40%&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;P(librarian)&lt;/code&gt; = the percentage of librarians (10) to farmers (200), ~5%&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;P(description)&lt;/code&gt; = the likelihood that the description fits a given librarian AND the likelihood that the description fits a given farmer;
+    &lt;ul&gt;
+      &lt;li&gt;Librarian: let’s say 40%&lt;/li&gt;
+      &lt;li&gt;Farmer: let’s say 10%&lt;/li&gt;
+      &lt;li&gt;Total: (.4 * 10 + .1 * 200) / 210 = 11%&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;P(librarian | description) = ( 40 * 5 ) / 11 = 200/11&lt;/code&gt; = 18% probability of the description matching a librarian in the given sample&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The richer the information we bring to Bayes rule, the more useful the predictions we can get out of it.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=U_85TaXbeIo&quot;&gt;3Blue1Brown’s second video on Bayes’s Rule&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;copernican-principle&quot;&gt;Copernican Principle&lt;/h4&gt;
+
+&lt;p&gt;Without prior information, we encounter things on on average halfway through their entire existence. They will last as long as they already have &lt;em&gt;again&lt;/em&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;distributionsscales&quot;&gt;Distributions/Scales&lt;/h3&gt;
+
+&lt;h4 id=&quot;normal-distribution-use-the-average-rule&quot;&gt;Normal Distribution: use the Average Rule&lt;/h4&gt;
+
+&lt;p&gt;There is an average and then falls sharply on either side. Usually follows a single appropriate scale, e.g. average lifespan is 76; low is single digits and high is triple.&lt;/p&gt;
+
+&lt;p&gt;The Average Rule is to use the distribution’s average to make your prediction.&lt;/p&gt;
+
+&lt;h4 id=&quot;power-law-distribution-use-the-multiplicative-rule&quot;&gt;Power Law Distribution: use the Multiplicative Rule&lt;/h4&gt;
+
+&lt;p&gt;Follows a more displaced curve. Often accompanied by hige discrepancies of numbers, e.g. average income is $58k, but 2/3 of population make less while .01% make 100 times more. Can be interpreted as the 80/20 rule.&lt;/p&gt;
+
+&lt;p&gt;The Multiplicative Rule is that, in the case of a power law distribution, the observation made can be multiplied by a constant factor to make a prediction.&lt;/p&gt;
+
+&lt;h4 id=&quot;erlang-distribution-use-the-additive-rule&quot;&gt;Erlang Distribution: use the Additive Rule&lt;/h4&gt;
+
+&lt;p&gt;In between a normal and power law distribution. Models include radioactive decay, political terms in office.&lt;/p&gt;
+
+&lt;p&gt;The Additive Rule is that things will go on a constant amount longer. These distributions yield the same prediction regardless of history or current state.&lt;/p&gt;
+
+&lt;h3 id=&quot;overfitting-and-how-to-avoid-it&quot;&gt;Overfitting and How To Avoid It&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Overfitting&quot;&gt;Overfitting is a model that contains more parameters than can be justified by the data&lt;/a&gt;. Applying simple heuristics (fewer models or a simpler formula) can often be better and more accurate due to overfitting and confidence in it by the user. Too simple of a model will get you inaccurate results; too complex will imply things that don’t exist or are hyperbolic. The more noise you have, the more simple your model or heuristics need to be to ensure no overfitting occurs. The less noise you have, the more complex your model and heuristics can be. The more accurate our data, the more factors can be used safely. Adding more factors to help match the data correctly is not necessarily the way to get good predictions.&lt;/p&gt;
+
+&lt;p&gt;Overfitting your work to fit the picture of success is product over process thinking. If your goal is to lose 30 pounds and you don’t eat, you will succeed (product) but you will also sacrifice the form (process) necessary to do it in a way that addressed the underlying information and goal: better health. Focus on the way and process over all else.&lt;/p&gt;
+
+&lt;p&gt;In focusing on form, be careful what you measure as goal oriented behavior. This will be reached at all costs and that may or may not be in the way that was asked.&lt;/p&gt;
+
+&lt;h4 id=&quot;early-stopping&quot;&gt;Early stopping&lt;/h4&gt;
+
+&lt;p&gt;Early stopping is used to stop the refinement or research into solving a problem before you get too in the weeds. Overfitting will take place beyond the most important factors.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;How early to stop depends on the gap between what you can measure and what really matters.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;cross-validation&quot;&gt;Cross validation&lt;/h4&gt;
+
+&lt;p&gt;Cross validation is assessing the given data and seeing how well the model predicts unseen data.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Withhold data points to plug in later and see if they follow&lt;/li&gt;
+  &lt;li&gt;Use data pulled from another measure and see if it holds up&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Cross training with different educational systems or testing methods can ensure that the learning is not being “taught to the test”.&lt;/p&gt;
+
+&lt;h4 id=&quot;regularization&quot;&gt;Regularization&lt;/h4&gt;
+
+&lt;p&gt;Regularization is introducing penalties for more complexity in the model to ensure that the extra complexity is worth it. Only the most important factors must stay in relation to how much importance the overall function the element is to the system. For instance, the brain would not be evolutionarily viable if it took 20% of our caloric intake and didn’t provide such benefits as it does now. Also, the brain is apparently not important enough to take 40% of our caloric intake.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;predictions-1&quot;&gt;Predictions&lt;/h2&gt;
+
+&lt;h3 id=&quot;models&quot;&gt;Models&lt;/h3&gt;
+
+&lt;h4 id=&quot;hill-climbing&quot;&gt;Hill Climbing&lt;/h4&gt;
+
+&lt;p&gt;Hill Climbing is starting with a possibility and editing that possibility over and over to find the best solution. It gives you the “local maximum” to your starting point. Hill climbing can be augmented with “jitter”, an applied randomness to test slight deviations for successful outcomes.&lt;/p&gt;
+
+&lt;p&gt;Different types of Hill Climbing include:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;“Shotgun” hill climbing&lt;/strong&gt;: restarting from a totally random or shuffled possibility and repeating your whole process.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Metropolis Algorithm&lt;/strong&gt;: accepting slightly worse possibilities at random to ensure new directions are taken.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Simulated Annealing&lt;/strong&gt;: starting at a random point, always take a better solution if found and accept slightly worse solutions X% of the time. Continue lowering X until it is zero and you will have found the local maximum. Good for use with Metropolis, simulates jitter, and utilizes shotgun.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Your likelihood of following a bad idea should be inversely proportional to how bad it is.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;monte-carlo-method&quot;&gt;Monte Carlo Method&lt;/h4&gt;
+
+&lt;p&gt;Replace exhaustive probability calculations with sample simulations, usually samples made of random inputs.&lt;/p&gt;
+
+&lt;h4 id=&quot;sieve-of-eratosthenes&quot;&gt;Sieve of Eratosthenes&lt;/h4&gt;
+
+&lt;p&gt;Example: To find primes from 1 to n:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Write all numbers from 1 to n&lt;/li&gt;
+  &lt;li&gt;Start at 2 and cross off any multiples of 2.&lt;/li&gt;
+  &lt;li&gt;Repeat with all numbers not yet crossed out.&lt;/li&gt;
+  &lt;li&gt;When n/2 is reached, all numbers not yet crossed out are primes.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;greedymyopic-algorithms&quot;&gt;Greedy/Myopic Algorithms&lt;/h4&gt;
+
+&lt;p&gt;These focus on only the best choice at each step and don’t worry about the others.&lt;/p&gt;
+
+&lt;h3 id=&quot;types-of-relaxation-and-their-implementation&quot;&gt;Types of Relaxation and Their Implementation&lt;/h3&gt;
+
+&lt;h4 id=&quot;constraint-relaxation&quot;&gt;Constraint Relaxation&lt;/h4&gt;
+
+&lt;p&gt;Constraint relaxation is when you try to solve an easier version of the problem, and then when you’ve made progress, add constraints back in. &lt;strong&gt;Constraint relaxation is a tradeoff of time for good-enough solutions.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Remove the constraints, make progress, and then reintegrate the constraints.&lt;/p&gt;
+
+&lt;h4 id=&quot;discrete-optimizationcontinuous-relaxation&quot;&gt;Discrete Optimization/Continuous Relaxation&lt;/h4&gt;
+
+&lt;p&gt;Discrete optimization/continuous relaxation is used where fractions aren’t used (number of fire trucks per capita, number of people to vaccinate). Relaxing these to use fractions and then round from there is usually good enough (number of fire trucks ending up being 1.2 per capita, rounding to 1).&lt;/p&gt;
+
+&lt;p&gt;Turn discrete measurements to continuous measurements and then round them off.&lt;/p&gt;
+
+&lt;h4 id=&quot;lagrangian-relaxation&quot;&gt;Lagrangian Relaxation&lt;/h4&gt;
+
+&lt;p&gt;In optimization, there are the rules and the scorekeeping. Moving constraints from the rules (input) to the scorekeeping (output) allows for impossible solutions to get close enough.&lt;/p&gt;
+
+&lt;p&gt;Change the bindings on the rules into bindings on the score.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The perfect is the enemy of the good. - Voltaire&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;networking&quot;&gt;Networking&lt;/h2&gt;
+
+&lt;h3 id=&quot;exponential-backoff&quot;&gt;Exponential Backoff&lt;/h3&gt;
+
+&lt;p&gt;If an attempt is failed, increase the previous constraint by double.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;If network is not connecting, wait between 1-2s to try and reconnect; again, wait 2-4s more; etc.&lt;/li&gt;
+  &lt;li&gt;If a person doesn’t respond to your call or text, wait 1 day to follow up; again, wait 2 days, etc.&lt;/li&gt;
+  &lt;li&gt;If a person violates probation, the 1st time they should spend 1 day in jail; the 2nd, 2 days; 3rd, 4 days; etc.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;additive-increase-multiplicative-decrease&quot;&gt;Additive increase, multiplicative decrease&lt;/h3&gt;
+
+&lt;p&gt;On a success, increase the input side at a constant rate. On a failure, cut back that input by half. Applicable most directly to internet connections and attempts to ask for or send information.&lt;/p&gt;
+
+&lt;h3 id=&quot;backchannels&quot;&gt;Backchannels&lt;/h3&gt;
+
+&lt;p&gt;The backchannels in communication are responses, acknowledgements, or the lack thereof. In a conversation or speech, the effectiveness of a speaker is partly dependent on the listener’s backchannel communication.&lt;/p&gt;
+
+&lt;h3 id=&quot;taildrop&quot;&gt;Taildrop&lt;/h3&gt;
+
+&lt;p&gt;A taildrop is the dropping of everything that didn’t fit within the buffer. Modern communication doesn’t allow taildrop, and was specifically made to stop it. For example, a home phone with a tape message machine will eventually run out of space, but an email box has no feasible limit of how large the backlog can get. &lt;strong&gt;We aren’t always connected, but we are always buffered.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;One of the fundamental principles of buffers is that they only work correctly if they are routinely zeroed out.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;game-theory&quot;&gt;Game Theory&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;We can hope to be fortunate, but should strive to be wise.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;“Price of anarchy”&lt;/strong&gt;: The gap between cooperation and competition. The bigger the difference, the higher the price.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Revelation Principle&lt;/strong&gt;: Any game that requires strategic masking of the truth can be transformed into a game where the dominant strategy is honesty.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Computational Kindness&lt;/strong&gt;: relieving the amount of things for sombody to compute when forced with your problem. By asking a very specific question, the answer will be simpler. Too many questions will feel intractable. Instead of “passing the cognitive buck”, offering a suggestion is a way to lessen the burden for others. Instead of a continued computation, aka spinning (will the bus come soon?), opt for a single one, aka blocking (the bus is coming in 10 minutes; I can/cannot wait).&lt;/p&gt;
+
+&lt;h3 id=&quot;leveling&quot;&gt;Leveling&lt;/h3&gt;
+
+&lt;p&gt;Only playing one level above your opponent. If you are playing at level 3 and they are at level 1, it is likely you will be overthinking your strategy and overfit your model.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Level 1 - I know&lt;/li&gt;
+  &lt;li&gt;Level 2 - I know you know&lt;/li&gt;
+  &lt;li&gt;Level 3 - You know I know you know&lt;/li&gt;
+  &lt;li&gt;etc.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;An &lt;strong&gt;Information Cascade&lt;/strong&gt; is when external information affects your personal information so much that you then disregard your own info completely.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Be wary of cases where you know more about what people are doing than why.&lt;/li&gt;
+  &lt;li&gt;Actions are not beliefs. Do not misinterpret actions as beliefs.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;equilibrium&quot;&gt;Equilibrium&lt;/h3&gt;
+
+&lt;p&gt;In a two player game, this is the best strategy assuming rational play. This is distinctly outside of leveling, meta strategy, etc. The predictive abilities of Nash equilibrium are only useful if you can find them as a player.&lt;/p&gt;
+
+&lt;p&gt;If the point of equilibrium can’t be changed directly, then the rules must be changed to force the equilibrium to move.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;If employers give an option to take vacation or not, the equilibrium will shift to be the “most loyal” employee, taking less vacation than their peers.&lt;/li&gt;
+  &lt;li&gt;By making vacation mandatory, this leaves everyone free to take the break, not allowing the competition to overtake their good judgment in taking care of themselves.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;auctions&quot;&gt;Auctions&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Sealed Bid First-Price Auctions&lt;/strong&gt;: Bids are made in secret and highest offer wins. The bidders are not offering what they want to pay; they are offering what they think &lt;em&gt;others&lt;/em&gt; will pay plus some. Winners almost always overpay.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Dutch Auction&lt;/strong&gt;: Starting price is lowered until someone wants to buy it.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;English Auction&lt;/strong&gt;: Starting price is raised until highest bidder.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Vickrey Auction&lt;/strong&gt;: Sealed bid first-price auction but winner pays second highest bid. Utilizes the Revelation Principle to convert the sealed bid first-price auction’s “strategic masking of the truth” into a game where people play honestly.&lt;/p&gt;
+
+&lt;!-- --- 
+
+- _202XXXXX: Update format_ --&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Solution to Advent of Code 13 - LCM with Offsets</title>

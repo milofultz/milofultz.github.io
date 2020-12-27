@@ -1,0 +1,417 @@
+---
+layout: post
+title: 📕 Algorithms To Live By - Book Notes
+description: Algorithms To Live By - Book Notes
+summary: Algorithms To Live By - Book Notes
+comments: true
+tags: reference
+---
+
+These are notes from the book [_Algorithms To Live By_ by Brian Christian and Tom Griffiths](https://openlibrary.org/works/OL17357767W/Algorithms_to_Live_By). These are all just my paraphrasings and may not be 100% accurate, but I tried to transcribe what I thought were the most salient points and put them up. All unattributed quotes are merely citations from the book.
+
+---
+
+## Explore/Exploit: AKA What's New/What's Best
+
+### Interval
+
+The length of an interval and where you are within it defines whether one should be in a mode of explore or exploit. At the beginning of an interval, one has time and necessity to explore and the highest return on investment of time. At the end, the ROI are almost none to exploring and therefore exploit becomes much more valuable.
+
+### A/B Tests
+
+* A/B tests are when multiple presentations or implementations are used until the best option is decided upon; then the process repeats with the winner and another option.
+* In A/B testing, the user is the product. The user is being used to gain something that can't otherwise be gained. This is why online services can be free, is that the providers are getting valuable data.
+
+### Zelen's Algorithm
+
+Zelen's algorithm is a variant of the A/B test that increases the likelihood of the most successful choice and minimizes the likelihood of the other. It is one way to better quantify the A/B test.
+
+* There are two choices or tests (A and B). These are chosen at random as if balls in a hat.
+* When one of the random choices or tests succeeds, the successful choice or test is increased in probability, as in adding another of those balls to the hat. If the choice is a failure, the other choice is increased in probability, as in adding another of those balls to the hat.
+
+### Regret and Optimism
+
+Your amount of regret will always increase, even if you chose the best choice. If you choose the best choice, it may increase more slowly or slow down, but it is still there. The minimum possible regret increases **logarithmically**.
+
+> In the long run, optimism is the best prevention for regret.
+
+Upper Confidence Bounds are the highest payout that an option could possibly have, based on the knowledge we have.
+
+> The UCB is always higher than the expected value but by less and less as we get more experience with a particular option.
+
+### Summary
+
+**Explore**| **Exploit**
+---|---
+Necessary at the beginning| Impossible without explore
+Only explore means no ability to connect or grow with discoveries| Only exploit means no more potential bests; can't find any new
+Exploring determines there is not a clear end in sight| Exploiting signals an end of the interval
+Children are almost exclusively here| Adults are almost exclusively here
+
+* * *
+
+## Optimal Stopping - Knowing When To Move On
+
+Optimal stopping is a way to know when to cut losses and move on. Don't waste potential opportunities or resources on irrational ideas or scenarios.
+
+### No Information Scenarios
+
+This applies only in "no information" games, where no information is provided on the data that is being looked through: the number of things, the things to come, the total population, etc. In this situation, you can only compare the elements to one another and not to a standard or metric.
+
+* Look then leap: set a predetermined time to gather data and don't choose anything. After that, be willing to commit to anything that is better than what you saw before.
+* 37%: A variant of Look then leap, the 37% rule is a rule derived from the idea of optimal stopping. 37% into a search, one should be prepared to pounce on the first thing they find that is better than what they saw before. First 37% is only looking and gathering data. Used in house searches, hiring, etc.
+
+### Second Chance Scenarios
+
+In second chance scenarios, being restless and having doubt is important. Since you never know if you have the best **and **you have a second chance, this is important in getting the best.
+
+> To live in a restless word requires a certain restlessness in oneself.
+
+### Full Information Scenarios
+
+This is when you are using knowable and measurable things as a criteria or a standard with no second chances.
+The problem of when to sell an item is a full information problem. In this case, the cost of holding an item is the equivalent of a cost of running out of elements to search through. In both cases, the longer you wait, the less chance you have of turning a profit (or in the latter, the less chance of choosing an ideal element). The cost of holding goes up, be willing to accept less sooner, and vice versa.
+
+The **threshold** rule is used to pick somebody based upon their rating within the group after X amount of elements have passed by. If an element at X position within Y total elements has a rating above Z percentile, then you should choose them and look at any following elements. Or, choose element if over Z percentile and Y elements are left.
+
+* * *
+
+## Sorting - Reducing Future Search Time
+
+Sorting is **only** important in reducing future search time. As the cost of searching drops, the value of sorting goes down, and similarly, as the amount of elements to sort goes up, the speed in which it is done goes down.
+
+Instead of sorting by comparing elements to each other, a more efficient way to sort is by comparing to an external standard or measure. This is called a "cardinal number" instead of an "ordinal number". A benchmark like this allows sorting without time intensive systems. Overall it may be incorrect, but it's good enough , saves time and potential problems, and is therefore acceptable. (Example: The "law of gross tonnage" states that smaller yields to bigger. This may not always be true, but it is true a large amount of the time and will yield less expended less resources for a high accuracy.)
+
+### Algorithms
+
+#### Big O 
+
+Big O notation is about hard guarantees and deadlines.
+
+**Notation**| **Name**| **Analogy**
+---|---|---
+O(1)| Constant| Cleaning the house before a party
+O(n)| Linear| Giving drinks to every guest
+O(n log n)| Linearithmic|
+O(n2)| Quadratic| Every person meeting every person
+O(2n)| Exponential|
+O(n!)| Factorial| Must organize everyone in every possible permutation
+
+The fastest way to sort a list can't be less than O(n) because you have to check all of the elements and that is at least the length of the list itself.
+
+More efficient algorithms can sacrifice accuracy for speed. For instance, errors in Mergesort can compound quickly, when simpler sorts like Bubblesort are much safer.
+
+#### Quadratic Sorts
+
+##### Bubble Sort
+
+* Start at the beginning
+* Test each element against the next one
+* If A > B, swap A and B
+* Continue to the end of the elements
+* Repeat the above steps until all elements are sorted
+
+##### Insertion Sort
+
+* Start at the beginning
+* Copy each element into a new array
+* Put the copied element in order in the new array
+* Repeat the above steps until all elements have been copied into the new array
+
+#### Linearithmic Sort
+
+##### Mergesort
+
+* Start at the beginning of the array and take every two elements out as a pair
+* Compare each pair of elements and put them in order (element 1 and element 2, element 3 and element 4, etc.)
+* Now pair each group up with another group
+* Compare each pair of elements across groups and place them in order
+* Repeat this process until all groups have become one group
+
+* * *
+
+## Caching - Minimize Searching, Maximize Use
+
+The goal of a cache management system is to minimize the amount of times you need to search your "base" and maximize the times you find what you need in your "cache". Memory hierarchies are like a pyramid: the base in largest and accessed the least; the highest is accessed the most and is the smallest. For example, a library is the base and your checked out books are at the top.
+
+The alogirthms with which information in the cache is replaced by new information is similar to many algorithms and heuristics used in minimalism and getting rid of stuff (how long have I had it? when did I use it last?).
+
+### Least Recently Used
+
+The Least Recently Used (LRU) algorithm is where you make LRU data more accessible, either via distance, ease, speed, location, etc. LRU is effective because of "Temporal Locality": if it is in cache, it will probably be used again. Self organizing lists use LRU:
+
+  * Put documents in a pile
+  * When a document is recalled, put it on top when finished.
+  * End result: least recently used is at the bottom (long term storage), most recently used at the top (cache)
+
+> The nearest thing to clairvoyance is to assume that history will repeat itself backwards.
+
+Our human memory is not limited but the time spent searching is. It is a library with one infinitely long bookshelf. Using LRU, the most popular things come to the front/top of mind, and vice versa. The aging mind getting slower is not due to lack of agility or speed. It is due to abundance of information and difficulty in successfully caching.
+
+* * *
+
+## Scheduling - Focus not on getting things done, but getting "weighty" things done
+
+How you tackle your todo list is based on your goal. If your goal is to **minimize time to total completion**, do what has the shortest completion time first. THis makes each person waiting for their deliverables with the shortest amount of time. This also reduces total tasks on the todo list quickest. If your goal is to **minimize oppressiveness/weight of tasks**, divide the oppressiveness/weight of each task by the estimated completion time, and then do the tasks with the highest unit of weight per unit of time. 
+
+The oppressiveness/weight metric needs an importance or price as a scale. The example below you could think of the weight metric as importance or dollars per hour to illustrate. Example (using a 1-10 scale of weight/oppressiveness with higher numbers being more oppressive, and an hour scale for time):
+
+* **Task 1:**
+    * Weight: 1 (low)
+    * Time: 8
+    * **Result: 1/8**
+* **Task 2:**
+    * Weight: 10 (high)
+    * Time: 1
+    * **Result: 10/1**
+* **Comparison**
+    * Task 1 vs. Task 2 == 1/8 : 10/1 == Task 1 (1/8) is less important to do now than Task 2 (10/1).
+
+In the context of debt reduction, stemming from these two algorithms are two different schools of thought:
+
+* **Debt Snowball**: focus is on removing the sources of the smallest balances first (using the "minimize time to total completion" algorithm above).
+* **Debt Avalanche:** focus on removing the sources with the highest interest rates first (using the "minimize oppressiveness/weight of tasks" algorithm above)
+
+### Anti-Patterns
+
+**Preemption** is the ability to stop mid-task and start another. Using previous algorithms, preemption allows flexibility with tasks that can't be started until a certain time or requisite is met. If receiving a new task in the middle of another one, comparing them using a weighted SPT ratio of weight/time is the best option.
+
+**Context switching** is work that is done in switching tasks to ensure that new task can be done, also known as **meta-work**. The cost of context switching is throughput. More responsiveness (more context switching with a lower threshold of rejection) leads to less throughput overall Lower responsiveness (less context switching with a higher threshold of rejection) leads to higher throughput overall.
+
+**Thrashing** is when this meta-work is taking up all of your time and no actual work can be done. If one finds themselves in a thrashing state, the best thing to do at that point is to do whatever tasks in whatever order to open up more resources.
+
+**Priority inversion** is where a lower level task is blocking a higher level task.
+
+**Pre-crastination** is when you choose smaller subtasks over a major task, with the goal being to lessen the total load of tasks. Pre-crastinators act with the wrong metric in mind: when a major task is difficult to manage, they try to lessen this difficulty by going for the "minimize time to total completion" algorithm instead of the "minimize oppressiveness" algorithm. This is most common in systems with no weighting system in place. For instance, email icons show all unread messages, including those messages that are unimportant as well as those that are. In trying to deal with the most weighty emails, this leads people to lower the total number of unread messages instead of dealing with those weighty emails, in an attempt to relieve the problem. If the goal is just to have less unreads, then this is the best choice, but if the goal is to do what is important, then the other algorithm is best, and therefore, managing the most weighty emails first is the best choice.
+
+> In the case of app badges, if we can't get them to reflect our actual priorities, and can't overcome the impulse to optimally reduce any numerical figure thrown in out face, then perhaps the next best thing is to turn the badges off.
+
+### Best Practices
+
+Setting minimum periods with no interruptions allow both the throughput and responsiveness without sacrificing either, a la Pomodoro Method. **Determine the minimum acceptable limit of responsiveness and then be no more responsive than that.**
+
+**Interrupt coalescing** is the grouping of like interrupts to all be done at once. Let all interrupts of type X wait until a minimum acceptable responsiveness and then attend to them all at once.
+
+When **priority inversion** is an issue, use **priority inheritance**, where that lower level task that is blocking the higher level task inherits the priority of that task. If you can't do task Y because task Z isn't done yet, then task Z is now the most important task to be done.
+
+* * *
+
+## Predictions
+
+> Events are always experienced at their proper frequencies, but this isn't true of language.
+
+Good predictions require good priors. People generally have a ton of information from past experience and this allows good models. However, we retell interesting stories because of how interesting they are. This makes them seem to be more likely than they really are to be.
+
+The Stanford Marshmallow Experiment and its successive study to replicate it's findings was not at its core a study of delayed gratification, as much as it was trust that the system will honor its word in giving you the marshmallow it promised. Kids who lived in places with less trust in authority or the words of others were less likely to wait as it would have no perceived benefit to them.
+
+### Laws and Rules
+
+#### Laplace's Law
+
+With no priors or prior information given or known, the probability of a given event happening is `(the number of successes + 1) / (the number of attempts + 2)`.
+
+#### Bayes's Rule
+
+This shows the probability of **one scenario** given that **another scenario** is true. The formula is written as `Probability of A given B = [(Probability of B given A) multiplied by (Probability of A)] / (Probability of B)`.
+
+Example: What is the probability that **the person is a librarian and not a farmer** given **a description**? (from [3Blue1Brown's video on Bayes Rule](https://www.youtube.com/watch?v=HZGCoVF3YvM))
+
+The total options available are that the person described is either a **farmer** or a **librarian**. 
+
+    P(librarian | description) = ( P(description | librarian) * P(librarian) ) / P(description)
+
+* `P(description | librarian)` = the likelihood that the description fits a given librarian, let's say 40%
+* `P(librarian)` = the percentage of librarians (10) to farmers (200), ~5%
+* `P(description)` = the likelihood that the description fits a given librarian AND the likelihood that the description fits a given farmer;
+    * Librarian: let's say 40%
+    * Farmer: let's say 10%
+    * Total: (.4 * 10 + .1 * 200) / 210 = 11%
+
+`P(librarian | description) = ( 40 * 5 ) / 11 = 200/11` = 18% probability of the description matching a librarian in the given sample
+
+> The richer the information we bring to Bayes rule, the more useful the predictions we can get out of it.
+
+[3Blue1Brown's second video on Bayes's Rule](https://www.youtube.com/watch?v=U_85TaXbeIo)
+
+#### Copernican Principle
+
+Without prior information, we encounter things on on average halfway through their entire existence. They will last as long as they already have *again*.
+
+### Distributions/Scales
+
+#### Normal Distribution: use the Average Rule
+
+There is an average and then falls sharply on either side. Usually follows a single appropriate scale, e.g. average lifespan is 76; low is single digits and high is triple. 
+
+The Average Rule is to use the distribution's average to make your prediction.
+
+#### Power Law Distribution: use the Multiplicative Rule
+
+Follows a more displaced curve. Often accompanied by hige discrepancies of numbers, e.g. average income is $58k, but 2/3 of population make less while .01% make 100 times more. Can be interpreted as the 80/20 rule.
+
+The Multiplicative Rule is that, in the case of a power law distribution, the observation made can be multiplied by a constant factor to make a prediction.
+
+#### Erlang Distribution: use the Additive Rule
+
+In between a normal and power law distribution. Models include radioactive decay, political terms in office. 
+
+The Additive Rule is that things will go on a constant amount longer. These distributions yield the same prediction regardless of history or current state.
+
+### Overfitting and How To Avoid It
+
+[Overfitting is a model that contains more parameters than can be justified by the data](https://en.wikipedia.org/wiki/Overfitting). Applying simple heuristics (fewer models or a simpler formula) can often be better and more accurate due to overfitting and confidence in it by the user. Too simple of a model will get you inaccurate results; too complex will imply things that don't exist or are hyperbolic. The more noise you have, the more simple your model or heuristics need to be to ensure no overfitting occurs. The less noise you have, the more complex your model and heuristics can be. The more accurate our data, the more factors can be used safely. Adding more factors to help match the data correctly is not necessarily the way to get good predictions.
+
+Overfitting your work to fit the picture of success is product over process thinking. If your goal is to lose 30 pounds and you don't eat, you will succeed (product) but you will also sacrifice the form (process) necessary to do it in a way that addressed the underlying information and goal: better health. Focus on the way and process over all else.
+
+In focusing on form, be careful what you measure as goal oriented behavior. This will be reached at all costs and that may or may not be in the way that was asked.
+
+#### Early stopping
+
+Early stopping is used to stop the refinement or research into solving a problem before you get too in the weeds. Overfitting will take place beyond the most important factors.
+
+> How early to stop depends on the gap between what you can measure and what really matters. 
+
+#### Cross validation
+
+Cross validation is assessing the given data and seeing how well the model predicts unseen data.
+
+  * Withhold data points to plug in later and see if they follow
+  * Use data pulled from another measure and see if it holds up
+
+Cross training with different educational systems or testing methods can ensure that the learning is not being "taught to the test".
+
+#### Regularization
+
+Regularization is introducing penalties for more complexity in the model to ensure that the extra complexity is worth it. Only the most important factors must stay in relation to how much importance the overall function the element is to the system. For instance, the brain would not be evolutionarily viable if it took 20% of our caloric intake and didn't provide such benefits as it does now. Also, the brain is apparently not important enough to take 40% of our caloric intake.
+
+* * *
+
+## Predictions
+
+### Models
+
+#### Hill Climbing
+
+Hill Climbing is starting with a possibility and editing that possibility over and over to find the best solution. It gives you the "local maximum" to your starting point. Hill climbing can be augmented with "jitter", an applied randomness to test slight deviations for successful outcomes.
+
+Different types of Hill Climbing include:
+  
+* **"Shotgun" hill climbing**: restarting from a totally random or shuffled possibility and repeating your whole process.
+* **Metropolis Algorithm**: accepting slightly worse possibilities at random to ensure new directions are taken.
+* **Simulated Annealing**: starting at a random point, always take a better solution if found and accept slightly worse solutions X% of the time. Continue lowering X until it is zero and you will have found the local maximum. Good for use with Metropolis, simulates jitter, and utilizes shotgun.
+
+> Your likelihood of following a bad idea should be inversely proportional to how bad it is.
+
+#### Monte Carlo Method
+
+Replace exhaustive probability calculations with sample simulations, usually samples made of random inputs.
+
+#### Sieve of Eratosthenes
+
+Example: To find primes from 1 to n:
+
+* Write all numbers from 1 to n
+* Start at 2 and cross off any multiples of 2.
+* Repeat with all numbers not yet crossed out.
+* When n/2 is reached, all numbers not yet crossed out are primes.
+
+#### Greedy/Myopic Algorithms
+
+These focus on only the best choice at each step and don't worry about the others.
+
+### Types of Relaxation and Their Implementation
+
+#### Constraint Relaxation
+
+Constraint relaxation is when you try to solve an easier version of the problem, and then when you've made progress, add constraints back in. **Constraint relaxation is a tradeoff of time for good-enough solutions.**
+
+Remove the constraints, make progress, and then reintegrate the constraints.
+
+#### Discrete Optimization/Continuous Relaxation
+
+Discrete optimization/continuous relaxation is used where fractions aren't used (number of fire trucks per capita, number of people to vaccinate). Relaxing these to use fractions and then round from there is usually good enough (number of fire trucks ending up being 1.2 per capita, rounding to 1).
+
+Turn discrete measurements to continuous measurements and then round them off.
+
+#### Lagrangian Relaxation
+
+In optimization, there are the rules and the scorekeeping. Moving constraints from the rules (input) to the scorekeeping (output) allows for impossible solutions to get close enough.
+
+Change the bindings on the rules into bindings on the score.
+
+> The perfect is the enemy of the good. - Voltaire
+
+* * *
+
+## Networking
+
+### Exponential Backoff
+
+If an attempt is failed, increase the previous constraint by double.
+
+  * If network is not connecting, wait between 1-2s to try and reconnect; again, wait 2-4s more; etc.
+  * If a person doesn't respond to your call or text, wait 1 day to follow up; again, wait 2 days, etc.
+  * If a person violates probation, the 1st time they should spend 1 day in jail; the 2nd, 2 days; 3rd, 4 days; etc.
+
+### Additive increase, multiplicative decrease
+
+On a success, increase the input side at a constant rate. On a failure, cut back that input by half. Applicable most directly to internet connections and attempts to ask for or send information.
+
+### Backchannels
+
+The backchannels in communication are responses, acknowledgements, or the lack thereof. In a conversation or speech, the effectiveness of a speaker is partly dependent on the listener's backchannel communication.
+
+### Taildrop
+
+A taildrop is the dropping of everything that didn't fit within the buffer. Modern communication doesn't allow taildrop, and was specifically made to stop it. For example, a home phone with a tape message machine will eventually run out of space, but an email box has no feasible limit of how large the backlog can get. **We aren't always connected, but we are always buffered.**
+
+> One of the fundamental principles of buffers is that they only work correctly if they are routinely zeroed out.
+
+* * *
+
+## Game Theory
+
+> We can hope to be fortunate, but should strive to be wise.
+
+**"Price of anarchy"**: The gap between cooperation and competition. The bigger the difference, the higher the price.
+
+**Revelation Principle**: Any game that requires strategic masking of the truth can be transformed into a game where the dominant strategy is honesty.
+
+**Computational Kindness**: relieving the amount of things for sombody to compute when forced with your problem. By asking a very specific question, the answer will be simpler. Too many questions will feel intractable. Instead of "passing the cognitive buck", offering a suggestion is a way to lessen the burden for others. Instead of a continued computation, aka spinning (will the bus come soon?), opt for a single one, aka blocking (the bus is coming in 10 minutes; I can/cannot wait).
+
+### Leveling
+
+Only playing one level above your opponent. If you are playing at level 3 and they are at level 1, it is likely you will be overthinking your strategy and overfit your model.
+
+* Level 1 - I know
+* Level 2 - I know you know
+* Level 3 - You know I know you know
+* etc.
+
+An **Information Cascade** is when external information affects your personal information so much that you then disregard your own info completely.
+
+* Be wary of cases where you know more about what people are doing than why.
+* Actions are not beliefs. Do not misinterpret actions as beliefs.
+
+### Equilibrium 
+
+In a two player game, this is the best strategy assuming rational play. This is distinctly outside of leveling, meta strategy, etc. The predictive abilities of Nash equilibrium are only useful if you can find them as a player.
+
+If the point of equilibrium can't be changed directly, then the rules must be changed to force the equilibrium to move.
+
+* If employers give an option to take vacation or not, the equilibrium will shift to be the "most loyal" employee, taking less vacation than their peers.
+* By making vacation mandatory, this leaves everyone free to take the break, not allowing the competition to overtake their good judgment in taking care of themselves.
+
+### Auctions
+
+**Sealed Bid First-Price Auctions**: Bids are made in secret and highest offer wins. The bidders are not offering what they want to pay; they are offering what they think *others* will pay plus some. Winners almost always overpay.
+
+**Dutch Auction**: Starting price is lowered until someone wants to buy it.
+
+**English Auction**: Starting price is raised until highest bidder.
+
+**Vickrey Auction**: Sealed bid first-price auction but winner pays second highest bid. Utilizes the Revelation Principle to convert the sealed bid first-price auction's "strategic masking of the truth" into a game where people play honestly.
+
+<!-- --- 
+
+- _202XXXXX: Update format_ -->

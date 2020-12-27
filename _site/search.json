@@ -2,6 +2,17 @@
   
     {
 
+      "title"    : "📕 Algorithms To Live By - Book Notes",
+      "url"      : "/2020/12/27/atlb-notes",
+      "category" : "",
+      "tags"     : "reference",  
+      "date"     : "2020-12-27 00:00:00 -0800",
+      "description" : "Algorithms To Live By - Book Notes"
+
+    } ,
+  
+    {
+
       "title"    : "Solution to Advent of Code 13 - LCM with Offsets",
       "url"      : "/2020/12/13/aoc-day-13",
       "category" : "",

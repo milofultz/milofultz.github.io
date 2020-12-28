@@ -4,7 +4,7 @@
  <title>Milo Fultz</title>
  <link href="http://milofultz.com/atom.xml" rel="self"/>
  <link href="http://milofultz.com/"/>
- <updated>2020-12-27T11:52:42-08:00</updated>
+ <updated>2020-12-28T12:54:40-08:00</updated>
  <id>http://milofultz.com</id>
  <author>
    <name>Milo Fultz</name>
@@ -737,6 +737,7 @@ Return the `answer`: 14.
   &lt;li&gt;20201221: Solved day 18, which was all about essentially making math that solved in the wrong order (i.e. not &lt;a href=&quot;https://blog.prepscholar.com/pemdas-meaning-rule&quot;&gt;PEMDAS&lt;/a&gt;).&lt;/li&gt;
   &lt;li&gt;20201222: Solved day 19 part 1, which was really hard to grok, but I got it. A recursion puzzle that was hard to wrap my head around the initial parts. Part 2 is beyond the scope of what my late night brain can handle.&lt;/li&gt;
   &lt;li&gt;20201225: Solved day 20 and it took me a few hours yesterday and most of today. This was really fun, essentially automating putting together a puzzle, which was a really satisfying project.&lt;/li&gt;
+  &lt;li&gt;20201228: Solved day 21 and it was much, much easier than 20. Essentially logic grid puzzle solving again, like in day 16, which is so satisfying to implement!&lt;/li&gt;
 &lt;/ul&gt;
 </content>
  </entry>

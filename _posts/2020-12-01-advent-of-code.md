@@ -34,3 +34,4 @@ These are my solutions. I'm trying to do as many as I can in both Python and in 
 - 20201221: Solved day 18, which was all about essentially making math that solved in the wrong order (i.e. not [PEMDAS](https://blog.prepscholar.com/pemdas-meaning-rule)).
 - 20201222: Solved day 19 part 1, which was really hard to grok, but I got it. A recursion puzzle that was hard to wrap my head around the initial parts. Part 2 is beyond the scope of what my late night brain can handle.
 - 20201225: Solved day 20 and it took me a few hours yesterday and most of today. This was really fun, essentially automating putting together a puzzle, which was a really satisfying project.
+- 20201228: Solved day 21 and it was much, much easier than 20. Essentially logic grid puzzle solving again, like in day 16, which is so satisfying to implement!

@@ -4,13 +4,30 @@
  <title>Milo Fultz</title>
  <link href="http://milofultz.com/atom.xml" rel="self"/>
  <link href="http://milofultz.com/"/>
- <updated>2020-12-28T12:54:40-08:00</updated>
+ <updated>2021-01-06T09:36:45-08:00</updated>
  <id>http://milofultz.com</id>
  <author>
    <name>Milo Fultz</name>
    <email>milopfultz@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>🌌 Reverse Horoscope - Find Out Your Real Birthday (JS)</title>
+   <link href="http://milofultz.com/2021/01/06/reverse-horoscope"/>
+   <updated>2021-01-06T00:00:00-08:00</updated>
+   <id>http://milofultz.com/2021/01/06/reverse-horoscope</id>
+   <content type="html">&lt;p&gt;&lt;a href=&quot;https://www.milofultz.com/reverse_horoscope&quot;&gt;&lt;strong&gt;Try it out here!&lt;/strong&gt;&lt;/a&gt; // &lt;a href=&quot;https://github.com/milofultz/reverse_horoscope&quot;&gt;Check out the project files on GitHub&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;If you ever thought that your zodiac sign didn’t &lt;em&gt;truly&lt;/em&gt; represent you, this is for you. Take this quiz to find out what your real birthday should be based on these twelve questions.&lt;/p&gt;
+
+&lt;p&gt;Uses &lt;a href=&quot;https://chartscss.org/&quot;&gt;Charts.css&lt;/a&gt; and &lt;a href=&quot;https://jquery.com/&quot;&gt;jQuery&lt;/a&gt;.&lt;/p&gt;
+
+&lt;!-- --- 
+
+- _202XXXXX: Update format_ --&gt;
+</content>
+ </entry>
  
  <entry>
    <title>📕 Algorithms To Live By - Book Notes</title>
@@ -1466,15 +1483,19 @@ Been listening to vogue ball playlists all night.
    <link href="http://milofultz.com/2020/09/26/zentube"/>
    <updated>2020-09-26T00:00:00-07:00</updated>
    <id>http://milofultz.com/2020/09/26/zentube</id>
-   <content type="html">&lt;p&gt;&lt;a href=&quot;https://milofultz.com/zentube/&quot;&gt;&lt;strong&gt;Try it out here&lt;/strong&gt;&lt;/a&gt; // &lt;a href=&quot;https://github.com/milofultz/zentube&quot;&gt;You can find the updated project and all necessary files here on GitHub.&lt;/a&gt;&lt;/p&gt;
+   <content type="html">&lt;p&gt;&lt;em&gt;This was designed for desktop use only, so the user experience on mobile is really not great.&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;I wanted to be able to take notes on a Youtube video without having to tab out of the window to a text editor all of the time. After seeing Josh Alanier’s &lt;a href=&quot;https://down.avanier.now.sh&quot;&gt;Down&lt;/a&gt; and Hundred Rabbit’s &lt;a href=&quot;https://github.com/hundredrabbits/left&quot;&gt;Left&lt;/a&gt;, I realized I didn’t need to do anything fancy, and in fact I preferred the minimalist layout that vanilla JS can provide.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://milofultz.com/zentube/&quot;&gt;&lt;strong&gt;Try it out here&lt;/strong&gt;&lt;/a&gt; // &lt;a href=&quot;https://github.com/milofultz/zentube&quot;&gt;You can find the updated project and all necessary files here on GitHub.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I wanted to be able to take notes on a Youtube video without having to tab out of the window to a text editor all of the time. After seeing Josh Avanier’s &lt;a href=&quot;https://down.avanier.now.sh&quot;&gt;Down&lt;/a&gt; and Hundred Rabbit’s &lt;a href=&quot;https://github.com/hundredrabbits/left&quot;&gt;Left&lt;/a&gt;, I realized I didn’t need to do anything fancy, and in fact I preferred the minimalist layout that vanilla JS can provide.&lt;/p&gt;
 
 &lt;p&gt;This saves the text you write for a given Youtube video into local storage and will load it up again upon returning to the same video. Supports exporting to a text file and adding automatic timestamps.&lt;/p&gt;
 
-&lt;p&gt;Borrowed/stole heavily from &lt;a href=&quot;http://getskeleton.com/&quot;&gt;Skeleton CSS&lt;/a&gt; and Josh Alanier’s &lt;a href=&quot;https://down.avanier.now.sh&quot;&gt;Down&lt;/a&gt; for code, stylesheets, and ideas.&lt;/p&gt;
+&lt;p&gt;Borrowed/stole heavily from &lt;a href=&quot;http://getskeleton.com/&quot;&gt;Skeleton CSS&lt;/a&gt; and Josh Avanier’s &lt;a href=&quot;https://down.avanier.now.sh&quot;&gt;Down&lt;/a&gt; for code, stylesheets, and ideas.&lt;/p&gt;
 
-&lt;hr /&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;em&gt;20210106: Overhauled the program a bit. Added a title and refactored the CSS a bunch. Changed the style on a few elements and added a webfont to look better than the stock one.&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </content>
  </entry>
  

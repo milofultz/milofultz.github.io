@@ -2,6 +2,17 @@
   
     {
 
+      "title"    : "🌌 Reverse Horoscope - Find Out Your Real Birthday (JS)",
+      "url"      : "/2021/01/06/reverse-horoscope",
+      "category" : "",
+      "tags"     : "project",  
+      "date"     : "2021-01-06 00:00:00 -0800",
+      "description" : "Find out when you were supposed to be born. Answer some questions and discover your true sign and your real birthday."
+
+    } ,
+  
+    {
+
       "title"    : "📕 Algorithms To Live By - Book Notes",
       "url"      : "/2020/12/27/atlb-notes",
       "category" : "",

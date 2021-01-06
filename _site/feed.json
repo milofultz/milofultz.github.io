@@ -17,6 +17,30 @@
 "items": [
     
         {
+            "id": "http://milofultz.com/2021/01/06/reverse-horoscope",
+            "title": "🌌 Reverse Horoscope - Find Out Your Real Birthday (JS)",
+            "summary": "Find out when you were supposed to be born. Answer some questions and discover your true sign and your real birthday.",
+            "content_text": "Try it out here! // Check out the project files on GitHubIf you ever thought that your zodiac sign didn’t truly represent you, this is for you. Take this quiz to find out what your real birthday should be based on these twelve questions.Uses Charts.css and jQuery.",
+            "content_html": "<p><a href=\"https://www.milofultz.com/reverse_horoscope\"><strong>Try it out here!</strong></a> // <a href=\"https://github.com/milofultz/reverse_horoscope\">Check out the project files on GitHub</a></p><p>If you ever thought that your zodiac sign didn’t <em>truly</em> represent you, this is for you. Take this quiz to find out what your real birthday should be based on these twelve questions.</p><p>Uses <a href=\"https://chartscss.org/\">Charts.css</a> and <a href=\"https://jquery.com/\">jQuery</a>.</p><!-- --- - _202XXXXX: Update format_ -->",
+            "url": "http://milofultz.com/2021/01/06/reverse-horoscope",
+            
+            
+            
+            
+            
+            "date_published": "2021-01-06T00:00:00-08:00",
+            "date_modified": "2021-01-06T00:00:00-08:00",
+            
+                "author":  {
+                "name": "Milo Fultz",
+                "url": "http://milofultz.com",
+                "avatar": null
+                }
+                
+            
+        },
+    
+        {
             "id": "http://milofultz.com/2020/12/27/atlb-notes",
             "title": "📕 Algorithms To Live By - Book Notes",
             "summary": "Algorithms To Live By - Book Notes",
@@ -404,8 +428,8 @@
             "id": "http://milofultz.com/2020/09/26/zentube",
             "title": "💻 Zentube - Youtube Lite w/Note Taking (HTML/CSS/JS)",
             "summary": "Distraction-free note taking on Youtube videos. Includes file export and automatic timestamps.",
-            "content_text": "Try it out here // You can find the updated project and all necessary files here on GitHub.I wanted to be able to take notes on a Youtube video without having to tab out of the window to a text editor all of the time. After seeing Josh Alanier’s Down and Hundred Rabbit’s Left, I realized I didn’t need to do anything fancy, and in fact I preferred the minimalist layout that vanilla JS can provide.This saves the text you write for a given Youtube video into local storage and will load it up again upon returning to the same video. Supports exporting to a text file and adding automatic timestamps.Borrowed/stole heavily from Skeleton CSS and Josh Alanier’s Down for code, stylesheets, and ideas.",
-            "content_html": "<p><a href=\"https://milofultz.com/zentube/\"><strong>Try it out here</strong></a> // <a href=\"https://github.com/milofultz/zentube\">You can find the updated project and all necessary files here on GitHub.</a></p><p>I wanted to be able to take notes on a Youtube video without having to tab out of the window to a text editor all of the time. After seeing Josh Alanier’s <a href=\"https://down.avanier.now.sh\">Down</a> and Hundred Rabbit’s <a href=\"https://github.com/hundredrabbits/left\">Left</a>, I realized I didn’t need to do anything fancy, and in fact I preferred the minimalist layout that vanilla JS can provide.</p><p>This saves the text you write for a given Youtube video into local storage and will load it up again upon returning to the same video. Supports exporting to a text file and adding automatic timestamps.</p><p>Borrowed/stole heavily from <a href=\"http://getskeleton.com/\">Skeleton CSS</a> and Josh Alanier’s <a href=\"https://down.avanier.now.sh\">Down</a> for code, stylesheets, and ideas.</p><hr />",
+            "content_text": "This was designed for desktop use only, so the user experience on mobile is really not great.Try it out here // You can find the updated project and all necessary files here on GitHub.I wanted to be able to take notes on a Youtube video without having to tab out of the window to a text editor all of the time. After seeing Josh Avanier’s Down and Hundred Rabbit’s Left, I realized I didn’t need to do anything fancy, and in fact I preferred the minimalist layout that vanilla JS can provide.This saves the text you write for a given Youtube video into local storage and will load it up again upon returning to the same video. Supports exporting to a text file and adding automatic timestamps.Borrowed/stole heavily from Skeleton CSS and Josh Avanier’s Down for code, stylesheets, and ideas.  20210106: Overhauled the program a bit. Added a title and refactored the CSS a bunch. Changed the style on a few elements and added a webfont to look better than the stock one.",
+            "content_html": "<p><em>This was designed for desktop use only, so the user experience on mobile is really not great.</em></p><p><a href=\"https://milofultz.com/zentube/\"><strong>Try it out here</strong></a> // <a href=\"https://github.com/milofultz/zentube\">You can find the updated project and all necessary files here on GitHub.</a></p><p>I wanted to be able to take notes on a Youtube video without having to tab out of the window to a text editor all of the time. After seeing Josh Avanier’s <a href=\"https://down.avanier.now.sh\">Down</a> and Hundred Rabbit’s <a href=\"https://github.com/hundredrabbits/left\">Left</a>, I realized I didn’t need to do anything fancy, and in fact I preferred the minimalist layout that vanilla JS can provide.</p><p>This saves the text you write for a given Youtube video into local storage and will load it up again upon returning to the same video. Supports exporting to a text file and adding automatic timestamps.</p><p>Borrowed/stole heavily from <a href=\"http://getskeleton.com/\">Skeleton CSS</a> and Josh Avanier’s <a href=\"https://down.avanier.now.sh\">Down</a> for code, stylesheets, and ideas.</p><ul>  <li><em>20210106: Overhauled the program a bit. Added a title and refactored the CSS a bunch. Changed the style on a few elements and added a webfont to look better than the stock one.</em></li></ul>",
             "url": "http://milofultz.com/2020/09/26/zentube",
             
             
@@ -846,30 +870,6 @@
             
             "date_published": "2020-05-25T00:00:00-07:00",
             "date_modified": "2020-05-25T00:00:00-07:00",
-            
-                "author":  {
-                "name": "Milo Fultz",
-                "url": "http://milofultz.com",
-                "avatar": null
-                }
-                
-            
-        },
-    
-        {
-            "id": "http://milofultz.com/2020/05/23/day-planner",
-            "title": "🗺 Day planner based on location",
-            "summary": "A lateral-thinking way to encourage you into desired activities.",
-            "content_text": "I found this idea on the internet probably around 2009, made my own version, and then unfortunately lost the reference to the original page. If you know where or from whom this originated, please tell me!The idea of this is to have a day planner where the axis around which you plan is not time, but location. Instead of thinking about what you are going to do between 9am and 10am, this has you think about what you can do in a given space.The thing I like best about this is that it is really good for keeping you in touch with activities you enjoy and places you like, making it easy to do those things by choosing it off of a menu. It’s almost like a worksheet for the day, with the bottom of the page open for note taking, drawing, and scribbling ideas down. Appointments and other real-life things aside, this is a lateral-thinking way to encourage you into desired activities.",
-            "content_html": "<p>I found this idea on the internet probably around 2009, made my own version, and then unfortunately lost the reference to the original page. If you know where or from whom this originated, <strong>please</strong> tell me!</p><p>The idea of this is to have a day planner where the axis around which you plan is not time, but location. Instead of thinking about what you are going to do between 9am and 10am, this has you think about what you can do in a given space.</p><p><img src=\"http://milofultz.com/assets/20200523dayplan.jpg\" alt=\"Example of the day planner\" /></p><p>The thing I like best about this is that it is really good for keeping you in touch with activities you enjoy and places you like, making it easy to do those things by choosing it off of a menu. It’s almost like a worksheet for the day, with the bottom of the page open for note taking, drawing, and scribbling ideas down. Appointments and other real-life things aside, this is a lateral-thinking way to encourage you into desired activities.</p>",
-            "url": "http://milofultz.com/2020/05/23/day-planner",
-            
-            
-            
-            
-            
-            "date_published": "2020-05-23T00:00:00-07:00",
-            "date_modified": "2020-05-23T00:00:00-07:00",
             
                 "author":  {
                 "name": "Milo Fultz",

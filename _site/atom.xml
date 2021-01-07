@@ -4,7 +4,7 @@
  <title>Milo Fultz</title>
  <link href="http://milofultz.com/atom.xml" rel="self"/>
  <link href="http://milofultz.com/"/>
- <updated>2021-01-06T09:36:45-08:00</updated>
+ <updated>2021-01-06T22:17:15-08:00</updated>
  <id>http://milofultz.com</id>
  <author>
    <name>Milo Fultz</name>
@@ -19,9 +19,15 @@
    <id>http://milofultz.com/2021/01/06/reverse-horoscope</id>
    <content type="html">&lt;p&gt;&lt;a href=&quot;https://www.milofultz.com/reverse_horoscope&quot;&gt;&lt;strong&gt;Try it out here!&lt;/strong&gt;&lt;/a&gt; // &lt;a href=&quot;https://github.com/milofultz/reverse_horoscope&quot;&gt;Check out the project files on GitHub&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;If you ever thought that your zodiac sign didn’t &lt;em&gt;truly&lt;/em&gt; represent you, this is for you. Take this quiz to find out what your real birthday should be based on these twelve questions.&lt;/p&gt;
+&lt;p&gt;If you ever thought that your zodiac sign didn’t &lt;em&gt;truly&lt;/em&gt; represent you, this is for you. Take this quiz to find out what your real birthday should be based on these twelve questions!&lt;/p&gt;
 
-&lt;p&gt;Uses &lt;a href=&quot;https://chartscss.org/&quot;&gt;Charts.css&lt;/a&gt; and &lt;a href=&quot;https://jquery.com/&quot;&gt;jQuery&lt;/a&gt;.&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;When beginning the quiz, the questions are pulled from the list of horoscopes and then populate the question elements. These are then loaded one by one via jQuery before submitting the final question.&lt;/p&gt;
+
+&lt;p&gt;Once the questions are submitted, the winning sign is decided and the birthday is created from these results. By knowing the midpoint of each sign, the birthday date is chosen through calculating the adjusted midpoint based on the scores of the adjacent signs.&lt;/p&gt;
+
+&lt;p&gt;Uses &lt;a href=&quot;https://chartscss.org/&quot;&gt;Charts.css&lt;/a&gt; for the bar graph at the end and &lt;a href=&quot;https://jquery.com/&quot;&gt;jQuery&lt;/a&gt; for animation and DOM population.&lt;/p&gt;
 
 &lt;!-- --- 
 
@@ -1494,7 +1500,8 @@ Been listening to vogue ball playlists all night.
 &lt;p&gt;Borrowed/stole heavily from &lt;a href=&quot;http://getskeleton.com/&quot;&gt;Skeleton CSS&lt;/a&gt; and Josh Avanier’s &lt;a href=&quot;https://down.avanier.now.sh&quot;&gt;Down&lt;/a&gt; for code, stylesheets, and ideas.&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;&lt;em&gt;20210106: Overhauled the program a bit. Added a title and refactored the CSS a bunch. Changed the style on a few elements and added a webfont to look better than the stock one.&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;20210105: Overhauled the program a bit. Added a title and refactored the CSS a bunch. Changed the style on a few elements and added a webfont to look better than the stock one.&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;20210106: Did some centering of the bottom editor in sub-1000px screens.&lt;/em&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </content>
  </entry>

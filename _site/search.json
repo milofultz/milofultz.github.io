@@ -2,6 +2,17 @@
   
     {
 
+      "title"    : "Apps and Software I Use Everyday",
+      "url"      : "/2021/01/08/software",
+      "category" : "",
+      "tags"     : "reference",  
+      "date"     : "2021-01-08 00:00:00 -0800",
+      "description" : "This is a list of all my most useful or relevant apps."
+
+    } ,
+  
+    {
+
       "title"    : "🌌 Reverse Horoscope - Find Out Your Real Birthday (JS)",
       "url"      : "/2021/01/06/reverse-horoscope",
       "category" : "",

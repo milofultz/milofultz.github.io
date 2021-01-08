@@ -4,13 +4,51 @@
  <title>Milo Fultz</title>
  <link href="http://milofultz.com/atom.xml" rel="self"/>
  <link href="http://milofultz.com/"/>
- <updated>2021-01-06T22:17:15-08:00</updated>
+ <updated>2021-01-08T12:05:52-08:00</updated>
  <id>http://milofultz.com</id>
  <author>
    <name>Milo Fultz</name>
    <email>milopfultz@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>Apps and Software I Use Everyday</title>
+   <link href="http://milofultz.com/2021/01/08/software"/>
+   <updated>2021-01-08T00:00:00-08:00</updated>
+   <id>http://milofultz.com/2021/01/08/software</id>
+   <content type="html">&lt;p&gt;&lt;a href=&quot;https://trankynam.com/atext/&quot;&gt;aText&lt;/a&gt;: This is the text and snippet expander that I moved to after using TextExpander for years. It’s only $5 instead of a $36/year subscription and essentially the same program but with more features available, most notably automated keystrokes. I use it most often in my copywriting for podcasts, emails, and projects with a lot of repetition, but it’s also super useful in generating timestamps and datestamps. Much more fun to use than the built-in OSX feature.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/Mortennn/Dozer&quot;&gt;Dozer&lt;/a&gt;: Free and open source app to hide menu bar icons to give your Mac a cleaner look. Helps me not get distracted by unimportant stuff.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://easyresapp.com/&quot;&gt;EasyRes&lt;/a&gt;: Menubar app that allows you to switch screen resolutions quickly and easily. Most useful when using multiple monitors or external keyboard/mouse configs that put the laptop farther away from your eyes.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://grandperspectiv.sourceforge.net/&quot;&gt;GrandPerspective&lt;/a&gt;: A small utility application for macOS that graphically shows the disk usage within a file system. I use this to monitor unruly client Dropbox folders as well as runaway audio/video projects.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://iterm2.com/&quot;&gt;iTerm2&lt;/a&gt;: Terminal that allows multiple tabs, styling, font choice, etc. Just better than OSX built in.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://karabiner-elements.pqrs.org/&quot;&gt;Karabiner-Elements&lt;/a&gt;:   A powerful and stable keyboard customizer for macOS. I use this to map capslock to escape, the bottom right alt button to insert, for some of those old DOS programs, and flip the F-row buttons from having to use &lt;code class=&quot;highlighter-rouge&quot;&gt;fn&lt;/code&gt; every time I want to press any actual F key.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.ocenaudio.com/en/&quot;&gt;OcenAudio&lt;/a&gt;: If Audacity was actually pleasant to use. Not &lt;em&gt;as&lt;/em&gt; powerful, but for 99% of what I do, it is much better for audio editing/manipulation in every way.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.jetbrains.com/pycharm/&quot;&gt;PyCharm&lt;/a&gt;: A much nicer environment to write Python in. Preferred over VSCodium for the built-in Python specific console and debugger.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://marco.org/apps&quot;&gt;Quitter&lt;/a&gt;: One of my most useful apps. Quits an app based on minutes of inactivity. Super useful for very distracting and/or power-hungry apps like Messages, Slack, etc.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.reaper.fm/&quot;&gt;Reaper&lt;/a&gt;: I use this for all my podcast editing because of the ability to make super useful keyboard shortcuts and Lua scripts along with the varispeed that can go over 2x speed (looking at you, Logic).&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://rectangleapp.com/&quot;&gt;Rectangle&lt;/a&gt; / &lt;a href=&quot;https://github.com/fikovnik/ShiftIt&quot;&gt;ShiftIt&lt;/a&gt;: Window manager that uses keyboard shortcuts. Super easy to arrange windows into quandrants, screen halves/thirds, etc., or move windows over to other screens. Just overall very useful for smaller single-monitor or large multi-monitor setups.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://typora.io/&quot;&gt;Typora&lt;/a&gt;: Super simple and pretty markdown editor I use all of the time for my blog posts, code diary, note taking, and any other markdown-related stuff. Interchangeable CSS themes make it really easy to customize, too.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://vscodium.com/&quot;&gt;VSCodium&lt;/a&gt;: An open source version of Microsoft’s VSCode, meaning it had none of the bloat that MS adds like tracking, telemetry, etc.&lt;/p&gt;
+
+&lt;!-- --- 
+
+- _202XXXXX: Update format_ --&gt;
+
+</content>
+ </entry>
  
  <entry>
    <title>🌌 Reverse Horoscope - Find Out Your Real Birthday (JS)</title>

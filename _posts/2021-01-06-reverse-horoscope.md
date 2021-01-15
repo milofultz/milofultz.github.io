@@ -7,7 +7,7 @@ comments: true
 tags: project
 ---
 
-[**Try it out here!**](https://www.milofultz.com/reverse_horoscope) // [Check out the project files on GitHub](https://github.com/milofultz/reverse_horoscope)
+[**Try it out here!**](https://www.milofultz.com/reverse-horoscope) // [Check out the project files on GitHub](https://github.com/milofultz/reverse_horoscope)
 
 If you ever thought that your zodiac sign didn't _truly_ represent you, this is for you. Take this quiz to find out what your real birthday should be based on these twelve questions!
 

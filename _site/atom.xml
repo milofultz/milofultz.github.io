@@ -4,7 +4,7 @@
  <title>Milo Fultz</title>
  <link href="http://milofultz.com/atom.xml" rel="self"/>
  <link href="http://milofultz.com/"/>
- <updated>2021-01-08T12:25:08-08:00</updated>
+ <updated>2021-01-15T14:51:41-08:00</updated>
  <id>http://milofultz.com</id>
  <author>
    <name>Milo Fultz</name>
@@ -63,7 +63,7 @@
    <link href="http://milofultz.com/2021/01/06/reverse-horoscope"/>
    <updated>2021-01-06T00:00:00-08:00</updated>
    <id>http://milofultz.com/2021/01/06/reverse-horoscope</id>
-   <content type="html">&lt;p&gt;&lt;a href=&quot;https://www.milofultz.com/reverse_horoscope&quot;&gt;&lt;strong&gt;Try it out here!&lt;/strong&gt;&lt;/a&gt; // &lt;a href=&quot;https://github.com/milofultz/reverse_horoscope&quot;&gt;Check out the project files on GitHub&lt;/a&gt;&lt;/p&gt;
+   <content type="html">&lt;p&gt;&lt;a href=&quot;https://www.milofultz.com/reverse-horoscope&quot;&gt;&lt;strong&gt;Try it out here!&lt;/strong&gt;&lt;/a&gt; // &lt;a href=&quot;https://github.com/milofultz/reverse_horoscope&quot;&gt;Check out the project files on GitHub&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;If you ever thought that your zodiac sign didn’t &lt;em&gt;truly&lt;/em&gt; represent you, this is for you. Take this quiz to find out what your real birthday should be based on these twelve questions!&lt;/p&gt;
 

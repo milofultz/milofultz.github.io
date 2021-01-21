@@ -4,7 +4,7 @@
  <title>Milo Fultz</title>
  <link href="http://milofultz.com/atom.xml" rel="self"/>
  <link href="http://milofultz.com/"/>
- <updated>2021-01-15T14:51:41-08:00</updated>
+ <updated>2021-01-21T11:15:53-08:00</updated>
  <id>http://milofultz.com</id>
  <author>
    <name>Milo Fultz</name>
@@ -1324,6 +1324,7 @@ me know if you get any errors, as I’d love to figure it out :)&lt;/em&gt;&lt;/
 
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://learn.shayhowe.com/html-css/&quot;&gt;Learn to Code HTML &amp;amp; CSS&lt;/a&gt; (pre-Flex or Grid)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.udemy.com/course/advanced-css-and-sass/&quot;&gt;Advanced CSS &amp;amp; Sass&lt;/a&gt; - Shows best practices in structure, design, implementation, and working through problems.&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://jrl.ninja/etc/1/&quot;&gt;58 bytes of css to look great nearly everywhere&lt;/a&gt; - It’s like a hyper-minimal version of &lt;a href=&quot;http://getskeleton.com/&quot;&gt;Skeleton CSS&lt;/a&gt;. Does one thing really well, but if that’s what you need, it’s perfect.&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://jgthms.com/web-design-in-4-minutes/&quot;&gt;Web Design in 4 minutes&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;

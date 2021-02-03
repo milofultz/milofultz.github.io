@@ -16,7 +16,8 @@ tags: reference
 
 *CSS*
 
-* [Learn to Code HTML & CSS](https://learn.shayhowe.com/html-css/) (pre-Flex or Grid)
+* [CSS Utility Classes and "Separation of Concerns"](https://adamwathan.me/css-utility-classes-and-separation-of-concerns/) - Going over the differences between semantic CSS and "functional" CSS, where reuse and ease of understanding is paramount.
+* [Learn to Code HTML & CSS](https://learn.shayhowe.com/html-css/) - Good overview of the basics of HTML and CSS design (pre-Flex or Grid systems).
 * [Advanced CSS & Sass](https://www.udemy.com/course/advanced-css-and-sass/) - Shows best practices in structure, design, implementation, and working through problems, taught by Jonas Schmedtmann.
 * [58 bytes of css to look great nearly everywhere](https://jrl.ninja/etc/1/) - It's like a hyper-minimal version of [Skeleton CSS](http://getskeleton.com/). Does one thing really well, but if that's what you need, it's perfect.
 * [Web Design in 4 minutes](https://jgthms.com/web-design-in-4-minutes/)

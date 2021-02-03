@@ -2,6 +2,17 @@
   
     {
 
+      "title"    : "🐍 SNAKEHACK - snake with constantly changing controls",
+      "url"      : "/2021/01/28/snake-js",
+      "category" : "",
+      "tags"     : "project",  
+      "date"     : "2021-01-28 00:00:00 -0800",
+      "description" : "I just got started on this, but the goal is to make a snake game with more or less arbitrary rules that change as you play. Part Warioware, part snake, whatever."
+
+    } ,
+  
+    {
+
       "title"    : "Apps, Software, and More That I Use Everyday",
       "url"      : "/2021/01/08/software",
       "category" : "",

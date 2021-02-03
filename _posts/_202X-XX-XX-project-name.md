@@ -7,7 +7,7 @@ comments: true
 tags: project
 ---
 
-<!-- [**Check out the up-to-date version on GitHub**](https://github.com/milofultz/) -->
+<!-- [**Try it out here!**](https://www.milofultz.com/) // [Check out the project files on GitHub](https://github.com/milofultz/) -->
 
 <!-- --- 
 

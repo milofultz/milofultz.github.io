@@ -4,7 +4,7 @@
  <title>Milo Fultz</title>
  <link href="http://milofultz.com/atom.xml" rel="self"/>
  <link href="http://milofultz.com/"/>
- <updated>2021-02-03T10:37:54-08:00</updated>
+ <updated>2021-02-06T10:54:10-08:00</updated>
  <id>http://milofultz.com</id>
  <author>
    <name>Milo Fultz</name>
@@ -241,12 +241,12 @@ The problem of when to sell an item is a full information problem. In this case,
       &lt;td&gt; &lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td&gt;O(n2)&lt;/td&gt;
+      &lt;td&gt;O(n^2)&lt;/td&gt;
       &lt;td&gt;Quadratic&lt;/td&gt;
       &lt;td&gt;Every person meeting every person&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td&gt;O(2n)&lt;/td&gt;
+      &lt;td&gt;O(2^n)&lt;/td&gt;
       &lt;td&gt;Exponential&lt;/td&gt;
       &lt;td&gt; &lt;/td&gt;
     &lt;/tr&gt;

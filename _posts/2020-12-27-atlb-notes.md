@@ -93,8 +93,8 @@ Big O notation is about hard guarantees and deadlines.
 O(1)| Constant| Cleaning the house before a party
 O(n)| Linear| Giving drinks to every guest
 O(n log n)| Linearithmic|
-O(n2)| Quadratic| Every person meeting every person
-O(2n)| Exponential|
+O(n^2)| Quadratic| Every person meeting every person
+O(2^n)| Exponential|
 O(n!)| Factorial| Must organize everyone in every possible permutation
 
 The fastest way to sort a list can't be less than O(n) because you have to check all of the elements and that is at least the length of the list itself.
@@ -295,7 +295,7 @@ Regularization is introducing penalties for more complexity in the model to ensu
 Hill Climbing is starting with a possibility and editing that possibility over and over to find the best solution. It gives you the "local maximum" to your starting point. Hill climbing can be augmented with "jitter", an applied randomness to test slight deviations for successful outcomes.
 
 Different types of Hill Climbing include:
-  
+
 * **"Shotgun" hill climbing**: restarting from a totally random or shuffled possibility and repeating your whole process.
 * **Metropolis Algorithm**: accepting slightly worse possibilities at random to ensure new directions are taken.
 * **Simulated Annealing**: starting at a random point, always take a better solution if found and accept slightly worse solutions X% of the time. Continue lowering X until it is zero and you will have found the local maximum. Good for use with Metropolis, simulates jitter, and utilizes shotgun.

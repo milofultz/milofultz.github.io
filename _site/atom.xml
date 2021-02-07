@@ -4,7 +4,7 @@
  <title>Milo Fultz</title>
  <link href="http://milofultz.com/atom.xml" rel="self"/>
  <link href="http://milofultz.com/"/>
- <updated>2021-02-06T18:52:08-08:00</updated>
+ <updated>2021-02-06T18:55:16-08:00</updated>
  <id>http://milofultz.com</id>
  <author>
    <name>Milo Fultz</name>
@@ -50,6 +50,8 @@
 
 &lt;p&gt;&lt;a href=&quot;https://karabiner-elements.pqrs.org/&quot;&gt;Karabiner-Elements&lt;/a&gt;:   A powerful and stable keyboard customizer for macOS. I use this to map capslock to escape, the bottom right alt button to insert, for some of those old DOS programs, and flip the F-row buttons from having to use &lt;code class=&quot;highlighter-rouge&quot;&gt;fn&lt;/code&gt; every time I want to press any actual F key.&lt;/p&gt;
 
+&lt;p&gt;&lt;a href=&quot;https://www.lastpass.com/&quot;&gt;Lastpass&lt;/a&gt;: I use Lastpass, but &lt;a href=&quot;https://www.tomsguide.com/us/password-manager-pros-cons,news-19018.html&quot;&gt;use ANY password manager&lt;/a&gt;, please please please.&lt;/p&gt;
+
 &lt;p&gt;&lt;a href=&quot;https://www.ocenaudio.com/en/&quot;&gt;OcenAudio&lt;/a&gt;: If Audacity was actually pleasant to use. Not &lt;em&gt;as&lt;/em&gt; powerful, but for 99% of what I do, it is much better for audio editing/manipulation in every way.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://www.jetbrains.com/pycharm/&quot;&gt;PyCharm&lt;/a&gt;: A much nicer environment to write Python in. Preferred over VSCodium for the built-in Python specific console and debugger.&lt;/p&gt;
@@ -88,7 +90,7 @@
 &lt;p&gt;&lt;a href=&quot;https://github.com/tonsky/FiraCode&quot;&gt;Fira Code&lt;/a&gt;: I use this in every piece of software that I need monospace fonts. Has ligatures which makes things more readable and easier to understand, as well as dynamic adjustment of heights to match nearby letters. A bunch of things that added together just look really nice.&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;&lt;em&gt;20210206: Added f.lux, SublimeText and VSCodium extensions to programs, Atkinson Hyperlegible to fonts&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;20210206: Added f.lux and Lastpass, SublimeText and VSCodium extensions to programs, Atkinson Hyperlegible to fonts&lt;/em&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;!-- --- 

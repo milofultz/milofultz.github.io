@@ -2,6 +2,17 @@
   
     {
 
+      "title"    : "Find and Remove Autocompletes in Sublime Text 3",
+      "url"      : "/2021/03/06/sublime-keymap",
+      "category" : "",
+      "tags"     : "reference",  
+      "date"     : "2021-03-06 00:00:00 -0800",
+      "description" : "Ever had trouble diagnosing where an autocompleted character is coming from and how to stop it?"
+
+    } ,
+  
+    {
+
       "title"    : "🐍 SNAKEHACK - snake with constantly changing controls",
       "url"      : "/2021/01/28/snake-js",
       "category" : "",

@@ -4,13 +4,39 @@
  <title>Milo Fultz</title>
  <link href="http://milofultz.com/atom.xml" rel="self"/>
  <link href="http://milofultz.com/"/>
- <updated>2021-02-06T18:55:16-08:00</updated>
+ <updated>2021-03-06T21:20:29-08:00</updated>
  <id>http://milofultz.com</id>
  <author>
    <name>Milo Fultz</name>
    <email>milopfultz@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>Find and Remove Autocompletes in Sublime Text 3</title>
+   <link href="http://milofultz.com/2021/03/06/sublime-keymap"/>
+   <updated>2021-03-06T00:00:00-08:00</updated>
+   <id>http://milofultz.com/2021/03/06/sublime-keymap</id>
+   <content type="html">&lt;p&gt;I just spent forever trying to find a solution for this, so I figure putting it up here will be helpful for me and hopefully for others, too.&lt;/p&gt;
+
+&lt;p&gt;In my case, I have been using Emmet to write HTML and CSS much faster. The issue that first came up was that when typing a colon in CSS, by default Sublime Text will add a semicolon. This doesn’t allow Emmet to expand correctly, or at best leaves you with an extra semicolon. After getting a hacky fix for this that didn’t fix the same problem in a Sass package, I had to actually figure out how to solve the root issue.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://stackoverflow.com/questions/59635627/how-to-override-sublime-text-3-packages-css3-completion-syntax&quot;&gt;OdatNurd on StackOverflow&lt;/a&gt; provided a fantastic walkthrough to a similar problem and left me with the tools to actually diagnose and solve the problem. You can use this to find out &lt;em&gt;what&lt;/em&gt; is happening and in &lt;em&gt;what&lt;/em&gt; part of the program, not just flailing and hoping you fix something.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Open the console (&lt;code class=&quot;highlighter-rouge&quot;&gt;View &amp;gt; Show Console&lt;/code&gt; or &lt;code class=&quot;highlighter-rouge&quot;&gt;ctrl + `&lt;/code&gt; on OSX).&lt;/li&gt;
+  &lt;li&gt;In the console, enter in &lt;code class=&quot;highlighter-rouge&quot;&gt;sublime.log_commands(True)&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;Do what you need to recreate the issue. Immediately after triggering the unwanted behavior, document what you think is causing it that is in the console. In my case it was &lt;code class=&quot;highlighter-rouge&quot;&gt;command: insert_snippet {&quot;contents&quot;: &quot;:$0;&quot;}&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;Depending on which syntax you are in, or which plugin is listed/suspected, use the command palette to &lt;code class=&quot;highlighter-rouge&quot;&gt;View Package File&lt;/code&gt; and type in the syntax/plugin. This will show files that are hidden, as well, which makes diagnosing issues with default plugins/syntaxes much easier.&lt;/li&gt;
+  &lt;li&gt;Once you find a possible file, open it. &lt;code class=&quot;highlighter-rouge&quot;&gt;Save As&lt;/code&gt; in the &lt;code class=&quot;highlighter-rouge&quot;&gt;Packages&lt;/code&gt; directory under a new folder called the name of the plugin or syntax. e.g. for the Sass plugin/syntax, I created a folder in &lt;code class=&quot;highlighter-rouge&quot;&gt;Packages&lt;/code&gt; called &lt;code class=&quot;highlighter-rouge&quot;&gt;Sass&lt;/code&gt; and saved a copy of the &lt;code class=&quot;highlighter-rouge&quot;&gt;Default.sublime-keymap&lt;/code&gt; file there, which included my additions. &lt;a href=&quot;https://www.sublimetext.com/docs/3/packages.html&quot;&gt;You can find more on overriding packages here&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;In my case, I copied the old rule over and changed the &lt;code class=&quot;highlighter-rouge&quot;&gt;{&quot;contents&quot;: &quot;:$0;&quot;}&lt;/code&gt; object to &lt;code class=&quot;highlighter-rouge&quot;&gt;{&quot;contents&quot;: &quot;:$0&quot;}&lt;/code&gt;, which allowed the colon to be typed without adding any additional characters.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;!-- --- 
+
+- _202XXXXX: Update format_ --&gt;
+</content>
+ </entry>
  
  <entry>
    <title>🐍 SNAKEHACK - snake with constantly changing controls</title>

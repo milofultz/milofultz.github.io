@@ -17,6 +17,30 @@
 "items": [
     
         {
+            "id": "http://milofultz.com/2021/03/06/sublime-keymap",
+            "title": "Find and Remove Autocompletes in Sublime Text 3",
+            "summary": "Ever had trouble diagnosing where an autocompleted character is coming from and how to stop it?",
+            "content_text": "I just spent forever trying to find a solution for this, so I figure putting it up here will be helpful for me and hopefully for others, too.In my case, I have been using Emmet to write HTML and CSS much faster. The issue that first came up was that when typing a colon in CSS, by default Sublime Text will add a semicolon. This doesn’t allow Emmet to expand correctly, or at best leaves you with an extra semicolon. After getting a hacky fix for this that didn’t fix the same problem in a Sass package, I had to actually figure out how to solve the root issue.OdatNurd on StackOverflow provided a fantastic walkthrough to a similar problem and left me with the tools to actually diagnose and solve the problem. You can use this to find out what is happening and in what part of the program, not just flailing and hoping you fix something.  Open the console (View &gt; Show Console or ctrl + ` on OSX).  In the console, enter in sublime.log_commands(True).  Do what you need to recreate the issue. Immediately after triggering the unwanted behavior, document what you think is causing it that is in the console. In my case it was command: insert_snippet {\"contents\": \":$0;\"}.  Depending on which syntax you are in, or which plugin is listed/suspected, use the command palette to View Package File and type in the syntax/plugin. This will show files that are hidden, as well, which makes diagnosing issues with default plugins/syntaxes much easier.  Once you find a possible file, open it. Save As in the Packages directory under a new folder called the name of the plugin or syntax. e.g. for the Sass plugin/syntax, I created a folder in Packages called Sass and saved a copy of the Default.sublime-keymap file there, which included my additions. You can find more on overriding packages here.  In my case, I copied the old rule over and changed the {\"contents\": \":$0;\"} object to {\"contents\": \":$0\"}, which allowed the colon to be typed without adding any additional characters.",
+            "content_html": "<p>I just spent forever trying to find a solution for this, so I figure putting it up here will be helpful for me and hopefully for others, too.</p><p>In my case, I have been using Emmet to write HTML and CSS much faster. The issue that first came up was that when typing a colon in CSS, by default Sublime Text will add a semicolon. This doesn’t allow Emmet to expand correctly, or at best leaves you with an extra semicolon. After getting a hacky fix for this that didn’t fix the same problem in a Sass package, I had to actually figure out how to solve the root issue.</p><p><a href=\"https://stackoverflow.com/questions/59635627/how-to-override-sublime-text-3-packages-css3-completion-syntax\">OdatNurd on StackOverflow</a> provided a fantastic walkthrough to a similar problem and left me with the tools to actually diagnose and solve the problem. You can use this to find out <em>what</em> is happening and in <em>what</em> part of the program, not just flailing and hoping you fix something.</p><ol>  <li>Open the console (<code class=\"highlighter-rouge\">View &gt; Show Console</code> or <code class=\"highlighter-rouge\">ctrl + `</code> on OSX).</li>  <li>In the console, enter in <code class=\"highlighter-rouge\">sublime.log_commands(True)</code>.</li>  <li>Do what you need to recreate the issue. Immediately after triggering the unwanted behavior, document what you think is causing it that is in the console. In my case it was <code class=\"highlighter-rouge\">command: insert_snippet {\"contents\": \":$0;\"}</code>.</li>  <li>Depending on which syntax you are in, or which plugin is listed/suspected, use the command palette to <code class=\"highlighter-rouge\">View Package File</code> and type in the syntax/plugin. This will show files that are hidden, as well, which makes diagnosing issues with default plugins/syntaxes much easier.</li>  <li>Once you find a possible file, open it. <code class=\"highlighter-rouge\">Save As</code> in the <code class=\"highlighter-rouge\">Packages</code> directory under a new folder called the name of the plugin or syntax. e.g. for the Sass plugin/syntax, I created a folder in <code class=\"highlighter-rouge\">Packages</code> called <code class=\"highlighter-rouge\">Sass</code> and saved a copy of the <code class=\"highlighter-rouge\">Default.sublime-keymap</code> file there, which included my additions. <a href=\"https://www.sublimetext.com/docs/3/packages.html\">You can find more on overriding packages here</a>.</li>  <li>In my case, I copied the old rule over and changed the <code class=\"highlighter-rouge\">{\"contents\": \":$0;\"}</code> object to <code class=\"highlighter-rouge\">{\"contents\": \":$0\"}</code>, which allowed the colon to be typed without adding any additional characters.</li></ol><!-- --- - _202XXXXX: Update format_ -->",
+            "url": "http://milofultz.com/2021/03/06/sublime-keymap",
+            
+            
+            
+            
+            
+            "date_published": "2021-03-06T00:00:00-08:00",
+            "date_modified": "2021-03-06T00:00:00-08:00",
+            
+                "author":  {
+                "name": "Milo Fultz",
+                "url": "http://milofultz.com",
+                "avatar": null
+                }
+                
+            
+        },
+    
+        {
             "id": "http://milofultz.com/2021/01/28/snake-js",
             "title": "🐍 SNAKEHACK - snake with constantly changing controls",
             "summary": "I just got started on this, but the goal is to make a snake game with more or less arbitrary rules that change as you play. Part Warioware, part snake, whatever.",
@@ -846,30 +870,6 @@
             
             "date_published": "2020-06-25T00:00:00-07:00",
             "date_modified": "2020-06-25T00:00:00-07:00",
-            
-                "author":  {
-                "name": "Milo Fultz",
-                "url": "http://milofultz.com",
-                "avatar": null
-                }
-                
-            
-        },
-    
-        {
-            "id": "http://milofultz.com/2020/06/21/quantity-quality",
-            "title": "Quality and quantity's relevance to critical feeling",
-            "summary": "Quality and quantity are immensely useful in the developing of critical feeling and the ability for honest and effective communication.",
-            "content_text": "Quality is an attribute you give to help label something. Quantity is a measurement you use to help label something.Quality requires quantity for it to exist. One can’t measure how hard something is without two things to compare them to. Quantity requires quality for it to exist. One can’t measure something with which it has no label.To attribute a quality to something, it must be fully defined. One cannot attribute a quality to something without fully knowing what it is. In turn, one cannot measure something that has not been fully defined. What is 0 or 100 if one cannot define them?This struck me as I was watching a video[1] and ended up with a discussion with a roommate about this relates to critical feeling. As defined by Bret Weinstein[3], critical feeling is making sure that you don’t get caught up in other people’s feelings. One can use quality and quantity to more honestly trust your critical feeling in this way:When one is presented with a quality or label, either from another person or from within themselves, one must seek to define the quality as fully and completely as possible. For instance, if one is accused of being “lazy”, one must define it, and preferably with whoever is making the accusation in mind. Once this quality is defined, one can then measure if they indeed hold this attribute, how much, and the impact this quality is having upon those affected, which could be themselves, their community, their family, or whatever. Once one has this information, one can truly understand the circumstances and be critical of the quality and it’s truthfulness in it’s application.If one cannot define the quality that is being attributed, they have no business attributing it. And if once defined, one cannot measure the impact the attribute has, then it is not important.I believe this exercise has the potential to avoid claims of essentialism[4] (all humans are bad/good, all X people are Y), to help ground accusations or problems in the realm of the logical and the real, and to present us with further action, instead of letting our brain buck or accept a quality that may or may not be useful or important.References:  https://youtu.be/eOfVBqGPwi0?t=886  Critical Feeling  https://www.youtube.com/watch?v=PfAumoTIeik  https://en.wikipedia.org/wiki/Essentialism",
-            "content_html": "<p>Quality is an attribute you give to help label something. Quantity is a measurement you use to help label something.</p><p>Quality requires quantity for it to exist. One can’t measure how hard something is without two things to compare them to. Quantity requires quality for it to exist. One can’t measure something with which it has no label.</p><p>To attribute a quality to something, it must be fully defined. One cannot attribute a quality to something without fully knowing what it is. In turn, one cannot measure something that has not been fully defined. What is 0 or 100 if one cannot define them?</p><hr /><p>This struck me as I was watching a video[1] and ended up with a discussion with a roommate about this relates to <a href=\"/2020/06/10/critical-feeling\">critical feeling</a>. As defined by Bret Weinstein[3], critical feeling is making sure that you don’t get caught up in other people’s feelings. One can use quality and quantity to more honestly trust your critical feeling in this way:</p><p>When one is presented with a quality or label, either from another person or from within themselves, one must seek to define the quality as fully and completely as possible. For instance, if one is accused of being “lazy”, one must define it, and preferably with whoever is making the accusation in mind. Once this quality is defined, one can then measure if they indeed hold this attribute, how much, and the impact this quality is having upon those affected, which could be themselves, their community, their family, or whatever. Once one has this information, one can truly understand the circumstances and be critical of the quality and it’s truthfulness in it’s application.</p><p>If one cannot define the quality that is being attributed, they have no business attributing it. And if once defined, one cannot measure the impact the attribute has, then it is not important.</p><p>I believe this exercise has the potential to avoid claims of essentialism[4] (all humans are bad/good, all X people are Y), to help ground accusations or problems in the realm of the logical and the real, and to present us with further action, instead of letting our brain buck or accept a quality that may or may not be useful or important.</p><hr /><p>References:</p><ol>  <li><a href=\"https://youtu.be/eOfVBqGPwi0?t=886\">https://youtu.be/eOfVBqGPwi0?t=886</a></li>  <li><a href=\"/2020/06/10/critical-feeling\">Critical Feeling</a></li>  <li><a href=\"https://www.youtube.com/watch?v=PfAumoTIeik\">https://www.youtube.com/watch?v=PfAumoTIeik</a></li>  <li><a href=\"https://en.wikipedia.org/wiki/Essentialism\">https://en.wikipedia.org/wiki/Essentialism</a></li></ol>",
-            "url": "http://milofultz.com/2020/06/21/quantity-quality",
-            
-            
-            
-            
-            
-            "date_published": "2020-06-21T00:00:00-07:00",
-            "date_modified": "2020-06-21T00:00:00-07:00",
             
                 "author":  {
                 "name": "Milo Fultz",

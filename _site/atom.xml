@@ -4,7 +4,7 @@
  <title>Milo Fultz</title>
  <link href="http://milofultz.com/atom.xml" rel="self"/>
  <link href="http://milofultz.com/"/>
- <updated>2021-03-06T21:20:29-08:00</updated>
+ <updated>2021-04-03T20:27:52-07:00</updated>
  <id>http://milofultz.com</id>
  <author>
    <name>Milo Fultz</name>
@@ -76,7 +76,7 @@
 
 &lt;p&gt;&lt;a href=&quot;https://karabiner-elements.pqrs.org/&quot;&gt;Karabiner-Elements&lt;/a&gt;:   A powerful and stable keyboard customizer for macOS. I use this to map capslock to escape, the bottom right alt button to insert, for some of those old DOS programs, and flip the F-row buttons from having to use &lt;code class=&quot;highlighter-rouge&quot;&gt;fn&lt;/code&gt; every time I want to press any actual F key.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://www.lastpass.com/&quot;&gt;Lastpass&lt;/a&gt;: I use Lastpass, but &lt;a href=&quot;https://www.tomsguide.com/us/password-manager-pros-cons,news-19018.html&quot;&gt;use ANY password manager&lt;/a&gt;, please please please.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.1password.com/&quot;&gt;1Password&lt;/a&gt;: &lt;del&gt;I use Lastpass&lt;/del&gt; (I used to use Lastpass, but their free model will only work on a single device at a time, making it useless if you use a phone and computer with it), but &lt;a href=&quot;https://www.tomsguide.com/us/password-manager-pros-cons,news-19018.html&quot;&gt;use ANY password manager&lt;/a&gt;, please please please.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://www.ocenaudio.com/en/&quot;&gt;OcenAudio&lt;/a&gt;: If Audacity was actually pleasant to use. Not &lt;em&gt;as&lt;/em&gt; powerful, but for 99% of what I do, it is much better for audio editing/manipulation in every way.&lt;/p&gt;
 
@@ -92,9 +92,11 @@
 
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://emmet.io/blog/sublime-text-3/&quot;&gt;Emmet&lt;/a&gt;: If you do any HTML/CSS/JS, get Emmet.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://packagecontrol.io/packages/HTML-CSS-JS%20Prettify&quot;&gt;HTML-CSS-JS Prettify&lt;/a&gt;: Auto-formats different web files for easy editing/analysis.&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://github.com/facelessuser/MarkdownPreview&quot;&gt;MarkdownPreview&lt;/a&gt;: Lets you export Markdown as a Github-flavored HTML file. Good for general prototyping.&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://github.com/aziz/PlainTasks&quot;&gt;PlainTasks&lt;/a&gt;: Great todo app. I use it for all my workflows and SOP’s since it is not proprietary and is saved as plaintext.&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://packagecontrol.io/packages/RainbowBrackets&quot;&gt;RainbowBrackets&lt;/a&gt;: Shows your matching brackets at a glance. Makes debugging missed brackets simple.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://packagecontrol.io/packages/Sync%20Settings&quot;&gt;Sync Settings&lt;/a&gt;: Helps sync settings across multiple computers.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://typora.io/&quot;&gt;Typora&lt;/a&gt;: Super simple and pretty markdown editor I use all of the time for my blog posts, code diary, note taking, and any other markdown-related stuff. Interchangeable CSS themes make it really easy to customize, too.&lt;/p&gt;
@@ -106,6 +108,7 @@
   &lt;li&gt;&lt;a href=&quot;https://github.com/KamiKillertO/vscode-colorize/&quot;&gt;Colorize&lt;/a&gt;: Shows what colors are in your CSS/Sass when using any color method including variables.&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://eslint.org/&quot;&gt;ESLint&lt;/a&gt;: Javascript linter.&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://open-vsx.org/vscode/item?itemName=oderwat.indent-rainbow&quot;&gt;Indent-Rainbow&lt;/a&gt;: Like bracket colorizers, this gives your indentation a coloring so you can understand indentation more at a glance.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://monokai.pro/&quot;&gt;Monokai Pro&lt;/a&gt;: Same as above.&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://prettier.io/&quot;&gt;Prettier&lt;/a&gt;: Helpful for keeping your code matching code style standards. Auto-formats your code according to user-set rules.&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -117,6 +120,7 @@
 
 &lt;ul&gt;
   &lt;li&gt;&lt;em&gt;20210206: Added f.lux and Lastpass, SublimeText and VSCodium extensions to programs, Atkinson Hyperlegible to fonts&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;20210403: Removed Lastpass and added 1Password, HTML-CSS-JS Prettify, Sync Settings&lt;/em&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;!-- --- 

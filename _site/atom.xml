@@ -4,13 +4,30 @@
  <title>Milo Fultz</title>
  <link href="http://milofultz.com/atom.xml" rel="self"/>
  <link href="http://milofultz.com/"/>
- <updated>2021-04-03T20:27:52-07:00</updated>
+ <updated>2021-04-11T23:00:20-07:00</updated>
  <id>http://milofultz.com</id>
  <author>
    <name>Milo Fultz</name>
    <email>milopfultz@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>📕 Make A Tiny 3x3 Font</title>
+   <link href="http://milofultz.com/2021/04/11/tiny-font-3-by-3"/>
+   <updated>2021-04-11T00:00:00-07:00</updated>
+   <id>http://milofultz.com/2021/04/11/tiny-font-3-by-3</id>
+   <content type="html">&lt;p&gt;&lt;a href=&quot;http://milofultz.com/3x3/tinyfont3x3--font.html&quot;&gt;&lt;strong&gt;Check it out here!&lt;/strong&gt;&lt;/a&gt; // &lt;a href=&quot;https://github.com/milofultz/3x3&quot;&gt;Check out the font file on GitHub&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I was inpired by zserge’s post on &lt;a href=&quot;https://zserge.com/posts/tiny-font/&quot;&gt;making a tiny 2x3 font&lt;/a&gt; and wanted to see if I could make a readable 3x3 font myself. This challenge is exponentialy easier as there is so much more fidelity there, and it gave me a chance to play with Affinity Designer, which I’d never used before, as well as some basic bit shifting practice.&lt;/p&gt;
+
+&lt;p&gt;The end result is surprisingly readable, and even has punctuation!&lt;/p&gt;
+
+&lt;!-- --- 
+
+- _202XXXXX: Update format_ --&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Find and Remove Autocompletes in Sublime Text 3</title>

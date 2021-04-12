@@ -17,6 +17,30 @@
 "items": [
     
         {
+            "id": "http://milofultz.com/2021/04/11/tiny-font-3-by-3",
+            "title": "📕 Make A Tiny 3x3 Font",
+            "summary": "How readable and how satisfying is a font using only a 3x3 grid?",
+            "content_text": "Check it out here! // Check out the font file on GitHubI was inpired by zserge’s post on making a tiny 2x3 font and wanted to see if I could make a readable 3x3 font myself. This challenge is exponentialy easier as there is so much more fidelity there, and it gave me a chance to play with Affinity Designer, which I’d never used before, as well as some basic bit shifting practice.The end result is surprisingly readable, and even has punctuation!",
+            "content_html": "<p><a href=\"http://milofultz.com/3x3/tinyfont3x3--font.html\"><strong>Check it out here!</strong></a> // <a href=\"https://github.com/milofultz/3x3\">Check out the font file on GitHub</a></p><p>I was inpired by zserge’s post on <a href=\"https://zserge.com/posts/tiny-font/\">making a tiny 2x3 font</a> and wanted to see if I could make a readable 3x3 font myself. This challenge is exponentialy easier as there is so much more fidelity there, and it gave me a chance to play with Affinity Designer, which I’d never used before, as well as some basic bit shifting practice.</p><p>The end result is surprisingly readable, and even has punctuation!</p><!-- --- - _202XXXXX: Update format_ -->",
+            "url": "http://milofultz.com/2021/04/11/tiny-font-3-by-3",
+            
+            
+            
+            
+            
+            "date_published": "2021-04-11T00:00:00-07:00",
+            "date_modified": "2021-04-11T00:00:00-07:00",
+            
+                "author":  {
+                "name": "Milo Fultz",
+                "url": "http://milofultz.com",
+                "avatar": null
+                }
+                
+            
+        },
+    
+        {
             "id": "http://milofultz.com/2021/03/06/sublime-keymap",
             "title": "Find and Remove Autocompletes in Sublime Text 3",
             "summary": "Ever had trouble diagnosing where an autocompleted character is coming from and how to stop it?",
@@ -846,30 +870,6 @@
             
             "date_published": "2020-06-26T00:00:00-07:00",
             "date_modified": "2020-06-26T00:00:00-07:00",
-            
-                "author":  {
-                "name": "Milo Fultz",
-                "url": "http://milofultz.com",
-                "avatar": null
-                }
-                
-            
-        },
-    
-        {
-            "id": "http://milofultz.com/2020/06/25/inexpensive-games",
-            "title": "Inexpensive and Minimal Equipment Games To Play",
-            "summary": "I've always been interested in being frugal and wanted a repository of fun and inexpensive games to play by yourself and with others.",
-            "content_text": "I’ve always been interested in being frugal and wanted a repository of fun and inexpensive games to play by yourself and with others. Here’s a list of what I’ve found.Solo  Donsol - Donsol is a solitaire card game made by John Eternal during Train Jam using a regular playing card deck. I found this on Hundred Rabbit’s Youtube channel and thought it looked like a fun game for solo play that made solitaire a lot more interesting. The rules are a bit confusing so be sure to watch the video and see them play it through.  Canfield - When I was on a cruise ship for a week for a gig, I literally played this game for probably upwards of 7 hours and I think I won once. For some reason, I keep coming back to it.  Alpha Blitz - Not really a “game” but a good way to pass time. Find a word and then figure out the longest anagram you can using only those letters (lens = senselessness).  Hanafuda (solitaire) v1 &amp; v2 - Super satisfying as a human who loves pattern matching. Very helpful in developing knowledge of the cards and their suits, as having grown up with more easy to organize designs, it takes some getting used it. The deck of cards cost me $1.50 at a Daiso.2+ Player  Word Mastermind/Jotto - I played this a ton with a friend of mine in our down time in college. Super easy to play and you don’t really need anything except a paper and pencil, unless you have a good memory. It’s pretty much just the game mastermind but with words instead. I made a Python version of this, which you can find here.  Paper Football - Aside from the obvious of kicking it, the tabletop play of this game is so fun and makes waiting in a place with a floor or table much more fun. All you need is some scrap paper and a surface.  Exquisite Corpse - Total absurdity and chaos through drawing. Only need a pen and paper and will create a wide range of stuff, from silly pictures to nightmare fuel.  Monkey Tree (video) - This is almost a workout more than it’s a game, but nonetheless a fun way to spend time. One person stands arms out to their sides with legs wide, stable on the ground. The other person climbs on their back and finds ways to maneuver around them. Tougher than it seems, both physically and for your friendship.  Domine (video) - Another one from Hundred Rabbits. All you need is a double 9 domino set. Super quick and fun!  Hanafuda (Koi Koi)  20201031 - Added Hanafuda to both solo and 2+",
-            "content_html": "<p>I’ve always been interested in being frugal and wanted a repository of fun and inexpensive games to play by yourself and with others. Here’s a list of what I’ve found.</p><h3 id=\"solo\">Solo</h3><ul>  <li><a href=\"https://itch.io/t/54944/donsol-guide\">Donsol</a> - Donsol is a solitaire card game made by John Eternal during Train Jam using a regular playing card deck. I found this on <a href=\"https://www.youtube.com/watch?v=GNoZrr56GqA\">Hundred Rabbit’s Youtube channel</a> and thought it looked like a fun game for solo play that made solitaire a lot more interesting. The rules are a bit confusing so be sure to watch the video and see them play it through.</li>  <li><a href=\"https://en.wikipedia.org/wiki/Canfield_(solitaire)\">Canfield</a> - When I was on a cruise ship for a week for a gig, I literally played this game for probably upwards of 7 hours and I think I won once. For some reason, I keep coming back to it.</li>  <li><a href=\"https://boardgamegeek.com/boardgame/1443/alpha-blitz\">Alpha Blitz</a> - Not really a “game” but a good way to pass time. Find a word and then figure out the longest anagram you can using only those letters (lens = senselessness).</li>  <li>Hanafuda (solitaire) <a href=\"http://hanafudahawaii.com/gsolitaire1.html\">v1</a> &amp; <a href=\"http://hanafudahawaii.com/gsolitaire2.html\">v2</a> - Super satisfying as a human who loves pattern matching. Very helpful in developing knowledge of the cards and their suits, as having grown up with more easy to organize designs, it takes some getting used it. The deck of cards cost me $1.50 at a Daiso.</li></ul><h3 id=\"2-player\">2+ Player</h3><ul>  <li><a href=\"https://www.word-grabber.com/printable-word-games/a-mastermind-with-words-jotto\">Word Mastermind/Jotto</a> - I played this a ton with a friend of mine in our down time in college. Super easy to play and you don’t really need anything except a paper and pencil, unless you have a good memory. It’s pretty much just the game mastermind but with words instead. <a href=\"/2020/07/03/wordsmash\">I made a Python version of this, which you can find here.</a></li>  <li><a href=\"https://en.wikipedia.org/wiki/Paper_football\">Paper Football</a> - Aside from the obvious of kicking it, the tabletop play of this game is so fun and makes waiting in a place with a floor or table much more fun. All you need is some scrap paper and a surface.</li>  <li><a href=\"https://en.wikipedia.org/wiki/Exquisite_corpse\">Exquisite Corpse</a> - Total absurdity and chaos through drawing. Only need a pen and paper and will create a wide range of stuff, from silly pictures to nightmare fuel.</li>  <li><a href=\"http://athleticexplorations.com/en_US/ae96/\">Monkey Tree</a> (<a href=\"https://www.youtube.com/watch?v=hXVRyI2ULHI\">video</a>) - This is almost a workout more than it’s a game, but nonetheless a fun way to spend time. One person stands arms out to their sides with legs wide, stable on the ground. The other person climbs on their back and finds ways to maneuver around them. Tougher than it seems, both physically and for your friendship.</li>  <li><a href=\"/2020/09/01/domine\">Domine</a> (<a href=\"https://www.youtube.com/watch?v=fjZb190qn00\">video</a>) - Another one from Hundred Rabbits. All you need is a double 9 domino set. Super quick and fun!</li>  <li><a href=\"https://www.gamedesign.jp/flash/hanafuda/rule_e.html\">Hanafuda (Koi Koi)</a></li></ul><hr /><ul>  <li><em>20201031 - Added Hanafuda to both solo and 2+</em></li></ul>",
-            "url": "http://milofultz.com/2020/06/25/inexpensive-games",
-            
-            
-            
-            
-            
-            "date_published": "2020-06-25T00:00:00-07:00",
-            "date_modified": "2020-06-25T00:00:00-07:00",
             
                 "author":  {
                 "name": "Milo Fultz",

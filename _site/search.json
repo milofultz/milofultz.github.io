@@ -2,6 +2,17 @@
   
     {
 
+      "title"    : "📕 Make A Tiny 3x3 Font",
+      "url"      : "/2021/04/11/tiny-font-3-by-3",
+      "category" : "",
+      "tags"     : "project",  
+      "date"     : "2021-04-11 00:00:00 -0700",
+      "description" : "How readable and how satisfying is a font using only a 3x3 grid?"
+
+    } ,
+  
+    {
+
       "title"    : "Find and Remove Autocompletes in Sublime Text 3",
       "url"      : "/2021/03/06/sublime-keymap",
       "category" : "",

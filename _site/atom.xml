@@ -4,13 +4,65 @@
  <title>Milo Fultz</title>
  <link href="http://milofultz.com/atom.xml" rel="self"/>
  <link href="http://milofultz.com/"/>
- <updated>2021-07-03T22:42:18-07:00</updated>
+ <updated>2021-07-04T11:56:12-07:00</updated>
  <id>http://milofultz.com</id>
  <author>
    <name>Milo Fultz</name>
    <email>milopfultz@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>Make A Simple Wiki with Markdown</title>
+   <link href="http://milofultz.com/2021/07/04/make-a-simple-wiki"/>
+   <updated>2021-07-04T00:00:00-07:00</updated>
+   <id>http://milofultz.com/2021/07/04/make-a-simple-wiki</id>
+   <content type="html">&lt;p&gt;For the last year or so, I’ve been keeping notes about programming and what I’ve been learning about it, which has been super helpful for me. But I’ve also found myself sending out some of these files to people for reference, which is fine but not ideal. I always thought that what would be WAY nicer is to have a wiki online that I could send people to so that they would have a reference now &lt;em&gt;and&lt;/em&gt; for the future, plus then they could reference it for whatever else, as well. My note-taking is essentially my learning process, so why not share it?&lt;/p&gt;
+
+&lt;p&gt;I recently did this for those notes at &lt;a href=&quot;https://www.tinybrain.fans&quot;&gt;https://www.tinybrain.fans&lt;/a&gt;, and will continue using it for any wiki/Zettelkasten material I generate.&lt;/p&gt;
+
+&lt;h2 id=&quot;set-up&quot;&gt;Set Up&lt;/h2&gt;
+
+&lt;p&gt;This setup requires &lt;a href=&quot;https://github.com/milofultz/swiki&quot;&gt;{{SWIKI}}&lt;/a&gt;, a &lt;a href=&quot;https://github.com/&quot;&gt;Github&lt;/a&gt; repository where you will put your built static site, and optionally, a domain to host it on.&lt;/p&gt;
+
+&lt;h3 id=&quot;swiki&quot;&gt;&lt;a href=&quot;https://github.com/milofultz/swiki&quot;&gt;{{SWIKI}}&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;You will need to use Markdown files with the &lt;a href=&quot;https://jekyllrb.com/docs/front-matter/&quot;&gt;Jekyll-style front matter&lt;/a&gt; for your pages, and to create the necessary files that SWIKI needs to build it (learn more about the features and specifics of &lt;a href=&quot;https://github.com/milofultz/swiki&quot;&gt;{{SWIKI}}&lt;/a&gt; here). After getting those created and placed, you should be able to build your site and output a set of static HTML files.&lt;/p&gt;
+
+&lt;p&gt;Create a new folder where you will keep this built out site. You will want to &lt;a href=&quot;https://kbroman.org/github_tutorial/pages/init.html&quot;&gt;initiate a new Git repository&lt;/a&gt; there and after you build your site in that folder, commit your changes.&lt;/p&gt;
+
+&lt;h3 id=&quot;github-pages&quot;&gt;Github Pages&lt;/h3&gt;
+
+&lt;p&gt;Create a new Github repo which will house your built site and connect it to the Git repo you built in the last step. If you aren’t using a custom domain, &lt;a href=&quot;https://guides.github.com/features/pages/&quot;&gt;be sure to name this using yourusername.github.io&lt;/a&gt; or you may not be able to host it correctly on the Github Pages URL.&lt;/p&gt;
+
+&lt;p&gt;Go ahead and push up those newly built files to the remote repo. If you don’t do this first, it won’t let you set up your Github Pages.&lt;/p&gt;
+
+&lt;p&gt;After completing this, go into this repo’s settings and open the “Pages” or “Github Pages” tab. Set the source to be the root folder,    and you should be able to go to the URL listed to see your new site.&lt;/p&gt;
+
+&lt;h3 id=&quot;custom-domain&quot;&gt;Custom Domain&lt;/h3&gt;
+
+&lt;p&gt;If you end up wanting to use a custom domain for hosting, you will need to put the custom domain’s URL into the Github Pages settings first. After completing this, go into the DNS settings of your custom domain and change your “Custom resource records”. You will need to add an “A” type to point the domain at the Github Pages, using these four IP addresses:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;185.199.108.153
+185.199.109.153
+185.199.110.153
+185.199.111.153
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;wait&quot;&gt;WAIT&lt;/h3&gt;
+
+&lt;p&gt;You may not see any updates to your website for the next 48-hours, so give it time. Go for a walk, eat dinner, I dunno.&lt;/p&gt;
+
+&lt;h2 id=&quot;youre-done&quot;&gt;You’re done!&lt;/h2&gt;
+
+&lt;p&gt;After this, your page should be visible at your chosen domain. To make updates to your wiki, just update your Markdown files, rebuild your site, commit the changes in Git, and push it up. These changes should be visible within about a minute of pushing up.&lt;/p&gt;
+
+&lt;!-- --- 
+
+- _202XXXXX: Update format_ --&gt;
+
+</content>
+ </entry>
  
  <entry>
    <title>🔖 {{SWIKI}} / tinybrain.fans</title>

@@ -2,6 +2,17 @@
   
     {
 
+      "title"    : "Make A Simple Wiki with Markdown",
+      "url"      : "/2021/07/04/make-a-simple-wiki",
+      "category" : "",
+      "tags"     : "project",  
+      "date"     : "2021-07-04 00:00:00 -0700",
+      "description" : "How to make your own simple wiki with backlinking out of Markdown files with {{SWIKI}}."
+
+    } ,
+  
+    {
+
       "title"    : "🔖 {{SWIKI}} / tinybrain.fans",
       "url"      : "/2021/07/03/swiki-tinybrainfans",
       "category" : "",

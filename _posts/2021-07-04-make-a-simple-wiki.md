@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Make A Simple Wiki with Markdown
+title: 📄 Make A Simple Wiki with Markdown
 description: "How to make your own simple wiki with backlinking out of Markdown files with {{SWIKI}}."
 summary: "How to make your own simple wiki with backlinking out of Markdown files with {{SWIKI}}."
 comments: true

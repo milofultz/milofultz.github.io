@@ -4,13 +4,36 @@
  <title>Milo Fultz</title>
  <link href="http://milofultz.com/atom.xml" rel="self"/>
  <link href="http://milofultz.com/"/>
- <updated>2021-04-11T23:00:20-07:00</updated>
+ <updated>2021-07-03T22:16:17-07:00</updated>
  <id>http://milofultz.com</id>
  <author>
    <name>Milo Fultz</name>
    <email>milopfultz@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>{{SWIKI}} / tinybrain.fans</title>
+   <link href="http://milofultz.com/2021/07/03/swiki-tinybrainfans"/>
+   <updated>2021-07-03T00:00:00-07:00</updated>
+   <id>http://milofultz.com/2021/07/03/swiki-tinybrainfans</id>
+   <content type="html">&lt;p&gt;&lt;a href=&quot;https://www.tinybrain.fans/&quot;&gt;&lt;strong&gt;Check it out here!&lt;/strong&gt;&lt;/a&gt; // &lt;a href=&quot;https://github.com/milofultz/swiki&quot;&gt;Check out  on GitHub&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;{{SWIKI}} is a flatfile wiki generator using Python. Using some basic configuration and template files, you can build a wiki out of Markdown files and some {{double brackets}}.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Any page that is linked out locally will have the current page backlinked on that page, allowing for easy trawling through related information and finding new stuff.&lt;/li&gt;
+  &lt;li&gt;The structure of the web pages is defined by a static “frame” HTML file where the content is injected.&lt;/li&gt;
+  &lt;li&gt;Produces a “fatfile” page that contains all of the content of every page, which makes for easy searching of the entire wiki with just &lt;code class=&quot;highlighter-rouge&quot;&gt;ctrl&lt;/code&gt; + &lt;code class=&quot;highlighter-rouge&quot;&gt;f&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/milofultz/swiki&quot;&gt;Check it out on GitHub&lt;/a&gt; to learn more about how it works, and go to &lt;a href=&quot;https://www.tinybrain.fans&quot;&gt;https://www.tinybrain.fans&lt;/a&gt; to play around in a working demo.&lt;/p&gt;
+
+&lt;!-- --- 
+
+- _202XXXXX: Update format_ --&gt;
+</content>
+ </entry>
  
  <entry>
    <title>📕 Make A Tiny 3x3 Font</title>

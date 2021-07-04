@@ -17,6 +17,30 @@
 "items": [
     
         {
+            "id": "http://milofultz.com/2021/07/03/swiki-tinybrainfans",
+            "title": "{{SWIKI}} / tinybrain.fans",
+            "summary": "{{SWIKI}} is a flat-file wiki generator and the basis of my Zettelkasten at tinybrainfans.com.",
+            "content_text": "Check it out here! // Check out  on GitHub{{SWIKI}} is a flatfile wiki generator using Python. Using some basic configuration and template files, you can build a wiki out of Markdown files and some {{double brackets}}.  Any page that is linked out locally will have the current page backlinked on that page, allowing for easy trawling through related information and finding new stuff.  The structure of the web pages is defined by a static “frame” HTML file where the content is injected.  Produces a “fatfile” page that contains all of the content of every page, which makes for easy searching of the entire wiki with just ctrl + f.Check it out on GitHub to learn more about how it works, and go to https://www.tinybrain.fans to play around in a working demo.",
+            "content_html": "<p><a href=\"https://www.tinybrain.fans/\"><strong>Check it out here!</strong></a> // <a href=\"https://github.com/milofultz/swiki\">Check out  on GitHub</a></p><p>{{SWIKI}} is a flatfile wiki generator using Python. Using some basic configuration and template files, you can build a wiki out of Markdown files and some {{double brackets}}.</p><ul>  <li>Any page that is linked out locally will have the current page backlinked on that page, allowing for easy trawling through related information and finding new stuff.</li>  <li>The structure of the web pages is defined by a static “frame” HTML file where the content is injected.</li>  <li>Produces a “fatfile” page that contains all of the content of every page, which makes for easy searching of the entire wiki with just <code class=\"highlighter-rouge\">ctrl</code> + <code class=\"highlighter-rouge\">f</code>.</li></ul><p><a href=\"https://github.com/milofultz/swiki\">Check it out on GitHub</a> to learn more about how it works, and go to <a href=\"https://www.tinybrain.fans\">https://www.tinybrain.fans</a> to play around in a working demo.</p><!-- --- - _202XXXXX: Update format_ -->",
+            "url": "http://milofultz.com/2021/07/03/swiki-tinybrainfans",
+            
+            
+            
+            
+            
+            "date_published": "2021-07-03T00:00:00-07:00",
+            "date_modified": "2021-07-03T00:00:00-07:00",
+            
+                "author":  {
+                "name": "Milo Fultz",
+                "url": "http://milofultz.com",
+                "avatar": null
+                }
+                
+            
+        },
+    
+        {
             "id": "http://milofultz.com/2021/04/11/tiny-font-3-by-3",
             "title": "📕 Make A Tiny 3x3 Font",
             "summary": "How readable and how satisfying is a font using only a 3x3 grid?",
@@ -846,30 +870,6 @@
             
             "date_published": "2020-07-02T00:00:00-07:00",
             "date_modified": "2020-07-02T00:00:00-07:00",
-            
-                "author":  {
-                "name": "Milo Fultz",
-                "url": "http://milofultz.com",
-                "avatar": null
-                }
-                
-            
-        },
-    
-        {
-            "id": "http://milofultz.com/2020/06/26/nobody-takes-advice",
-            "title": "Nobody Takes Advice",
-            "summary": "The great, unspoken secret of advice is that no one takes it. ... People always just do exactly what they want to do in every scenario. - Nicole Cliffe",
-            "content_text": "  “The great, unspoken secret of advice is that no one takes it. … People always just do exactly what they want to do in every scenario.” - Nicole Cliffe[1]References:  https://www.elle.com/life-love/advice/a46441/nicole-knows-how-do-i-support-my-friends-when-they-make-bad-choices/",
-            "content_html": "<blockquote>  <p>“The great, unspoken secret of advice is that no one takes it. … People always just do exactly what they want to do in every scenario.” - Nicole Cliffe[1]</p></blockquote><hr /><p>References:</p><ol>  <li><a href=\"https://www.elle.com/life-love/advice/a46441/nicole-knows-how-do-i-support-my-friends-when-they-make-bad-choices/\">https://www.elle.com/life-love/advice/a46441/nicole-knows-how-do-i-support-my-friends-when-they-make-bad-choices/</a></li></ol>",
-            "url": "http://milofultz.com/2020/06/26/nobody-takes-advice",
-            
-            
-            
-            
-            
-            "date_published": "2020-06-26T00:00:00-07:00",
-            "date_modified": "2020-06-26T00:00:00-07:00",
             
                 "author":  {
                 "name": "Milo Fultz",

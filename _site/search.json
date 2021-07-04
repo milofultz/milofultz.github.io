@@ -2,6 +2,17 @@
   
     {
 
+      "title"    : "{{SWIKI}} / tinybrain.fans",
+      "url"      : "/2021/07/03/swiki-tinybrainfans",
+      "category" : "",
+      "tags"     : "project",  
+      "date"     : "2021-07-03 00:00:00 -0700",
+      "description" : "{{SWIKI}} is a flat-file wiki generator and the basis of my Zettelkasten at tinybrainfans.com."
+
+    } ,
+  
+    {
+
       "title"    : "📕 Make A Tiny 3x3 Font",
       "url"      : "/2021/04/11/tiny-font-3-by-3",
       "category" : "",

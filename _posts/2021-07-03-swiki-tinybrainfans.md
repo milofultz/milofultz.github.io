@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "{{SWIKI}} / tinybrain.fans"
+title: "🔖 {{SWIKI}} / tinybrain.fans"
 description: "{{SWIKI}} is a flat-file wiki generator and the basis of my Zettelkasten at tinybrainfans.com."
 summary: "{{SWIKI}} is a flat-file wiki generator and the basis of my Zettelkasten at tinybrainfans.com."
 comments: true

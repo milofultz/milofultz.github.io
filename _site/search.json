@@ -2,6 +2,17 @@
   
     {
 
+      "title"    : "👾 Moving Rainbow in 6502 Assembly",
+      "url"      : "/2021/09/18/minicube64",
+      "category" : "",
+      "tags"     : "project",  
+      "date"     : "2021-09-18 00:00:00 -0700",
+      "description" : "I made a moving rainbow in 6502 assembly for the Minicube64."
+
+    } ,
+  
+    {
+
       "title"    : "📄 Make A Simple Wiki with Markdown",
       "url"      : "/2021/07/04/make-a-simple-wiki",
       "category" : "",

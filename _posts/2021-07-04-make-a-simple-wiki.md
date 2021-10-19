@@ -21,6 +21,8 @@ You will need to use Markdown files with the [Jekyll-style front matter](https:/
 
 Create a new folder where you will keep this built out site. You will want to [initiate a new Git repository](https://kbroman.org/github_tutorial/pages/init.html) there and after you build your site in that folder, commit your changes.
 
+**NOTE:** Github Pages also requires an empty `.nojekyll` file be in the root directory if you are creating a static site with no build step like Jekyll. If you don't have this in there, it may build but will eventually fail.
+
 ### Github Pages
 
 Create a new Github repo which will house your built site and connect it to the Git repo you built in the last step. If you aren't using a custom domain, [be sure to name this using yourusername.github.io](https://guides.github.com/features/pages/) or you may not be able to host it correctly on the Github Pages URL. 
@@ -45,6 +47,8 @@ You may not see any updates to your website for the next 48-hours, so give it ti
 ## You're done!
 
 After this, your page should be visible at your chosen domain. To make updates to your wiki, just update your Markdown files, rebuild your site, commit the changes in Git, and push it up. These changes should be visible within about a minute of pushing up.
+
+- 20211019: [Add note for required `.nojekyll` file to build correctly](https://github.community/t/github-pages-build-failed-although-it-passed-a-few-months-ago/10271).
 
 <!-- --- 
 

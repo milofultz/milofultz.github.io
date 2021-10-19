@@ -4,7 +4,7 @@
  <title>Milo Fultz</title>
  <link href="http://milofultz.com/atom.xml" rel="self"/>
  <link href="http://milofultz.com/"/>
- <updated>2021-09-18T17:40:47-07:00</updated>
+ <updated>2021-10-19T13:39:17-07:00</updated>
  <id>http://milofultz.com</id>
  <author>
    <name>Milo Fultz</name>
@@ -216,6 +216,8 @@ Palette:										; Set 'Palette' label
 
 &lt;p&gt;Create a new folder where you will keep this built out site. You will want to &lt;a href=&quot;https://kbroman.org/github_tutorial/pages/init.html&quot;&gt;initiate a new Git repository&lt;/a&gt; there and after you build your site in that folder, commit your changes.&lt;/p&gt;
 
+&lt;p&gt;&lt;strong&gt;NOTE:&lt;/strong&gt; Github Pages also requires an empty &lt;code class=&quot;highlighter-rouge&quot;&gt;.nojekyll&lt;/code&gt; file be in the root directory if you are creating a static site with no build step like Jekyll. If you don’t have this in there, it may build but will eventually fail.&lt;/p&gt;
+
 &lt;h3 id=&quot;github-pages&quot;&gt;Github Pages&lt;/h3&gt;
 
 &lt;p&gt;Create a new Github repo which will house your built site and connect it to the Git repo you built in the last step. If you aren’t using a custom domain, &lt;a href=&quot;https://guides.github.com/features/pages/&quot;&gt;be sure to name this using yourusername.github.io&lt;/a&gt; or you may not be able to host it correctly on the Github Pages URL.&lt;/p&gt;
@@ -241,6 +243,10 @@ Palette:										; Set 'Palette' label
 &lt;h2 id=&quot;youre-done&quot;&gt;You’re done!&lt;/h2&gt;
 
 &lt;p&gt;After this, your page should be visible at your chosen domain. To make updates to your wiki, just update your Markdown files, rebuild your site, commit the changes in Git, and push it up. These changes should be visible within about a minute of pushing up.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;20211019: &lt;a href=&quot;https://github.community/t/github-pages-build-failed-although-it-passed-a-few-months-ago/10271&quot;&gt;Add note for required &lt;code class=&quot;highlighter-rouge&quot;&gt;.nojekyll&lt;/code&gt; file to build correctly&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;!-- --- 
 

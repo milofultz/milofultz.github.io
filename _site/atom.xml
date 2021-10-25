@@ -4,13 +4,171 @@
  <title>Milo Fultz</title>
  <link href="http://milofultz.com/atom.xml" rel="self"/>
  <link href="http://milofultz.com/"/>
- <updated>2021-10-19T13:39:17-07:00</updated>
+ <updated>2021-10-24T20:09:52-07:00</updated>
  <id>http://milofultz.com</id>
  <author>
    <name>Milo Fultz</name>
    <email>milopfultz@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>Discover Your Own Rubik's Cube Algorithms</title>
+   <link href="http://milofultz.com/2021/10/22/rubiks-cube-solution"/>
+   <updated>2021-10-22T00:00:00-07:00</updated>
+   <id>http://milofultz.com/2021/10/22/rubiks-cube-solution</id>
+   <content type="html">&lt;p&gt;I have always wanted to solve a &lt;a href=&quot;https://en.wikipedia.org/wiki/Rubik%27s_Cube&quot;&gt;Rubik’s Cube&lt;/a&gt; but was not really interested in getting the solution handed to me. But solving seemed way too daunting to do all at once when I first encountered the cube as a kid. But since I’ve spent a good amount of time in the interim solving puzzles, doing programming, and understanding algorithms, I figured I would take another shot.&lt;/p&gt;
+
+&lt;p&gt;I’ll be updating this page at the bottom with updates on my progress.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-challenge&quot;&gt;The Challenge&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Given the cube and the names of each step, can I discover and document the steps that are necessary to solve the Rubik’s Cube?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;This challenge is a bit too much for me to try and figure it out TOTALLY from scratch, so I’m bringing in the &lt;em&gt;names&lt;/em&gt; of the steps and the movement descriptors to aid in my documentation and discovery.&lt;/p&gt;
+
+&lt;h3 id=&quot;given-information&quot;&gt;Given Information&lt;/h3&gt;
+
+&lt;h4 id=&quot;steps&quot;&gt;Steps&lt;/h4&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;White cross&lt;/li&gt;
+  &lt;li&gt;White corners&lt;/li&gt;
+  &lt;li&gt;Second layer&lt;/li&gt;
+  &lt;li&gt;Yellow cross&lt;/li&gt;
+  &lt;li&gt;Yellow edges&lt;/li&gt;
+  &lt;li&gt;Yellow corners&lt;/li&gt;
+  &lt;li&gt;Orient yellow corners&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&quot;glossary-of-singmaster-notation&quot;&gt;Glossary of Singmaster notation&lt;/h4&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Notation&lt;/th&gt;
+      &lt;th&gt;Description&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;F&lt;/code&gt; (Front)&lt;/td&gt;
+      &lt;td&gt;the side currently facing the solver&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;B&lt;/code&gt; (Back)&lt;/td&gt;
+      &lt;td&gt;the side opposite the front&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;U&lt;/code&gt; (Up)&lt;/td&gt;
+      &lt;td&gt;the side above or on top of the front side&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;D&lt;/code&gt; (Down)&lt;/td&gt;
+      &lt;td&gt;the side opposite the top, underneath the Cube&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;L&lt;/code&gt; (Left)&lt;/td&gt;
+      &lt;td&gt;the side directly to the left of the front&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;R&lt;/code&gt; (Right)&lt;/td&gt;
+      &lt;td&gt;the side directly to the right of the front&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;M&lt;/code&gt; (Middle)&lt;/td&gt;
+      &lt;td&gt;the layer between L and R, turn direction as L (top-down)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;E&lt;/code&gt; (Equator)&lt;/td&gt;
+      &lt;td&gt;the layer between U and D, turn direction as D (left-right)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;S&lt;/code&gt; (Standing)&lt;/td&gt;
+      &lt;td&gt;the layer between F and B, turn direction as F&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;x&lt;/code&gt; (axis)&lt;/td&gt;
+      &lt;td&gt;rotate the entire Cube on R&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;y&lt;/code&gt; (axis)&lt;/td&gt;
+      &lt;td&gt;rotate the entire Cube on U&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;z&lt;/code&gt; (axis)&lt;/td&gt;
+      &lt;td&gt;rotate the entire Cube on F&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Each of these notations means to rotate that segment clockwise, with a &lt;code class=&quot;highlighter-rouge&quot;&gt;'&lt;/code&gt; on a step meaning rotate the segment anticlockwise.&lt;/li&gt;
+  &lt;li&gt;A &lt;code class=&quot;highlighter-rouge&quot;&gt;2&lt;/code&gt; after a notation means to perform that operation twice in a row.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;w&lt;/code&gt; (wide) means to include the middle layer on the same axis (e.g. &lt;code class=&quot;highlighter-rouge&quot;&gt;Fw&lt;/code&gt; includes the front face and the layer behind).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;For example, &lt;code class=&quot;highlighter-rouge&quot;&gt;M2 Dw' F D'&lt;/code&gt; would mean:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Rotate the &lt;code class=&quot;highlighter-rouge&quot;&gt;M&lt;/code&gt; (middle) twice;&lt;/li&gt;
+  &lt;li&gt;Rotate the side underneath the cube &lt;em&gt;and&lt;/em&gt; the layer adjacent to it anticlockwise;&lt;/li&gt;
+  &lt;li&gt;Rotate the face of the cube clockwise;&lt;/li&gt;
+  &lt;li&gt;Rotate the the side underneath the cube anticlockwise.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;the-solution&quot;&gt;The Solution&lt;/h2&gt;
+
+&lt;h3 id=&quot;1-white-cross&quot;&gt;1. White Cross&lt;/h3&gt;
+
+&lt;p&gt;The white cross step is pretty trivial, as far as I can tell. If there are algorithms, it kind of doesn’t seem to be super important. The goal is to get all the white squares together to make a cross shape, with the center included, like a &lt;code class=&quot;highlighter-rouge&quot;&gt;+&lt;/code&gt;. Looking at it straight on should look like this:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;.X. // X's being white squares, and
+XXX //  dots representing anything
+.X. //  other than the white squares.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;2-white-corners&quot;&gt;2. White Corners&lt;/h3&gt;
+
+&lt;p&gt;First, select a corner/column to focus on. You need to rotate &lt;code class=&quot;highlighter-rouge&quot;&gt;E&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;D&lt;/code&gt; layers until you have the white corner &lt;em&gt;somewhere&lt;/em&gt; within the same column. This could mean on the underside of that column or somewhere on the side of that column.&lt;/p&gt;
+
+&lt;p&gt;The algorithm that is simplest but will take the longest is this: &lt;code class=&quot;highlighter-rouge&quot;&gt;R' D R D'&lt;/code&gt;. If this is repeated, eventually that black square will end up on the top of the cube.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;There are a few simpler ones that can be deduced from this and I will leave it to the cuber to figure them out. Practice will elucidate these algorithms very clearly!&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Once this is finished, the cube should have all of the white squares on top of the cube.&lt;/p&gt;
+
+&lt;h3 id=&quot;3-second-layer&quot;&gt;3. Second Layer&lt;/h3&gt;
+
+&lt;p&gt;Assuming the white squares are on top of the cube, you first want to rotate &lt;code class=&quot;highlighter-rouge&quot;&gt;Dw&lt;/code&gt; until you have on the &lt;code class=&quot;highlighter-rouge&quot;&gt;F&lt;/code&gt; layer, in the &lt;code class=&quot;highlighter-rouge&quot;&gt;M&lt;/code&gt; column, at least two of the same colors on the &lt;code class=&quot;highlighter-rouge&quot;&gt;T&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;E&lt;/code&gt; layer. Sometimes, you can end up with more than one set of connected colors on other layers (&lt;code class=&quot;highlighter-rouge&quot;&gt;R&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;L&lt;/code&gt;, or &lt;code class=&quot;highlighter-rouge&quot;&gt;B&lt;/code&gt;) through successive rotations. Our goal is to have the maximum connections possible.&lt;/p&gt;
+
+&lt;p&gt;Once this is complete, there are two possibilities with two different algorithms.&lt;/p&gt;
+
+&lt;h4 id=&quot;two-adjacent-faces-with-connected-colors&quot;&gt;Two &lt;em&gt;adjacent&lt;/em&gt; faces with connected colors&lt;/h4&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Rotate &lt;code class=&quot;highlighter-rouge&quot;&gt;x&lt;/code&gt; until the two connected color sections are on the &lt;code class=&quot;highlighter-rouge&quot;&gt;L&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;B&lt;/code&gt; layers. In the &lt;code class=&quot;highlighter-rouge&quot;&gt;M&lt;/code&gt; column of the &lt;code class=&quot;highlighter-rouge&quot;&gt;F&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;R&lt;/code&gt; layers, you should see opposite colors on the &lt;code class=&quot;highlighter-rouge&quot;&gt;T&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;E&lt;/code&gt; layers. For example, on one face green and orange, and on the other, orange and green.&lt;/li&gt;
+  &lt;li&gt;Do the following: &lt;code class=&quot;highlighter-rouge&quot;&gt;M' D2 M D M' D' M&lt;/code&gt;. When this is complete, the color that was on the &lt;code class=&quot;highlighter-rouge&quot;&gt;M&lt;/code&gt; column of the &lt;code class=&quot;highlighter-rouge&quot;&gt;T&lt;/code&gt; layer of the &lt;code class=&quot;highlighter-rouge&quot;&gt;F&lt;/code&gt; layer should be on the adjacent &lt;code class=&quot;highlighter-rouge&quot;&gt;U&lt;/code&gt; block face, and vice versa.&lt;/li&gt;
+  &lt;li&gt;Rotate &lt;code class=&quot;highlighter-rouge&quot;&gt;x&lt;/code&gt; and repeat step 2.&lt;/li&gt;
+  &lt;li&gt;Rotate &lt;code class=&quot;highlighter-rouge&quot;&gt;x'&lt;/code&gt; and do the following: &lt;code class=&quot;highlighter-rouge&quot;&gt;M' D' M x M' D2 M x' M' D M&lt;/code&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&quot;two-opposite-faces-with-connected-colors&quot;&gt;Two &lt;em&gt;opposite&lt;/em&gt; faces with connected colors&lt;/h4&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Rotate &lt;code class=&quot;highlighter-rouge&quot;&gt;x&lt;/code&gt; until the two connected color sections are on the &lt;code class=&quot;highlighter-rouge&quot;&gt;L&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;R&lt;/code&gt; layers.&lt;/li&gt;
+  &lt;li&gt;Do the following: &lt;code class=&quot;highlighter-rouge&quot;&gt;M2 D2 M'2&lt;/code&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Once complete with any of these situations, you should have all four colors connected on the &lt;code class=&quot;highlighter-rouge&quot;&gt;M&lt;/code&gt; column of the &lt;code class=&quot;highlighter-rouge&quot;&gt;T&lt;/code&gt; layer of the &lt;code class=&quot;highlighter-rouge&quot;&gt;F&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;L&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;R&lt;/code&gt;, and &lt;code class=&quot;highlighter-rouge&quot;&gt;B&lt;/code&gt; layers.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;NOTE: I have not figured out how to get the side pieces of &lt;code class=&quot;highlighter-rouge&quot;&gt;T&lt;/code&gt; or &lt;code class=&quot;highlighter-rouge&quot;&gt;E&lt;/code&gt; aligned yet.&lt;/em&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;em&gt;20211022: Add instructions for steps 1, 2, and 3.&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
  
  <entry>
    <title>👾 Moving Rainbow in 6502 Assembly</title>

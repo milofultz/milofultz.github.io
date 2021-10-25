@@ -2,6 +2,17 @@
   
     {
 
+      "title"    : "Discover Your Own Rubik&#39;s Cube Algorithms",
+      "url"      : "/2021/10/22/rubiks-cube-solution",
+      "category" : "",
+      "tags"     : "project",  
+      "date"     : "2021-10-22 00:00:00 -0700",
+      "description" : "We can all look up the algorithms for Rubik&#39;s Cubes online. But can we discover them ourselves?"
+
+    } ,
+  
+    {
+
       "title"    : "👾 Moving Rainbow in 6502 Assembly",
       "url"      : "/2021/09/18/minicube64",
       "category" : "",

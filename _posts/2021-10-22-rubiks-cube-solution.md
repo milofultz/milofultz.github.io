@@ -46,16 +46,17 @@ This challenge is a bit too much for me to try and figure it out TOTALLY from sc
 | `y` (axis)  | rotate the entire Cube on U                                  |
 | `z` (axis)  | rotate the entire Cube on F                                  |
 
-- Each of these notations means to rotate that segment clockwise, with a `'` on a step meaning rotate the segment anticlockwise. 
+- Each of these notations means to rotate that segment clockwise respective to their face, with a `'` on a step meaning rotate the segment anticlockwise. In both cases, the `M`/`E`/`S` layers follow their `L`/`U`/`F` counterparts. 
 - A `2` after a notation means to perform that operation twice in a row.
-- `w` (wide) means to include the middle layer on the same axis (e.g. `Fw` includes the front face and the layer behind).
-
-For example, `M2 Dw' F D'` would mean:
-
-1. Rotate the `M` (middle) twice;
-2. Rotate the side underneath the cube *and* the layer adjacent to it anticlockwise;
-3. Rotate the face of the cube clockwise;
-4. Rotate the the side underneath the cube anticlockwise.
+- `w` (wide) means to include the middle layer on the same axis (e.g. `Fw` includes the front face and the layer behind). For example, `M2 Dw' F D'` would mean:
+  1. Rotate the `M` (middle) twice;
+  2. Rotate the side underneath the cube *and* the layer adjacent to it anticlockwise;
+  3. Rotate the face of the cube clockwise;
+  4. Rotate the the side underneath the cube anticlockwise.
+- Piece notation is `face/edge/corner`. If `edge` or `corner` are omitted, assume they are the center. For example (lets assume `X` means "null" for these):
+  - Piece `F` is the center piece of the `F` (front) face (could also be notated as `FXX`, as it is not an edge, nor a corner);
+  - Piece `FU` is the `U` edge in the center column on the `F` face (could also be notated as `FUX`, as it is not a corner);
+  - Piece `FUR` is the `R` corner of the `U` edge on the `F` face.
 
 ## The Solution
 
@@ -81,24 +82,31 @@ Once this is finished, the cube should have all of the white squares on top of t
 
 ### 3. Second Layer
 
-Assuming the white squares are on top of the cube, you first want to rotate `Dw` until you have on the `F` layer, in the `M` column, at least two of the same colors on the `T` and `E` layer. Sometimes, you can end up with more than one set of connected colors on other layers (`R`, `L`, or `B`) through successive rotations. Our goal is to have the maximum connections possible.
+Assuming the white squares are on top of the cube, you first want to rotate `Dw` until you have the `FU` and `F` as the same color. Sometimes, you can end up with more than one set of connected colors on other layers (`RU` and `R`, `LU` and `L`, or `BU` and `B`) through successive rotations. Our goal is to have the maximum connections possible.
 
 Once this is complete, there are two possibilities with two different algorithms.
 
 #### Two *adjacent* faces with connected colors
 
-1. Rotate `x` until the two connected color sections are on the `L` and `B` layers. In the `M` column of the `F` and `R` layers, you should see opposite colors on the `T` and `E` layers. For example, on one face green and orange, and on the other, orange and green.
-2. Do the following: `M' D2 M D M' D' M`. When this is complete, the color that was on the `M` column of the `T` layer of the `F` layer should be on the adjacent `U` block face, and vice versa.
+1. Rotate `x` until the two connected color sections are on the `L` and `B` layers (i.e. the `FU`/`F` and `RU`/`R` pairs will *not* be the same. For example, `FU` would be green and `F` orange, and `RU` would be orange and `R` green).
+2. Do the following: `M D2 M' D M D' M'`. When this is complete, the color that was on `FU` should be on `UD`, and vice versa.
 3. Rotate `x` and repeat step 2.
-4. Rotate `x'` and do the following: `M' D' M x M' D2 M x' M' D M`. 
+4. Rotate `x'` and do the following: `M D' M' x M D2 M' x' M D M'`. 
 
 #### Two *opposite* faces with connected colors
 
-1. Rotate `x` until the two connected color sections are on the `L` and `R` layers.
+1. Rotate `x` until the two connected color sections are on the `L` and `R` layers (i.e. the `FU`/`F` and `UU`/`U` pairs will *not* be the same. For example, `FU` would be green and `F` orange, and `UU` would be orange and `U` green).
 2. Do the following: `M2 D2 M'2`.
 
 Once complete with any of these situations, you should have all four colors connected on the `M` column of the `T` layer of the `F`, `L`, `R`, and `B` layers.
 
 *NOTE: I have not figured out how to get the side pieces of `T` or `E` aligned yet.*
 
+## References
+
+- https://ruwix.com/the-rubiks-cube/notation/advanced/
+
+
+
 - _20211022: Add instructions for steps 1, 2, and 3._
+- *20211025: Added piece notation and revised my rotation notation.*

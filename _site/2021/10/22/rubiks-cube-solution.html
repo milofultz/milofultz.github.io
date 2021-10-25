@@ -95,18 +95,23 @@
 </tbody>
 </table>
 <ul>
-<li>Each of these notations means to rotate that segment clockwise, with a <code class="highlighter-rouge">'</code> on a step meaning rotate the segment anticlockwise.</li>
+<li>Each of these notations means to rotate that segment clockwise respective to their face, with a <code class="highlighter-rouge">'</code> on a step meaning rotate the segment anticlockwise. In both cases, the <code class="highlighter-rouge">M</code>/<code class="highlighter-rouge">E</code>/<code class="highlighter-rouge">S</code> layers follow their <code class="highlighter-rouge">L</code>/<code class="highlighter-rouge">U</code>/<code class="highlighter-rouge">F</code> counterparts.</li>
 <li>A <code class="highlighter-rouge">2</code> after a notation means to perform that operation twice in a row.</li>
 <li>
-<code class="highlighter-rouge">w</code> (wide) means to include the middle layer on the same axis (e.g. <code class="highlighter-rouge">Fw</code> includes the front face and the layer behind).</li>
-</ul>
-<p>For example, <code class="highlighter-rouge">M2 Dw' F D'</code> would mean:</p>
-<ol>
+<code class="highlighter-rouge">w</code> (wide) means to include the middle layer on the same axis (e.g. <code class="highlighter-rouge">Fw</code> includes the front face and the layer behind). For example, <code class="highlighter-rouge">M2 Dw' F D'</code> would mean:<ol>
 <li>Rotate the <code class="highlighter-rouge">M</code> (middle) twice;</li>
 <li>Rotate the side underneath the cube <em>and</em> the layer adjacent to it anticlockwise;</li>
 <li>Rotate the face of the cube clockwise;</li>
 <li>Rotate the the side underneath the cube anticlockwise.</li>
 </ol>
+</li>
+<li>Piece notation is <code class="highlighter-rouge">face/edge/corner</code>. If <code class="highlighter-rouge">edge</code> or <code class="highlighter-rouge">corner</code> are omitted, assume they are the center. For example (lets assume <code class="highlighter-rouge">X</code> means “null” for these):<ul>
+<li>Piece <code class="highlighter-rouge">F</code> is the center piece of the <code class="highlighter-rouge">F</code> (front) face (could also be notated as <code class="highlighter-rouge">FXX</code>, as it is not an edge, nor a corner);</li>
+<li>Piece <code class="highlighter-rouge">FU</code> is the <code class="highlighter-rouge">U</code> edge in the center column on the <code class="highlighter-rouge">F</code> face (could also be notated as <code class="highlighter-rouge">FUX</code>, as it is not a corner);</li>
+<li>Piece <code class="highlighter-rouge">FUR</code> is the <code class="highlighter-rouge">R</code> corner of the <code class="highlighter-rouge">U</code> edge on the <code class="highlighter-rouge">F</code> face.</li>
+</ul>
+</li>
+</ul>
 <h2 id="the-solution">The Solution</h2>
 <h3 id="1-white-cross">1. White Cross</h3>
 <p>The white cross step is pretty trivial, as far as I can tell. If there are algorithms, it kind of doesn’t seem to be super important. The goal is to get all the white squares together to make a cross shape, with the center included, like a <code class="highlighter-rouge">+</code>. Looking at it straight on should look like this:</p>
@@ -120,21 +125,26 @@ XXX //  dots representing anything
 <p><em>There are a few simpler ones that can be deduced from this and I will leave it to the cuber to figure them out. Practice will elucidate these algorithms very clearly!</em></p>
 <p>Once this is finished, the cube should have all of the white squares on top of the cube.</p>
 <h3 id="3-second-layer">3. Second Layer</h3>
-<p>Assuming the white squares are on top of the cube, you first want to rotate <code class="highlighter-rouge">Dw</code> until you have on the <code class="highlighter-rouge">F</code> layer, in the <code class="highlighter-rouge">M</code> column, at least two of the same colors on the <code class="highlighter-rouge">T</code> and <code class="highlighter-rouge">E</code> layer. Sometimes, you can end up with more than one set of connected colors on other layers (<code class="highlighter-rouge">R</code>, <code class="highlighter-rouge">L</code>, or <code class="highlighter-rouge">B</code>) through successive rotations. Our goal is to have the maximum connections possible.</p>
+<p>Assuming the white squares are on top of the cube, you first want to rotate <code class="highlighter-rouge">Dw</code> until you have the <code class="highlighter-rouge">FU</code> and <code class="highlighter-rouge">F</code> as the same color. Sometimes, you can end up with more than one set of connected colors on other layers (<code class="highlighter-rouge">RU</code> and <code class="highlighter-rouge">R</code>, <code class="highlighter-rouge">LU</code> and <code class="highlighter-rouge">L</code>, or <code class="highlighter-rouge">BU</code> and <code class="highlighter-rouge">B</code>) through successive rotations. Our goal is to have the maximum connections possible.</p>
 <p>Once this is complete, there are two possibilities with two different algorithms.</p>
 <h4 id="two-adjacent-faces-with-connected-colors">Two <em>adjacent</em> faces with connected colors</h4>
 <ol>
-<li>Rotate <code class="highlighter-rouge">x</code> until the two connected color sections are on the <code class="highlighter-rouge">L</code> and <code class="highlighter-rouge">B</code> layers. In the <code class="highlighter-rouge">M</code> column of the <code class="highlighter-rouge">F</code> and <code class="highlighter-rouge">R</code> layers, you should see opposite colors on the <code class="highlighter-rouge">T</code> and <code class="highlighter-rouge">E</code> layers. For example, on one face green and orange, and on the other, orange and green.</li>
-<li>Do the following: <code class="highlighter-rouge">M' D2 M D M' D' M</code>. When this is complete, the color that was on the <code class="highlighter-rouge">M</code> column of the <code class="highlighter-rouge">T</code> layer of the <code class="highlighter-rouge">F</code> layer should be on the adjacent <code class="highlighter-rouge">U</code> block face, and vice versa.</li>
+<li>Rotate <code class="highlighter-rouge">x</code> until the two connected color sections are on the <code class="highlighter-rouge">L</code> and <code class="highlighter-rouge">B</code> layers (i.e. the <code class="highlighter-rouge">FU</code>/<code class="highlighter-rouge">F</code> and <code class="highlighter-rouge">RU</code>/<code class="highlighter-rouge">R</code> pairs will <em>not</em> be the same. For example, <code class="highlighter-rouge">FU</code> would be green and <code class="highlighter-rouge">F</code> orange, and <code class="highlighter-rouge">RU</code> would be orange and <code class="highlighter-rouge">R</code> green).</li>
+<li>Do the following: <code class="highlighter-rouge">M D2 M' D M D' M'</code>. When this is complete, the color that was on <code class="highlighter-rouge">FU</code> should be on <code class="highlighter-rouge">UD</code>, and vice versa.</li>
 <li>Rotate <code class="highlighter-rouge">x</code> and repeat step 2.</li>
-<li>Rotate <code class="highlighter-rouge">x'</code> and do the following: <code class="highlighter-rouge">M' D' M x M' D2 M x' M' D M</code>.</li>
+<li>Rotate <code class="highlighter-rouge">x'</code> and do the following: <code class="highlighter-rouge">M D' M' x M D2 M' x' M D M'</code>.</li>
 </ol>
 <h4 id="two-opposite-faces-with-connected-colors">Two <em>opposite</em> faces with connected colors</h4>
 <ol>
-<li>Rotate <code class="highlighter-rouge">x</code> until the two connected color sections are on the <code class="highlighter-rouge">L</code> and <code class="highlighter-rouge">R</code> layers.</li>
+<li>Rotate <code class="highlighter-rouge">x</code> until the two connected color sections are on the <code class="highlighter-rouge">L</code> and <code class="highlighter-rouge">R</code> layers (i.e. the <code class="highlighter-rouge">FU</code>/<code class="highlighter-rouge">F</code> and <code class="highlighter-rouge">UU</code>/<code class="highlighter-rouge">U</code> pairs will <em>not</em> be the same. For example, <code class="highlighter-rouge">FU</code> would be green and <code class="highlighter-rouge">F</code> orange, and <code class="highlighter-rouge">UU</code> would be orange and <code class="highlighter-rouge">U</code> green).</li>
 <li>Do the following: <code class="highlighter-rouge">M2 D2 M'2</code>.</li>
 </ol>
 <p>Once complete with any of these situations, you should have all four colors connected on the <code class="highlighter-rouge">M</code> column of the <code class="highlighter-rouge">T</code> layer of the <code class="highlighter-rouge">F</code>, <code class="highlighter-rouge">L</code>, <code class="highlighter-rouge">R</code>, and <code class="highlighter-rouge">B</code> layers.</p>
 <p><em>NOTE: I have not figured out how to get the side pieces of <code class="highlighter-rouge">T</code> or <code class="highlighter-rouge">E</code> aligned yet.</em></p>
-<ul><li><em>20211022: Add instructions for steps 1, 2, and 3.</em></li></ul>
+<h2 id="references">References</h2>
+<ul>
+<li><p>https://ruwix.com/the-rubiks-cube/notation/advanced/</p></li>
+<li><em>20211022: Add instructions for steps 1, 2, and 3.</em></li>
+<li><em>20211025: Added piece notation and revised my rotation notation.</em></li>
+</ul>
 <span class="meta"><time datetime="2021-10-22T00:00:00-07:00">October 22, 2021</time> · <a href="mailto:milopfultz@gmail.com">Send me your thoughts</a></span> <!--<span class="meta"><time datetime="2021-10-22T00:00:00-07:00">October 22, 2021</time> &middot; <a class="post" href="/tag/project">project</a></span> --></section><footer> <a href="https://webring.xxiivv.com/#random" target="_blank" rel="noopener noreferrer me"><img src="https://webring.xxiivv.com/icon.black.svg" class="footer-image"></a> <a href="https://merveilles.town/@milofultz" target="_blank" rel="noopener noreferrer me"><img src="https://raw.githubusercontent.com/XXIIVV/oscean/master/media/icon/merveilles.svg" class="footer-image"></a></footer></main></body></html>

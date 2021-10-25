@@ -4,7 +4,7 @@
  <title>Milo Fultz</title>
  <link href="http://milofultz.com/atom.xml" rel="self"/>
  <link href="http://milofultz.com/"/>
- <updated>2021-10-24T20:11:15-07:00</updated>
+ <updated>2021-10-25T11:05:29-07:00</updated>
  <id>http://milofultz.com</id>
  <author>
    <name>Milo Fultz</name>
@@ -103,19 +103,24 @@
 &lt;/table&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Each of these notations means to rotate that segment clockwise, with a &lt;code class=&quot;highlighter-rouge&quot;&gt;'&lt;/code&gt; on a step meaning rotate the segment anticlockwise.&lt;/li&gt;
+  &lt;li&gt;Each of these notations means to rotate that segment clockwise respective to their face, with a &lt;code class=&quot;highlighter-rouge&quot;&gt;'&lt;/code&gt; on a step meaning rotate the segment anticlockwise. In both cases, the &lt;code class=&quot;highlighter-rouge&quot;&gt;M&lt;/code&gt;/&lt;code class=&quot;highlighter-rouge&quot;&gt;E&lt;/code&gt;/&lt;code class=&quot;highlighter-rouge&quot;&gt;S&lt;/code&gt; layers follow their &lt;code class=&quot;highlighter-rouge&quot;&gt;L&lt;/code&gt;/&lt;code class=&quot;highlighter-rouge&quot;&gt;U&lt;/code&gt;/&lt;code class=&quot;highlighter-rouge&quot;&gt;F&lt;/code&gt; counterparts.&lt;/li&gt;
   &lt;li&gt;A &lt;code class=&quot;highlighter-rouge&quot;&gt;2&lt;/code&gt; after a notation means to perform that operation twice in a row.&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;w&lt;/code&gt; (wide) means to include the middle layer on the same axis (e.g. &lt;code class=&quot;highlighter-rouge&quot;&gt;Fw&lt;/code&gt; includes the front face and the layer behind).&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;w&lt;/code&gt; (wide) means to include the middle layer on the same axis (e.g. &lt;code class=&quot;highlighter-rouge&quot;&gt;Fw&lt;/code&gt; includes the front face and the layer behind). For example, &lt;code class=&quot;highlighter-rouge&quot;&gt;M2 Dw' F D'&lt;/code&gt; would mean:
+    &lt;ol&gt;
+      &lt;li&gt;Rotate the &lt;code class=&quot;highlighter-rouge&quot;&gt;M&lt;/code&gt; (middle) twice;&lt;/li&gt;
+      &lt;li&gt;Rotate the side underneath the cube &lt;em&gt;and&lt;/em&gt; the layer adjacent to it anticlockwise;&lt;/li&gt;
+      &lt;li&gt;Rotate the face of the cube clockwise;&lt;/li&gt;
+      &lt;li&gt;Rotate the the side underneath the cube anticlockwise.&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Piece notation is &lt;code class=&quot;highlighter-rouge&quot;&gt;face/edge/corner&lt;/code&gt;. If &lt;code class=&quot;highlighter-rouge&quot;&gt;edge&lt;/code&gt; or &lt;code class=&quot;highlighter-rouge&quot;&gt;corner&lt;/code&gt; are omitted, assume they are the center. For example (lets assume &lt;code class=&quot;highlighter-rouge&quot;&gt;X&lt;/code&gt; means “null” for these):
+    &lt;ul&gt;
+      &lt;li&gt;Piece &lt;code class=&quot;highlighter-rouge&quot;&gt;F&lt;/code&gt; is the center piece of the &lt;code class=&quot;highlighter-rouge&quot;&gt;F&lt;/code&gt; (front) face (could also be notated as &lt;code class=&quot;highlighter-rouge&quot;&gt;FXX&lt;/code&gt;, as it is not an edge, nor a corner);&lt;/li&gt;
+      &lt;li&gt;Piece &lt;code class=&quot;highlighter-rouge&quot;&gt;FU&lt;/code&gt; is the &lt;code class=&quot;highlighter-rouge&quot;&gt;U&lt;/code&gt; edge in the center column on the &lt;code class=&quot;highlighter-rouge&quot;&gt;F&lt;/code&gt; face (could also be notated as &lt;code class=&quot;highlighter-rouge&quot;&gt;FUX&lt;/code&gt;, as it is not a corner);&lt;/li&gt;
+      &lt;li&gt;Piece &lt;code class=&quot;highlighter-rouge&quot;&gt;FUR&lt;/code&gt; is the &lt;code class=&quot;highlighter-rouge&quot;&gt;R&lt;/code&gt; corner of the &lt;code class=&quot;highlighter-rouge&quot;&gt;U&lt;/code&gt; edge on the &lt;code class=&quot;highlighter-rouge&quot;&gt;F&lt;/code&gt; face.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;p&gt;For example, &lt;code class=&quot;highlighter-rouge&quot;&gt;M2 Dw' F D'&lt;/code&gt; would mean:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Rotate the &lt;code class=&quot;highlighter-rouge&quot;&gt;M&lt;/code&gt; (middle) twice;&lt;/li&gt;
-  &lt;li&gt;Rotate the side underneath the cube &lt;em&gt;and&lt;/em&gt; the layer adjacent to it anticlockwise;&lt;/li&gt;
-  &lt;li&gt;Rotate the face of the cube clockwise;&lt;/li&gt;
-  &lt;li&gt;Rotate the the side underneath the cube anticlockwise.&lt;/li&gt;
-&lt;/ol&gt;
 
 &lt;h2 id=&quot;the-solution&quot;&gt;The Solution&lt;/h2&gt;
 
@@ -140,23 +145,23 @@ XXX //  dots representing anything
 
 &lt;h3 id=&quot;3-second-layer&quot;&gt;3. Second Layer&lt;/h3&gt;
 
-&lt;p&gt;Assuming the white squares are on top of the cube, you first want to rotate &lt;code class=&quot;highlighter-rouge&quot;&gt;Dw&lt;/code&gt; until you have on the &lt;code class=&quot;highlighter-rouge&quot;&gt;F&lt;/code&gt; layer, in the &lt;code class=&quot;highlighter-rouge&quot;&gt;M&lt;/code&gt; column, at least two of the same colors on the &lt;code class=&quot;highlighter-rouge&quot;&gt;T&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;E&lt;/code&gt; layer. Sometimes, you can end up with more than one set of connected colors on other layers (&lt;code class=&quot;highlighter-rouge&quot;&gt;R&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;L&lt;/code&gt;, or &lt;code class=&quot;highlighter-rouge&quot;&gt;B&lt;/code&gt;) through successive rotations. Our goal is to have the maximum connections possible.&lt;/p&gt;
+&lt;p&gt;Assuming the white squares are on top of the cube, you first want to rotate &lt;code class=&quot;highlighter-rouge&quot;&gt;Dw&lt;/code&gt; until you have the &lt;code class=&quot;highlighter-rouge&quot;&gt;FU&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;F&lt;/code&gt; as the same color. Sometimes, you can end up with more than one set of connected colors on other layers (&lt;code class=&quot;highlighter-rouge&quot;&gt;RU&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;R&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;LU&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;L&lt;/code&gt;, or &lt;code class=&quot;highlighter-rouge&quot;&gt;BU&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;B&lt;/code&gt;) through successive rotations. Our goal is to have the maximum connections possible.&lt;/p&gt;
 
 &lt;p&gt;Once this is complete, there are two possibilities with two different algorithms.&lt;/p&gt;
 
 &lt;h4 id=&quot;two-adjacent-faces-with-connected-colors&quot;&gt;Two &lt;em&gt;adjacent&lt;/em&gt; faces with connected colors&lt;/h4&gt;
 
 &lt;ol&gt;
-  &lt;li&gt;Rotate &lt;code class=&quot;highlighter-rouge&quot;&gt;x&lt;/code&gt; until the two connected color sections are on the &lt;code class=&quot;highlighter-rouge&quot;&gt;L&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;B&lt;/code&gt; layers. In the &lt;code class=&quot;highlighter-rouge&quot;&gt;M&lt;/code&gt; column of the &lt;code class=&quot;highlighter-rouge&quot;&gt;F&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;R&lt;/code&gt; layers, you should see opposite colors on the &lt;code class=&quot;highlighter-rouge&quot;&gt;T&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;E&lt;/code&gt; layers. For example, on one face green and orange, and on the other, orange and green.&lt;/li&gt;
-  &lt;li&gt;Do the following: &lt;code class=&quot;highlighter-rouge&quot;&gt;M' D2 M D M' D' M&lt;/code&gt;. When this is complete, the color that was on the &lt;code class=&quot;highlighter-rouge&quot;&gt;M&lt;/code&gt; column of the &lt;code class=&quot;highlighter-rouge&quot;&gt;T&lt;/code&gt; layer of the &lt;code class=&quot;highlighter-rouge&quot;&gt;F&lt;/code&gt; layer should be on the adjacent &lt;code class=&quot;highlighter-rouge&quot;&gt;U&lt;/code&gt; block face, and vice versa.&lt;/li&gt;
+  &lt;li&gt;Rotate &lt;code class=&quot;highlighter-rouge&quot;&gt;x&lt;/code&gt; until the two connected color sections are on the &lt;code class=&quot;highlighter-rouge&quot;&gt;L&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;B&lt;/code&gt; layers (i.e. the &lt;code class=&quot;highlighter-rouge&quot;&gt;FU&lt;/code&gt;/&lt;code class=&quot;highlighter-rouge&quot;&gt;F&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;RU&lt;/code&gt;/&lt;code class=&quot;highlighter-rouge&quot;&gt;R&lt;/code&gt; pairs will &lt;em&gt;not&lt;/em&gt; be the same. For example, &lt;code class=&quot;highlighter-rouge&quot;&gt;FU&lt;/code&gt; would be green and &lt;code class=&quot;highlighter-rouge&quot;&gt;F&lt;/code&gt; orange, and &lt;code class=&quot;highlighter-rouge&quot;&gt;RU&lt;/code&gt; would be orange and &lt;code class=&quot;highlighter-rouge&quot;&gt;R&lt;/code&gt; green).&lt;/li&gt;
+  &lt;li&gt;Do the following: &lt;code class=&quot;highlighter-rouge&quot;&gt;M D2 M' D M D' M'&lt;/code&gt;. When this is complete, the color that was on &lt;code class=&quot;highlighter-rouge&quot;&gt;FU&lt;/code&gt; should be on &lt;code class=&quot;highlighter-rouge&quot;&gt;UD&lt;/code&gt;, and vice versa.&lt;/li&gt;
   &lt;li&gt;Rotate &lt;code class=&quot;highlighter-rouge&quot;&gt;x&lt;/code&gt; and repeat step 2.&lt;/li&gt;
-  &lt;li&gt;Rotate &lt;code class=&quot;highlighter-rouge&quot;&gt;x'&lt;/code&gt; and do the following: &lt;code class=&quot;highlighter-rouge&quot;&gt;M' D' M x M' D2 M x' M' D M&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;Rotate &lt;code class=&quot;highlighter-rouge&quot;&gt;x'&lt;/code&gt; and do the following: &lt;code class=&quot;highlighter-rouge&quot;&gt;M D' M' x M D2 M' x' M D M'&lt;/code&gt;.&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;h4 id=&quot;two-opposite-faces-with-connected-colors&quot;&gt;Two &lt;em&gt;opposite&lt;/em&gt; faces with connected colors&lt;/h4&gt;
 
 &lt;ol&gt;
-  &lt;li&gt;Rotate &lt;code class=&quot;highlighter-rouge&quot;&gt;x&lt;/code&gt; until the two connected color sections are on the &lt;code class=&quot;highlighter-rouge&quot;&gt;L&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;R&lt;/code&gt; layers.&lt;/li&gt;
+  &lt;li&gt;Rotate &lt;code class=&quot;highlighter-rouge&quot;&gt;x&lt;/code&gt; until the two connected color sections are on the &lt;code class=&quot;highlighter-rouge&quot;&gt;L&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;R&lt;/code&gt; layers (i.e. the &lt;code class=&quot;highlighter-rouge&quot;&gt;FU&lt;/code&gt;/&lt;code class=&quot;highlighter-rouge&quot;&gt;F&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;UU&lt;/code&gt;/&lt;code class=&quot;highlighter-rouge&quot;&gt;U&lt;/code&gt; pairs will &lt;em&gt;not&lt;/em&gt; be the same. For example, &lt;code class=&quot;highlighter-rouge&quot;&gt;FU&lt;/code&gt; would be green and &lt;code class=&quot;highlighter-rouge&quot;&gt;F&lt;/code&gt; orange, and &lt;code class=&quot;highlighter-rouge&quot;&gt;UU&lt;/code&gt; would be orange and &lt;code class=&quot;highlighter-rouge&quot;&gt;U&lt;/code&gt; green).&lt;/li&gt;
   &lt;li&gt;Do the following: &lt;code class=&quot;highlighter-rouge&quot;&gt;M2 D2 M'2&lt;/code&gt;.&lt;/li&gt;
 &lt;/ol&gt;
 
@@ -164,8 +169,14 @@ XXX //  dots representing anything
 
 &lt;p&gt;&lt;em&gt;NOTE: I have not figured out how to get the side pieces of &lt;code class=&quot;highlighter-rouge&quot;&gt;T&lt;/code&gt; or &lt;code class=&quot;highlighter-rouge&quot;&gt;E&lt;/code&gt; aligned yet.&lt;/em&gt;&lt;/p&gt;
 
+&lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
+
 &lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;https://ruwix.com/the-rubiks-cube/notation/advanced/&lt;/p&gt;
+  &lt;/li&gt;
   &lt;li&gt;&lt;em&gt;20211022: Add instructions for steps 1, 2, and 3.&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;20211025: Added piece notation and revised my rotation notation.&lt;/em&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </content>
  </entry>

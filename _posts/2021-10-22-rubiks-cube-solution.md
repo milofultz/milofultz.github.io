@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Discover Your Own Rubik's Cube Algorithms
+title: 🧩 Discover Your Own Rubik's Cube Algorithms
 description: We can all look up the algorithms for Rubik's Cubes online. But can we discover them ourselves?
 summary: We can all look up the algorithms for Rubik's Cubes online. But can we discover them ourselves?
 comments: true

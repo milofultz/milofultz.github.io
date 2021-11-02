@@ -2,6 +2,17 @@
   
     {
 
+      "title"    : "I&#39;m in Thailand",
+      "url"      : "/2021/11/02/thailand",
+      "category" : "",
+      "tags"     : "reference",  
+      "date"     : "2021-11-02 00:00:00 -0700",
+      "description" : "I&#39;ll be in Thailand for a while doing work."
+
+    } ,
+  
+    {
+
       "title"    : "🧩 Discover Your Own Rubik&#39;s Cube Algorithms",
       "url"      : "/2021/10/22/rubiks-cube-solution",
       "category" : "",

@@ -4,13 +4,26 @@
  <title>Milo Fultz</title>
  <link href="http://milofultz.com/atom.xml" rel="self"/>
  <link href="http://milofultz.com/"/>
- <updated>2021-10-28T15:09:49-07:00</updated>
+ <updated>2021-11-02T08:50:13-07:00</updated>
  <id>http://milofultz.com</id>
  <author>
    <name>Milo Fultz</name>
    <email>milopfultz@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>I'm in Thailand</title>
+   <link href="http://milofultz.com/2021/11/02/thailand"/>
+   <updated>2021-11-02T00:00:00-07:00</updated>
+   <id>http://milofultz.com/2021/11/02/thailand</id>
+   <content type="html">&lt;p&gt;I’ll be in Thailand working with Thornhenge on a software project. This means that I won’t be able to receive calls or texts like I normally would except for maybe once a month when I turn my phone on and pay the extreme Verizon fees. You can still contact me via email or via &lt;a href=&quot;https://www.signal.org/&quot;&gt;Signal&lt;/a&gt;.&lt;/p&gt;
+
+&lt;!-- --- 
+
+- _202XXXXX: Update format_ --&gt;
+</content>
+ </entry>
  
  <entry>
    <title>🧩 Discover Your Own Rubik's Cube Algorithms</title>

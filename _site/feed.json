@@ -17,6 +17,30 @@
 "items": [
     
         {
+            "id": "http://milofultz.com/2021/11/02/thailand",
+            "title": "I'm in Thailand",
+            "summary": "I'll be in Thailand for a while doing work.",
+            "content_text": "I’ll be in Thailand working with Thornhenge on a software project. This means that I won’t be able to receive calls or texts like I normally would except for maybe once a month when I turn my phone on and pay the extreme Verizon fees. You can still contact me via email or via Signal.",
+            "content_html": "<p>I’ll be in Thailand working with Thornhenge on a software project. This means that I won’t be able to receive calls or texts like I normally would except for maybe once a month when I turn my phone on and pay the extreme Verizon fees. You can still contact me via email or via <a href=\"https://www.signal.org/\">Signal</a>.</p><!-- --- - _202XXXXX: Update format_ -->",
+            "url": "http://milofultz.com/2021/11/02/thailand",
+            
+            
+            
+            
+            
+            "date_published": "2021-11-02T00:00:00-07:00",
+            "date_modified": "2021-11-02T00:00:00-07:00",
+            
+                "author":  {
+                "name": "Milo Fultz",
+                "url": "http://milofultz.com",
+                "avatar": null
+                }
+                
+            
+        },
+    
+        {
             "id": "http://milofultz.com/2021/10/22/rubiks-cube-solution",
             "title": "🧩 Discover Your Own Rubik's Cube Algorithms",
             "summary": "We can all look up the algorithms for Rubik's Cubes online. But can we discover them ourselves?",
@@ -846,30 +870,6 @@
             
             "date_published": "2020-07-18T00:00:00-07:00",
             "date_modified": "2020-07-18T00:00:00-07:00",
-            
-                "author":  {
-                "name": "Milo Fultz",
-                "url": "http://milofultz.com",
-                "avatar": null
-                }
-                
-            
-        },
-    
-        {
-            "id": "http://milofultz.com/2020/07/08/star-maker",
-            "title": "💻 star_maker - a lo-fi ambient visual (Python)",
-            "summary": "star_maker - a lo-fi ambient visual (Python)",
-            "content_text": "You can visit the project and download the files on GitHub.star_maker is a lo-fi screen saver or ambient visual using blessed. I originally made it so I could make a star visual for a page on my website and then mucked around and realized it offered me both a chance to mess around with blessed and a really funny but relatively simple challenge.It looks like this, but much more interesting.  20200708: Added color and more special characters  20200708: Added parallax effect in  c o l o r",
-            "content_html": "<p><a href=\"https://github.com/milofultz/star_maker\">You can visit the project and download the files on GitHub.</a></p><p>star_maker is a lo-fi screen saver or ambient visual using blessed. I originally made it so I could make a star visual for <a href=\"/2020/07/07/spacelove\">a page on my website</a> and then mucked around and realized it offered me both a chance to mess around with <a href=\"https://github.com/jquast/blessed\">blessed</a> and a really funny but relatively simple challenge.</p><p>It looks like <a href=\"/2020/07/07/spacelove\">this</a>, but much more interesting.</p><ul>  <li><em>20200708: Added color and more special characters</em></li>  <li><em>20200708: Added parallax effect in  c o l o r</em></li></ul>",
-            "url": "http://milofultz.com/2020/07/08/star-maker",
-            
-            
-            
-            
-            
-            "date_published": "2020-07-08T00:00:00-07:00",
-            "date_modified": "2020-07-08T00:00:00-07:00",
             
                 "author":  {
                 "name": "Milo Fultz",

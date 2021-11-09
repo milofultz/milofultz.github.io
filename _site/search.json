@@ -2,11 +2,22 @@
   
     {
 
+      "title"    : "📊 Bubble Sort with 6502 Assembly",
+      "url"      : "/2021/11/09/bubble-sort-6502",
+      "category" : "",
+      "tags"     : "project",  
+      "date"     : "2021-11-09 00:00:00 +0700",
+      "description" : "Implementing a sorting algorithm in Assembly is a pain, and the difficulty made it fun."
+
+    } ,
+  
+    {
+
       "title"    : "I&#39;m in Thailand",
       "url"      : "/2021/11/02/thailand",
       "category" : "",
       "tags"     : "reference",  
-      "date"     : "2021-11-02 00:00:00 -0700",
+      "date"     : "2021-11-02 00:00:00 +0700",
       "description" : "I&#39;ll be in Thailand for a while doing work."
 
     } ,
@@ -17,7 +28,7 @@
       "url"      : "/2021/10/22/rubiks-cube-solution",
       "category" : "",
       "tags"     : "project",  
-      "date"     : "2021-10-22 00:00:00 -0700",
+      "date"     : "2021-10-22 00:00:00 +0700",
       "description" : "We can all look up the algorithms for Rubik&#39;s Cubes online. But can we discover them ourselves?"
 
     } ,
@@ -28,7 +39,7 @@
       "url"      : "/2021/09/18/minicube64",
       "category" : "",
       "tags"     : "project",  
-      "date"     : "2021-09-18 00:00:00 -0700",
+      "date"     : "2021-09-18 00:00:00 +0700",
       "description" : "I made a moving rainbow in 6502 assembly for the Minicube64."
 
     } ,
@@ -39,7 +50,7 @@
       "url"      : "/2021/07/04/make-a-simple-wiki",
       "category" : "",
       "tags"     : "project",  
-      "date"     : "2021-07-04 00:00:00 -0700",
+      "date"     : "2021-07-04 00:00:00 +0700",
       "description" : "How to make your own simple wiki with backlinking out of Markdown files with {{SWIKI}}."
 
     } ,
@@ -50,7 +61,7 @@
       "url"      : "/2021/07/03/swiki-tinybrainfans",
       "category" : "",
       "tags"     : "project",  
-      "date"     : "2021-07-03 00:00:00 -0700",
+      "date"     : "2021-07-03 00:00:00 +0700",
       "description" : "{{SWIKI}} is a flat-file wiki generator and the basis of my Zettelkasten at tinybrainfans.com."
 
     } ,
@@ -61,7 +72,7 @@
       "url"      : "/2021/04/11/tiny-font-3-by-3",
       "category" : "",
       "tags"     : "project",  
-      "date"     : "2021-04-11 00:00:00 -0700",
+      "date"     : "2021-04-11 00:00:00 +0700",
       "description" : "How readable and how satisfying is a font using only a 3x3 grid?"
 
     } ,
@@ -72,7 +83,7 @@
       "url"      : "/2021/03/06/sublime-keymap",
       "category" : "",
       "tags"     : "reference",  
-      "date"     : "2021-03-06 00:00:00 -0800",
+      "date"     : "2021-03-06 00:00:00 +0700",
       "description" : "Ever had trouble diagnosing where an autocompleted character is coming from and how to stop it?"
 
     } ,
@@ -83,7 +94,7 @@
       "url"      : "/2021/01/28/snake-js",
       "category" : "",
       "tags"     : "project",  
-      "date"     : "2021-01-28 00:00:00 -0800",
+      "date"     : "2021-01-28 00:00:00 +0700",
       "description" : "I just got started on this, but the goal is to make a snake game with more or less arbitrary rules that change as you play. Part Warioware, part snake, whatever."
 
     } ,
@@ -94,7 +105,7 @@
       "url"      : "/2021/01/08/apps",
       "category" : "",
       "tags"     : "reference",  
-      "date"     : "2021-01-08 00:00:00 -0800",
+      "date"     : "2021-01-08 00:00:00 +0700",
       "description" : "This is a list of all my most useful or relevant apps."
 
     } ,
@@ -105,7 +116,7 @@
       "url"      : "/2021/01/06/reverse-horoscope",
       "category" : "",
       "tags"     : "project",  
-      "date"     : "2021-01-06 00:00:00 -0800",
+      "date"     : "2021-01-06 00:00:00 +0700",
       "description" : "Find out when you were supposed to be born. Answer some questions and discover your true sign and your real birthday."
 
     } ,
@@ -116,7 +127,7 @@
       "url"      : "/2020/12/27/atlb-notes",
       "category" : "",
       "tags"     : "reference",  
-      "date"     : "2020-12-27 00:00:00 -0800",
+      "date"     : "2020-12-27 00:00:00 +0700",
       "description" : "Algorithms To Live By - Book Notes"
 
     } ,
@@ -127,7 +138,7 @@
       "url"      : "/2020/12/13/aoc-day-13",
       "category" : "",
       "tags"     : "reference",  
-      "date"     : "2020-12-13 00:00:00 -0800",
+      "date"     : "2020-12-13 00:00:00 +0700",
       "description" : "Solution to Advent of Code 13 - LCM with Offsets"
 
     } ,
@@ -138,7 +149,7 @@
       "url"      : "/2020/12/01/advent-of-code",
       "category" : "",
       "tags"     : "project",  
-      "date"     : "2020-12-01 00:00:00 -0800",
+      "date"     : "2020-12-01 00:00:00 +0700",
       "description" : "Here&#39;s some solutions I made for the AoC 2020"
 
     } ,
@@ -149,7 +160,7 @@
       "url"      : "/2020/11/10/bytebeat",
       "category" : "",
       "tags"     : "reference",  
-      "date"     : "2020-11-10 00:00:00 -0800",
+      "date"     : "2020-11-10 00:00:00 +0700",
       "description" : "Bytebeat - Overview and How To Make/Record on OSX"
 
     } ,
@@ -160,7 +171,7 @@
       "url"      : "/2020/11/09/the-point-of-diminis",
       "category" : "",
       "tags"     : "thoughts",  
-      "date"     : "2020-11-09 00:00:00 -0800",
+      "date"     : "2020-11-09 00:00:00 +0700",
       "description" : ""
 
     } ,
@@ -171,7 +182,7 @@
       "url"      : "/2020/11/01/koi-koi-rules",
       "category" : "",
       "tags"     : "reference",  
-      "date"     : "2020-11-01 00:00:00 -0700",
+      "date"     : "2020-11-01 00:00:00 +0700",
       "description" : "Rules for Hanafuda game Koi-Koi: Hanafuda, meaning &#39;flower cards&#39; is a traditional Japanese card game that dates back to the 1500s."
 
     } ,
@@ -182,7 +193,7 @@
       "url"      : "/2020/10/31/tablatal-parser",
       "category" : "",
       "tags"     : "project",  
-      "date"     : "2020-10-31 00:00:00 -0700",
+      "date"     : "2020-10-31 00:00:00 +0700",
       "description" : "Tablatal is a flat file plaintext database, and this parser made in Python allows you to utilize it with other software."
 
     } ,
@@ -193,7 +204,7 @@
       "url"      : "/2020/10/25/hiitimer",
       "category" : "",
       "tags"     : "project",  
-      "date"     : "2020-10-25 00:00:00 -0700",
+      "date"     : "2020-10-25 00:00:00 +0700",
       "description" : "I made a basic HIIT timer so I wouldn&#39;t have to rely on online pages and terrible phone apps. Loads up premade routines and uses TTS for the workout."
 
     } ,
@@ -204,7 +215,7 @@
       "url"      : "/2020/10/21/html-css-js",
       "category" : "",
       "tags"     : "reference",  
-      "date"     : "2020-10-21 00:00:00 -0700",
+      "date"     : "2020-10-21 00:00:00 +0700",
       "description" : "A compilation of various HTML / CSS / JS resources I think are rad, compelling, or helpful."
 
     } ,
@@ -215,7 +226,7 @@
       "url"      : "/2020/10/17/tod-python",
       "category" : "",
       "tags"     : "project",  
-      "date"     : "2020-10-17 00:00:00 -0700",
+      "date"     : "2020-10-17 00:00:00 +0700",
       "description" : "Tod helps you plan and manage daily tasks. Deliberately simple so I can stay focused on what I need to do."
 
     } ,
@@ -226,7 +237,7 @@
       "url"      : "/2020/10/16/friends-dont",
       "category" : "",
       "tags"     : "thoughts",  
-      "date"     : "2020-10-16 00:00:00 -0700",
+      "date"     : "2020-10-16 00:00:00 +0700",
       "description" : ""
 
     } ,
@@ -237,7 +248,7 @@
       "url"      : "/2020/10/12/track-python",
       "category" : "",
       "tags"     : "project",  
-      "date"     : "2020-10-12 00:00:00 -0700",
+      "date"     : "2020-10-12 00:00:00 +0700",
       "description" : "Track your accomplishments, mood, most important task, and journal entries over time in a simple CLI Python program."
 
     } ,
@@ -248,7 +259,7 @@
       "url"      : "/2020/10/12/sleep-realms",
       "category" : "",
       "tags"     : "project",  
-      "date"     : "2020-10-12 00:00:00 -0700",
+      "date"     : "2020-10-12 00:00:00 +0700",
       "description" : "Amp up your Star Realms game through osmotically absorbing the epic music."
 
     } ,
@@ -259,7 +270,7 @@
       "url"      : "/2020/10/04/two-minute-rule",
       "category" : "",
       "tags"     : "thoughts",  
-      "date"     : "2020-10-04 00:00:00 -0700",
+      "date"     : "2020-10-04 00:00:00 +0700",
       "description" : ""
 
     } ,
@@ -270,7 +281,7 @@
       "url"      : "/2020/10/04/doing",
       "category" : "",
       "tags"     : "thoughts",  
-      "date"     : "2020-10-04 00:00:00 -0700",
+      "date"     : "2020-10-04 00:00:00 +0700",
       "description" : ""
 
     } ,
@@ -281,7 +292,7 @@
       "url"      : "/2020/09/30/evernote-images",
       "category" : "",
       "tags"     : "project",  
-      "date"     : "2020-09-30 00:00:00 -0700",
+      "date"     : "2020-09-30 00:00:00 +0700",
       "description" : "Either using a Google Chrome extension or one line of JS, maximize your snippets in Evernote and stay away from $8 subscriptions for a tiny feature."
 
     } ,
@@ -292,7 +303,7 @@
       "url"      : "/2020/09/26/zentube",
       "category" : "",
       "tags"     : "project",  
-      "date"     : "2020-09-26 00:00:00 -0700",
+      "date"     : "2020-09-26 00:00:00 +0700",
       "description" : "Distraction-free note taking on Youtube videos. Includes file export and automatic timestamps."
 
     } ,
@@ -303,7 +314,7 @@
       "url"      : "/2020/09/23/mastodon",
       "category" : "",
       "tags"     : "thoughts",  
-      "date"     : "2020-09-23 00:00:00 -0700",
+      "date"     : "2020-09-23 00:00:00 +0700",
       "description" : ""
 
     } ,
@@ -314,7 +325,7 @@
       "url"      : "/2020/09/01/domine",
       "category" : "",
       "tags"     : "reference",  
-      "date"     : "2020-09-01 00:00:00 -0700",
+      "date"     : "2020-09-01 00:00:00 +0700",
       "description" : "I transcribed the rules for this simple game from Hundred Rabbits since it looks really fun and I can&#39;t find their rules page anymore."
 
     } ,
@@ -325,7 +336,7 @@
       "url"      : "/2020/08/26/random-note",
       "category" : "",
       "tags"     : "project",  
-      "date"     : "2020-08-26 00:00:00 -0700",
+      "date"     : "2020-08-26 00:00:00 +0700",
       "description" : "I got inspired by Tiago Forte&#39;s RandomNote Web and decided to make my own simple version using Python, Applescript, and nvALT, and it&#39;s easy to port."
 
     } ,
@@ -336,7 +347,7 @@
       "url"      : "/2020/08/22/purple-rain-outro",
       "category" : "",
       "tags"     : "project",  
-      "date"     : "2020-08-22 00:00:00 -0700",
+      "date"     : "2020-08-22 00:00:00 +0700",
       "description" : "A transcription of the DX7 strings outro for Purple Rain."
 
     } ,
@@ -347,7 +358,7 @@
       "url"      : "/2020/08/19/soulja-realms",
       "category" : "",
       "tags"     : "project",  
-      "date"     : "2020-08-19 00:00:00 -0700",
+      "date"     : "2020-08-19 00:00:00 +0700",
       "description" : "I mashed up the Star Realms music with a bunch of Soulja Boy acapellas."
 
     } ,
@@ -358,7 +369,7 @@
       "url"      : "/2020/08/04/piu-piu-ringtone",
       "category" : "",
       "tags"     : "project",  
-      "date"     : "2020-08-04 00:00:00 -0700",
+      "date"     : "2020-08-04 00:00:00 +0700",
       "description" : "Piu Piu ringtone but it&#39;s only Avgustina&#39;s laugh"
 
     } ,
@@ -369,7 +380,7 @@
       "url"      : "/2020/07/23/awfulizer",
       "category" : "",
       "tags"     : "project",  
-      "date"     : "2020-07-23 00:00:00 -0700",
+      "date"     : "2020-07-23 00:00:00 +0700",
       "description" : "I made this Firefox extension to see if I could do it, and I could. This extension cycles colors on every element 6 times per second."
 
     } ,
@@ -380,7 +391,7 @@
       "url"      : "/2020/07/22/make-python-apps",
       "category" : "",
       "tags"     : "reference",  
-      "date"     : "2020-07-22 00:00:00 -0700",
+      "date"     : "2020-07-22 00:00:00 +0700",
       "description" : "Using Automator and the built in Services of OSX, you can make simple Python apps run on command."
 
     } ,
@@ -391,7 +402,7 @@
       "url"      : "/2020/07/18/programming-outline",
       "category" : "",
       "tags"     : "reference",  
-      "date"     : "2020-07-18 00:00:00 -0700",
+      "date"     : "2020-07-18 00:00:00 +0700",
       "description" : "I&#39;ve written so much spaghetti code for so long and finally learned from my roommate how to write better code. This is how I use this method."
 
     } ,
@@ -402,7 +413,7 @@
       "url"      : "/2020/07/08/star-maker",
       "category" : "",
       "tags"     : "project",  
-      "date"     : "2020-07-08 00:00:00 -0700",
+      "date"     : "2020-07-08 00:00:00 +0700",
       "description" : "star_maker - a lo-fi ambient visual (Python)"
 
     } ,
@@ -413,7 +424,7 @@
       "url"      : "/2020/07/07/spacelove",
       "category" : "",
       "tags"     : "project",  
-      "date"     : "2020-07-07 00:00:00 -0700",
+      "date"     : "2020-07-07 00:00:00 +0700",
       "description" : "spacelove.xm - Made in MilkyTracker with an old E-MAX sample"
 
     } ,
@@ -424,7 +435,7 @@
       "url"      : "/2020/07/03/wordsmash",
       "category" : "",
       "tags"     : "project",  
-      "date"     : "2020-07-03 00:00:00 -0700",
+      "date"     : "2020-07-03 00:00:00 +0700",
       "description" : "This game is Mastermind but with words. Guess a random word chosen by the computer based on how many letters there are in common."
 
     } ,
@@ -435,7 +446,7 @@
       "url"      : "/2020/07/02/bmcrawl",
       "category" : "",
       "tags"     : "project",  
-      "date"     : "2020-07-02 00:00:00 -0700",
+      "date"     : "2020-07-02 00:00:00 +0700",
       "description" : "This is a program that utilizes a set of URL&#39;s to create a specific set of links based on the sites that you already liked enough to bookmark it."
 
     } ,
@@ -446,7 +457,7 @@
       "url"      : "/2020/06/26/nobody-takes-advice",
       "category" : "",
       "tags"     : "thoughts",  
-      "date"     : "2020-06-26 00:00:00 -0700",
+      "date"     : "2020-06-26 00:00:00 +0700",
       "description" : "The great, unspoken secret of advice is that no one takes it. ... People always just do exactly what they want to do in every scenario. - Nicole Cliffe"
 
     } ,
@@ -457,7 +468,7 @@
       "url"      : "/2020/06/25/inexpensive-games",
       "category" : "",
       "tags"     : "reference",  
-      "date"     : "2020-06-25 00:00:00 -0700",
+      "date"     : "2020-06-25 00:00:00 +0700",
       "description" : "I&#39;ve always been interested in being frugal and wanted a repository of fun and inexpensive games to play by yourself and with others."
 
     } ,
@@ -468,7 +479,7 @@
       "url"      : "/2020/06/21/quantity-quality",
       "category" : "",
       "tags"     : "thoughts",  
-      "date"     : "2020-06-21 00:00:00 -0700",
+      "date"     : "2020-06-21 00:00:00 +0700",
       "description" : "Quality and quantity are immensely useful in the developing of critical feeling and the ability for honest and effective communication."
 
     } ,
@@ -479,7 +490,7 @@
       "url"      : "/2020/06/10/critical-feeling",
       "category" : "",
       "tags"     : "thoughts",  
-      "date"     : "2020-06-10 00:00:00 -0700",
+      "date"     : "2020-06-10 00:00:00 +0700",
       "description" : "Critical feeling is making sure that you don&#39;t get caught up in other people&#39;s feelings. I believe this can improve and better our communication."
 
     } ,
@@ -490,7 +501,7 @@
       "url"      : "/2020/05/25/exercise-routine",
       "category" : "",
       "tags"     : "reference",  
-      "date"     : "2020-05-25 00:00:00 -0700",
+      "date"     : "2020-05-25 00:00:00 +0700",
       "description" : "A simple, minimal and modular exercise routine I developed that can be done anywhere, focusing mainly on short and simple circuits."
 
     } ,
@@ -501,7 +512,7 @@
       "url"      : "/2020/05/23/day-planner",
       "category" : "",
       "tags"     : "project",  
-      "date"     : "2020-05-23 00:00:00 -0700",
+      "date"     : "2020-05-23 00:00:00 +0700",
       "description" : "A lateral-thinking way to encourage you into desired activities."
 
     } ,
@@ -512,7 +523,7 @@
       "url"      : "/2020/05/22/zettelkasten",
       "category" : "",
       "tags"     : "reference",  
-      "date"     : "2020-05-22 00:00:00 -0700",
+      "date"     : "2020-05-22 00:00:00 +0700",
       "description" : "Zettelkasten makes all of your notes easier to develop, utilize, and organize for whatever you need them"
 
     } ,
@@ -523,7 +534,7 @@
       "url"      : "/2020/05/22/keyboard-remapping",
       "category" : "",
       "tags"     : "reference",  
-      "date"     : "2020-05-22 00:00:00 -0700",
+      "date"     : "2020-05-22 00:00:00 +0700",
       "description" : "Keyboard Remapping on OSX - Adding the Missing Insert Key for using Trackers And/Or Other Old DOS Programs (Reality Adlib Tracker, MilkyTracker, etc.)"
 
     } ,
@@ -534,7 +545,7 @@
       "url"      : "/2020/05/22/just-in-case",
       "category" : "",
       "tags"     : "thoughts",  
-      "date"     : "2020-05-22 00:00:00 -0700",
+      "date"     : "2020-05-22 00:00:00 +0700",
       "description" : "Does buying a thing just in case I need it in the future outweigh the costs? Putting extreme situations aside, I pretty much always feel the answer is no."
 
     } ,
@@ -545,7 +556,7 @@
       "url"      : "/2020/05/17/adam-savage",
       "category" : "",
       "tags"     : "thoughts",  
-      "date"     : "2020-05-17 00:00:00 -0700",
+      "date"     : "2020-05-17 00:00:00 +0700",
       "description" : "When you&#39;re starting a hobby, don&#39;t buy the expensive tools. Buy something mid-range. If you use it so much that it breaks, buy the best one to replace it."
 
     } ,
@@ -556,7 +567,7 @@
       "url"      : "/2020/05/01/old-internet",
       "category" : "",
       "tags"     : "thoughts",  
-      "date"     : "2020-05-01 00:00:00 -0700",
+      "date"     : "2020-05-01 00:00:00 +0700",
       "description" : ""
 
     } 

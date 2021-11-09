@@ -17,6 +17,30 @@
 "items": [
     
         {
+            "id": "http://milofultz.com/2021/11/09/bubble-sort-6502",
+            "title": "📊 Bubble Sort with 6502 Assembly",
+            "summary": "Implementing a sorting algorithm in Assembly is a pain, and the difficulty made it fun.",
+            "content_text": "This also uses Minicube64 to run, so a lot of this is necessary for that architecture. If you want the meat and potatoes, check out the ENUM, the variable initialization, and the BubbleSort label and see how it all works.include \"64cube.inc\"ENUM $30  seed rBYTE 1                  ; For \"random\" number generation  count rBYTE 1                 ; Total numbers to be generated, up to #$10  currCount rBYTE 1             ; Used for keeping track of current item  isSorted rBYTE 1              ; Flag to check if any modifications happened                                ;   on this most recent sort passENDE  org $200  sei  ldx #$ff                      ; Set the stack  txs  lda #$f                       ; This will set the video buffer page in a 4k  sta VIDEO                     ;   page in memory  lda #0  sta currCount                 ; Initialize currCount to 0  sta isSorted                  ; Initialize isSorted flag to 0  lda #$10                      ; Set up to #$10 random numbers you want to sort  sta count  lda #24                       ; Change the seed to create new \"random\" numbers  sta seed  _setw IRQ, VBLANK_IRQ  cliSetSortaRandomNumbers:          ; This is a really bad pseudo random number  lda seed                      ;   generator. I wouldn't worry about what is  tay                           ;   going on here, if not just for my sakerandLoop:  tya  asl  rol a  adc #$c  clc  ldx currCount  sta $00,x  sta $10,x  tay  inc currCount  lda currCount  cmp count  bne randLoopBubbleSort:  dec count                     ; Handle comparing of two elements. Without                                ;   this, the final comparison will be with the                                ;   last number and a number outside of scope  OuterLoop:                    ; This loop will iterate through the entire list  lda #0  sta currCount                 ; Initialize currCount to 0  lda #1  sta isSorted                  ; Reset the isSorted flag  InnerLoop:                    ; This loop will compare two numbers for sorting  ldx currCount                 ; Load currCount into x for addressing memory  lda $01,x                     ; Load the second number into the accumulator  cmp $00,x                     ; Subtract the first number from the second  bcs NextNum                   ; If second num &gt; first num, goto NextNum                                ; Else, swap the two numbers  ldy $00,x                     ; Load the first number into the y register  sta $00,x                     ; Store the second number into first mem slot  sty $01,x                     ; Store the first number into second mem slot  dec isSorted                  ; Ensure isSorted is not set to 1  NextNum:  lda count                     ; Load count into the accumulator  inc currCount                 ; Increment currCount  cmp currCount                 ; If we are on the last number,  bne InnerLoop                 ;   goto InnerLoop                                ; Else, continue  lda isSorted                  ; Load isSorted flag into the accumulator  cmp #1                        ; If isSorted is not 1 (false)  bne OuterLoop                 ;   goto OuterLoop                                ; Else, the list is sortedInfinite:  jmp InfiniteIRQ:  rti",
+            "content_html": "<p>This also uses <a href=\"https://github.com/aeriform-io/minicube64/\">Minicube64</a> to run, so a lot of this is necessary for that architecture. If you want the meat and potatoes, check out the <code class=\"highlighter-rouge\">ENUM</code>, the variable initialization, and the <code class=\"highlighter-rouge\">BubbleSort</code> label and see how it all works.</p><pre><code class=\"language-assembly\">include \"64cube.inc\"ENUM $30  seed rBYTE 1                  ; For \"random\" number generation  count rBYTE 1                 ; Total numbers to be generated, up to #$10  currCount rBYTE 1             ; Used for keeping track of current item  isSorted rBYTE 1              ; Flag to check if any modifications happened                                ;   on this most recent sort passENDE  org $200  sei  ldx #$ff                      ; Set the stack  txs  lda #$f                       ; This will set the video buffer page in a 4k  sta VIDEO                     ;   page in memory  lda #0  sta currCount                 ; Initialize currCount to 0  sta isSorted                  ; Initialize isSorted flag to 0  lda #$10                      ; Set up to #$10 random numbers you want to sort  sta count  lda #24                       ; Change the seed to create new \"random\" numbers  sta seed  _setw IRQ, VBLANK_IRQ  cliSetSortaRandomNumbers:          ; This is a really bad pseudo random number  lda seed                      ;   generator. I wouldn't worry about what is  tay                           ;   going on here, if not just for my sakerandLoop:  tya  asl  rol a  adc #$c  clc  ldx currCount  sta $00,x  sta $10,x  tay  inc currCount  lda currCount  cmp count  bne randLoopBubbleSort:  dec count                     ; Handle comparing of two elements. Without                                ;   this, the final comparison will be with the                                ;   last number and a number outside of scope  OuterLoop:                    ; This loop will iterate through the entire list  lda #0  sta currCount                 ; Initialize currCount to 0  lda #1  sta isSorted                  ; Reset the isSorted flag  InnerLoop:                    ; This loop will compare two numbers for sorting  ldx currCount                 ; Load currCount into x for addressing memory  lda $01,x                     ; Load the second number into the accumulator  cmp $00,x                     ; Subtract the first number from the second  bcs NextNum                   ; If second num &gt; first num, goto NextNum                                ; Else, swap the two numbers  ldy $00,x                     ; Load the first number into the y register  sta $00,x                     ; Store the second number into first mem slot  sty $01,x                     ; Store the first number into second mem slot  dec isSorted                  ; Ensure isSorted is not set to 1  NextNum:  lda count                     ; Load count into the accumulator  inc currCount                 ; Increment currCount  cmp currCount                 ; If we are on the last number,  bne InnerLoop                 ;   goto InnerLoop                                ; Else, continue  lda isSorted                  ; Load isSorted flag into the accumulator  cmp #1                        ; If isSorted is not 1 (false)  bne OuterLoop                 ;   goto OuterLoop                                ; Else, the list is sortedInfinite:  jmp InfiniteIRQ:  rti</code></pre><!-- [**Try it out here!**](https://www.milofultz.com/) // [Check out the project files on GitHub](https://github.com/milofultz/) --><!-- --- - _202XXXXX: Update format_ -->",
+            "url": "http://milofultz.com/2021/11/09/bubble-sort-6502",
+            
+            
+            
+            
+            
+            "date_published": "2021-11-09T00:00:00+07:00",
+            "date_modified": "2021-11-09T00:00:00+07:00",
+            
+                "author":  {
+                "name": "Milo Fultz",
+                "url": "http://milofultz.com",
+                "avatar": null
+                }
+                
+            
+        },
+    
+        {
             "id": "http://milofultz.com/2021/11/02/thailand",
             "title": "I'm in Thailand",
             "summary": "I'll be in Thailand for a while doing work.",
@@ -28,8 +52,8 @@
             
             
             
-            "date_published": "2021-11-02T00:00:00-07:00",
-            "date_modified": "2021-11-02T00:00:00-07:00",
+            "date_published": "2021-11-02T00:00:00+07:00",
+            "date_modified": "2021-11-02T00:00:00+07:00",
             
                 "author":  {
                 "name": "Milo Fultz",
@@ -52,8 +76,8 @@
             
             
             
-            "date_published": "2021-10-22T00:00:00-07:00",
-            "date_modified": "2021-10-22T00:00:00-07:00",
+            "date_published": "2021-10-22T00:00:00+07:00",
+            "date_modified": "2021-10-22T00:00:00+07:00",
             
                 "author":  {
                 "name": "Milo Fultz",
@@ -76,8 +100,8 @@
             
             
             
-            "date_published": "2021-09-18T00:00:00-07:00",
-            "date_modified": "2021-09-18T00:00:00-07:00",
+            "date_published": "2021-09-18T00:00:00+07:00",
+            "date_modified": "2021-09-18T00:00:00+07:00",
             
                 "author":  {
                 "name": "Milo Fultz",
@@ -100,8 +124,8 @@
             
             
             
-            "date_published": "2021-07-04T00:00:00-07:00",
-            "date_modified": "2021-07-04T00:00:00-07:00",
+            "date_published": "2021-07-04T00:00:00+07:00",
+            "date_modified": "2021-07-04T00:00:00+07:00",
             
                 "author":  {
                 "name": "Milo Fultz",
@@ -124,8 +148,8 @@
             
             
             
-            "date_published": "2021-07-03T00:00:00-07:00",
-            "date_modified": "2021-07-03T00:00:00-07:00",
+            "date_published": "2021-07-03T00:00:00+07:00",
+            "date_modified": "2021-07-03T00:00:00+07:00",
             
                 "author":  {
                 "name": "Milo Fultz",
@@ -148,8 +172,8 @@
             
             
             
-            "date_published": "2021-04-11T00:00:00-07:00",
-            "date_modified": "2021-04-11T00:00:00-07:00",
+            "date_published": "2021-04-11T00:00:00+07:00",
+            "date_modified": "2021-04-11T00:00:00+07:00",
             
                 "author":  {
                 "name": "Milo Fultz",
@@ -172,8 +196,8 @@
             
             
             
-            "date_published": "2021-03-06T00:00:00-08:00",
-            "date_modified": "2021-03-06T00:00:00-08:00",
+            "date_published": "2021-03-06T00:00:00+07:00",
+            "date_modified": "2021-03-06T00:00:00+07:00",
             
                 "author":  {
                 "name": "Milo Fultz",
@@ -196,8 +220,8 @@
             
             
             
-            "date_published": "2021-01-28T00:00:00-08:00",
-            "date_modified": "2021-01-28T00:00:00-08:00",
+            "date_published": "2021-01-28T00:00:00+07:00",
+            "date_modified": "2021-01-28T00:00:00+07:00",
             
                 "author":  {
                 "name": "Milo Fultz",
@@ -220,8 +244,8 @@
             
             
             
-            "date_published": "2021-01-08T00:00:00-08:00",
-            "date_modified": "2021-01-08T00:00:00-08:00",
+            "date_published": "2021-01-08T00:00:00+07:00",
+            "date_modified": "2021-01-08T00:00:00+07:00",
             
                 "author":  {
                 "name": "Milo Fultz",
@@ -244,8 +268,8 @@
             
             
             
-            "date_published": "2021-01-06T00:00:00-08:00",
-            "date_modified": "2021-01-06T00:00:00-08:00",
+            "date_published": "2021-01-06T00:00:00+07:00",
+            "date_modified": "2021-01-06T00:00:00+07:00",
             
                 "author":  {
                 "name": "Milo Fultz",
@@ -268,8 +292,8 @@
             
             
             
-            "date_published": "2020-12-27T00:00:00-08:00",
-            "date_modified": "2020-12-27T00:00:00-08:00",
+            "date_published": "2020-12-27T00:00:00+07:00",
+            "date_modified": "2020-12-27T00:00:00+07:00",
             
                 "author":  {
                 "name": "Milo Fultz",
@@ -292,8 +316,8 @@
             
             
             
-            "date_published": "2020-12-13T00:00:00-08:00",
-            "date_modified": "2020-12-13T00:00:00-08:00",
+            "date_published": "2020-12-13T00:00:00+07:00",
+            "date_modified": "2020-12-13T00:00:00+07:00",
             
                 "author":  {
                 "name": "Milo Fultz",
@@ -316,8 +340,8 @@
             
             
             
-            "date_published": "2020-12-01T00:00:00-08:00",
-            "date_modified": "2020-12-01T00:00:00-08:00",
+            "date_published": "2020-12-01T00:00:00+07:00",
+            "date_modified": "2020-12-01T00:00:00+07:00",
             
                 "author":  {
                 "name": "Milo Fultz",
@@ -340,8 +364,8 @@
             
             
             
-            "date_published": "2020-11-10T00:00:00-08:00",
-            "date_modified": "2020-11-10T00:00:00-08:00",
+            "date_published": "2020-11-10T00:00:00+07:00",
+            "date_modified": "2020-11-10T00:00:00+07:00",
             
                 "author":  {
                 "name": "Milo Fultz",
@@ -364,8 +388,8 @@
             
             
             
-            "date_published": "2020-11-09T00:00:00-08:00",
-            "date_modified": "2020-11-09T00:00:00-08:00",
+            "date_published": "2020-11-09T00:00:00+07:00",
+            "date_modified": "2020-11-09T00:00:00+07:00",
             
                 "author":  {
                 "name": "Milo Fultz",
@@ -388,8 +412,8 @@
             
             
             
-            "date_published": "2020-11-01T00:00:00-07:00",
-            "date_modified": "2020-11-01T00:00:00-07:00",
+            "date_published": "2020-11-01T00:00:00+07:00",
+            "date_modified": "2020-11-01T00:00:00+07:00",
             
                 "author":  {
                 "name": "Milo Fultz",
@@ -412,8 +436,8 @@
             
             
             
-            "date_published": "2020-10-31T00:00:00-07:00",
-            "date_modified": "2020-10-31T00:00:00-07:00",
+            "date_published": "2020-10-31T00:00:00+07:00",
+            "date_modified": "2020-10-31T00:00:00+07:00",
             
                 "author":  {
                 "name": "Milo Fultz",
@@ -436,8 +460,8 @@
             
             
             
-            "date_published": "2020-10-25T00:00:00-07:00",
-            "date_modified": "2020-10-25T00:00:00-07:00",
+            "date_published": "2020-10-25T00:00:00+07:00",
+            "date_modified": "2020-10-25T00:00:00+07:00",
             
                 "author":  {
                 "name": "Milo Fultz",
@@ -460,8 +484,8 @@
             
             
             
-            "date_published": "2020-10-21T00:00:00-07:00",
-            "date_modified": "2020-10-21T00:00:00-07:00",
+            "date_published": "2020-10-21T00:00:00+07:00",
+            "date_modified": "2020-10-21T00:00:00+07:00",
             
                 "author":  {
                 "name": "Milo Fultz",
@@ -484,8 +508,8 @@
             
             
             
-            "date_published": "2020-10-17T00:00:00-07:00",
-            "date_modified": "2020-10-17T00:00:00-07:00",
+            "date_published": "2020-10-17T00:00:00+07:00",
+            "date_modified": "2020-10-17T00:00:00+07:00",
             
                 "author":  {
                 "name": "Milo Fultz",
@@ -508,8 +532,8 @@
             
             
             
-            "date_published": "2020-10-16T00:00:00-07:00",
-            "date_modified": "2020-10-16T00:00:00-07:00",
+            "date_published": "2020-10-16T00:00:00+07:00",
+            "date_modified": "2020-10-16T00:00:00+07:00",
             
                 "author":  {
                 "name": "Milo Fultz",
@@ -532,8 +556,8 @@
             
             
             
-            "date_published": "2020-10-12T00:00:00-07:00",
-            "date_modified": "2020-10-12T00:00:00-07:00",
+            "date_published": "2020-10-12T00:00:00+07:00",
+            "date_modified": "2020-10-12T00:00:00+07:00",
             
                 "author":  {
                 "name": "Milo Fultz",
@@ -556,8 +580,8 @@
             
             
             
-            "date_published": "2020-10-12T00:00:00-07:00",
-            "date_modified": "2020-10-12T00:00:00-07:00",
+            "date_published": "2020-10-12T00:00:00+07:00",
+            "date_modified": "2020-10-12T00:00:00+07:00",
             
                 "author":  {
                 "name": "Milo Fultz",
@@ -580,8 +604,8 @@
             
             
             
-            "date_published": "2020-10-04T00:00:00-07:00",
-            "date_modified": "2020-10-04T00:00:00-07:00",
+            "date_published": "2020-10-04T00:00:00+07:00",
+            "date_modified": "2020-10-04T00:00:00+07:00",
             
                 "author":  {
                 "name": "Milo Fultz",
@@ -604,8 +628,8 @@
             
             
             
-            "date_published": "2020-10-04T00:00:00-07:00",
-            "date_modified": "2020-10-04T00:00:00-07:00",
+            "date_published": "2020-10-04T00:00:00+07:00",
+            "date_modified": "2020-10-04T00:00:00+07:00",
             
                 "author":  {
                 "name": "Milo Fultz",
@@ -628,8 +652,8 @@
             
             
             
-            "date_published": "2020-09-30T00:00:00-07:00",
-            "date_modified": "2020-09-30T00:00:00-07:00",
+            "date_published": "2020-09-30T00:00:00+07:00",
+            "date_modified": "2020-09-30T00:00:00+07:00",
             
                 "author":  {
                 "name": "Milo Fultz",
@@ -652,8 +676,8 @@
             
             
             
-            "date_published": "2020-09-26T00:00:00-07:00",
-            "date_modified": "2020-09-26T00:00:00-07:00",
+            "date_published": "2020-09-26T00:00:00+07:00",
+            "date_modified": "2020-09-26T00:00:00+07:00",
             
                 "author":  {
                 "name": "Milo Fultz",
@@ -676,8 +700,8 @@
             
             
             
-            "date_published": "2020-09-23T00:00:00-07:00",
-            "date_modified": "2020-09-23T00:00:00-07:00",
+            "date_published": "2020-09-23T00:00:00+07:00",
+            "date_modified": "2020-09-23T00:00:00+07:00",
             
                 "author":  {
                 "name": "Milo Fultz",
@@ -700,8 +724,8 @@
             
             
             
-            "date_published": "2020-09-01T00:00:00-07:00",
-            "date_modified": "2020-09-01T00:00:00-07:00",
+            "date_published": "2020-09-01T00:00:00+07:00",
+            "date_modified": "2020-09-01T00:00:00+07:00",
             
                 "author":  {
                 "name": "Milo Fultz",
@@ -724,8 +748,8 @@
             
             
             
-            "date_published": "2020-08-26T00:00:00-07:00",
-            "date_modified": "2020-08-26T00:00:00-07:00",
+            "date_published": "2020-08-26T00:00:00+07:00",
+            "date_modified": "2020-08-26T00:00:00+07:00",
             
                 "author":  {
                 "name": "Milo Fultz",
@@ -748,8 +772,8 @@
             
             
             
-            "date_published": "2020-08-22T00:00:00-07:00",
-            "date_modified": "2020-08-22T00:00:00-07:00",
+            "date_published": "2020-08-22T00:00:00+07:00",
+            "date_modified": "2020-08-22T00:00:00+07:00",
             
                 "author":  {
                 "name": "Milo Fultz",
@@ -772,8 +796,8 @@
             
             
             
-            "date_published": "2020-08-19T00:00:00-07:00",
-            "date_modified": "2020-08-19T00:00:00-07:00",
+            "date_published": "2020-08-19T00:00:00+07:00",
+            "date_modified": "2020-08-19T00:00:00+07:00",
             
                 "author":  {
                 "name": "Milo Fultz",
@@ -796,8 +820,8 @@
             
             
             
-            "date_published": "2020-08-04T00:00:00-07:00",
-            "date_modified": "2020-08-04T00:00:00-07:00",
+            "date_published": "2020-08-04T00:00:00+07:00",
+            "date_modified": "2020-08-04T00:00:00+07:00",
             
                 "author":  {
                 "name": "Milo Fultz",
@@ -820,8 +844,8 @@
             
             
             
-            "date_published": "2020-07-23T00:00:00-07:00",
-            "date_modified": "2020-07-23T00:00:00-07:00",
+            "date_published": "2020-07-23T00:00:00+07:00",
+            "date_modified": "2020-07-23T00:00:00+07:00",
             
                 "author":  {
                 "name": "Milo Fultz",
@@ -844,32 +868,8 @@
             
             
             
-            "date_published": "2020-07-22T00:00:00-07:00",
-            "date_modified": "2020-07-22T00:00:00-07:00",
-            
-                "author":  {
-                "name": "Milo Fultz",
-                "url": "http://milofultz.com",
-                "avatar": null
-                }
-                
-            
-        },
-    
-        {
-            "id": "http://milofultz.com/2020/07/18/programming-outline",
-            "title": "Create a better program faster with an outline V2",
-            "summary": "I've written so much spaghetti code for so long and finally learned from my roommate how to write better code. This is how I use this method.",
-            "content_text": "Like before, stay in abstract thinking as long as possible. The longer you take to implement your concepts, the better.Big Overview:  Understanding the Problem  Breaking It Down  Inspection  Development/TestingUnderstanding the Problem      Describe what the problem is in abstract terms as clearly as you can. What is the thing that you can’t do or isn’t happening right now?        Describe the solution to this problem in abstract terms as the desired result. Don’t worry about the how yet, just what the result will be.        Describe in abstract terms what things the program will do, as if it was a person doing it, not a computer. What are all of the smaller tasks within this bigger problem/solution?        From there, describe how your program will handle data on the way in and the way out (not within the program). What do you as the user want to give it and what do you want it to spit back out? Like when you give the dry cleaner your clothes: input is dirty clothes, output is clean clothes.  Breaking It Down      Break down the process further in abstract terms. What are the distinct actions the program will need to take to solve this problem? If you were asking a very pedantic person to do this task for you, what would you tell them?        What are the biggest distinct functions you can perceive in the description you just created?        Can you break these down further into sub-tasks? If so, go back to breaking it down (5.) in abstract terms until you can’t do it anymore.        With the many discrete functions you have, what data types would be best to give to and get from them?        Make a very rough outline of each function in your program using information from chunking steps. Include only necessary in/out information (e.g. if you are wanting to eat and the data type is ‘food’ and it will return ‘poop’: def eat(food): return poop)        Within these functions, write out an overview for each function. Write again for this ultra pedantic person.        See if you can break down elements of the functions into even smaller parts. The more that functions can be used and reused all around the whole program, the better.  Inspection      Once the program has been broken down into its most atomistic functions, start writing pseudocode into them to have an idea of what you’re going to do.        Look again for similarities in between functions and see if there is any process the functions could share. If so, then take that and break it down into it’s own function.        When you feel it has been fully broken down and the flow of data makes sense, create a basic outline of how the different functions will flow together from beginning to the end of the program. Do the data types match? If not, can you use a different data type? Is an adaptation needed between one function and another?  Development/Testing      Make a basic way to develop each function and test it as it goes (in Python, by adding an if __name__ == '__main__': section).        Figure out what is the easiest thing to program and test. Go with the pseudocode you’ve written and start fleshing it out with real functionality. Test each part as you go in the terminal.        Repeat this process with each element of your code, ensuring that it works exactly as you expect. You don’t have to go in a linear fashion, if it is easier or more sensible to jump around.        Don’t be afraid to go back to previous steps if you realize further possibilities of chunking or other revisions.  ",
-            "content_html": "<p>Like before, <strong>stay in abstract thinking as long as possible. The longer you take to implement your concepts, the better.</strong></p><h1 id=\"big-overview\">Big Overview:</h1><ul>  <li>Understanding the Problem</li>  <li>Breaking It Down</li>  <li>Inspection</li>  <li>Development/Testing</li></ul><hr /><h2 id=\"understanding-the-problem\">Understanding the Problem</h2><ol>  <li>    <p>Describe what the problem is in abstract terms as clearly as you can. What is the thing that you can’t do or isn’t happening right now?</p>  </li>  <li>    <p>Describe the solution to this problem in abstract terms as the desired result. Don’t worry about the how yet, just what the result will be.</p>  </li>  <li>    <p>Describe in abstract terms what things the program will do, as if it was a person doing it, not a computer. What are all of the smaller tasks within this bigger problem/solution?</p>  </li>  <li>    <p>From there, describe how your program will handle data on the way in and the way out (not within the program). What do you as the user want to give it and what do you want it to spit back out? Like when you give the dry cleaner your clothes: input is dirty clothes, output is clean clothes.</p>  </li></ol><h2 id=\"breaking-it-down\">Breaking It Down</h2><ol>  <li>    <p>Break down the process further in abstract terms. What are the distinct actions the program will need to take to solve this problem? If you were asking a very pedantic person to do this task for you, what would you tell them?</p>  </li>  <li>    <p>What are the biggest distinct functions you can perceive in the description you just created?</p>  </li>  <li>    <p>Can you break these down further into sub-tasks? If so, go back to breaking it down (5.) in abstract terms until you can’t do it anymore.</p>  </li>  <li>    <p>With the many discrete functions you have, what data types would be best to give to and get from them?</p>  </li>  <li>    <p>Make a very rough outline of each function in your program using information from chunking steps. Include only necessary in/out information (e.g. if you are wanting to eat and the data type is ‘food’ and it will return ‘poop’: <code class=\"highlighter-rouge\">def eat(food): return poop</code>)</p>  </li>  <li>    <p>Within these functions, write out an overview for each function. Write again for this ultra pedantic person.</p>  </li>  <li>    <p>See if you can break down elements of the functions into even smaller parts. The more that functions can be used and reused all around the whole program, the better.</p>  </li></ol><h2 id=\"inspection\">Inspection</h2><ol>  <li>    <p>Once the program has been broken down into its most atomistic functions, start writing pseudocode into them to have an idea of what you’re going to do.</p>  </li>  <li>    <p>Look again for similarities in between functions and see if there is any process the functions could share. If so, then take that and break it down into it’s own function.</p>  </li>  <li>    <p>When you feel it has been fully broken down and the flow of data makes sense, create a basic outline of how the different functions will flow together from beginning to the end of the program. Do the data types match? If not, can you use a different data type? Is an adaptation needed between one function and another?</p>  </li></ol><h2 id=\"developmenttesting\">Development/Testing</h2><ol>  <li>    <p>Make a basic way to develop each function and test it as it goes (in Python, by adding an <code class=\"highlighter-rouge\">if __name__ == '__main__':</code> section).</p>  </li>  <li>    <p>Figure out what is the easiest thing to program and test. Go with the pseudocode you’ve written and start fleshing it out with real functionality. Test each part as you go in the terminal.</p>  </li>  <li>    <p>Repeat this process with each element of your code, ensuring that it works exactly as you expect. You don’t have to go in a linear fashion, if it is easier or more sensible to jump around.</p>  </li>  <li>    <p>Don’t be afraid to go back to previous steps if you realize further possibilities of chunking or other revisions.</p>  </li></ol>",
-            "url": "http://milofultz.com/2020/07/18/programming-outline",
-            
-            
-            
-            
-            
-            "date_published": "2020-07-18T00:00:00-07:00",
-            "date_modified": "2020-07-18T00:00:00-07:00",
+            "date_published": "2020-07-22T00:00:00+07:00",
+            "date_modified": "2020-07-22T00:00:00+07:00",
             
                 "author":  {
                 "name": "Milo Fultz",

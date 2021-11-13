@@ -1,13 +1,13 @@
 ---
 layout: post
-title: 📊 Insertion Sort with 6502 Assembly
+title: 📊 Selection Sort with 6502 Assembly
 description: Implementing a sorting algorithm in Assembly is a pain, and the difficulty made it fun.
 summary: Implementing a sorting algorithm in Assembly is a pain, and the difficulty made it fun.
 comments: true
 tags: project
 ---
 
-This also uses [Minicube64][] to run, so a lot of this is necessary for that architecture. If you want the meat and potatoes, check out the `ENUM`, the variable initialization, and the `InsertionSort` label and see how it all works.
+This also uses [Minicube64][] to run, so a lot of this is necessary for that architecture. If you want the meat and potatoes, check out the `ENUM`, the variable initialization, and the `SelectionSort` label and see how it all works.
 
 ```assembly
 include "64cube.inc"
@@ -61,7 +61,7 @@ randLoop:
   cmp arraySize
   bne randLoop
 
-InsertionSort:
+SelectionSort:
   lda #0                        ; Initialize index at 0
   sta index
 
@@ -92,15 +92,14 @@ InsertionSort:
   lda smallestIndex             ; Load smallestIndex into the accumulator
   sta subIndex                  ; Store smallestIndex into subIndex
 
-  NumShift:
-  ldx subIndex                  ; Load subIndex into the x register
-  lda #$ff,x                    ; Copy number previous to current `subIndex`
-  sta #$00,x                    ;   into `subIndex` memory location
-  dec subIndex                  ; Decrement subIndex
-  lda subIndex                  ; Load subIndex into the accumulator
-  sbc index                     ; Subtract index from subIndex
-  cmp #$ff                      ; If the result is #$ff
-  bne NumShift                  ;   Goto NumShift
+  ldx index
+  lda #$00,x                    ; Load number at index into accumulator
+  tay                           ; Transfer number at index into y register
+  ldx smallestIndex
+  lda #$00,x                    ; Load number at smallestIndex into accumulator
+  sty #$00,x                    ; Store number at index into smallestIndex
+  ldx index
+  sta #$00,x                    ; Store number at smallestIndex into index
 
   lda smallest                  ; Load smallest into the accumulator
   ldx index                     ; Load index into the x register
@@ -113,7 +112,6 @@ InsertionSort:
 
 Infinite:
   jmp Infinite
-
 
 IRQ:
   rti

@@ -2,11 +2,11 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>http://milofultz.com/about</loc>
-<lastmod>2021-11-13T16:58:55+07:00</lastmod>
+<lastmod>2021-11-13T17:07:19+07:00</lastmod>
 </url>
 <url>
 <loc>http://milofultz.com/search</loc>
-<lastmod>2021-11-13T16:58:55+07:00</lastmod>
+<lastmod>2021-11-13T17:07:19+07:00</lastmod>
 </url>
 <url>
 <loc>http://milofultz.com/2020/05/01/old-internet</loc>
@@ -217,7 +217,7 @@
 <lastmod>2021-11-09T00:00:00+07:00</lastmod>
 </url>
 <url>
-<loc>http://milofultz.com/2021/11/13/insertion-sort-6502</loc>
+<loc>http://milofultz.com/2021/11/13/selection-sort-6502</loc>
 <lastmod>2021-11-13T00:00:00+07:00</lastmod>
 </url>
 <url>

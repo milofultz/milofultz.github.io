@@ -13,6 +13,17 @@
   
     {
 
+      "title"    : "📊 Insertion Sort with 6502 Assembly",
+      "url"      : "/2021/11/13/insertion-sort-6502",
+      "category" : "",
+      "tags"     : "project",  
+      "date"     : "2021-11-13 00:00:00 +0700",
+      "description" : "Implementing a sorting algorithm in Assembly is a pain, and the difficulty made it fun."
+
+    } ,
+  
+    {
+
       "title"    : "📊 Bubble Sort with 6502 Assembly",
       "url"      : "/2021/11/09/bubble-sort-6502",
       "category" : "",

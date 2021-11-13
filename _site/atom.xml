@@ -4,7 +4,7 @@
  <title>Milo Fultz</title>
  <link href="http://milofultz.com/atom.xml" rel="self"/>
  <link href="http://milofultz.com/"/>
- <updated>2021-11-09T08:30:30+07:00</updated>
+ <updated>2021-11-13T09:40:28+07:00</updated>
  <id>http://milofultz.com</id>
  <author>
    <name>Milo Fultz</name>
@@ -68,10 +68,10 @@ randLoop:
   bne randLoop
 
 BubbleSort:
+  OuterLoop:                    ; This loop will iterate through the entire list
   dec count                     ; Handle comparing of two elements. Without
                                 ;   this, the final comparison will be with the
                                 ;   last number and a number outside of scope
-  OuterLoop:                    ; This loop will iterate through the entire list
   lda #0
   sta currCount                 ; Initialize currCount to 0
   lda #1

@@ -4,7 +4,7 @@
  <title>Milo Fultz</title>
  <link href="http://milofultz.com/atom.xml" rel="self"/>
  <link href="http://milofultz.com/"/>
- <updated>2021-11-13T13:19:34+07:00</updated>
+ <updated>2021-11-13T16:57:51+07:00</updated>
  <id>http://milofultz.com</id>
  <author>
    <name>Milo Fultz</name>
@@ -13,10 +13,10 @@
 
  
  <entry>
-   <title>📊 Selection Sort with 6502 Assembly</title>
-   <link href="http://milofultz.com/2021/11/13/selection-sort-6502"/>
+   <title>📊 Insertion Sort with 6502 Assembly</title>
+   <link href="http://milofultz.com/2021/11/13/insertion-sort-6502"/>
    <updated>2021-11-13T00:00:00+07:00</updated>
-   <id>http://milofultz.com/2021/11/13/selection-sort-6502</id>
+   <id>http://milofultz.com/2021/11/13/insertion-sort-6502</id>
    <content type="html">&lt;p&gt;This also uses &lt;a href=&quot;https://github.com/aeriform-io/minicube64/&quot;&gt;Minicube64&lt;/a&gt; to run, so a lot of this is necessary for that architecture. If you want the meat and potatoes, check out the &lt;code class=&quot;highlighter-rouge&quot;&gt;ENUM&lt;/code&gt;, the variable initialization, and the &lt;code class=&quot;highlighter-rouge&quot;&gt;SelectionSort&lt;/code&gt; label and see how it all works.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&quot;language-assembly&quot;&gt;include &quot;64cube.inc&quot;
@@ -70,7 +70,7 @@ randLoop:
   cmp arraySize
   bne randLoop
 
-SelectionSort:
+InsertionSort:
   lda #0                        ; Initialize index at 0
   sta index
 

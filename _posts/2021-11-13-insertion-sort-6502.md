@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 📊 Selection Sort with 6502 Assembly
+title: 📊 Insertion Sort with 6502 Assembly
 description: Implementing a sorting algorithm in Assembly is a pain, and the difficulty made it fun.
 summary: Implementing a sorting algorithm in Assembly is a pain, and the difficulty made it fun.
 comments: true
@@ -61,7 +61,7 @@ randLoop:
   cmp arraySize
   bne randLoop
 
-SelectionSort:
+InsertionSort:
   lda #0                        ; Initialize index at 0
   sta index
 

@@ -7,7 +7,7 @@ comments: true
 tags: project
 ---
 
-This also uses [Minicube64][] to run, so a lot of this is necessary for that architecture. If you want the meat and potatoes, check out the `ENUM`, the variable initialization, and the `SelectionSort` label and see how it all works.
+This also uses [Minicube64][] to run, so a lot of this is necessary for that architecture. If you want the meat and potatoes, check out the `ENUM`, the variable initialization, and the `InsertionSort` label and see how it all works.
 
 ```assembly
 include "64cube.inc"

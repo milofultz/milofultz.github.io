@@ -2,6 +2,17 @@
   
     {
 
+      "title"    : "📊 Quick Sort with 6502 Assembly",
+      "url"      : "/2021/11/14/quick-sort-6502",
+      "category" : "",
+      "tags"     : "project",  
+      "date"     : "2021-11-14 00:00:00 +0700",
+      "description" : "Implementing a sorting algorithm in Assembly is a pain, and the difficulty made it fun."
+
+    } ,
+  
+    {
+
       "title"    : "📊 Selection Sort with 6502 Assembly",
       "url"      : "/2021/11/13/selection-sort-6502",
       "category" : "",

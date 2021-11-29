@@ -4,7 +4,7 @@
  <title>Milo Fultz</title>
  <link href="http://milofultz.com/atom.xml" rel="self"/>
  <link href="http://milofultz.com/"/>
- <updated>2021-11-14T20:19:04+07:00</updated>
+ <updated>2021-11-29T17:13:30+07:00</updated>
  <id>http://milofultz.com</id>
  <author>
    <name>Milo Fultz</name>
@@ -547,6 +547,8 @@ Palette:										; Set 'Palette' label
 
 &lt;p&gt;&lt;a href=&quot;https://trankynam.com/atext/&quot;&gt;aText&lt;/a&gt;: This is the text and snippet expander that I moved to after using TextExpander for years. It’s only $5 instead of a $36/year subscription and essentially the same program but with more features available, most notably automated keystrokes. I use it most often in my copywriting for podcasts, emails, and projects with a lot of repetition, but it’s also super useful in generating timestamps, datestamps, and ensuring you won’t write important info down wrong. Much more fun to use than the built-in OSX feature.&lt;/p&gt;
 
+&lt;p&gt;&lt;a href=&quot;http://derlien.com/&quot;&gt;DiskInventoryX&lt;/a&gt;: A small utility application for macOS that graphically shows the disk usage within a file system. I use this to monitor unruly client Dropbox folders as well as runaway audio/video projects.&lt;/p&gt;
+
 &lt;p&gt;&lt;a href=&quot;https://github.com/Mortennn/Dozer&quot;&gt;Dozer&lt;/a&gt;: Free and open source app to hide menu bar icons to give your Mac a cleaner look. Helps me not get distracted by unimportant stuff.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;http://easyresapp.com/&quot;&gt;EasyRes&lt;/a&gt;: Menubar app that allows you to switch screen resolutions quickly and easily. Most useful when using multiple monitors or external keyboard/mouse configs that put the laptop farther away from your eyes.&lt;/p&gt;
@@ -554,8 +556,6 @@ Palette:										; Set 'Palette' label
 &lt;p&gt;&lt;a href=&quot;https://justgetflux.com/&quot;&gt;f.lux&lt;/a&gt;: Warms your screen color at sundown until sunup so it doesn’t destroy your eyes in the dark. Just essential and makes using a computer without it almost unbearable.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://github.com/TermiT/Flycut&quot;&gt;Flycut&lt;/a&gt;: Simple and straightforward clipboard manager. No bullshit, just works.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://grandperspectiv.sourceforge.net/&quot;&gt;GrandPerspective&lt;/a&gt;: A small utility application for macOS that graphically shows the disk usage within a file system. I use this to monitor unruly client Dropbox folders as well as runaway audio/video projects.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://www.noodlesoft.com/&quot;&gt;Hazel&lt;/a&gt;: Allows you to conditionally automate and script file handling. I personally use it for cleaning up screenshots, moving things out of my downloads into another folder, backing up old files, and managing my trash usage. Powerusers have made it do &lt;a href=&quot;https://www.asianefficiency.com/technology/hazel-intro/&quot;&gt;much cooler things&lt;/a&gt;.&lt;/p&gt;
 
@@ -577,7 +577,7 @@ Palette:										; Set 'Palette' label
 
 &lt;p&gt;&lt;a href=&quot;https://rectangleapp.com/&quot;&gt;Rectangle&lt;/a&gt; / &lt;a href=&quot;https://github.com/fikovnik/ShiftIt&quot;&gt;ShiftIt&lt;/a&gt;: Window manager that uses keyboard shortcuts. Super easy to arrange windows into quandrants, screen halves/thirds, etc., or move windows over to other screens. Just overall very useful for smaller single-monitor or large multi-monitor setups.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://www.sublimetext.com/&quot;&gt;SublimeText&lt;/a&gt;: This is my coding scratchpad as well as my daily task manager using &lt;a href=&quot;https://github.com/aziz/PlainTasks&quot;&gt;PlainTasks&lt;/a&gt;. Not as full featured as PyCharm or VSCodium, but still fantastic and a pleasure to use. Packages I use:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.sublimetext.com/&quot;&gt;SublimeText&lt;/a&gt; &lt;a href=&quot;https://www.tinybrain.fans/sublime-text.html&quot;&gt;[wiki]&lt;/a&gt;: This is my coding scratchpad as well as my daily task manager using &lt;a href=&quot;https://github.com/aziz/PlainTasks&quot;&gt;PlainTasks&lt;/a&gt;. Not as full featured towards any given language as PyCharm or as huge as VSCodium, but fantastic, fast, and a pleasure to use. Packages I use:&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://emmet.io/blog/sublime-text-3/&quot;&gt;Emmet&lt;/a&gt;: If you do any HTML/CSS/JS, get Emmet.&lt;/li&gt;
@@ -611,6 +611,7 @@ Palette:										; Set 'Palette' label
   &lt;li&gt;&lt;em&gt;20210206: Added f.lux and Lastpass, SublimeText and VSCodium extensions to programs, Atkinson Hyperlegible to fonts&lt;/em&gt;&lt;/li&gt;
   &lt;li&gt;&lt;em&gt;20210403: Removed Lastpass and added 1Password, HTML-CSS-JS Prettify, Sync Settings&lt;/em&gt;&lt;/li&gt;
   &lt;li&gt;&lt;em&gt;20211027: Add Flycut, Hazel, Nativefier, revise various elements&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;20211129: Replaced Grand Perspective with DiskInventoryX&lt;/em&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;!-- --- 

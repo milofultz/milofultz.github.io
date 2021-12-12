@@ -2,6 +2,17 @@
   
     {
 
+      "title"    : "Why Would Someone Pay For Something That&#39;s Free?",
+      "url"      : "/2021/12/12/open-source",
+      "category" : "",
+      "tags"     : "thoughts",  
+      "date"     : "2021-12-12 00:00:00 +0700",
+      "description" : ""
+
+    } ,
+  
+    {
+
       "title"    : "📊 Sorting Algorithms in 6502 Assembly",
       "url"      : "/2021/11/14/sorting-in-6502",
       "category" : "",

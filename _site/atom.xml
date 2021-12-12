@@ -4,13 +4,46 @@
  <title>Milo Fultz</title>
  <link href="http://milofultz.com/atom.xml" rel="self"/>
  <link href="http://milofultz.com/"/>
- <updated>2021-11-29T17:13:30+07:00</updated>
+ <updated>2021-12-12T07:22:08+07:00</updated>
  <id>http://milofultz.com</id>
  <author>
    <name>Milo Fultz</name>
    <email>milopfultz@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>Why Would Someone Pay For Something That's Free?</title>
+   <link href="http://milofultz.com/2021/12/12/open-source"/>
+   <updated>2021-12-12T00:00:00+07:00</updated>
+   <id>http://milofultz.com/2021/12/12/open-source</id>
+   <content type="html">&lt;p&gt;If people who make open source want to paid, why do they make it free? I understand the utopian ideal of wanting software to be free, but expecting donations for your work after explicitly making it free seems confusing.&lt;/p&gt;
+
+&lt;p&gt;I mean this earnestly, as I also see the net advantage socially and culturally of free information, but in the reality of a capitalist world, it seems foolish to rely on hope of generosity of large orgs who may use your software and small devs who are in the same $$ boat as you&lt;/p&gt;
+
+&lt;p&gt;I guess the core q is: if something like &lt;code class=&quot;highlighter-rouge&quot;&gt;core-js&lt;/code&gt; or &lt;code class=&quot;highlighter-rouge&quot;&gt;log4j&lt;/code&gt; wants to be paid, why is it not a licensed software? I see on log4j’s Apache license that it is a “perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable copyright”. Why would pay be expected?&lt;/p&gt;
+
+&lt;p&gt;And similarly and probably more interesting, why would a company pull this into their code expecting any support when shit hits the fan? If a multibillion dollar is comfortable pulling in an open source software, it seems that either they fully trust the maintainer/project who owes them nothing (which is wild in itself) or that they can fix it when it goes wrong, which might happen and I am totally ignorant of.&lt;/p&gt;
+
+&lt;p&gt;My armchair thoughts are a lot of the behavior of open source devs feeling responsible for their users experience is a mix of capitalism’s effect on people feeling their worth in society, or as a human, is tied up in their work and therefore problems must be resolved &lt;strong&gt;or else&lt;/strong&gt;, and also just pride in the art of coding.&lt;/p&gt;
+
+&lt;p&gt;A lot of this smells like when I was full time in music. I would get asked a lot, “If you love music, then why are you doing it for money?” and I’m like ?? I love to eat??&lt;/p&gt;
+
+&lt;p&gt;Like it feels weird and borderline manipulative to blame people for not paying for software they weren’t asked to pay for, and &lt;em&gt;explicitly&lt;/em&gt; told they didn’t need to in the license. I know culturally it now is sort of the expectation that open source projects should be given donations if you use them, but why not be explicit and make them licensed software?&lt;/p&gt;
+
+&lt;p&gt;This again feels like the reason the music union collapsed after the 70’s. An influx of musicians playing “just for fun” at bars for free cut the legs out from under those trying to make a living.&lt;/p&gt;
+
+&lt;p&gt;And the thing was that behavior isn’t/wasn’t malicious. Playing music because you love it &lt;em&gt;should&lt;/em&gt; be the default state. Writing code because you love it &lt;em&gt;should&lt;/em&gt; be the default state.&lt;/p&gt;
+
+&lt;p&gt;Capitalism be capitalism, and unfortunately that seems to warrant a level of protectiveness over the work we do in terms of keeping ourselves alive in the Maslow sense. I hate that we don’t live in the utopian ideal of our society yet, but to live as if we already do may cause these issues to occur more often.&lt;/p&gt;
+
+&lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;https://merveilles.town/@milofultz/107430969483198871&lt;/li&gt;
+&lt;/ol&gt;
+</content>
+ </entry>
  
  <entry>
    <title>📊 Sorting Algorithms in 6502 Assembly</title>

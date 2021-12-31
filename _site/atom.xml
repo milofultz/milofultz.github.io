@@ -4,7 +4,7 @@
  <title>Milo Fultz</title>
  <link href="http://milofultz.com/atom.xml" rel="self"/>
  <link href="http://milofultz.com/"/>
- <updated>2021-12-29T18:53:04+07:00</updated>
+ <updated>2021-12-31T14:43:18+07:00</updated>
  <id>http://milofultz.com</id>
  <author>
    <name>Milo Fultz</name>
@@ -586,6 +586,17 @@ Palette:										; Set 'Palette' label
 
 &lt;p&gt;&lt;a href=&quot;http://easyresapp.com/&quot;&gt;EasyRes&lt;/a&gt;: Menubar app that allows you to switch screen resolutions quickly and easily. Most useful when using multiple monitors or external keyboard/mouse configs that put the laptop farther away from your eyes.&lt;/p&gt;
 
+&lt;p&gt;&lt;a href=&quot;https://www.mozilla.org/en-US/firefox/new/&quot;&gt;Firefox&lt;/a&gt;: I prefer not to use Chrome because I don’t really want to enourage Google. Plus, Firefox generally works the way I expect and I have seen no downsides in my development and browsing experience. Here’s the extensions I use regularly:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/pietervanheijningen/clickbait-remover-for-youtube&quot;&gt;Clickbait Remover for Youtube&lt;/a&gt;: Lowercases all titles and makes thumbnail an actual mid-video screenshot. Surprisingly effective!&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://addons.mozilla.org/en-US/firefox/addon/new-tab-override/&quot;&gt;New Tab Override&lt;/a&gt;: Choose a specific homepage to show on every new &lt;em&gt;tab&lt;/em&gt;, not just new &lt;em&gt;windows&lt;/em&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://addons.mozilla.org/en-US/firefox/addon/redirector/&quot;&gt;Redirector&lt;/a&gt;: Use regex and wildcards to automatically modify matching URLs before going there. Useful for things like forcing the use of in-browser options in things like Zoom, looking at all Medium posts on &lt;a href=&quot;http://scribe.rip&quot;&gt;Scribe.rip&lt;/a&gt;, etc.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/refined-github/refined-github&quot;&gt;Refined Github&lt;/a&gt;: Makes the Github experience much more pleasant.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/iorate/uBlacklist&quot;&gt;uBlacklist&lt;/a&gt;: Block certain websites from showing up in your search results on the major engines.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://ublockorigin.com/&quot;&gt;uBlock Origin&lt;/a&gt;: An adblocker and general purpose content filter. I have used it to remove ads using their preloaded ad filters, related videos sections, sidebars, elements with classnames matching a pattern, disable Javascript on some or all sites, limit automatic media downloads for files over a certain size, etc. Can do essentially anything.&lt;/li&gt;
+&lt;/ul&gt;
+
 &lt;p&gt;&lt;a href=&quot;https://justgetflux.com/&quot;&gt;f.lux&lt;/a&gt;: Warms your screen color at sundown until sunup so it doesn’t destroy your eyes in the dark. Just essential and makes using a computer without it almost unbearable.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://github.com/TermiT/Flycut&quot;&gt;Flycut&lt;/a&gt;: Simple and straightforward clipboard manager. No bullshit, just works.&lt;/p&gt;
@@ -598,11 +609,13 @@ Palette:										; Set 'Palette' label
 
 &lt;p&gt;&lt;a href=&quot;https://github.com/nativefier/nativefier&quot;&gt;Nativefier&lt;/a&gt;: A way to make web applications “native” with Electron. I’m not a big Electron guy, as the apps I use that utilize it are bloated as all hell (Slack, VS Code, etc.), but it does the thing to help compartmentalize app spaces. A spiritual successor to &lt;a href=&quot;https://www.fluidapp.com/developer/&quot;&gt;fluid&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://www.1password.com/&quot;&gt;1Password&lt;/a&gt;/&lt;a href=&quot;https://keepass.info/index.html&quot;&gt;Keepass (Free)&lt;/a&gt;: &lt;del&gt;I use Lastpass&lt;/del&gt; (I used to use Lastpass, but their free model will only work on a single device at a time, making it useless if you use a phone and computer with it), but &lt;a href=&quot;https://www.tomsguide.com/us/password-manager-pros-cons,news-19018.html&quot;&gt;use ANY password manager&lt;/a&gt;, please please please.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.1password.com/&quot;&gt;1Password&lt;/a&gt; / &lt;a href=&quot;https://keepass.info/index.html&quot;&gt;Keepass (Free)&lt;/a&gt;: &lt;del&gt;I use Lastpass&lt;/del&gt; (I used to use Lastpass, but &lt;a href=&quot;https://en.wikipedia.org/wiki/LastPass&quot;&gt;they are lacking on security&lt;/a&gt;, and their free model will only work on a single device at a time, making it useless if you use a phone and computer with it), but &lt;a href=&quot;https://www.tomsguide.com/us/password-manager-pros-cons,news-19018.html&quot;&gt;use ANY password manager&lt;/a&gt;, please please please.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://www.ocenaudio.com/en/&quot;&gt;OcenAudio&lt;/a&gt;: If Audacity was actually pleasant to use. Not &lt;em&gt;as&lt;/em&gt; powerful, but for 99% of what I do, it is much better for audio editing/manipulation in every way.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://www.jetbrains.com/pycharm/&quot;&gt;PyCharm&lt;/a&gt;: A much nicer environment to write Python in. Preferred over VSCodium for the built-in Python specific console and debugger.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://quodlibet.readthedocs.io/en/latest/&quot;&gt;QuodLibet&lt;/a&gt;: A great music library manager for people who like owning our music. Also a great tagging software.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://marco.org/apps&quot;&gt;Quitter&lt;/a&gt;: One of my most useful apps. Quits an app based on minutes of inactivity. Super useful for very distracting and/or power-hungry apps like Messages, Slack, etc.&lt;/p&gt;
 
@@ -626,7 +639,6 @@ Palette:										; Set 'Palette' label
 &lt;p&gt;&lt;a href=&quot;https://vscodium.com/&quot;&gt;VSCodium&lt;/a&gt;: An open source version of Microsoft’s VSCode, meaning it had none of the bloat that MS adds like tracking, telemetry, etc. Extensions I use:&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://open-vsx.org/extension/CoenraadS/bracket-pair-colorizer-2&quot;&gt;Bracket Pair Colorizer 2&lt;/a&gt;: Same as RainbowBrackets above.&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://github.com/KamiKillertO/vscode-colorize/&quot;&gt;Colorize&lt;/a&gt;: Shows what colors are in your CSS/Sass when using any color method including variables.&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://eslint.org/&quot;&gt;ESLint&lt;/a&gt;: Javascript linter.&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://open-vsx.org/vscode/item?itemName=oderwat.indent-rainbow&quot;&gt;Indent-Rainbow&lt;/a&gt;: Like bracket colorizers, this gives your indentation a coloring so you can understand indentation more at a glance.&lt;/li&gt;
@@ -640,11 +652,14 @@ Palette:										; Set 'Palette' label
 
 &lt;p&gt;&lt;a href=&quot;https://github.com/tonsky/FiraCode&quot;&gt;Fira Code&lt;/a&gt;: I use this in every piece of software that I need monospace fonts. Has ligatures which makes things more readable and easier to understand, as well as dynamic adjustment of heights to match nearby letters. A bunch of things that added together just look really nice.&lt;/p&gt;
 
+&lt;p&gt;&lt;a href=&quot;https://manropefont.com/&quot;&gt;Manrope&lt;/a&gt;: A nice sans-serif more akin to Helvetica.&lt;/p&gt;
+
 &lt;ul&gt;
   &lt;li&gt;&lt;em&gt;20210206: Added f.lux and Lastpass, SublimeText and VSCodium extensions to programs, Atkinson Hyperlegible to fonts&lt;/em&gt;&lt;/li&gt;
   &lt;li&gt;&lt;em&gt;20210403: Removed Lastpass and added 1Password, HTML-CSS-JS Prettify, Sync Settings&lt;/em&gt;&lt;/li&gt;
   &lt;li&gt;&lt;em&gt;20211027: Add Flycut, Hazel, Nativefier, revise various elements&lt;/em&gt;&lt;/li&gt;
   &lt;li&gt;&lt;em&gt;20211129: Replaced Grand Perspective with DiskInventoryX&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;20211231: Added Manrope font; removed Bracket Colorizer for VSCode, as it’s built in now; Firefox and plugins&lt;/em&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;!-- --- 

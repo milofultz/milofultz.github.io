@@ -17,6 +17,30 @@
 "items": [
     
         {
+            "id": "http://milofultz.com/2022/01/01/proquabet",
+            "title": "🔠 Proquabet - Encode text in a five-letter mishmash",
+            "summary": "🔠 Proquabet - Encode text in a five-letter mishmash",
+            "content_text": "Check out the project files on GitHub  Hodoj; kudos kusob jitoz lanos kibod babap!Turn your prose into a constant stream of encrypted and meaningless-sounding five-letter words! This Python script will convert a string of text into UTF-8 codes, and then each of those characters into a proquint, and vice versa.ProquintsTo understand the proquabet, you must first understand proquints. Proquints are a way of encoding numbers into human-readable and pronounceable text by mapping subsets of that number to consonants and vowels. For instance, the 16-bit number 50,416 turns into cigub, and the 32-bit hexadecimal number 0x12345678 turns into damuh-jinum,The creation of a proquint from a number essentially goes like this:  Convert the number into its binary representation  For each set of bits in the map, find the corresponding consonant or vowel based on that number  If the number is greater than 16 bits, repeat this while separating each successive proquint with a hyphen  Put those characters together and bask in the glory of your new creationTo understand this better, check out the page on my wiki, as it is a bit confusing without examples.Character EncodingSo now that we have the basic idea of what proquints are, we should also talk about character encoding, the most basic of which is ASCII. As you can see in the ASCII table, each basic Western character is mapped to an 8-bit number from 0x00 to 0x7f in hexadecimal, or 0b00000000 to 0b01111111 in binary. Using this same premise, we now have UTF-8, or Unicode, which is an extendable international character standard that includes over 150 modern and historic scripts, symbols, emojis, and more. These characters are all stored anywhere between an 8-bit to a 32-bit number, for instance 😎 is represented as 0x1F60E in hexadecimal, or 0b00000000000000011111011000001110.Okay, okay, what does it do thoSo now that you know a proquint can convert any number into a string of text and all characters are stored as numbers, we can see how a pipeline could emerge:Characters =&gt; Numbers =&gt; ProquintsFor instance, if we start with a string of characters, like danger lorries, we can convert these into a series of numbers, by consulting the ASCII table:d = 0x64a = 0x61n = 0x6eg = 0x67...Then once we have our numbers, we can convert those into proquints:0x64 = badoh0x61 = badod0x6e = badov0x67 = badol...This is kind of boring, and I knew that all basic ASCII characters were only eight bits long, so I found I could smush them together to make a more varied proquint. (This doesn’t work if UTF-8 characters are involved)0x6461 = kidod0x6e67 = kunol...If we did this with the whole phrase danger lorries, we would have:kidod kunol kijuf fados kutuf lanon kijugAnd this process can be reversed to bring back the characters we encoded.But why?For fun.References  https://www.tinybrain.fans/proquints.html  https://www.asciitable.com/  https://en.wikipedia.org/wiki/Unicode",
+            "content_html": "<p><strong><a href=\"https://github.com/milofultz/proquabet\">Check out the project files on GitHub</a></strong></p><blockquote>  <p>Hodoj; kudos kusob jitoz lanos kibod babap!</p></blockquote><p>Turn your prose into a constant stream of encrypted and meaningless-sounding five-letter words! This Python script will convert a string of text into UTF-8 codes, and then each of those characters into a <a href=\"https://www.tinybrain.fans/proquints.html\">proquint</a>, and vice versa.</p><h2 id=\"proquints\">Proquints</h2><p>To understand the proquabet, you must first understand <a href=\"https://www.tinybrain.fans/proquints.html\">proquints</a>. Proquints are a way of encoding numbers into human-readable and pronounceable text by mapping subsets of that number to consonants and vowels. For instance, the 16-bit number 50,416 turns into <code class=\"highlighter-rouge\">cigub</code>, and the 32-bit hexadecimal number <code class=\"highlighter-rouge\">0x12345678</code> turns into <code class=\"highlighter-rouge\">damuh-jinum</code>,</p><p>The creation of a proquint from a number essentially goes like this:</p><ol>  <li>Convert the number into its binary representation</li>  <li>For each set of bits in the map, find the corresponding consonant or vowel based on that number</li>  <li>If the number is greater than 16 bits, repeat this while separating each successive proquint with a hyphen</li>  <li>Put those characters together and bask in the glory of your new creation</li></ol><p><em>To understand this better, check out the page on my <a href=\"https://www.tinybrain.fans/proquints.html\">wiki</a>, as it is a bit confusing without examples.</em></p><h2 id=\"character-encoding\">Character Encoding</h2><p>So now that we have the basic idea of what proquints are, we should also talk about character encoding, the most basic of which is ASCII. As you can see in the <a href=\"https://www.tinybrain.fans/proquints.html\">ASCII table</a>, each basic Western character is mapped to an 8-bit number from <code class=\"highlighter-rouge\">0x00</code> to <code class=\"highlighter-rouge\">0x7f</code> in hexadecimal, or <code class=\"highlighter-rouge\">0b00000000</code> to <code class=\"highlighter-rouge\">0b01111111</code> in binary. Using this same premise, we now have UTF-8, or <a href=\"https://en.wikipedia.org/wiki/Unicode\">Unicode</a>, which is an extendable international character standard that includes over 150 modern and historic scripts, symbols, emojis, and more. These characters are all stored anywhere between an 8-bit to a 32-bit number, for instance 😎 is represented as <code class=\"highlighter-rouge\">0x1F60E</code> in hexadecimal, or <code class=\"highlighter-rouge\">0b00000000000000011111011000001110</code>.</p><h2 id=\"okay-okay-what-does-it-do-tho\">Okay, okay, what does it do tho</h2><p>So now that you know a proquint can convert any number into a string of text and all characters are stored as numbers, we can see how a pipeline could emerge:</p><div class=\"highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>Characters =&gt; Numbers =&gt; Proquints</code></pre></div></div><p>For instance, if we start with a string of characters, like <code class=\"highlighter-rouge\">danger lorries</code>, we can convert these into a series of numbers, by consulting the ASCII table:</p><div class=\"highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>d = 0x64a = 0x61n = 0x6eg = 0x67...</code></pre></div></div><p>Then once we have our numbers, we can convert those into proquints:</p><div class=\"highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>0x64 = badoh0x61 = badod0x6e = badov0x67 = badol...</code></pre></div></div><p>This is kind of boring, and I knew that all basic ASCII characters were only eight bits long, so I found I could smush them together to make a more varied proquint. (This doesn’t work if UTF-8 characters are involved)</p><div class=\"highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>0x6461 = kidod0x6e67 = kunol...</code></pre></div></div><p>If we did this with the whole phrase <code class=\"highlighter-rouge\">danger lorries</code>, we would have:</p><div class=\"highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>kidod kunol kijuf fados kutuf lanon kijug</code></pre></div></div><p>And this process can be reversed to bring back the characters we encoded.</p><h2 id=\"but-why\">But why?</h2><p>For fun.</p><h2 id=\"references\">References</h2><ol>  <li>https://www.tinybrain.fans/proquints.html</li>  <li>https://www.asciitable.com/</li>  <li>https://en.wikipedia.org/wiki/Unicode</li></ol><!--- _202XXXXX: Update format_ -->",
+            "url": "http://milofultz.com/2022/01/01/proquabet",
+            
+            
+            
+            
+            
+            "date_published": "2022-01-01T00:00:00+07:00",
+            "date_modified": "2022-01-01T00:00:00+07:00",
+            
+                "author":  {
+                "name": "Milo Fultz",
+                "url": "http://milofultz.com",
+                "avatar": null
+                }
+                
+            
+        },
+    
+        {
             "id": "http://milofultz.com/2021/12/12/open-source",
             "title": "Why Would Someone Pay For Something That's Free?",
             "summary": null,
@@ -846,30 +870,6 @@
             
             "date_published": "2020-08-04T00:00:00+07:00",
             "date_modified": "2020-08-04T00:00:00+07:00",
-            
-                "author":  {
-                "name": "Milo Fultz",
-                "url": "http://milofultz.com",
-                "avatar": null
-                }
-                
-            
-        },
-    
-        {
-            "id": "http://milofultz.com/2020/07/23/awfulizer",
-            "title": "💻 Awfulizer - Make Surfing The Web Awful (Firefox)",
-            "summary": "I made this Firefox extension to see if I could do it, and I could. This extension cycles colors on every element 6 times per second.",
-            "content_text": "You can get the add-on here and see the code on GitHub.Watch a video of it in action.While studying some CSS and HTML on FreeCodeCamp, I was trying to figure out how I could exercise some of the skills I was learning. One of the basics of CSS is just changing style of fonts and backgrounds, so I figured why not try and make some program that cycles all of those over and over? I found that making your first extension is very easy, so I tried it. After a ton of trial and error, I made a button that allows you to manually turn it on on a given tab, but you can only turn it off through refreshing it. I’ve added a static feature and the ability to choose (wow!) in v1.2. In the future, I’m hoping to add an option to turn it off once it starts.References:  https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Your_first_WebExtension",
-            "content_html": "<p>You can get the add-on <a href=\"https://addons.mozilla.org/en-US/firefox/addon/awfulizer/\">here</a> and see the code on <a href=\"https://github.com/milofultz/awfulizer\">GitHub</a>.</p><p><a href=\"https://www.youtube.com/watch?v=dx7hZAAHFuk&amp;feature=youtu.be\">Watch a video of it in action.</a></p><p>While studying some CSS and HTML on <a href=\"https://www.freecodecamp.org/\">FreeCodeCamp</a>, I was trying to figure out how I could exercise some of the skills I was learning. One of the basics of CSS is just changing style of fonts and backgrounds, so I figured why not try and make some program that cycles all of those over and over? I found that <a href=\"https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Your_first_WebExtension\">making your first extension is very easy</a>, so I tried it. After a ton of trial and error, I made a button that allows you to manually turn it on on a given tab, but you can only turn it off through refreshing it. I’ve added a static feature and the ability to choose (wow!) in v1.2. In the future, I’m hoping to add an option to turn it off once it starts.</p><hr /><p>References:</p><ol>  <li>https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Your_first_WebExtension</li></ol>",
-            "url": "http://milofultz.com/2020/07/23/awfulizer",
-            
-            
-            
-            
-            
-            "date_published": "2020-07-23T00:00:00+07:00",
-            "date_modified": "2020-07-23T00:00:00+07:00",
             
                 "author":  {
                 "name": "Milo Fultz",

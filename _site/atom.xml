@@ -4,13 +4,102 @@
  <title>Milo Fultz</title>
  <link href="http://milofultz.com/atom.xml" rel="self"/>
  <link href="http://milofultz.com/"/>
- <updated>2021-12-31T14:43:18+07:00</updated>
+ <updated>2022-01-01T16:14:21+07:00</updated>
  <id>http://milofultz.com</id>
  <author>
    <name>Milo Fultz</name>
    <email>milopfultz@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>🔠 Proquabet - Encode text in a five-letter mishmash</title>
+   <link href="http://milofultz.com/2022/01/01/proquabet"/>
+   <updated>2022-01-01T00:00:00+07:00</updated>
+   <id>http://milofultz.com/2022/01/01/proquabet</id>
+   <content type="html">&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://github.com/milofultz/proquabet&quot;&gt;Check out the project files on GitHub&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Hodoj; kudos kusob jitoz lanos kibod babap!&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Turn your prose into a constant stream of encrypted and meaningless-sounding five-letter words! This Python script will convert a string of text into UTF-8 codes, and then each of those characters into a &lt;a href=&quot;https://www.tinybrain.fans/proquints.html&quot;&gt;proquint&lt;/a&gt;, and vice versa.&lt;/p&gt;
+
+&lt;h2 id=&quot;proquints&quot;&gt;Proquints&lt;/h2&gt;
+
+&lt;p&gt;To understand the proquabet, you must first understand &lt;a href=&quot;https://www.tinybrain.fans/proquints.html&quot;&gt;proquints&lt;/a&gt;. Proquints are a way of encoding numbers into human-readable and pronounceable text by mapping subsets of that number to consonants and vowels. For instance, the 16-bit number 50,416 turns into &lt;code class=&quot;highlighter-rouge&quot;&gt;cigub&lt;/code&gt;, and the 32-bit hexadecimal number &lt;code class=&quot;highlighter-rouge&quot;&gt;0x12345678&lt;/code&gt; turns into &lt;code class=&quot;highlighter-rouge&quot;&gt;damuh-jinum&lt;/code&gt;,&lt;/p&gt;
+
+&lt;p&gt;The creation of a proquint from a number essentially goes like this:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Convert the number into its binary representation&lt;/li&gt;
+  &lt;li&gt;For each set of bits in the map, find the corresponding consonant or vowel based on that number&lt;/li&gt;
+  &lt;li&gt;If the number is greater than 16 bits, repeat this while separating each successive proquint with a hyphen&lt;/li&gt;
+  &lt;li&gt;Put those characters together and bask in the glory of your new creation&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;em&gt;To understand this better, check out the page on my &lt;a href=&quot;https://www.tinybrain.fans/proquints.html&quot;&gt;wiki&lt;/a&gt;, as it is a bit confusing without examples.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;character-encoding&quot;&gt;Character Encoding&lt;/h2&gt;
+
+&lt;p&gt;So now that we have the basic idea of what proquints are, we should also talk about character encoding, the most basic of which is ASCII. As you can see in the &lt;a href=&quot;https://www.tinybrain.fans/proquints.html&quot;&gt;ASCII table&lt;/a&gt;, each basic Western character is mapped to an 8-bit number from &lt;code class=&quot;highlighter-rouge&quot;&gt;0x00&lt;/code&gt; to &lt;code class=&quot;highlighter-rouge&quot;&gt;0x7f&lt;/code&gt; in hexadecimal, or &lt;code class=&quot;highlighter-rouge&quot;&gt;0b00000000&lt;/code&gt; to &lt;code class=&quot;highlighter-rouge&quot;&gt;0b01111111&lt;/code&gt; in binary. Using this same premise, we now have UTF-8, or &lt;a href=&quot;https://en.wikipedia.org/wiki/Unicode&quot;&gt;Unicode&lt;/a&gt;, which is an extendable international character standard that includes over 150 modern and historic scripts, symbols, emojis, and more. These characters are all stored anywhere between an 8-bit to a 32-bit number, for instance 😎 is represented as &lt;code class=&quot;highlighter-rouge&quot;&gt;0x1F60E&lt;/code&gt; in hexadecimal, or &lt;code class=&quot;highlighter-rouge&quot;&gt;0b00000000000000011111011000001110&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;okay-okay-what-does-it-do-tho&quot;&gt;Okay, okay, what does it do tho&lt;/h2&gt;
+
+&lt;p&gt;So now that you know a proquint can convert any number into a string of text and all characters are stored as numbers, we can see how a pipeline could emerge:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Characters =&amp;gt; Numbers =&amp;gt; Proquints
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;For instance, if we start with a string of characters, like &lt;code class=&quot;highlighter-rouge&quot;&gt;danger lorries&lt;/code&gt;, we can convert these into a series of numbers, by consulting the ASCII table:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;d = 0x64
+a = 0x61
+n = 0x6e
+g = 0x67
+...
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Then once we have our numbers, we can convert those into proquints:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;0x64 = badoh
+0x61 = badod
+0x6e = badov
+0x67 = badol
+...
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;This is kind of boring, and I knew that all basic ASCII characters were only eight bits long, so I found I could smush them together to make a more varied proquint. (This doesn’t work if UTF-8 characters are involved)&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;0x6461 = kidod
+0x6e67 = kunol
+...
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;If we did this with the whole phrase &lt;code class=&quot;highlighter-rouge&quot;&gt;danger lorries&lt;/code&gt;, we would have:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;kidod kunol kijuf fados kutuf lanon kijug
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;And this process can be reversed to bring back the characters we encoded.&lt;/p&gt;
+
+&lt;h2 id=&quot;but-why&quot;&gt;But why?&lt;/h2&gt;
+
+&lt;p&gt;For fun.&lt;/p&gt;
+
+&lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;https://www.tinybrain.fans/proquints.html&lt;/li&gt;
+  &lt;li&gt;https://www.asciitable.com/&lt;/li&gt;
+  &lt;li&gt;https://en.wikipedia.org/wiki/Unicode&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;!--
+
+- _202XXXXX: Update format_ --&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Why Would Someone Pay For Something That's Free?</title>

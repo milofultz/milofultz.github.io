@@ -17,6 +17,30 @@
 "items": [
     
         {
+            "id": "http://milofultz.com/2022/01/23/essays",
+            "title": "🙈🙉🙊 My Favorite Media",
+            "summary": "These are some essays that I want to remember to read.",
+            "content_text": "Essays      Bill Watterson’s “SOME THOUGHTS ON THE REAL WORLD BY ONE WHO GLIMPSED IT AND FLED”          When it seemed I would be writing about “Midnite Madness Sale-abrations” for the rest of my life, a friend used to console me that cream always rises to the top. I used to think, so do people who throw themselves into the sea.            Danny Barnes’ “how to play in someone else’s band {gain twenty years of road experience with a five minute read}”          your path for achieving success is two fold: 1. play great. 2. in all things, be easy to deal with.      Videos  My Dinner With André  The Shining  The Fifth ElementMusic  Deerhoof - La Isla Bonita  Earth, Wind &amp; Fire          Spirit      All ‘N All      I Am      Faces        Frank Zappa - Apostrophe  Judee Sill - Heart Flood  peer - Dances EP  Peter Gabriel - So  Tron - Original OST  WITT - Whip",
+            "content_html": "<h2 id=\"essays\">Essays</h2><ul>  <li>    <p><a href=\"https://web.mit.edu/jmorzins/www/C-H-speech.html\">Bill Watterson’s “SOME THOUGHTS ON THE REAL WORLD BY ONE WHO GLIMPSED IT AND FLED”</a></p>    <blockquote>      <p>When it seemed I would be writing about “Midnite Madness Sale-abrations” for the rest of my life, a friend used to console me that cream always rises to the top. I used to think, so do people who throw themselves into the sea.</p>    </blockquote>  </li>  <li>    <p><a href=\"https://dannybarnes.com/blog/how-play-someone-elses-band\">Danny Barnes’ “how to play in someone else’s band {gain twenty years of road experience with a five minute read}”</a></p>    <blockquote>      <p>your path for achieving success is two fold: 1. play great. 2. in all things, be easy to deal with.</p>    </blockquote>  </li></ul><h2 id=\"videos\">Videos</h2><ul>  <li><a href=\"https://www.youtube.com/watch?v=s0wZ1RRh5uc\">My Dinner With André</a></li>  <li>The Shining</li>  <li>The Fifth Element</li></ul><h2 id=\"music\">Music</h2><ul>  <li>Deerhoof - La Isla Bonita</li>  <li>Earth, Wind &amp; Fire    <ul>      <li>Spirit</li>      <li>All ‘N All</li>      <li>I Am</li>      <li>Faces</li>    </ul>  </li>  <li>Frank Zappa - Apostrophe</li>  <li>Judee Sill - Heart Flood</li>  <li><a href=\"http://pierre.slinckx.net/dances/\">peer - Dances EP</a></li>  <li>Peter Gabriel - So</li>  <li>Tron - Original OST</li>  <li><a href=\"https://www.discogs.com/release/4134857-WITT-Whip\">WITT - Whip</a></li></ul>",
+            "url": "http://milofultz.com/2022/01/23/essays",
+            
+            
+            
+            
+            
+            "date_published": "2022-01-23T00:00:00+07:00",
+            "date_modified": "2022-01-23T00:00:00+07:00",
+            
+                "author":  {
+                "name": "Milo Fultz",
+                "url": "http://milofultz.com",
+                "avatar": null
+                }
+                
+            
+        },
+    
+        {
             "id": "http://milofultz.com/2022/01/01/proquabet",
             "title": "🔠 Proquabet - Encode text in a five-letter mishmash",
             "summary": "🔠 Proquabet - Encode text in a five-letter mishmash",
@@ -846,30 +870,6 @@
             
             "date_published": "2020-08-19T00:00:00+07:00",
             "date_modified": "2020-08-19T00:00:00+07:00",
-            
-                "author":  {
-                "name": "Milo Fultz",
-                "url": "http://milofultz.com",
-                "avatar": null
-                }
-                
-            
-        },
-    
-        {
-            "id": "http://milofultz.com/2020/08/04/piu-piu-ringtone",
-            "title": "🎧 Piu Piu ringtone but it's only Avgustina's laugh",
-            "summary": "Piu Piu ringtone but it's only Avgustina's laugh",
-            "content_text": "I am starting a project to see how long my roommates and I can handle listening to Avgustina’s laugh as my text message notification sound. I set it to where it only does it when my partner messages me, but it should be horrible enough.You can download this atrocity as an m4r file here. Made using Mediahuman Audio Converter for OSX.",
-            "content_html": "<p>I am starting a project to see how long my roommates and I can handle listening to Avgustina’s laugh as my text message notification sound. I set it to where it only does it when my partner messages me, but it should be horrible enough.</p><p>You can download this atrocity as an m4r file <a href=\"/assets/20200804PiuPiu.m4r\">here</a>. Made using Mediahuman Audio Converter for OSX.</p>",
-            "url": "http://milofultz.com/2020/08/04/piu-piu-ringtone",
-            
-            
-            
-            
-            
-            "date_published": "2020-08-04T00:00:00+07:00",
-            "date_modified": "2020-08-04T00:00:00+07:00",
             
                 "author":  {
                 "name": "Milo Fultz",

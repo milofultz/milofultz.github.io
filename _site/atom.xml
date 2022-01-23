@@ -4,13 +4,67 @@
  <title>Milo Fultz</title>
  <link href="http://milofultz.com/atom.xml" rel="self"/>
  <link href="http://milofultz.com/"/>
- <updated>2022-01-19T09:56:23+07:00</updated>
+ <updated>2022-01-23T16:05:23+07:00</updated>
  <id>http://milofultz.com</id>
  <author>
    <name>Milo Fultz</name>
    <email>milopfultz@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>🙈🙉🙊 My Favorite Media</title>
+   <link href="http://milofultz.com/2022/01/23/essays"/>
+   <updated>2022-01-23T00:00:00+07:00</updated>
+   <id>http://milofultz.com/2022/01/23/essays</id>
+   <content type="html">&lt;h2 id=&quot;essays&quot;&gt;Essays&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://web.mit.edu/jmorzins/www/C-H-speech.html&quot;&gt;Bill Watterson’s “SOME THOUGHTS ON THE REAL WORLD BY ONE WHO GLIMPSED IT AND FLED”&lt;/a&gt;&lt;/p&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;When it seemed I would be writing about “Midnite Madness Sale-abrations” for the rest of my life, a friend used to console me that cream always rises to the top. I used to think, so do people who throw themselves into the sea.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://dannybarnes.com/blog/how-play-someone-elses-band&quot;&gt;Danny Barnes’ “how to play in someone else’s band {gain twenty years of road experience with a five minute read}”&lt;/a&gt;&lt;/p&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;your path for achieving success is two fold: 1. play great. 2. in all things, be easy to deal with.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;videos&quot;&gt;Videos&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=s0wZ1RRh5uc&quot;&gt;My Dinner With André&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;The Shining&lt;/li&gt;
+  &lt;li&gt;The Fifth Element&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;music&quot;&gt;Music&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Deerhoof - La Isla Bonita&lt;/li&gt;
+  &lt;li&gt;Earth, Wind &amp;amp; Fire
+    &lt;ul&gt;
+      &lt;li&gt;Spirit&lt;/li&gt;
+      &lt;li&gt;All ‘N All&lt;/li&gt;
+      &lt;li&gt;I Am&lt;/li&gt;
+      &lt;li&gt;Faces&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Frank Zappa - Apostrophe&lt;/li&gt;
+  &lt;li&gt;Judee Sill - Heart Flood&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://pierre.slinckx.net/dances/&quot;&gt;peer - Dances EP&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Peter Gabriel - So&lt;/li&gt;
+  &lt;li&gt;Tron - Original OST&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.discogs.com/release/4134857-WITT-Whip&quot;&gt;WITT - Whip&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
  
  <entry>
    <title>🔠 Proquabet - Encode text in a five-letter mishmash</title>

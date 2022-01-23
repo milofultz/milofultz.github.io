@@ -2,6 +2,17 @@
   
     {
 
+      "title"    : "🙈🙉🙊 My Favorite Media",
+      "url"      : "/2022/01/23/essays",
+      "category" : "",
+      "tags"     : "reference",  
+      "date"     : "2022-01-23 00:00:00 +0700",
+      "description" : "These are some essays that I want to remember to read."
+
+    } ,
+  
+    {
+
       "title"    : "🔠 Proquabet - Encode text in a five-letter mishmash",
       "url"      : "/2022/01/01/proquabet",
       "category" : "",

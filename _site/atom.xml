@@ -4,13 +4,34 @@
  <title>Milo Fultz</title>
  <link href="http://milofultz.com/atom.xml" rel="self"/>
  <link href="http://milofultz.com/"/>
- <updated>2022-01-29T07:43:57-08:00</updated>
+ <updated>2022-01-31T16:30:36-08:00</updated>
  <id>http://milofultz.com</id>
  <author>
    <name>Milo Fultz</name>
    <email>milopfultz@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>My Favorite Web Radio Stations</title>
+   <link href="http://milofultz.com/2022/01/31/web-radio"/>
+   <updated>2022-01-31T00:00:00-08:00</updated>
+   <id>http://milofultz.com/2022/01/31/web-radio</id>
+   <content type="html">&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://c7.radioboss.fm:18205/stream&quot;&gt;Bootie Mashup Radio&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://trace.dnbradio.com:8000/dnbradio_main.mp3&quot;&gt;DnB Radio&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://listen.freeformportland.org:8000/stream&quot;&gt;Freeform Portland&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://kwvaradio.uoregon.edu:8000/stream/1/&quot;&gt;KWVA - University of Oregon Campus Radio&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://project.stream.laut.fm/project?pl=m3u&quot;&gt;I can’t remember the name of this, but I must have saved it for some reason&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://87.117.201.160:8200/listen.pls&quot;&gt;UKG247 - UK Garage&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://listen.xray.fm:8000/stream&quot;&gt;XRAY Portland&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;!-- --- 
+
+- _202XXXXX: Update format_ --&gt;
+</content>
+ </entry>
  
  <entry>
    <title>💻 Tod - Plan and Manage Daily Tasks In The CLI (Shell)</title>

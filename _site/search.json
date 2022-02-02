@@ -2,6 +2,17 @@
   
     {
 
+      "title"    : "💻 Sub2Pub - Convert Youtube Subtitles to EPUBs",
+      "url"      : "/2022/02/01/sub2pub",
+      "category" : "",
+      "tags"     : "project",  
+      "date"     : "2022-02-01 00:00:00 -0800",
+      "description" : "Sub2Pub - Convert Youtube Subtitles to EPUBs"
+
+    } ,
+  
+    {
+
       "title"    : "My Favorite Web Radio Stations",
       "url"      : "/2022/01/31/web-radio",
       "category" : "",
@@ -63,17 +74,6 @@
       "tags"     : "project",  
       "date"     : "2021-11-14 00:00:00 -0800",
       "description" : "Implementing a sorting algorithm in Assembly is a pain (and fun), and now I KNOW what they do."
-
-    } ,
-  
-    {
-
-      "title"    : "I&#39;m in Thailand",
-      "url"      : "/2021/11/02/thailand",
-      "category" : "",
-      "tags"     : "reference",  
-      "date"     : "2021-11-02 00:00:00 -0700",
-      "description" : "I&#39;ll be in Thailand for a while doing work."
 
     } ,
   

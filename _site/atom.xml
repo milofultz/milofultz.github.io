@@ -4,13 +4,26 @@
  <title>Milo Fultz</title>
  <link href="http://milofultz.com/atom.xml" rel="self"/>
  <link href="http://milofultz.com/"/>
- <updated>2022-01-31T16:30:36-08:00</updated>
+ <updated>2022-02-01T22:59:16-08:00</updated>
  <id>http://milofultz.com</id>
  <author>
    <name>Milo Fultz</name>
    <email>milopfultz@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>💻 Sub2Pub - Convert Youtube Subtitles to EPUBs</title>
+   <link href="http://milofultz.com/2022/02/01/sub2pub"/>
+   <updated>2022-02-01T00:00:00-08:00</updated>
+   <id>http://milofultz.com/2022/02/01/sub2pub</id>
+   <content type="html">&lt;p&gt;&lt;a href=&quot;https://github.com/milofultz/sub2pub&quot;&gt;Check out the project files on GitHub&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Converts the subtitles of a Youtube video into an EPUB, using &lt;a href=&quot;https://github.com/yt-dlp/yt-dlp&quot;&gt;yt-dlp&lt;/a&gt;, &lt;a href=&quot;https://manual.calibre-ebook.com/generated/en/cli-index.html&quot;&gt;Calibre&lt;/a&gt;, and basic *nix tools in the shell. This technically works with suto generated subtitles, but it isn’t pretty.&lt;/p&gt;
+
+&lt;p&gt;Pretty much downloads the raw subtitle file from the YT server, formats everything as an HTML file, and then converst it directly. Works pretty well, and was really fun!&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>My Favorite Web Radio Stations</title>
@@ -262,19 +275,6 @@ g = 0x67
   &lt;li&gt;&lt;em&gt;20211114: Implement Quick Sort&lt;/em&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-</content>
- </entry>
- 
- <entry>
-   <title>I'm in Thailand</title>
-   <link href="http://milofultz.com/2021/11/02/thailand"/>
-   <updated>2021-11-02T00:00:00-07:00</updated>
-   <id>http://milofultz.com/2021/11/02/thailand</id>
-   <content type="html">&lt;p&gt;I’ll be in Thailand working with Thornhenge on a software project. This means that I won’t be able to receive calls or texts like I normally would except for maybe once a month when I turn my phone on and pay the extreme Verizon fees. You can still contact me via email or via &lt;a href=&quot;https://www.signal.org/&quot;&gt;Signal&lt;/a&gt;.&lt;/p&gt;
-
-&lt;!-- --- 
-
-- _202XXXXX: Update format_ --&gt;
 </content>
  </entry>
  

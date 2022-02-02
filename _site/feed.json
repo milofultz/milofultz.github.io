@@ -17,6 +17,30 @@
 "items": [
     
         {
+            "id": "http://milofultz.com/2022/02/01/sub2pub",
+            "title": "💻 Sub2Pub - Convert Youtube Subtitles to EPUBs",
+            "summary": "Sub2Pub - Convert Youtube Subtitles to EPUBs",
+            "content_text": "Check out the project files on GitHubConverts the subtitles of a Youtube video into an EPUB, using yt-dlp, Calibre, and basic *nix tools in the shell. This technically works with suto generated subtitles, but it isn’t pretty.Pretty much downloads the raw subtitle file from the YT server, formats everything as an HTML file, and then converst it directly. Works pretty well, and was really fun!",
+            "content_html": "<p><a href=\"https://github.com/milofultz/sub2pub\">Check out the project files on GitHub</a></p><p>Converts the subtitles of a Youtube video into an EPUB, using <a href=\"https://github.com/yt-dlp/yt-dlp\">yt-dlp</a>, <a href=\"https://manual.calibre-ebook.com/generated/en/cli-index.html\">Calibre</a>, and basic *nix tools in the shell. This technically works with suto generated subtitles, but it isn’t pretty.</p><p>Pretty much downloads the raw subtitle file from the YT server, formats everything as an HTML file, and then converst it directly. Works pretty well, and was really fun!</p>",
+            "url": "http://milofultz.com/2022/02/01/sub2pub",
+            
+            
+            
+            
+            
+            "date_published": "2022-02-01T00:00:00-08:00",
+            "date_modified": "2022-02-01T00:00:00-08:00",
+            
+                "author":  {
+                "name": "Milo Fultz",
+                "url": "http://milofultz.com",
+                "avatar": null
+                }
+                
+            
+        },
+    
+        {
             "id": "http://milofultz.com/2022/01/31/web-radio",
             "title": "My Favorite Web Radio Stations",
             "summary": "Web radio is sick and usually just community stations, which rule.",
@@ -150,30 +174,6 @@
             
             "date_published": "2021-11-14T00:00:00-08:00",
             "date_modified": "2021-11-14T00:00:00-08:00",
-            
-                "author":  {
-                "name": "Milo Fultz",
-                "url": "http://milofultz.com",
-                "avatar": null
-                }
-                
-            
-        },
-    
-        {
-            "id": "http://milofultz.com/2021/11/02/thailand",
-            "title": "I'm in Thailand",
-            "summary": "I'll be in Thailand for a while doing work.",
-            "content_text": "I’ll be in Thailand working with Thornhenge on a software project. This means that I won’t be able to receive calls or texts like I normally would except for maybe once a month when I turn my phone on and pay the extreme Verizon fees. You can still contact me via email or via Signal.",
-            "content_html": "<p>I’ll be in Thailand working with Thornhenge on a software project. This means that I won’t be able to receive calls or texts like I normally would except for maybe once a month when I turn my phone on and pay the extreme Verizon fees. You can still contact me via email or via <a href=\"https://www.signal.org/\">Signal</a>.</p><!-- --- - _202XXXXX: Update format_ -->",
-            "url": "http://milofultz.com/2021/11/02/thailand",
-            
-            
-            
-            
-            
-            "date_published": "2021-11-02T00:00:00-07:00",
-            "date_modified": "2021-11-02T00:00:00-07:00",
             
                 "author":  {
                 "name": "Milo Fultz",

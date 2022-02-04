@@ -17,6 +17,30 @@
 "items": [
     
         {
+            "id": "http://milofultz.com/2022/02/04/deciphering-minimal-roguelike",
+            "title": "🔎 Deciphering This Minimal Roguelike in C",
+            "summary": "🔎 Deciphering This Minimal Roguelike in C",
+            "content_text": "I recently found this rad minimal roguelike and wanted to try and figure out what the heck is going on. It’s only 512 bytes in C, which is insane, so I had to try and solve this little puzzle I was presented.It’s not worth going into super detail here, as it’s all in the code, and seeing it move from a jumbled code salad into something meaningful is so fascinating to me.Check out the original article and my annotated version.",
+            "content_html": "<p>I recently found <a href=\"http://www.locklessinc.com/articles/512byte_roguelike/\">this rad minimal roguelike</a> and wanted to try and figure out what the heck is going on. It’s only 512 bytes in C, which is insane, so I had to try and solve this little puzzle I was presented.</p><p>It’s not worth going into super detail here, as it’s all in the code, and seeing it move from a jumbled code salad into something meaningful is so fascinating to me.</p><p>Check out <a href=\"http://www.locklessinc.com/articles/512byte_roguelike/\">the original article</a> and <a href=\"https://github.com/milofultz/decrypting-the-minimal-roguelike/blob/main/3_annotated.c\">my annotated version</a>.</p><!-- --- - _202XXXXX: Update format_ -->",
+            "url": "http://milofultz.com/2022/02/04/deciphering-minimal-roguelike",
+            
+            
+            
+            
+            
+            "date_published": "2022-02-04T00:00:00-08:00",
+            "date_modified": "2022-02-04T00:00:00-08:00",
+            
+                "author":  {
+                "name": "Milo Fultz",
+                "url": "http://milofultz.com",
+                "avatar": null
+                }
+                
+            
+        },
+    
+        {
             "id": "http://milofultz.com/2022/02/01/sub2pub",
             "title": "💻 Sub2Pub - Convert Youtube Subtitles to EPUBs",
             "summary": "Sub2Pub - Convert Youtube Subtitles to EPUBs",
@@ -846,30 +870,6 @@
             
             "date_published": "2020-09-01T00:00:00-07:00",
             "date_modified": "2020-09-01T00:00:00-07:00",
-            
-                "author":  {
-                "name": "Milo Fultz",
-                "url": "http://milofultz.com",
-                "avatar": null
-                }
-                
-            
-        },
-    
-        {
-            "id": "http://milofultz.com/2020/08/26/random-note",
-            "title": "💻 Open A Random Note/Lo-Fi Idea Generator (Python)",
-            "summary": "I got inspired by Tiago Forte's RandomNote Web and decided to make my own simple version using Python, Applescript, and nvALT, and it's easy to port.",
-            "content_text": "For the last few months, I have been feeding my Zettelkasten with essentially anything that I find interesting: programming, emotional development, quotes, productivity, book or video reviews, whatever. If I think it’s something that will help me or make me excited later, I put it in there.The problem I had was that even though I had these notes for reference, I wasn’t finding myself reviewing them just for creating those interesting and random connections, which was something that I had initially started using the Zettelkasten for. Those random connections are what creates interesting ideas and diffuse connections, as well as a spaced repetition for ideas that I already decided are worth knowing.I found a solution that was implemented by productivity dude and Twitter instigator Tiago Forte. Essentially, his “second brain”, analogous to a Zettelkasten, is housed in Evernote, and he had an app developed that would pop open a random Evernote every time he clicked it. He found that this boosted his creativity and because of how easy it was, he was able to do it between meetings, during his breaks, essentially in any spare moment. In doing some research, I found somebody who made a random note Applescript for the Evernote app that looks like this:# Applescripttell application \"Evernote\"\tset noteList to find notes\tset randomNote to some item of noteList\tset query string of window 1 to (title of randomNote as string)end tellI figured it was just as simple of a task if you had your notes saved locally, which I do as text/Markdown files, so I set out to make a Python script that did this, along with an app implementation that can sit in my dock. I used the same process I did in my “Make Python ‘Apps’ and Shortcuts To Run Them on OSX” post, so obviously this is geared towards OSX users.  Create your Python script, replacing the paths and extension to yours:import osimport randomfolder = \"/path/to/notes\"prog = \"/path/to/application.app\"ext = \"txt\"file_list = os.listdir(folder)txt_list = [file for file in file_list if file.endswith(ext)]random_file = random.choice(file_list)random_fp = os.path.join(folder, random_file)os.system('open \"{}\" -a \"{}\"'.format(random_fp, prog))  Save this file and name it whatever you like .py, like random_note.py. (I saved it where all my code projects are, but you could also create a folder in your Applications folder and stick it there)  Open Script Editor and make a new document. Ensure that AppleScript is selected in the dropdown menu in the upper left of the window.  Create your Applescript, replacing the paths and script name to yours:do shell script \"cd '/path/to/script'; python script_name.py\"  Save the script in your Applications folder as an “Application” file format.  Put it on your dock and go wild.I added a little light bulb icon on mine[6], as is tradition, and it is a great way to pass the time. I spent all this time curating ideas, recipes, thoughts, information, and experiences I thought were interesting, and now I can really enjoy the payoff in a very fun way.References:    RandomNote app from Tiago Forte  RandomNote Web  random note Applescript for the Evernote app  Make Python ‘Apps’ and Shortcuts To Run Them on OSX  Add icon",
-            "content_html": "<p>For the last few months, I have been feeding my <a href=\"/2020/05/22/zettelkasten\">Zettelkasten</a> with essentially anything that I find interesting: programming, emotional development, quotes, productivity, book or video reviews, whatever. If I think it’s something that will help me or make me excited later, I put it in there.</p><p>The problem I had was that even though I had these notes for reference, I wasn’t finding myself reviewing them just for creating those interesting and random connections, which was something that I had initially started using the Zettelkasten for. Those random connections are what creates interesting ideas and diffuse connections, as well as a spaced repetition for ideas that I already decided are worth knowing.</p><p>I found a solution that was implemented by productivity dude and Twitter instigator Tiago Forte. Essentially, his “second brain”, analogous to a Zettelkasten, is housed in Evernote, and he had <a href=\"\">an app</a> developed that would pop open a random Evernote every time he clicked it. He found that this boosted his creativity and because of how easy it was, he was able to do it between meetings, during his breaks, essentially in any spare moment. In doing some research, I found somebody who made a <a href=\"\">random note Applescript for the Evernote app</a> that looks like this:</p><div class=\"highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code># Applescripttell application \"Evernote\"\tset noteList to find notes\tset randomNote to some item of noteList\tset query string of window 1 to (title of randomNote as string)end tell</code></pre></div></div><p>I figured it was just as simple of a task if you had your notes saved locally, which I do as text/Markdown files, so I set out to make a Python script that did this, along with an app implementation that can sit in my dock. I used the same process I did in my “<a href=\"/2020/07/22/make-python-apps\">Make Python ‘Apps’ and Shortcuts To Run Them on OSX</a>” post, so obviously this is geared towards OSX users.</p><hr /><ul>  <li>Create your Python script, replacing the paths and extension to yours:</li></ul><div class=\"highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>import osimport randomfolder = \"/path/to/notes\"prog = \"/path/to/application.app\"ext = \"txt\"file_list = os.listdir(folder)txt_list = [file for file in file_list if file.endswith(ext)]random_file = random.choice(file_list)random_fp = os.path.join(folder, random_file)os.system('open \"{}\" -a \"{}\"'.format(random_fp, prog))</code></pre></div></div><ul>  <li>Save this file and name it whatever you like <code class=\"highlighter-rouge\">.py</code>, like <code class=\"highlighter-rouge\">random_note.py</code>. (I saved it where all my code projects are, but you could also create a folder in your Applications folder and stick it there)</li>  <li>Open Script Editor and make a new document. Ensure that AppleScript is selected in the dropdown menu in the upper left of the window.</li>  <li>Create your Applescript, replacing the paths and script name to yours:</li></ul><p><code class=\"highlighter-rouge\">do shell script \"cd '/path/to/script'; python script_name.py\"</code></p><ul>  <li>Save the script in your Applications folder as an “Application” file format.</li>  <li>Put it on your dock and go wild.</li></ul><p>I added a little light bulb icon on mine[6], as is tradition, and it is a great way to pass the time. I spent all this time curating ideas, recipes, thoughts, information, and experiences I thought were interesting, and now I can really enjoy the payoff in a very fun way.</p><hr /><p>References:</p><ol>  <li><a href=\"\"></a></li>  <li><a href=\"\">RandomNote app from Tiago Forte</a></li>  <li><a href=\"\">RandomNote Web</a></li>  <li><a href=\"\">random note Applescript for the Evernote app</a></li>  <li><a href=\"/2020/07/22/make-python-apps\">Make Python ‘Apps’ and Shortcuts To Run Them on OSX</a></li>  <li><a href=\"\">Add icon</a></li></ol>",
-            "url": "http://milofultz.com/2020/08/26/random-note",
-            
-            
-            
-            
-            
-            "date_published": "2020-08-26T00:00:00-07:00",
-            "date_modified": "2020-08-26T00:00:00-07:00",
             
                 "author":  {
                 "name": "Milo Fultz",

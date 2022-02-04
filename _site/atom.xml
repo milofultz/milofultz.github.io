@@ -4,13 +4,30 @@
  <title>Milo Fultz</title>
  <link href="http://milofultz.com/atom.xml" rel="self"/>
  <link href="http://milofultz.com/"/>
- <updated>2022-02-01T22:59:16-08:00</updated>
+ <updated>2022-02-04T13:11:30-08:00</updated>
  <id>http://milofultz.com</id>
  <author>
    <name>Milo Fultz</name>
    <email>milopfultz@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>🔎 Deciphering This Minimal Roguelike in C</title>
+   <link href="http://milofultz.com/2022/02/04/deciphering-minimal-roguelike"/>
+   <updated>2022-02-04T00:00:00-08:00</updated>
+   <id>http://milofultz.com/2022/02/04/deciphering-minimal-roguelike</id>
+   <content type="html">&lt;p&gt;I recently found &lt;a href=&quot;http://www.locklessinc.com/articles/512byte_roguelike/&quot;&gt;this rad minimal roguelike&lt;/a&gt; and wanted to try and figure out what the heck is going on. It’s only 512 bytes in C, which is insane, so I had to try and solve this little puzzle I was presented.&lt;/p&gt;
+
+&lt;p&gt;It’s not worth going into super detail here, as it’s all in the code, and seeing it move from a jumbled code salad into something meaningful is so fascinating to me.&lt;/p&gt;
+
+&lt;p&gt;Check out &lt;a href=&quot;http://www.locklessinc.com/articles/512byte_roguelike/&quot;&gt;the original article&lt;/a&gt; and &lt;a href=&quot;https://github.com/milofultz/decrypting-the-minimal-roguelike/blob/main/3_annotated.c&quot;&gt;my annotated version&lt;/a&gt;.&lt;/p&gt;
+
+&lt;!-- --- 
+
+- _202XXXXX: Update format_ --&gt;
+</content>
+ </entry>
  
  <entry>
    <title>💻 Sub2Pub - Convert Youtube Subtitles to EPUBs</title>

@@ -4,7 +4,7 @@
  <title>Milo Fultz</title>
  <link href="http://milofultz.com/atom.xml" rel="self"/>
  <link href="http://milofultz.com/"/>
- <updated>2022-02-04T13:11:30-08:00</updated>
+ <updated>2022-02-22T12:03:39-08:00</updated>
  <id>http://milofultz.com</id>
  <author>
    <name>Milo Fultz</name>
@@ -34,7 +34,7 @@
    <link href="http://milofultz.com/2022/02/01/sub2pub"/>
    <updated>2022-02-01T00:00:00-08:00</updated>
    <id>http://milofultz.com/2022/02/01/sub2pub</id>
-   <content type="html">&lt;p&gt;&lt;a href=&quot;https://github.com/milofultz/sub2pub&quot;&gt;Check out the project files on GitHub&lt;/a&gt;&lt;/p&gt;
+   <content type="html">&lt;p&gt;&lt;a href=&quot;https://codeberg.org/milofultz/sub2pub&quot;&gt;Check out the project files on Codeberg&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Converts the subtitles of a Youtube video into an EPUB, using &lt;a href=&quot;https://github.com/yt-dlp/yt-dlp&quot;&gt;yt-dlp&lt;/a&gt;, &lt;a href=&quot;https://manual.calibre-ebook.com/generated/en/cli-index.html&quot;&gt;Calibre&lt;/a&gt;, and basic *nix tools in the shell. This technically works with suto generated subtitles, but it isn’t pretty.&lt;/p&gt;
 
@@ -68,7 +68,7 @@
    <link href="http://milofultz.com/2022/01/28/tod-shell"/>
    <updated>2022-01-28T00:00:00-08:00</updated>
    <id>http://milofultz.com/2022/01/28/tod-shell</id>
-   <content type="html">&lt;p&gt;&lt;a href=&quot;https://github.com/milofultz/tod_sh&quot;&gt;Check out the project files on GitHub&lt;/a&gt;&lt;/p&gt;
+   <content type="html">&lt;p&gt;&lt;a href=&quot;https://codeberg.org/milofultz/tod_sh&quot;&gt;Check out the project files on Codeberg&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;A straightforward and simple task manager for your terminal.&lt;/p&gt;
 
@@ -160,7 +160,7 @@
    <link href="http://milofultz.com/2022/01/01/proquabet"/>
    <updated>2022-01-01T00:00:00-08:00</updated>
    <id>http://milofultz.com/2022/01/01/proquabet</id>
-   <content type="html">&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://github.com/milofultz/proquabet&quot;&gt;Check out the project files on GitHub&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+   <content type="html">&lt;p&gt;&lt;a href=&quot;https://codeberg.org/milofultz/proquabet&quot;&gt;Check out the project files on Codeberg&lt;/a&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;Hodoj; kudos kusob jitoz lanos kibod babap!&lt;/p&gt;
@@ -712,7 +712,7 @@ Palette:										; Set 'Palette' label
    <link href="http://milofultz.com/2021/07/03/swiki-tinybrainfans"/>
    <updated>2021-07-03T00:00:00-07:00</updated>
    <id>http://milofultz.com/2021/07/03/swiki-tinybrainfans</id>
-   <content type="html">&lt;p&gt;&lt;a href=&quot;https://www.tinybrain.fans/&quot;&gt;&lt;strong&gt;Check it out here!&lt;/strong&gt;&lt;/a&gt; // &lt;a href=&quot;https://github.com/milofultz/swiki&quot;&gt;Check out  on GitHub&lt;/a&gt;&lt;/p&gt;
+   <content type="html">&lt;p&gt;&lt;a href=&quot;https://www.tinybrain.fans/&quot;&gt;&lt;strong&gt;Check it out here!&lt;/strong&gt;&lt;/a&gt; // &lt;a href=&quot;https://codeberg.org/milofultz/swiki&quot;&gt;Check out  on Codeberg&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;{{SWIKI}} is a flatfile wiki generator using Python. Using some basic configuration and template files, you can build a wiki out of Markdown files and some {{double brackets}}.&lt;/p&gt;
 
@@ -722,7 +722,7 @@ Palette:										; Set 'Palette' label
   &lt;li&gt;Produces a “fatfile” page that contains all of the content of every page, which makes for easy searching of the entire wiki with just &lt;code class=&quot;highlighter-rouge&quot;&gt;ctrl&lt;/code&gt; + &lt;code class=&quot;highlighter-rouge&quot;&gt;f&lt;/code&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://github.com/milofultz/swiki&quot;&gt;Check it out on GitHub&lt;/a&gt; to learn more about how it works, and go to &lt;a href=&quot;https://www.tinybrain.fans&quot;&gt;https://www.tinybrain.fans&lt;/a&gt; to play around in a working demo.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://codeberg.org/milofultz/swiki&quot;&gt;Check it out on Codeberg&lt;/a&gt; to learn more about how it works, and go to &lt;a href=&quot;https://www.tinybrain.fans&quot;&gt;https://www.tinybrain.fans&lt;/a&gt; to play around in a working demo.&lt;/p&gt;
 
 &lt;!-- --- 
 

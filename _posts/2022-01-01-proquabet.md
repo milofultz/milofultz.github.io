@@ -7,7 +7,7 @@ comments: true
 tags: project
 ---
 
-**[Check out the project files on GitHub](https://github.com/milofultz/proquabet)**
+[Check out the project files on Codeberg](https://codeberg.org/milofultz/proquabet)
 
 >  Hodoj; kudos kusob jitoz lanos kibod babap!
 

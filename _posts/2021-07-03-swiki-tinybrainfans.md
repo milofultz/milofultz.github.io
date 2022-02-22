@@ -7,7 +7,7 @@ comments: true
 tags: project
 ---
 
-[**Check it out here!**](https://www.tinybrain.fans/) // [Check out {{SWIKI}} on GitHub](https://github.com/milofultz/swiki)
+[**Check it out here!**](https://www.tinybrain.fans/) // [Check out {{SWIKI}} on Codeberg](https://codeberg.org/milofultz/swiki)
 
 {% raw %}{{SWIKI}}{% endraw %} is a flatfile wiki generator using Python. Using some basic configuration and template files, you can build a wiki out of Markdown files and some {% raw %}{{double brackets}}{% endraw %}. 
 
@@ -15,7 +15,7 @@ tags: project
 * The structure of the web pages is defined by a static "frame" HTML file where the content is injected.
 * Produces a "fatfile" page that contains all of the content of every page, which makes for easy searching of the entire wiki with just `ctrl` + `f`.
 
-[Check it out on GitHub](https://github.com/milofultz/swiki) to learn more about how it works, and go to <https://www.tinybrain.fans> to play around in a working demo.
+[Check it out on Codeberg](https://codeberg.org/milofultz/swiki) to learn more about how it works, and go to <https://www.tinybrain.fans> to play around in a working demo.
 
 <!-- --- 
 

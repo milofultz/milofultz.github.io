@@ -11,7 +11,7 @@ I recently found [this rad minimal roguelike](http://www.locklessinc.com/article
 
 It's not worth going into super detail here, as it's all in the code, and seeing it move from a jumbled code salad into something meaningful is so fascinating to me.
 
-Check out [the original article](http://www.locklessinc.com/articles/512byte_roguelike/) and [my annotated version](https://github.com/milofultz/decrypting-the-minimal-roguelike/blob/main/3_annotated.c).
+Check out [the original article](http://www.locklessinc.com/articles/512byte_roguelike/) and [my annotated version](https://codeberg.org/milofultz/decrypting-the-minimal-roguelike/src/branch/main/3_annotated.c).
 
 <!-- --- 
 

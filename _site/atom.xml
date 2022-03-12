@@ -4,13 +4,32 @@
  <title>Milo Fultz</title>
  <link href="http://milofultz.com/atom.xml" rel="self"/>
  <link href="http://milofultz.com/"/>
- <updated>2022-02-22T12:03:39-08:00</updated>
+ <updated>2022-03-12T12:17:37-08:00</updated>
  <id>http://milofultz.com</id>
  <author>
    <name>Milo Fultz</name>
    <email>milopfultz@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>🧠 Making A Brainfuck Interpreter</title>
+   <link href="http://milofultz.com/2022/03/12/brainfuck"/>
+   <updated>2022-03-12T00:00:00-08:00</updated>
+   <id>http://milofultz.com/2022/03/12/brainfuck</id>
+   <content type="html">&lt;p&gt;&lt;a href=&quot;https://codeberg.org/milofultz/brainfuck&quot;&gt;Check out the my interpreter on Codeberg&lt;/a&gt; // &lt;a href=&quot;https://codeberg.org/milofultz/decrypting-the-original-brainfuck-interpreter/src/branch/main/1%20pbi.c&quot;&gt;The original minified interpreter by Urban Mueller&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;For a while now, I’ve been digging into C to get a better handle of low-level languages, as well as various esolangs like &lt;a href=&quot;https://www.tinybrain.fans/fractran.html&quot;&gt;FRACTRAN&lt;/a&gt;. When I found &lt;a href=&quot;https://www.tinybrain.fans/brainfuck.html&quot;&gt;brainfuck&lt;/a&gt;, a Turing-complete language consisting of only 8 characters, I knew I had to do &lt;em&gt;something&lt;/em&gt; with it.&lt;/p&gt;
+
+&lt;p&gt;I’ve always heard that one of brainfuck’s interesting uses for a programmer is that implementing a brainfuck interpreter in a new language is a really good way to learn how that language works. This case was no exception, as my initial run was to build it all from scratch in C, and I really did learn quite a bit. Beyond this, this stoked my desire to look into building compilers, interpreters, and language design in general.&lt;/p&gt;
+
+&lt;p&gt;While this version was effective and worked, I also learned quite a bit and realized how much simpler I could have made my interpreter by looking at the &lt;a href=&quot;https://codeberg.org/milofultz/decrypting-the-original-brainfuck-interpreter/src/branch/main/1%20pbi.c&quot;&gt;original one by Urban Mueller (the language’s creator)&lt;/a&gt;. This is a great example of super minified code, and I really enjoyed &lt;a href=&quot;https://codeberg.org/milofultz/decrypting-the-original-brainfuck-interpreter/src/branch/main/3%20pbi%20-%20readable.c&quot;&gt;untying this knot&lt;/a&gt; and learning all the subtle intricacies of order of operations with prefix/postfix, comma operators, OR’s in place of if statements, etc.&lt;/p&gt;
+
+&lt;!-- --- 
+
+- _202XXXXX: Update format_ --&gt;
+</content>
+ </entry>
  
  <entry>
    <title>🔎 Deciphering This Minimal Roguelike in C</title>
@@ -21,7 +40,7 @@
 
 &lt;p&gt;It’s not worth going into super detail here, as it’s all in the code, and seeing it move from a jumbled code salad into something meaningful is so fascinating to me.&lt;/p&gt;
 
-&lt;p&gt;Check out &lt;a href=&quot;http://www.locklessinc.com/articles/512byte_roguelike/&quot;&gt;the original article&lt;/a&gt; and &lt;a href=&quot;https://github.com/milofultz/decrypting-the-minimal-roguelike/blob/main/3_annotated.c&quot;&gt;my annotated version&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Check out &lt;a href=&quot;http://www.locklessinc.com/articles/512byte_roguelike/&quot;&gt;the original article&lt;/a&gt; and &lt;a href=&quot;https://codeberg.org/milofultz/decrypting-the-minimal-roguelike/src/branch/main/3_annotated.c&quot;&gt;my annotated version&lt;/a&gt;.&lt;/p&gt;
 
 &lt;!-- --- 
 

@@ -2,6 +2,17 @@
   
     {
 
+      "title"    : "🧠 Making A Brainfuck Interpreter",
+      "url"      : "/2022/03/12/brainfuck",
+      "category" : "",
+      "tags"     : "project",  
+      "date"     : "2022-03-12 00:00:00 -0800",
+      "description" : "I made a brainfuck interpreter in C"
+
+    } ,
+  
+    {
+
       "title"    : "🔎 Deciphering This Minimal Roguelike in C",
       "url"      : "/2022/02/04/deciphering-minimal-roguelike",
       "category" : "",

@@ -17,6 +17,30 @@
 "items": [
     
         {
+            "id": "http://milofultz.com/2022/04/09/bonzo-buddy",
+            "title": "🦍 Bonzo Buddy - Delegate your self-care",
+            "summary": "Bonzo Buddy is a riff on Taylor.town's nowify to help delegate your self-care and other reminders to the computer.",
+            "content_text": "Check out the project files on CodebergI have problems with taking care of myself. If given the option to do something that will give me long term benefits versus RIGHT NOW, I will almost 100% take the latter. That is, if I am the one who thinks of it. If somebody else mentions it, or I read about it in a book or something, my motivation increases an absurd and not logical amount, leading me to action.Is this ideal? Absolutely not. Is this the way my brain works? Yes, at least it seems so right now. So instead of doing what I usually do in this kind of a situation, which is just to fruitlessly ask “why?” a hundred times until I get frustrated, I found a possible solution.A member of the Merveilles posted a link to Taylor.town’s nowify and it was intriguing. I’ve made some projects that try and do this for me forever, expanding on the Pomodoro technique, and tried to implement different prompts throughout my life, with alarms, meditation, etc., but none of them seemed to stick.But this one seemed to make a little more sense for some reason. It’s barebones, simple, and self-perpetuating. It just does the thing as long as it is running, asking you if you’ve done a thing yet that you yourself asked to be reminded of. There is nothing revolutionary about this, in fact this is the whole class of task managers, etc. that exist. But those are HUGE and made for much more complex uses. I just need a tap on the shoulder every once in a while.That’s all this does. At regular intervals (or until it is finished), you just get a ping and a prompt asking you if it’s done, not done, or to skip it. That’s it. Over the last week, I have done more to keep myself feeling emotionally regulated and physically healthy than I have in a while, and I feel great.So in summary, if you have daily one-time or recurring tasks that don’t have a specific time they need to be done, this could help you. I built this over a weekend with little iterations since then, and I would recommend just building your own, too, since it’s easy and lets you add your own little features along the way.",
+            "content_html": "<p><a href=\"https://codeberg.org/milofultz/bonzo-buddy\">Check out the project files on Codeberg</a></p><p>I have problems with taking care of myself. If given the option to do something that will give me long term benefits versus RIGHT NOW, I will almost 100% take the latter. That is, if <em>I</em> am the one who thinks of it. If somebody else mentions it, or I read about it in a book or something, my motivation increases an absurd and not logical amount, leading me to action.</p><p>Is this ideal? Absolutely not. Is this the way my brain works? Yes, at least it seems so right now. So instead of doing what I usually do in this kind of a situation, which is just to fruitlessly ask “why?” a hundred times until I get frustrated, I found a possible solution.</p><p>A member of the <a href=\"https://merveilles.town\">Merveilles</a> posted a link to <a href=\"https://taylor.town/projects/nowify\">Taylor.town’s nowify</a> and it was intriguing. I’ve made some projects that try and do this for me forever, expanding on the Pomodoro technique, and tried to implement different prompts throughout my life, with alarms, meditation, etc., but none of them seemed to stick.</p><p>But this one seemed to make a little more sense for some reason. It’s barebones, simple, and self-perpetuating. It just does the thing as long as it is running, asking you if you’ve done a thing yet <em>that you yourself asked to be reminded of</em>. There is nothing revolutionary about this, in fact this is the whole class of task managers, etc. that exist. But those are HUGE and made for much more complex uses. I just need a tap on the shoulder every once in a while.</p><p>That’s all this does. At regular intervals (or until it is finished), you just get a ping and a prompt asking you if it’s done, not done, or to skip it. That’s it. Over the last week, I have done more to keep myself feeling emotionally regulated and physically healthy than I have in a while, and I feel great.</p><p>So in summary, if you have daily one-time or recurring tasks that don’t have a specific time they need to be done, this could help you. I built this over a weekend with little iterations since then, and I would recommend just building your own, too, since it’s easy and lets you add your own little features along the way.</p><!-- ---- _202XXXXX: Update format_ -->",
+            "url": "http://milofultz.com/2022/04/09/bonzo-buddy",
+            
+            
+            
+            
+            
+            "date_published": "2022-04-09T00:00:00-07:00",
+            "date_modified": "2022-04-09T00:00:00-07:00",
+            
+                "author":  {
+                "name": "Milo Fultz",
+                "url": "http://milofultz.com",
+                "avatar": null
+                }
+                
+            
+        },
+    
+        {
             "id": "http://milofultz.com/2022/03/12/brainfuck",
             "title": "🧠 Making A Brainfuck Interpreter",
             "summary": "I made a brainfuck interpreter in C",
@@ -846,30 +870,6 @@
             
             "date_published": "2020-09-26T00:00:00-07:00",
             "date_modified": "2020-09-26T00:00:00-07:00",
-            
-                "author":  {
-                "name": "Milo Fultz",
-                "url": "http://milofultz.com",
-                "avatar": null
-                }
-                
-            
-        },
-    
-        {
-            "id": "http://milofultz.com/2020/09/23/mastodon",
-            "title": "Mastodon",
-            "summary": null,
-            "content_text": "Been digging into Mastodon, as it brings all the good things I like about social media and none of the trash. Find me there.- 20201009: Moved to https://merveilles.town",
-            "content_html": "<p>Been digging into Mastodon, as it brings all the good things I like about social media and none of the trash. <a rel=\"me\" href=\"https://merveilles.town/@milofultz\">Find me there.</a></p><p><em>- 20201009: Moved to <a href=\"https://merveilles.town\">https://merveilles.town</a></em></p>",
-            "url": "http://milofultz.com/2020/09/23/mastodon",
-            
-            
-            
-            
-            
-            "date_published": "2020-09-23T00:00:00-07:00",
-            "date_modified": "2020-09-23T00:00:00-07:00",
             
                 "author":  {
                 "name": "Milo Fultz",

@@ -2,6 +2,17 @@
   
     {
 
+      "title"    : "🦍 Bonzo Buddy - Delegate your self-care",
+      "url"      : "/2022/04/09/bonzo-buddy",
+      "category" : "",
+      "tags"     : "project",  
+      "date"     : "2022-04-09 00:00:00 -0700",
+      "description" : "Bonzo Buddy is a riff on Taylor.town&#39;s nowify to help delegate your self-care and other reminders to the computer."
+
+    } ,
+  
+    {
+
       "title"    : "🧠 Making A Brainfuck Interpreter",
       "url"      : "/2022/03/12/brainfuck",
       "category" : "",

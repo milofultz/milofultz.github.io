@@ -4,7 +4,7 @@
  <title>Milo Fultz</title>
  <link href="http://milofultz.com/atom.xml" rel="self"/>
  <link href="http://milofultz.com/"/>
- <updated>2022-04-09T09:54:00-07:00</updated>
+ <updated>2022-04-12T14:38:32-07:00</updated>
  <id>http://milofultz.com</id>
  <author>
    <name>Milo Fultz</name>
@@ -843,6 +843,8 @@ Palette:										; Set 'Palette' label
 
 &lt;p&gt;&lt;a href=&quot;https://trankynam.com/atext/&quot;&gt;aText&lt;/a&gt;: This is the text and snippet expander that I moved to after using TextExpander for years. It’s only $5 instead of a $36/year subscription and essentially the same program but with more features available, most notably automated keystrokes. I use it most often in my copywriting for podcasts, emails, and projects with a lot of repetition, but it’s also super useful in generating timestamps, datestamps, and ensuring you won’t write important info down wrong. Much more fun to use than the built-in OSX feature.&lt;/p&gt;
 
+&lt;p&gt;&lt;a href=&quot;https://codeberg.org/milofultz/bonzo-buddy&quot;&gt;Bonzo Buddy&lt;/a&gt;: I use this to keep on track with my self-care every day. It prompts me throughout the day on various activities and routines I need to do and keeps a log of what I did or didn’t do. Super useful for someone like me who gets tunnel vision during long computer sessions. Bonehead simple terminal app that stores your routines and log in plain text.&lt;/p&gt;
+
 &lt;p&gt;&lt;a href=&quot;http://derlien.com/&quot;&gt;DiskInventoryX&lt;/a&gt;: A small utility application for macOS that graphically shows the disk usage within a file system. I use this to monitor unruly client Dropbox folders as well as runaway audio/video projects.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://github.com/Mortennn/Dozer&quot;&gt;Dozer&lt;/a&gt;: Free and open source app to hide menu bar icons to give your Mac a cleaner look. Helps me not get distracted by unimportant stuff.&lt;/p&gt;
@@ -878,7 +880,7 @@ Palette:										; Set 'Palette' label
 
 &lt;p&gt;&lt;a href=&quot;https://www.jetbrains.com/pycharm/&quot;&gt;PyCharm&lt;/a&gt;: A much nicer environment to write Python in. Preferred over VSCodium for the built-in Python specific console and debugger.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://quodlibet.readthedocs.io/en/latest/&quot;&gt;QuodLibet&lt;/a&gt;: A great music library manager for people who like owning our music. Also a great tagging software.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://quodlibet.readthedocs.io/en/latest/&quot;&gt;QuodLibet&lt;/a&gt;: A great music library manager for people who like owning our music. Also a great tagging software. This doesn’t do everything for me, so I will still often use VLC.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://marco.org/apps&quot;&gt;Quitter&lt;/a&gt;: One of my most useful apps. Quits an app based on minutes of inactivity. Super useful for very distracting and/or power-hungry apps like Messages, Slack, etc.&lt;/p&gt;
 
@@ -897,7 +899,13 @@ Palette:										; Set 'Palette' label
   &lt;li&gt;&lt;a href=&quot;https://packagecontrol.io/packages/Sync%20Settings&quot;&gt;Sync Settings&lt;/a&gt;: Helps sync settings across multiple computers.&lt;/li&gt;
 &lt;/ul&gt;
 
+&lt;p&gt;&lt;a href=&quot;https://codeberg.org/milofultz/tod_sh&quot;&gt;Tod&lt;/a&gt;: This is the todo app I use every day. Terminal based, will work on essentially any *nix shell, and is bonehead simple. Essentially is a plain text file at the end of the day.&lt;/p&gt;
+
 &lt;p&gt;&lt;a href=&quot;https://typora.io/&quot;&gt;Typora&lt;/a&gt;: Super simple and pretty markdown editor I use all of the time for my blog posts, code diary, note taking, and any other markdown-related stuff. Interchangeable CSS themes make it really easy to customize, too.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.vim.org/&quot;&gt;Vim&lt;/a&gt;: Terminal text editor that is built in to pretty much any *nix system. It can do pretty much anything, if you spend enough time with it. Check out &lt;a href=&quot;https://www.tinybrain.fans/vim.html&quot;&gt;my notes on Vim&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.videolan.org/vlc/&quot;&gt;VLC&lt;/a&gt;: Great media player than can play pretty much anything you throw at it.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://vscodium.com/&quot;&gt;VSCodium&lt;/a&gt;: An open source version of Microsoft’s VSCode, meaning it had none of the bloat that MS adds like tracking, telemetry, etc. Extensions I use:&lt;/p&gt;
 
@@ -907,13 +915,14 @@ Palette:										; Set 'Palette' label
   &lt;li&gt;&lt;a href=&quot;https://open-vsx.org/vscode/item?itemName=oderwat.indent-rainbow&quot;&gt;Indent-Rainbow&lt;/a&gt;: Like bracket colorizers, this gives your indentation a coloring so you can understand indentation more at a glance.&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://monokai.pro/&quot;&gt;Monokai Pro&lt;/a&gt;: Same as above.&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://prettier.io/&quot;&gt;Prettier&lt;/a&gt;: Helpful for keeping your code matching code style standards. Auto-formats your code according to user-set rules.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://stylelint.io/&quot;&gt;Stylelint&lt;/a&gt;: A CSS linter.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&quot;fonts&quot;&gt;Fonts&lt;/h3&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://brailleinstitute.org/freefont&quot;&gt;Atkinson Hyperlegible Font&lt;/a&gt;: I use this as my default font for sans-serif on my browser so I can set the default font size much smaller and still be readable.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://github.com/tonsky/FiraCode&quot;&gt;Fira Code&lt;/a&gt;: I use this in every piece of software that I need monospace fonts. Has ligatures which makes things more readable and easier to understand, as well as dynamic adjustment of heights to match nearby letters. A bunch of things that added together just look really nice.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://typeof.net/Iosevka/&quot;&gt;Iosevka&lt;/a&gt;: I love Iosevka because it is SO THIN. You can fit so many characters on a page and have it still be legible. Seuper useful for coding, and terminal use in general. Good ligatures, as well.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://manropefont.com/&quot;&gt;Manrope&lt;/a&gt;: A nice sans-serif more akin to Helvetica.&lt;/p&gt;
 
@@ -923,9 +932,10 @@ Palette:										; Set 'Palette' label
   &lt;li&gt;&lt;em&gt;20211027: Add Flycut, Hazel, Nativefier, revise various elements&lt;/em&gt;&lt;/li&gt;
   &lt;li&gt;&lt;em&gt;20211129: Replaced Grand Perspective with DiskInventoryX&lt;/em&gt;&lt;/li&gt;
   &lt;li&gt;&lt;em&gt;20211231: Added Manrope font; removed Bracket Colorizer for VSCode, as it’s built in now; Firefox and plugins&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;20220412: Added Iosevka, Vim, VLC, and some of my own personal apps.&lt;/em&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;!-- --- 
+&lt;!-- ---
 
 - _202XXXXX: Update format_ --&gt;
 

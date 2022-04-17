@@ -15,7 +15,7 @@ The goal of my task management system is mainly to record captured tasks and be 
 
 So V1 had its issues. Too much maintenance, too many moving parts. I want something simpler that requires essentially zero upkeep, is easy to search, and takes little to no organization. I *really* want to avoid a whole program, since that means I have to maintain that whole infrastructure, and I'd rather be in control of that.
 
-So far, a cool alternative I have found is [todo.txt](https://github.com/todotxt/todo.txt)[7], which seems straightforward. Syntax is essentially parsed left to right with certain prefixes meaning certain things (reminiscent of {{Carmack's plan files|The Carmack Plan}}):
+So far, a cool alternative I have found is [todo.txt](https://github.com/todotxt/todo.txt)[7], which seems straightforward. Syntax is essentially parsed left to right with certain prefixes meaning certain things (reminiscent of [Carmack's plan files](https://www.tinybrain.fans/the-carmack-plan.html)):
 
 Prefix/Symbol | Meaning
 --- | ---
@@ -26,7 +26,7 @@ Prefix/Symbol | Meaning
 `@context` | `context` being the context you can perform the task in.
 `key:value` | An arbitrary `key`/`value` pair for your own needs
 
-Another quick benefit of this rigid but simple syntax is that getting all your high priority tasks, your tasks from `+project`, or tasks within a certain `@context` is as simple as a <kbd>⌘</kbd> + <kbd>F</kbd>, and deleting/moving all your completed tasks from the file is a basic {{regex|Regular Expressions}} away: `/^x\s.+?(?=>\n)/`.
+Another quick benefit of this rigid but simple syntax is that getting all your high priority tasks, your tasks from `+project`, or tasks within a certain `@context` is as simple as a <kbd>⌘</kbd> + <kbd>F</kbd>, and deleting/moving all your completed tasks from the file is a basic regex away: `/^x\s.+?(?=>\n)/`.
 
 ### Examples
 
@@ -72,7 +72,7 @@ This will notably **not** be a place for dumping unrefined/unactionable tasks or
 *Note: This system used to work when I had a more regular schedule and was a freelancer. Now, it has become difficult to maintain something so complicated. I'm looking at other alternatives.*
 
 
-This task management system is essentially a stripped down and extensible {{Getting Things Done}} system that is application- and tech-agnostic, largely based on [this post by Sandra at idiomdrottning.org](https://merveilles.town/web/statuses/107121945481166989). I use this with a computer, but this could easily be done without one and some [hipster PDAs](https://en.wikipedia.org/wiki/Hipster_PDA) or just notebooks.
+This task management system is essentially a stripped down and extensible Getting Things Done system that is application- and tech-agnostic, largely based on [this post by Sandra at idiomdrottning.org](https://merveilles.town/web/statuses/107121945481166989). I use this with a computer, but this could easily be done without one and some [hipster PDAs](https://en.wikipedia.org/wiki/Hipster_PDA) or just notebooks.
 
 The goal of this system is to externalize as many of my tasks and projects away from my brain into something that I can fully trust. If you don't have to worry about remembering random little things while you do something else, you can work smarter and not harder, as well as do useful analysis on your past, present, and future work.
 

@@ -4,7 +4,7 @@
  <title>Milo Fultz</title>
  <link href="http://milofultz.com/atom.xml" rel="self"/>
  <link href="http://milofultz.com/"/>
- <updated>2022-04-17T07:49:51-07:00</updated>
+ <updated>2022-04-17T07:50:52-07:00</updated>
  <id>http://milofultz.com</id>
  <author>
    <name>Milo Fultz</name>
@@ -25,7 +25,7 @@
 
 &lt;p&gt;So V1 had its issues. Too much maintenance, too many moving parts. I want something simpler that requires essentially zero upkeep, is easy to search, and takes little to no organization. I &lt;em&gt;really&lt;/em&gt; want to avoid a whole program, since that means I have to maintain that whole infrastructure, and I’d rather be in control of that.&lt;/p&gt;
 
-&lt;p&gt;So far, a cool alternative I have found is &lt;a href=&quot;https://github.com/todotxt/todo.txt&quot;&gt;todo.txt&lt;/a&gt;[7], which seems straightforward. Syntax is essentially parsed left to right with certain prefixes meaning certain things (reminiscent of ):&lt;/p&gt;
+&lt;p&gt;So far, a cool alternative I have found is &lt;a href=&quot;https://github.com/todotxt/todo.txt&quot;&gt;todo.txt&lt;/a&gt;[7], which seems straightforward. Syntax is essentially parsed left to right with certain prefixes meaning certain things (reminiscent of &lt;a href=&quot;https://www.tinybrain.fans/the-carmack-plan.html&quot;&gt;Carmack’s plan files&lt;/a&gt;):&lt;/p&gt;
 
 &lt;table&gt;
   &lt;thead&gt;
@@ -62,7 +62,7 @@
   &lt;/tbody&gt;
 &lt;/table&gt;
 
-&lt;p&gt;Another quick benefit of this rigid but simple syntax is that getting all your high priority tasks, your tasks from &lt;code class=&quot;highlighter-rouge&quot;&gt;+project&lt;/code&gt;, or tasks within a certain &lt;code class=&quot;highlighter-rouge&quot;&gt;@context&lt;/code&gt; is as simple as a &lt;kbd&gt;⌘&lt;/kbd&gt; + &lt;kbd&gt;F&lt;/kbd&gt;, and deleting/moving all your completed tasks from the file is a basic  away: &lt;code class=&quot;highlighter-rouge&quot;&gt;/^x\s.+?(?=&amp;gt;\n)/&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Another quick benefit of this rigid but simple syntax is that getting all your high priority tasks, your tasks from &lt;code class=&quot;highlighter-rouge&quot;&gt;+project&lt;/code&gt;, or tasks within a certain &lt;code class=&quot;highlighter-rouge&quot;&gt;@context&lt;/code&gt; is as simple as a &lt;kbd&gt;⌘&lt;/kbd&gt; + &lt;kbd&gt;F&lt;/kbd&gt;, and deleting/moving all your completed tasks from the file is a basic regex away: &lt;code class=&quot;highlighter-rouge&quot;&gt;/^x\s.+?(?=&amp;gt;\n)/&lt;/code&gt;.&lt;/p&gt;
 
 &lt;h3 id=&quot;examples&quot;&gt;Examples&lt;/h3&gt;
 
@@ -105,7 +105,7 @@ x
 
 &lt;p&gt;&lt;em&gt;Note: This system used to work when I had a more regular schedule and was a freelancer. Now, it has become difficult to maintain something so complicated. I’m looking at other alternatives.&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;This task management system is essentially a stripped down and extensible  system that is application- and tech-agnostic, largely based on &lt;a href=&quot;https://merveilles.town/web/statuses/107121945481166989&quot;&gt;this post by Sandra at idiomdrottning.org&lt;/a&gt;. I use this with a computer, but this could easily be done without one and some &lt;a href=&quot;https://en.wikipedia.org/wiki/Hipster_PDA&quot;&gt;hipster PDAs&lt;/a&gt; or just notebooks.&lt;/p&gt;
+&lt;p&gt;This task management system is essentially a stripped down and extensible Getting Things Done system that is application- and tech-agnostic, largely based on &lt;a href=&quot;https://merveilles.town/web/statuses/107121945481166989&quot;&gt;this post by Sandra at idiomdrottning.org&lt;/a&gt;. I use this with a computer, but this could easily be done without one and some &lt;a href=&quot;https://en.wikipedia.org/wiki/Hipster_PDA&quot;&gt;hipster PDAs&lt;/a&gt; or just notebooks.&lt;/p&gt;
 
 &lt;p&gt;The goal of this system is to externalize as many of my tasks and projects away from my brain into something that I can fully trust. If you don’t have to worry about remembering random little things while you do something else, you can work smarter and not harder, as well as do useful analysis on your past, present, and future work.&lt;/p&gt;
 

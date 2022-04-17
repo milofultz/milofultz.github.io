@@ -13,7 +13,7 @@
 <h2 id="v2">V2</h2>
 <p><em>UPDATE: It has been a few months, and I have essentially moved all my tasks to a plaintext file and use my <a href="https://codeberg.org/milofultz/tod_sh" target="_blank" rel="noopener noreferrer me"><code class="highlighter-rouge">tod_sh</code></a> program with a simplified version of this system. It just works and is no nonsense.</em></p>
 <p>So V1 had its issues. Too much maintenance, too many moving parts. I want something simpler that requires essentially zero upkeep, is easy to search, and takes little to no organization. I <em>really</em> want to avoid a whole program, since that means I have to maintain that whole infrastructure, and I’d rather be in control of that.</p>
-<p>So far, a cool alternative I have found is <a href="https://github.com/todotxt/todo.txt" target="_blank" rel="noopener noreferrer me">todo.txt</a>[7], which seems straightforward. Syntax is essentially parsed left to right with certain prefixes meaning certain things (reminiscent of ):</p>
+<p>So far, a cool alternative I have found is <a href="https://github.com/todotxt/todo.txt" target="_blank" rel="noopener noreferrer me">todo.txt</a>[7], which seems straightforward. Syntax is essentially parsed left to right with certain prefixes meaning certain things (reminiscent of <a href="https://www.tinybrain.fans/the-carmack-plan.html" target="_blank" rel="noopener noreferrer me">Carmack’s plan files</a>):</p>
 <table>
 <thead><tr>
 <th>Prefix/Symbol</th>
@@ -49,7 +49,7 @@
 </tr>
 </tbody>
 </table>
-<p>Another quick benefit of this rigid but simple syntax is that getting all your high priority tasks, your tasks from <code class="highlighter-rouge">+project</code>, or tasks within a certain <code class="highlighter-rouge">@context</code> is as simple as a <kbd>⌘</kbd> + <kbd>F</kbd>, and deleting/moving all your completed tasks from the file is a basic away: <code class="highlighter-rouge">/^x\s.+?(?=&gt;\n)/</code>.</p>
+<p>Another quick benefit of this rigid but simple syntax is that getting all your high priority tasks, your tasks from <code class="highlighter-rouge">+project</code>, or tasks within a certain <code class="highlighter-rouge">@context</code> is as simple as a <kbd>⌘</kbd> + <kbd>F</kbd>, and deleting/moving all your completed tasks from the file is a basic regex away: <code class="highlighter-rouge">/^x\s.+?(?=&gt;\n)/</code>.</p>
 <h3 id="examples">Examples</h3>
 <p>Each of these are essentially optional, aside from the <strong>description</strong>, which is comprised of some text and the project, the context, and any other key/value pairs.</p>
 <p>A more complex example:</p>
@@ -77,7 +77,7 @@ x
 <p>This will notably <strong>not</strong> be a place for dumping unrefined/unactionable tasks or what Tiago Forte’s PARA system[8] calls “Areas” (or continuous areas of commitment). These “Areas” include routines, habits, rituals, jobs, relationships, and essentially anything that is not a simple to define task or project with a defined end goal or end date.</p>
 <h2 id="v1">V1</h2>
 <p><em>Note: This system used to work when I had a more regular schedule and was a freelancer. Now, it has become difficult to maintain something so complicated. I’m looking at other alternatives.</em></p>
-<p>This task management system is essentially a stripped down and extensible system that is application- and tech-agnostic, largely based on <a href="https://merveilles.town/web/statuses/107121945481166989" target="_blank" rel="noopener noreferrer me">this post by Sandra at idiomdrottning.org</a>. I use this with a computer, but this could easily be done without one and some <a href="https://en.wikipedia.org/wiki/Hipster_PDA" target="_blank" rel="noopener noreferrer me">hipster PDAs</a> or just notebooks.</p>
+<p>This task management system is essentially a stripped down and extensible Getting Things Done system that is application- and tech-agnostic, largely based on <a href="https://merveilles.town/web/statuses/107121945481166989" target="_blank" rel="noopener noreferrer me">this post by Sandra at idiomdrottning.org</a>. I use this with a computer, but this could easily be done without one and some <a href="https://en.wikipedia.org/wiki/Hipster_PDA" target="_blank" rel="noopener noreferrer me">hipster PDAs</a> or just notebooks.</p>
 <p>The goal of this system is to externalize as many of my tasks and projects away from my brain into something that I can fully trust. If you don’t have to worry about remembering random little things while you do something else, you can work smarter and not harder, as well as do useful analysis on your past, present, and future work.</p>
 <h3 id="the-system">The System</h3>
 <p>The core system is comprised of these areas:</p>

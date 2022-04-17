@@ -2,6 +2,17 @@
   
     {
 
+      "title"    : "My Task Management System",
+      "url"      : "/2022/04/17/my-task-management",
+      "category" : "",
+      "tags"     : "project",  
+      "date"     : "2022-04-17 00:00:00 -0700",
+      "description" : "The goal of my task management system is mainly to record captured tasks and be reminded that I care about things that aren&#39;t shiny objects."
+
+    } ,
+  
+    {
+
       "title"    : "🦍 Bonzo Buddy - Delegate your self-care",
       "url"      : "/2022/04/09/bonzo-buddy",
       "category" : "",

@@ -4,7 +4,7 @@
  <title>Milo Fultz</title>
  <link href="http://milofultz.com/atom.xml" rel="self"/>
  <link href="http://milofultz.com/"/>
- <updated>2022-04-17T07:50:52-07:00</updated>
+ <updated>2022-04-28T09:30:04-07:00</updated>
  <id>http://milofultz.com</id>
  <author>
    <name>Milo Fultz</name>
@@ -308,6 +308,13 @@ x
   &lt;li&gt;&lt;a href=&quot;http://listen.xray.fm:8000/stream&quot;&gt;XRAY Portland&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
+&lt;p&gt;Silly but cool:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=PgbrzmFGUyQ&quot;&gt;Wreckage Systems&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=MwtVkPKx3RA&amp;amp;t=0s&quot;&gt;RELENTLESS DOPPELGANGER&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
 &lt;!-- --- 
 
 - _202XXXXX: Update format_ --&gt;
@@ -357,7 +364,16 @@ x
    <link href="http://milofultz.com/2022/01/23/media"/>
    <updated>2022-01-23T00:00:00-08:00</updated>
    <id>http://milofultz.com/2022/01/23/media</id>
-   <content type="html">&lt;h2 id=&quot;essays&quot;&gt;Essays&lt;/h2&gt;
+   <content type="html">&lt;h2 id=&quot;books&quot;&gt;Books&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.nonviolentcommunication.com/&quot;&gt;Marshall Rosenberg’s “Nonviolent Communication”&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Douglas Adams’ “Hitchhiker’s Guide to the Galaxy”&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.yalom.com/staring-at-the-sun&quot;&gt;Irvin D. Yalom’s “Staring at the Sun”&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://algorithmstoliveby.com/&quot;&gt;Brian Christian and Tom Griffiths’ “Algorithms to Live By”&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;essays&quot;&gt;Essays&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
@@ -392,9 +408,9 @@ x
 &lt;h2 id=&quot;videos&quot;&gt;Videos&lt;/h2&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=s0wZ1RRh5uc&quot;&gt;My Dinner With André&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;The Shining&lt;/li&gt;
   &lt;li&gt;The Fifth Element&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=s0wZ1RRh5uc&quot;&gt;My Dinner With André&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;music&quot;&gt;Music&lt;/h2&gt;

@@ -4,7 +4,7 @@
  <title>Milo Fultz</title>
  <link href="http://milofultz.com/atom.xml" rel="self"/>
  <link href="http://milofultz.com/"/>
- <updated>2022-04-28T09:30:04-07:00</updated>
+ <updated>2022-05-02T21:42:28+01:00</updated>
  <id>http://milofultz.com</id>
  <author>
    <name>Milo Fultz</name>
@@ -13,9 +13,52 @@
 
  
  <entry>
+   <title>⌨️ My Name In ASCII</title>
+   <link href="http://milofultz.com/2022/05/02/ascii-name"/>
+   <updated>2022-05-02T00:00:00+01:00</updated>
+   <id>http://milofultz.com/2022/05/02/ascii-name</id>
+   <content type="html">&lt;p&gt;I saw some IBM logo[1] in ASCII and wanted to try and recreate it from scratch, so I did and added some shading, too. I’m sure I’ll add more artistic ones later, once I get bored.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;█████       █████  ██████  ██████        ██████
+██████     ██████  ██████  ██████       ████████ 
+ ██████   ██████    ████    ████       ████  ████
+ ███████ ███████    ████    ████       ████  ████
+ ███ ███████ ███    ████    ████       ████  ████
+ ███  █████  ███    ████    ████   ██  ████  ████ 
+████   ███   ████  ██████  ██████████   ████████
+████    █    ████  ██████  ██████████    ██████
+
+█████       █████  ██████  ██████        ██████
+██████     ██████  ██████  ██████       ████████ 
+ ▓▓▓▓▓▓   ▓▓▓▓▓▓    ▓▓▓▓    ▓▓▓▓       ▓▓▓▓  ▓▓▓▓
+ ▓▓▓▓▓▓▓ ▓▓▓▓▓▓▓    ▓▓▓▓    ▓▓▓▓       ▓▓▓▓  ▓▓▓▓
+ ▒▒▒ ▒▒▒▒▒▒▒ ▒▒▒    ▒▒▒▒    ▒▒▒▒       ▒▒▒▒  ▒▒▒▒
+ ▒▒▒  ▒▒▒▒▒  ▒▒▒    ▒▒▒▒    ▒▒▒▒   ▒▒  ▒▒▒▒  ▒▒▒▒ 
+░░░░   ░░░   ░░░░  ░░░░░░  ░░░░░░░░░░   ░░░░░░░░
+░░░░    ░    ░░░░  ░░░░░░  ░░░░░░░░░░    ░░░░░░
+
+█████       █████  ▓▓▓▓▓▓  ▒▒▒▒▒▒        ░░░░░░
+██████     ██████  ▓▓▓▓▓▓  ▒▒▒▒▒▒       ░░░░░░░░ 
+ ██████   ██████    ▓▓▓▓    ▒▒▒▒       ░░░░  ░░░░
+ ███████ ███████    ▓▓▓▓    ▒▒▒▒       ░░░░  ░░░░
+ ███ ███████ ███    ▓▓▓▓    ▒▒▒▒       ░░░░  ░░░░
+ ███  █████  ███    ▓▓▓▓    ▒▒▒▒   ▒▒  ░░░░  ░░░░ 
+████   ███   ████  ▓▓▓▓▓▓  ▒▒▒▒▒▒▒▒▒▒   ░░░░░░░░
+████    █    ████  ▓▓▓▓▓▓  ▒▒▒▒▒▒▒▒▒▒    ░░░░░░
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;https://github.com/Abhishek-Ghosh/IBM-ASCII-Logo-For-SSH&lt;/li&gt;
+&lt;/ol&gt;
+</content>
+ </entry>
+ 
+ <entry>
    <title>My Task Management System</title>
    <link href="http://milofultz.com/2022/04/17/my-task-management"/>
-   <updated>2022-04-17T00:00:00-07:00</updated>
+   <updated>2022-04-17T00:00:00+01:00</updated>
    <id>http://milofultz.com/2022/04/17/my-task-management</id>
    <content type="html">&lt;p&gt;The goal of my task management system is mainly to record captured tasks and be reminded that I care about things that aren’t shiny objects.&lt;/p&gt;
 
@@ -222,7 +265,7 @@ x
  <entry>
    <title>🦍 Bonzo Buddy - Delegate your self-care</title>
    <link href="http://milofultz.com/2022/04/09/bonzo-buddy"/>
-   <updated>2022-04-09T00:00:00-07:00</updated>
+   <updated>2022-04-09T00:00:00+01:00</updated>
    <id>http://milofultz.com/2022/04/09/bonzo-buddy</id>
    <content type="html">&lt;p&gt;&lt;a href=&quot;https://codeberg.org/milofultz/bonzo-buddy&quot;&gt;Check out the project files on Codeberg&lt;/a&gt;&lt;/p&gt;
 
@@ -247,7 +290,7 @@ x
  <entry>
    <title>🧠 Making A Brainfuck Interpreter</title>
    <link href="http://milofultz.com/2022/03/12/brainfuck"/>
-   <updated>2022-03-12T00:00:00-08:00</updated>
+   <updated>2022-03-12T00:00:00+00:00</updated>
    <id>http://milofultz.com/2022/03/12/brainfuck</id>
    <content type="html">&lt;p&gt;&lt;a href=&quot;https://codeberg.org/milofultz/brainfuck&quot;&gt;Check out the my interpreter on Codeberg&lt;/a&gt; // &lt;a href=&quot;https://codeberg.org/milofultz/decrypting-the-original-brainfuck-interpreter/src/branch/main/1%20pbi.c&quot;&gt;The original minified interpreter by Urban Mueller&lt;/a&gt;&lt;/p&gt;
 
@@ -266,7 +309,7 @@ x
  <entry>
    <title>🔎 Deciphering This Minimal Roguelike in C</title>
    <link href="http://milofultz.com/2022/02/04/deciphering-minimal-roguelike"/>
-   <updated>2022-02-04T00:00:00-08:00</updated>
+   <updated>2022-02-04T00:00:00+00:00</updated>
    <id>http://milofultz.com/2022/02/04/deciphering-minimal-roguelike</id>
    <content type="html">&lt;p&gt;I recently found &lt;a href=&quot;http://www.locklessinc.com/articles/512byte_roguelike/&quot;&gt;this rad minimal roguelike&lt;/a&gt; and wanted to try and figure out what the heck is going on. It’s only 512 bytes in C, which is insane, so I had to try and solve this little puzzle I was presented.&lt;/p&gt;
 
@@ -283,7 +326,7 @@ x
  <entry>
    <title>💻 Sub2Pub - Convert Youtube Subtitles to EPUBs</title>
    <link href="http://milofultz.com/2022/02/01/sub2pub"/>
-   <updated>2022-02-01T00:00:00-08:00</updated>
+   <updated>2022-02-01T00:00:00+00:00</updated>
    <id>http://milofultz.com/2022/02/01/sub2pub</id>
    <content type="html">&lt;p&gt;&lt;a href=&quot;https://codeberg.org/milofultz/sub2pub&quot;&gt;Check out the project files on Codeberg&lt;/a&gt;&lt;/p&gt;
 
@@ -296,7 +339,7 @@ x
  <entry>
    <title>My Favorite Web Radio Stations</title>
    <link href="http://milofultz.com/2022/01/31/web-radio"/>
-   <updated>2022-01-31T00:00:00-08:00</updated>
+   <updated>2022-01-31T00:00:00+00:00</updated>
    <id>http://milofultz.com/2022/01/31/web-radio</id>
    <content type="html">&lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://c7.radioboss.fm:18205/stream&quot;&gt;Bootie Mashup Radio&lt;/a&gt;&lt;/li&gt;
@@ -324,7 +367,7 @@ x
  <entry>
    <title>💻 Tod - Plan and Manage Daily Tasks In The CLI (Shell)</title>
    <link href="http://milofultz.com/2022/01/28/tod-shell"/>
-   <updated>2022-01-28T00:00:00-08:00</updated>
+   <updated>2022-01-28T00:00:00+00:00</updated>
    <id>http://milofultz.com/2022/01/28/tod-shell</id>
    <content type="html">&lt;p&gt;&lt;a href=&quot;https://codeberg.org/milofultz/tod_sh&quot;&gt;Check out the project files on Codeberg&lt;/a&gt;&lt;/p&gt;
 
@@ -362,7 +405,7 @@ x
  <entry>
    <title>🙈🙉🙊 My Favorite Media</title>
    <link href="http://milofultz.com/2022/01/23/media"/>
-   <updated>2022-01-23T00:00:00-08:00</updated>
+   <updated>2022-01-23T00:00:00+00:00</updated>
    <id>http://milofultz.com/2022/01/23/media</id>
    <content type="html">&lt;h2 id=&quot;books&quot;&gt;Books&lt;/h2&gt;
 
@@ -438,7 +481,7 @@ x
  <entry>
    <title>🔠 Proquabet - Encode text in a five-letter mishmash</title>
    <link href="http://milofultz.com/2022/01/01/proquabet"/>
-   <updated>2022-01-01T00:00:00-08:00</updated>
+   <updated>2022-01-01T00:00:00+00:00</updated>
    <id>http://milofultz.com/2022/01/01/proquabet</id>
    <content type="html">&lt;p&gt;&lt;a href=&quot;https://codeberg.org/milofultz/proquabet&quot;&gt;Check out the project files on Codeberg&lt;/a&gt;&lt;/p&gt;
 
@@ -527,7 +570,7 @@ g = 0x67
  <entry>
    <title>Why Would Someone Pay For Something That's Free?</title>
    <link href="http://milofultz.com/2021/12/12/open-source"/>
-   <updated>2021-12-12T00:00:00-08:00</updated>
+   <updated>2021-12-12T00:00:00+00:00</updated>
    <id>http://milofultz.com/2021/12/12/open-source</id>
    <content type="html">&lt;p&gt;If people who make open source want to paid, why do they make it free? I understand the utopian ideal of wanting software to be free, but expecting donations for your work after explicitly making it free seems confusing.&lt;/p&gt;
 
@@ -560,7 +603,7 @@ g = 0x67
  <entry>
    <title>📊 Sorting Algorithms in 6502 Assembly</title>
    <link href="http://milofultz.com/2021/11/14/sorting-in-6502"/>
-   <updated>2021-11-14T00:00:00-08:00</updated>
+   <updated>2021-11-14T00:00:00+00:00</updated>
    <id>http://milofultz.com/2021/11/14/sorting-in-6502</id>
    <content type="html">&lt;p&gt;&lt;a href=&quot;https://github.com/milofultz/sorting-in-6502&quot;&gt;Check out the project files on GitHub!&lt;/a&gt;&lt;/p&gt;
 
@@ -578,7 +621,7 @@ g = 0x67
  <entry>
    <title>🧩 Discover Your Own Rubik's Cube Algorithms</title>
    <link href="http://milofultz.com/2021/10/22/rubiks-cube-solution"/>
-   <updated>2021-10-22T00:00:00-07:00</updated>
+   <updated>2021-10-22T00:00:00+01:00</updated>
    <id>http://milofultz.com/2021/10/22/rubiks-cube-solution</id>
    <content type="html">&lt;p&gt;I have always wanted to solve a &lt;a href=&quot;https://en.wikipedia.org/wiki/Rubik%27s_Cube&quot;&gt;Rubik’s Cube&lt;/a&gt; but was not really interested in getting the solution handed to me. But solving seemed way too daunting to do all at once when I first encountered the cube as a kid. But since I’ve spent a good amount of time in the interim solving puzzles, doing programming, and understanding algorithms, I figured I would take another shot.&lt;/p&gt;
 
@@ -747,7 +790,7 @@ XXX //  dots representing anything
  <entry>
    <title>👾 Moving Rainbow in 6502 Assembly</title>
    <link href="http://milofultz.com/2021/09/18/minicube64"/>
-   <updated>2021-09-18T00:00:00-07:00</updated>
+   <updated>2021-09-18T00:00:00+01:00</updated>
    <id>http://milofultz.com/2021/09/18/minicube64</id>
    <content type="html">&lt;p&gt;I’ve been wanting to get into assembly language forever but haven’t found a way to iterate and test in a satisfying way to makes learning for me really easy. Recently, I saw &lt;a href=&quot;https://merveilles.town/web/accounts/124&quot;&gt;flame from aeriform.io&lt;/a&gt; had developed the &lt;a href=&quot;https://github.com/aeriform-io/minicube64/&quot;&gt;Minicube64&lt;/a&gt;, which is a fantasy console based on the 6502.&lt;/p&gt;
 
@@ -932,7 +975,7 @@ Palette:										; Set 'Palette' label
  <entry>
    <title>📄 Make A Simple Wiki with Markdown</title>
    <link href="http://milofultz.com/2021/07/04/make-a-simple-wiki"/>
-   <updated>2021-07-04T00:00:00-07:00</updated>
+   <updated>2021-07-04T00:00:00+01:00</updated>
    <id>http://milofultz.com/2021/07/04/make-a-simple-wiki</id>
    <content type="html">&lt;p&gt;For the last year or so, I’ve been keeping notes about programming and what I’ve been learning about it, which has been super helpful for me. But I’ve also found myself sending out some of these files to people for reference, which is fine but not ideal. I always thought that what would be WAY nicer is to have a wiki online that I could send people to so that they would have a reference now &lt;em&gt;and&lt;/em&gt; for the future, plus then they could reference it for whatever else, as well. My note-taking is essentially my learning process, so why not share it?&lt;/p&gt;
 
@@ -990,7 +1033,7 @@ Palette:										; Set 'Palette' label
  <entry>
    <title>🔖 {{SWIKI}} / tinybrain.fans</title>
    <link href="http://milofultz.com/2021/07/03/swiki-tinybrainfans"/>
-   <updated>2021-07-03T00:00:00-07:00</updated>
+   <updated>2021-07-03T00:00:00+01:00</updated>
    <id>http://milofultz.com/2021/07/03/swiki-tinybrainfans</id>
    <content type="html">&lt;p&gt;&lt;a href=&quot;https://www.tinybrain.fans/&quot;&gt;&lt;strong&gt;Check it out here!&lt;/strong&gt;&lt;/a&gt; // &lt;a href=&quot;https://codeberg.org/milofultz/swiki&quot;&gt;Check out  on Codeberg&lt;/a&gt;&lt;/p&gt;
 
@@ -1013,7 +1056,7 @@ Palette:										; Set 'Palette' label
  <entry>
    <title>📕 Make A Tiny 3x3 Font</title>
    <link href="http://milofultz.com/2021/04/11/tiny-font-3-by-3"/>
-   <updated>2021-04-11T00:00:00-07:00</updated>
+   <updated>2021-04-11T00:00:00+01:00</updated>
    <id>http://milofultz.com/2021/04/11/tiny-font-3-by-3</id>
    <content type="html">&lt;p&gt;&lt;a href=&quot;http://milofultz.com/3x3/tinyfont3x3--font.html&quot;&gt;&lt;strong&gt;Check it out here!&lt;/strong&gt;&lt;/a&gt; // &lt;a href=&quot;https://github.com/milofultz/3x3&quot;&gt;Check out the font file on GitHub&lt;/a&gt;&lt;/p&gt;
 
@@ -1030,7 +1073,7 @@ Palette:										; Set 'Palette' label
  <entry>
    <title>Find and Remove Autocompletes in Sublime Text 3</title>
    <link href="http://milofultz.com/2021/03/06/sublime-keymap"/>
-   <updated>2021-03-06T00:00:00-08:00</updated>
+   <updated>2021-03-06T00:00:00+00:00</updated>
    <id>http://milofultz.com/2021/03/06/sublime-keymap</id>
    <content type="html">&lt;p&gt;I just spent forever trying to find a solution for this, so I figure putting it up here will be helpful for me and hopefully for others, too.&lt;/p&gt;
 
@@ -1056,7 +1099,7 @@ Palette:										; Set 'Palette' label
  <entry>
    <title>🐍 SNAKEHACK - snake with constantly changing controls</title>
    <link href="http://milofultz.com/2021/01/28/snake-js"/>
-   <updated>2021-01-28T00:00:00-08:00</updated>
+   <updated>2021-01-28T00:00:00+00:00</updated>
    <id>http://milofultz.com/2021/01/28/snake-js</id>
    <content type="html">&lt;p&gt;&lt;a href=&quot;https://www.milofultz.com/snake_js&quot;&gt;&lt;strong&gt;Try it out here!&lt;/strong&gt;&lt;/a&gt; // &lt;a href=&quot;https://github.com/milofultz/snake_js&quot;&gt;&lt;strong&gt;Check out the up-to-date version on GitHub&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
 
@@ -1073,7 +1116,7 @@ Palette:										; Set 'Palette' label
  <entry>
    <title>Apps, Software, and More That I Use Everyday</title>
    <link href="http://milofultz.com/2021/01/08/apps"/>
-   <updated>2021-01-08T00:00:00-08:00</updated>
+   <updated>2021-01-08T00:00:00+00:00</updated>
    <id>http://milofultz.com/2021/01/08/apps</id>
    <content type="html">&lt;h3 id=&quot;programs&quot;&gt;Programs&lt;/h3&gt;
 
@@ -1181,7 +1224,7 @@ Palette:										; Set 'Palette' label
  <entry>
    <title>🌌 Reverse Horoscope - Find Out Your Real Birthday (JS)</title>
    <link href="http://milofultz.com/2021/01/06/reverse-horoscope"/>
-   <updated>2021-01-06T00:00:00-08:00</updated>
+   <updated>2021-01-06T00:00:00+00:00</updated>
    <id>http://milofultz.com/2021/01/06/reverse-horoscope</id>
    <content type="html">&lt;p&gt;&lt;a href=&quot;https://www.milofultz.com/reverse-horoscope&quot;&gt;&lt;strong&gt;Try it out here!&lt;/strong&gt;&lt;/a&gt; // &lt;a href=&quot;https://github.com/milofultz/reverse_horoscope&quot;&gt;Check out the project files on GitHub&lt;/a&gt;&lt;/p&gt;
 
@@ -1204,7 +1247,7 @@ Palette:										; Set 'Palette' label
  <entry>
    <title>📕 Algorithms To Live By - Book Notes</title>
    <link href="http://milofultz.com/2020/12/27/atlb-notes"/>
-   <updated>2020-12-27T00:00:00-08:00</updated>
+   <updated>2020-12-27T00:00:00+00:00</updated>
    <id>http://milofultz.com/2020/12/27/atlb-notes</id>
    <content type="html">&lt;p&gt;These are notes from the book &lt;a href=&quot;https://openlibrary.org/works/OL17357767W/Algorithms_to_Live_By&quot;&gt;&lt;em&gt;Algorithms To Live By&lt;/em&gt; by Brian Christian and Tom Griffiths&lt;/a&gt;. These are all just my paraphrasings and may not be 100% accurate, but I tried to transcribe what I thought were the most salient points and put them up. All unattributed quotes are merely citations from the book.&lt;/p&gt;
 
@@ -1744,7 +1787,7 @@ The problem of when to sell an item is a full information problem. In this case,
  <entry>
    <title>Solution to Advent of Code 13 - LCM with Offsets</title>
    <link href="http://milofultz.com/2020/12/13/aoc-day-13"/>
-   <updated>2020-12-13T00:00:00-08:00</updated>
+   <updated>2020-12-13T00:00:00+00:00</updated>
    <id>http://milofultz.com/2020/12/13/aoc-day-13</id>
    <content type="html">&lt;p&gt;Here, to help justify that I definitely stole an answer from somebody on Reddit to answer this question, I’m going to explain &lt;em&gt;why&lt;/em&gt; the answer works. Mainly for myself to truly understand this, but also so that if somebody searches for something like this at a later date, there will be a reference. (I’ll be using the smaller sample data for the explanation because it is way easier to grok)&lt;/p&gt;
 
@@ -1896,7 +1939,7 @@ Return the `answer`: 14.
  <entry>
    <title>🧩 Advent Of Code 2020 - Solutions</title>
    <link href="http://milofultz.com/2020/12/01/advent-of-code"/>
-   <updated>2020-12-01T00:00:00-08:00</updated>
+   <updated>2020-12-01T00:00:00+00:00</updated>
    <id>http://milofultz.com/2020/12/01/advent-of-code</id>
    <content type="html">&lt;p&gt;These are my solutions. I’m trying to do as many as I can in both Python and in Javascript. Plus I’m going to scope out people’s answers in C and see what I can glean.&lt;/p&gt;
 
@@ -1934,7 +1977,7 @@ Return the `answer`: 14.
  <entry>
    <title>Bytebeat - Overview and How To Make/Record on OSX</title>
    <link href="http://milofultz.com/2020/11/10/bytebeat"/>
-   <updated>2020-11-10T00:00:00-08:00</updated>
+   <updated>2020-11-10T00:00:00+00:00</updated>
    <id>http://milofultz.com/2020/11/10/bytebeat</id>
    <content type="html">&lt;p&gt;“Bytebeat” is the name given to the method of piping mathematical equations to an audio device make lo-fidelity gritty sounds. They often sound pretty musical due to the mathematical nature of the equations and bitwise operations. But that does not mean that it has to be “musical” to be good either, as you will discover when messing around with it.&lt;/p&gt;
 
@@ -2074,7 +2117,7 @@ gcc &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;nv&
  <entry>
    <title>The point of diminishing returns is already here</title>
    <link href="http://milofultz.com/2020/11/09/the-point-of-diminis"/>
-   <updated>2020-11-09T00:00:00-08:00</updated>
+   <updated>2020-11-09T00:00:00+00:00</updated>
    <id>http://milofultz.com/2020/11/09/the-point-of-diminis</id>
    <content type="html">&lt;p&gt;The point of diminishing returns is well before we think it is. What is the point of a crazy fast computer when most of what you do is send messages to people and read text? We were able to download and watch videos on our computer 15 years ago and were only limited by internet speed. Now we have it all and we want more for some reason. Is convenience via minimal time saved with a faster piece of hardware worth the money, your time, and the waste it makes?&lt;/p&gt;
 
@@ -2087,7 +2130,7 @@ gcc &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;nv&
  <entry>
    <title>Rules for Hanafuda game &quot;Koi-Koi&quot;</title>
    <link href="http://milofultz.com/2020/11/01/koi-koi-rules"/>
-   <updated>2020-11-01T00:00:00-07:00</updated>
+   <updated>2020-11-01T00:00:00+00:00</updated>
    <id>http://milofultz.com/2020/11/01/koi-koi-rules</id>
    <content type="html">&lt;p&gt;&lt;em&gt;All text pulled from Nintendo’s PDF online for a much easier to read page&lt;/em&gt;&lt;/p&gt;
 
@@ -2288,7 +2331,7 @@ the opportunity to claim victory, or call “Koi-Koi!”&lt;/p&gt;
  <entry>
    <title>📊 Tablatal Parser - Plaintext Database to JSON (Python)</title>
    <link href="http://milofultz.com/2020/10/31/tablatal-parser"/>
-   <updated>2020-10-31T00:00:00-07:00</updated>
+   <updated>2020-10-31T00:00:00+00:00</updated>
    <id>http://milofultz.com/2020/10/31/tablatal-parser</id>
    <content type="html">&lt;p&gt;&lt;a href=&quot;https://github.com/milofultz/tablatal_parser&quot;&gt;&lt;strong&gt;Check out the up-to-date version on GitHub&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
 
@@ -2363,7 +2406,7 @@ from giving it a useful name. This can be remedied via the CLI:&lt;/p&gt;
  <entry>
    <title>💻 HIITimer - Exercise Timer w/Routines and TTS (Python)</title>
    <link href="http://milofultz.com/2020/10/25/hiitimer"/>
-   <updated>2020-10-25T00:00:00-07:00</updated>
+   <updated>2020-10-25T00:00:00+01:00</updated>
    <id>http://milofultz.com/2020/10/25/hiitimer</id>
    <content type="html">&lt;p&gt;&lt;a href=&quot;https://github.com/milofultz/hiitimer&quot;&gt;&lt;strong&gt;Check out the up-to-date version on GitHub&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
 
@@ -2431,7 +2474,7 @@ me know if you get any errors, as I’d love to figure it out :)&lt;/em&gt;&lt;/
  <entry>
    <title>HTML / CSS / JS Resources</title>
    <link href="http://milofultz.com/2020/10/21/html-css-js"/>
-   <updated>2020-10-21T00:00:00-07:00</updated>
+   <updated>2020-10-21T00:00:00+01:00</updated>
    <id>http://milofultz.com/2020/10/21/html-css-js</id>
    <content type="html">&lt;p&gt;&lt;a href=&quot;http://codingheroes.io/resources/&quot;&gt;Jonas Schmedtmann’s Coding Resources&lt;/a&gt; - Chock full of good resources and helpful links for all of these.&lt;/p&gt;
 
@@ -2465,7 +2508,7 @@ me know if you get any errors, as I’d love to figure it out :)&lt;/em&gt;&lt;/
  <entry>
    <title>💻 Tod - Plan and Manage Daily Tasks In The CLI (Python)</title>
    <link href="http://milofultz.com/2020/10/17/tod-python"/>
-   <updated>2020-10-17T00:00:00-07:00</updated>
+   <updated>2020-10-17T00:00:00+01:00</updated>
    <id>http://milofultz.com/2020/10/17/tod-python</id>
    <content type="html">&lt;p&gt;&lt;a href=&quot;https://github.com/milofultz/tod&quot;&gt;&lt;strong&gt;Check out the up-to-date version on GitHub&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
 
@@ -2492,7 +2535,7 @@ me know if you get any errors, as I’d love to figure it out :)&lt;/em&gt;&lt;/
  <entry>
    <title>Friends don't let friends look at pageviews</title>
    <link href="http://milofultz.com/2020/10/16/friends-dont"/>
-   <updated>2020-10-16T00:00:00-07:00</updated>
+   <updated>2020-10-16T00:00:00+01:00</updated>
    <id>http://milofultz.com/2020/10/16/friends-dont</id>
    <content type="html">&lt;p&gt;“Friends don’t let friends look at pageviews. Ever.” - Avinash Kaushik (&lt;em&gt;from Algorithms To Live By&lt;/em&gt;)&lt;/p&gt;
 
@@ -2503,7 +2546,7 @@ me know if you get any errors, as I’d love to figure it out :)&lt;/em&gt;&lt;/
  <entry>
    <title>💻 Track - Daily Journal and Log (Python)</title>
    <link href="http://milofultz.com/2020/10/12/track-python"/>
-   <updated>2020-10-12T00:00:00-07:00</updated>
+   <updated>2020-10-12T00:00:00+01:00</updated>
    <id>http://milofultz.com/2020/10/12/track-python</id>
    <content type="html">&lt;p&gt;&lt;a href=&quot;https://github.com/milofultz/track&quot;&gt;&lt;strong&gt;Check out the up-to-date version on GitHub&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
 
@@ -2556,7 +2599,7 @@ Been listening to vogue ball playlists all night.
  <entry>
    <title>🎧 Sleep Realms (Paulstretch)</title>
    <link href="http://milofultz.com/2020/10/12/sleep-realms"/>
-   <updated>2020-10-12T00:00:00-07:00</updated>
+   <updated>2020-10-12T00:00:00+01:00</updated>
    <id>http://milofultz.com/2020/10/12/sleep-realms</id>
    <content type="html">&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=ie5z6AsEMQU&quot;&gt;&lt;img src=&quot;https://i.ytimg.com/vi/ie5z6AsEMQU/hqdefault.jpg&quot; alt=&quot;Sleep Realms&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
@@ -2573,7 +2616,7 @@ Been listening to vogue ball playlists all night.
  <entry>
    <title>The Two-Minute Rule</title>
    <link href="http://milofultz.com/2020/10/04/two-minute-rule"/>
-   <updated>2020-10-04T00:00:00-07:00</updated>
+   <updated>2020-10-04T00:00:00+01:00</updated>
    <id>http://milofultz.com/2020/10/04/two-minute-rule</id>
    <content type="html">&lt;p&gt;I’m a big self-help junkie and there honestly isn’t a lot that I feel I have taken action and eventually has stuck. Usually it’s a lot of “should”ing about random things in my life that in hindsight is not that big of a deal. Or it’s &lt;a href=&quot;https://tjcx.me/posts/defense-self-help/&quot;&gt;stuff that makes a real difference but is really hard[1]&lt;/a&gt;, which means a lot more work.&lt;/p&gt;
 
@@ -2597,7 +2640,7 @@ Been listening to vogue ball playlists all night.
  <entry>
    <title>Trying to become reacquainted with being bored</title>
    <link href="http://milofultz.com/2020/10/04/doing"/>
-   <updated>2020-10-04T00:00:00-07:00</updated>
+   <updated>2020-10-04T00:00:00+01:00</updated>
    <id>http://milofultz.com/2020/10/04/doing</id>
    <content type="html">&lt;p&gt;During quarantine, I’ve been trying to just be bored and not constantly DO things and it’s weird how hard that is. Blah blah, every complaint about technology bad. But that aside, I &lt;em&gt;do&lt;/em&gt; like techology and love spending time with it. And trying to reconcile these two things in particular has been difficult.&lt;/p&gt;
 
@@ -2616,7 +2659,7 @@ Been listening to vogue ball playlists all night.
  <entry>
    <title>💻 Maximize Evernote Storage Using Web Clipper (JS)</title>
    <link href="http://milofultz.com/2020/09/30/evernote-images"/>
-   <updated>2020-09-30T00:00:00-07:00</updated>
+   <updated>2020-09-30T00:00:00+01:00</updated>
    <id>http://milofultz.com/2020/09/30/evernote-images</id>
    <content type="html">&lt;p&gt;&lt;a href=&quot;https://github.com/milofultz/no-images&quot;&gt;&lt;strong&gt;Check out the up-to-date version on GitHub&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
 
@@ -2657,7 +2700,7 @@ Been listening to vogue ball playlists all night.
  <entry>
    <title>💻 Zentube - Youtube Lite w/Note Taking (HTML/CSS/JS)</title>
    <link href="http://milofultz.com/2020/09/26/zentube"/>
-   <updated>2020-09-26T00:00:00-07:00</updated>
+   <updated>2020-09-26T00:00:00+01:00</updated>
    <id>http://milofultz.com/2020/09/26/zentube</id>
    <content type="html">&lt;p&gt;&lt;em&gt;This was designed for desktop use only, so the user experience on mobile is really not great.&lt;/em&gt;&lt;/p&gt;
 
@@ -2679,7 +2722,7 @@ Been listening to vogue ball playlists all night.
  <entry>
    <title>Mastodon</title>
    <link href="http://milofultz.com/2020/09/23/mastodon"/>
-   <updated>2020-09-23T00:00:00-07:00</updated>
+   <updated>2020-09-23T00:00:00+01:00</updated>
    <id>http://milofultz.com/2020/09/23/mastodon</id>
    <content type="html">&lt;p&gt;Been digging into Mastodon, as it brings all the good things I like about social media and none of the trash. &lt;a rel=&quot;me&quot; href=&quot;https://merveilles.town/@milofultz&quot;&gt;Find me there.&lt;/a&gt;&lt;/p&gt;
 
@@ -2690,7 +2733,7 @@ Been listening to vogue ball playlists all night.
  <entry>
    <title>Domine (game from Hundred Rabbits)</title>
    <link href="http://milofultz.com/2020/09/01/domine"/>
-   <updated>2020-09-01T00:00:00-07:00</updated>
+   <updated>2020-09-01T00:00:00+01:00</updated>
    <id>http://milofultz.com/2020/09/01/domine</id>
    <content type="html">&lt;p&gt;I recently came across this &lt;a href=&quot;https://www.youtube.com/watch?v=fjZb190qn00&quot;&gt;video&lt;/a&gt; from Hundred Rabbits of a game called Domine. Super simple game you can play with a set of dominoes. I transcribed the rules for this game from the video since it looks really fun and I can’t find the rules page anymore.&lt;/p&gt;
 
@@ -2723,7 +2766,7 @@ Been listening to vogue ball playlists all night.
  <entry>
    <title>💻 Open A Random Note/Lo-Fi Idea Generator (Python)</title>
    <link href="http://milofultz.com/2020/08/26/random-note"/>
-   <updated>2020-08-26T00:00:00-07:00</updated>
+   <updated>2020-08-26T00:00:00+01:00</updated>
    <id>http://milofultz.com/2020/08/26/random-note</id>
    <content type="html">&lt;p&gt;For the last few months, I have been feeding my &lt;a href=&quot;/2020/05/22/zettelkasten&quot;&gt;Zettelkasten&lt;/a&gt; with essentially anything that I find interesting: programming, emotional development, quotes, productivity, book or video reviews, whatever. If I think it’s something that will help me or make me excited later, I put it in there.&lt;/p&gt;
 
@@ -2793,7 +2836,7 @@ os.system('open &quot;{}&quot; -a &quot;{}&quot;'.format(random_fp, prog))
  <entry>
    <title>🎼 Purple Rain Outro Transcription</title>
    <link href="http://milofultz.com/2020/08/22/purple-rain-outro"/>
-   <updated>2020-08-22T00:00:00-07:00</updated>
+   <updated>2020-08-22T00:00:00+01:00</updated>
    <id>http://milofultz.com/2020/08/22/purple-rain-outro</id>
    <content type="html">&lt;p&gt;&lt;img src=&quot;/assets/20200822PurpleRain.jpg&quot; alt=&quot;Purple Rain Outro Transcription&quot; /&gt;&lt;/p&gt;
 
@@ -2804,7 +2847,7 @@ os.system('open &quot;{}&quot; -a &quot;{}&quot;'.format(random_fp, prog))
  <entry>
    <title>🎧 Soulja Realms</title>
    <link href="http://milofultz.com/2020/08/19/soulja-realms"/>
-   <updated>2020-08-19T00:00:00-07:00</updated>
+   <updated>2020-08-19T00:00:00+01:00</updated>
    <id>http://milofultz.com/2020/08/19/soulja-realms</id>
    <content type="html">&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=xb6MV25Ktjc&quot;&gt;&lt;img src=&quot;https://i.ytimg.com/vi/xb6MV25Ktjc/maxresdefault.jpg&quot; alt=&quot;Soulja Realms&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
@@ -2817,7 +2860,7 @@ os.system('open &quot;{}&quot; -a &quot;{}&quot;'.format(random_fp, prog))
  <entry>
    <title>🎧 Piu Piu ringtone but it's only Avgustina's laugh</title>
    <link href="http://milofultz.com/2020/08/04/piu-piu-ringtone"/>
-   <updated>2020-08-04T00:00:00-07:00</updated>
+   <updated>2020-08-04T00:00:00+01:00</updated>
    <id>http://milofultz.com/2020/08/04/piu-piu-ringtone</id>
    <content type="html">&lt;p&gt;I am starting a project to see how long my roommates and I can handle listening to Avgustina’s laugh as my text message notification sound. I set it to where it only does it when my partner messages me, but it should be horrible enough.&lt;/p&gt;
 
@@ -2828,7 +2871,7 @@ os.system('open &quot;{}&quot; -a &quot;{}&quot;'.format(random_fp, prog))
  <entry>
    <title>💻 Awfulizer - Make Surfing The Web Awful (Firefox)</title>
    <link href="http://milofultz.com/2020/07/23/awfulizer"/>
-   <updated>2020-07-23T00:00:00-07:00</updated>
+   <updated>2020-07-23T00:00:00+01:00</updated>
    <id>http://milofultz.com/2020/07/23/awfulizer</id>
    <content type="html">&lt;p&gt;You can get the add-on &lt;a href=&quot;https://addons.mozilla.org/en-US/firefox/addon/awfulizer/&quot;&gt;here&lt;/a&gt; and see the code on &lt;a href=&quot;https://github.com/milofultz/awfulizer&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
 
@@ -2848,7 +2891,7 @@ os.system('open &quot;{}&quot; -a &quot;{}&quot;'.format(random_fp, prog))
  <entry>
    <title>Make Python 'Apps' and Shortcuts To Run Them on OSX</title>
    <link href="http://milofultz.com/2020/07/22/make-python-apps"/>
-   <updated>2020-07-22T00:00:00-07:00</updated>
+   <updated>2020-07-22T00:00:00+01:00</updated>
    <id>http://milofultz.com/2020/07/22/make-python-apps</id>
    <content type="html">&lt;p&gt;After experimenting with &lt;a href=&quot;https://pyinstaller.readthedocs.io/en/stable/&quot;&gt;PyInstaller&lt;/a&gt; and &lt;a href=&quot;https://sveinbjorn.org/platypus&quot;&gt;Platypus&lt;/a&gt; to create a standalone app in OSX with no success, I went the much lower fidelity route. But it was successful, so I’m happy with it. YOu can see the script I made &lt;a href=&quot;https://github.com/milofultz/email_service/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
 
@@ -2895,7 +2938,7 @@ os.system('open &quot;{}&quot; -a &quot;{}&quot;'.format(random_fp, prog))
  <entry>
    <title>Create a better program faster with an outline V2</title>
    <link href="http://milofultz.com/2020/07/18/programming-outline"/>
-   <updated>2020-07-18T00:00:00-07:00</updated>
+   <updated>2020-07-18T00:00:00+01:00</updated>
    <id>http://milofultz.com/2020/07/18/programming-outline</id>
    <content type="html">&lt;p&gt;Like before, &lt;strong&gt;stay in abstract thinking as long as possible. The longer you take to implement your concepts, the better.&lt;/strong&gt;&lt;/p&gt;
 
@@ -2989,7 +3032,7 @@ os.system('open &quot;{}&quot; -a &quot;{}&quot;'.format(random_fp, prog))
  <entry>
    <title>💻 star_maker - a lo-fi ambient visual (Python)</title>
    <link href="http://milofultz.com/2020/07/08/star-maker"/>
-   <updated>2020-07-08T00:00:00-07:00</updated>
+   <updated>2020-07-08T00:00:00+01:00</updated>
    <id>http://milofultz.com/2020/07/08/star_maker</id>
    <content type="html">&lt;p&gt;&lt;a href=&quot;https://github.com/milofultz/star_maker&quot;&gt;You can visit the project and download the files on GitHub.&lt;/a&gt;&lt;/p&gt;
 
@@ -3007,7 +3050,7 @@ os.system('open &quot;{}&quot; -a &quot;{}&quot;'.format(random_fp, prog))
  <entry>
    <title>🎧 spacelove.xm - Made using an old E-MAX sample</title>
    <link href="http://milofultz.com/2020/07/07/spacelove"/>
-   <updated>2020-07-07T00:00:00-07:00</updated>
+   <updated>2020-07-07T00:00:00+01:00</updated>
    <id>http://milofultz.com/2020/07/07/spacelove</id>
    <content type="html">&lt;p class=&quot;stars&quot;&gt;&amp;nbsp;` &amp;nbsp; &amp;nbsp; ' . &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&quot; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&quot; &amp;nbsp; &amp;nbsp; ` &amp;nbsp; ` &amp;nbsp;. , &amp;nbsp; &amp;nbsp;' &amp;nbsp; &amp;nbsp; &amp;nbsp; + &amp;nbsp; &amp;nbsp; &amp;nbsp; . &amp;nbsp; &quot; &amp;nbsp; &amp;nbsp; ` &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; , &amp;nbsp; &amp;nbsp; &amp;nbsp;` &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;' &amp;nbsp;+ &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;, &amp;nbsp; &amp;nbsp; &amp;nbsp;. &amp;nbsp; &amp;nbsp; &amp;nbsp;+ &amp;nbsp; &amp;nbsp;, &amp;nbsp; &amp;nbsp; + &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;' &amp;nbsp; &amp;nbsp; &amp;nbsp;, &amp;nbsp; &amp;nbsp; &amp;nbsp;&quot; &amp;nbsp; &amp;nbsp; &amp;nbsp; , &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; , &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;. &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;` &amp;nbsp; &amp;nbsp; ` &quot; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;` &amp;nbsp; &amp;nbsp;, &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;' &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;` &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; ' &amp;nbsp; &amp;nbsp; &amp;nbsp; ' &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;+ &amp;nbsp; . &amp;nbsp; + , ' &amp;nbsp; &amp;nbsp; &amp;nbsp;+ &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot; &amp;nbsp; &amp;nbsp; &amp;nbsp;. ` &amp;nbsp; &amp;nbsp; &amp;nbsp;+ &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;, &amp;nbsp; &amp;nbsp;` &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;' &amp;nbsp; &amp;nbsp; &amp;nbsp; . &amp;nbsp; &amp;nbsp; &quot; &amp;nbsp; &amp;nbsp;. &amp;nbsp; &amp;nbsp; &amp;nbsp;&quot; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;. &amp;nbsp; + . &amp;nbsp; ` &amp;nbsp; &amp;nbsp; &amp;nbsp; . &amp;nbsp; &amp;nbsp; &amp;nbsp;. &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;. &amp;nbsp; &amp;nbsp;` &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot; &amp;nbsp; &amp;nbsp; &amp;nbsp;, &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; , &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;' &amp;nbsp; + &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;' &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;. &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; ' &amp;nbsp;` &amp;nbsp; &amp;nbsp;` ' ` &amp;nbsp; &amp;nbsp;, + &amp;nbsp; &amp;nbsp; &amp;nbsp;&quot; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;, &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;. ` &amp;nbsp; , &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;. . &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;. &amp;nbsp; &amp;nbsp; &amp;nbsp; ' &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;. &amp;nbsp; &amp;nbsp; . &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;+ &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; . &amp;nbsp; &amp;nbsp; &amp;nbsp; , &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; . &amp;nbsp; &amp;nbsp;+ &amp;nbsp; ' &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;' &amp;nbsp; &amp;nbsp; &amp;nbsp;` &amp;nbsp;&quot; &amp;nbsp; &amp;nbsp; &amp;nbsp;&quot; , &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&quot; &amp;nbsp; &amp;nbsp; &amp;nbsp;` &amp;nbsp; &amp;nbsp; &amp;nbsp;. &amp;nbsp; &amp;nbsp;' &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;` &amp;nbsp; &amp;nbsp; &amp;nbsp; ` &amp;nbsp; &amp;nbsp; ' &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&quot; &amp;nbsp; &amp;nbsp;&quot; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;, &amp;nbsp; &amp;nbsp;' &amp;nbsp; &amp;nbsp;. &amp;nbsp; &amp;nbsp; ' &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; , &amp;nbsp; &amp;nbsp; ' &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;, , &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot; ' &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; ' &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;, &amp;nbsp; &amp;nbsp;` &amp;nbsp;` &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; ' &amp;nbsp; &amp;nbsp;+ &amp;nbsp; &amp;nbsp; &amp;nbsp; ' &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&quot; &amp;nbsp;. &amp;nbsp; ' &amp;nbsp; &amp;nbsp; . ' &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;` &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;, &amp;nbsp;&quot; . &amp;nbsp; &amp;nbsp;&quot; &amp;nbsp; &amp;nbsp;+ &amp;nbsp;+ &amp;nbsp; &amp;nbsp;&quot; + &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;` &amp;nbsp; &amp;nbsp; &amp;nbsp;+ , &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; ' &amp;nbsp; &amp;nbsp;+ &amp;nbsp; &amp;nbsp;` &amp;nbsp;, &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;+ &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;, &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;. &amp;nbsp; ` &quot; &quot; &amp;nbsp; ' &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;' &amp;nbsp; &amp;nbsp; &amp;nbsp; , &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;' &amp;nbsp; &amp;nbsp; , . &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;` &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; + . &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot; &amp;nbsp; &amp;nbsp; &amp;nbsp;, ` &amp;nbsp; &amp;nbsp; &amp;nbsp;, &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; + ` &amp;nbsp; &amp;nbsp; &quot; &amp;nbsp;. &amp;nbsp; &amp;nbsp; ' &amp;nbsp; &amp;nbsp; + &amp;nbsp; + &amp;nbsp; + &quot; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; + &amp;nbsp; ' &amp;nbsp; &amp;nbsp;` &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; ` &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; . &quot; &amp;nbsp; &amp;nbsp;&quot; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&quot; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; . &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;. &amp;nbsp; &amp;nbsp; &amp;nbsp;&quot; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; ` &amp;nbsp; &amp;nbsp; + &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; ' &amp;nbsp; &amp;nbsp; &amp;nbsp;+ &amp;nbsp; &amp;nbsp;+ &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;+ &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;` &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot; &amp;nbsp; &amp;nbsp; ' &amp;nbsp; ` &amp;nbsp; &amp;nbsp; &amp;nbsp;&quot; . &amp;nbsp; &amp;nbsp; &amp;nbsp;+ &amp;nbsp; ` &amp;nbsp; &amp;nbsp; &amp;nbsp; ' &amp;nbsp; ' &amp;nbsp; &quot; &quot; &amp;nbsp;&quot; &amp;nbsp; &amp;nbsp; &amp;nbsp; ` &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;+ &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;, &amp;nbsp; &amp;nbsp; &amp;nbsp;' &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; ' &amp;nbsp;' &amp;nbsp; &amp;nbsp; + &amp;nbsp; &amp;nbsp; &amp;nbsp; + &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;+ &amp;nbsp; &amp;nbsp; ` &amp;nbsp; &amp;nbsp; &amp;nbsp;, &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; ` &amp;nbsp; ` &amp;nbsp; &amp;nbsp; &amp;nbsp;' &amp;nbsp;. &amp;nbsp; &quot; &amp;nbsp; + . , &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; ' &amp;nbsp; , &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;' &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;+ &amp;nbsp; &amp;nbsp;+ &amp;nbsp; &amp;nbsp; &amp;nbsp;' . &amp;nbsp; , &amp;nbsp;&quot; &amp;nbsp;. &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;, &amp;nbsp;+ , &amp;nbsp; &amp;nbsp; ` &amp;nbsp; &amp;nbsp; &amp;nbsp; ' &amp;nbsp;&quot; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;+ &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;' &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot; &amp;nbsp; &amp;nbsp; , &amp;nbsp; &amp;nbsp; ` ` &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot; &amp;nbsp; . &amp;nbsp; &amp;nbsp; &amp;nbsp;&quot; &amp;nbsp; &amp;nbsp; &amp;nbsp;&quot; &amp;nbsp;` &amp;nbsp; &amp;nbsp; &amp;nbsp; . &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;. &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&quot; &amp;nbsp;, &amp;nbsp; &amp;nbsp; ` &amp;nbsp;` ` &amp;nbsp; &amp;nbsp; &amp;nbsp;, &amp;nbsp;' &amp;nbsp;&quot; &amp;nbsp; &amp;nbsp; + &amp;nbsp; &amp;nbsp; &amp;nbsp; + &amp;nbsp; &amp;nbsp; &amp;nbsp; , &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot; &amp;nbsp;, &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;. &amp;nbsp;. &amp;nbsp; &amp;nbsp; ' ` &amp;nbsp; &amp;nbsp;+ &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;` &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;` &amp;nbsp; . &amp;nbsp; &amp;nbsp; + &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;. &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;. &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&quot; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; . &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;' &amp;nbsp; &amp;nbsp; &amp;nbsp; , &amp;nbsp; &amp;nbsp; &amp;nbsp;+ &amp;nbsp; &amp;nbsp; &amp;nbsp; + + &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;+ &amp;nbsp; &amp;nbsp; &amp;nbsp; , &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot; &amp;nbsp; &amp;nbsp; &amp;nbsp;, &amp;nbsp; &amp;nbsp; ` &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; , &amp;nbsp; , &amp;nbsp; &amp;nbsp; ' &amp;nbsp; &amp;nbsp; &amp;nbsp;, &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;` &amp;nbsp; &amp;nbsp; + &amp;nbsp; ' + &amp;nbsp; &amp;nbsp; &amp;nbsp; + . + &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;. &amp;nbsp; &amp;nbsp; &amp;nbsp;+ &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&quot; &amp;nbsp;. &amp;nbsp; &amp;nbsp; + &amp;nbsp;+ &amp;nbsp; &amp;nbsp;' &amp;nbsp; &amp;nbsp; &amp;nbsp; . &amp;nbsp; &amp;nbsp; + &amp;nbsp; &amp;nbsp; &amp;nbsp; ' &amp;nbsp; &amp;nbsp; &amp;nbsp;+ &amp;nbsp; ' &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; ` &amp;nbsp;' &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;+ &amp;nbsp; &amp;nbsp; &amp;nbsp;. &amp;nbsp; &amp;nbsp; &amp;nbsp;&quot; &amp;nbsp; &amp;nbsp;. &amp;nbsp; &amp;nbsp; &amp;nbsp;, &amp;nbsp; ' &amp;nbsp; &amp;nbsp; &amp;nbsp;` &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;` &amp;nbsp; &amp;nbsp; &amp;nbsp;&quot; &amp;nbsp;` &amp;nbsp; ' &amp;nbsp; &amp;nbsp;, &amp;nbsp;. &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; , &amp;nbsp;&quot; &amp;nbsp; &amp;nbsp; &amp;nbsp;` &amp;nbsp; &amp;nbsp;' , ' &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; . &amp;nbsp; &amp;nbsp;, &amp;nbsp;. &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; , ` &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; . &amp;nbsp; &amp;nbsp; &amp;nbsp; ' &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;' &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; , &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; , &amp;nbsp; &amp;nbsp; &amp;nbsp; , &amp;nbsp; &amp;nbsp;` &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&quot; &amp;nbsp; &amp;nbsp;` &amp;nbsp;+ &amp;nbsp;` &amp;nbsp; &amp;nbsp; &amp;nbsp;. &amp;nbsp; &amp;nbsp; &amp;nbsp; ` &amp;nbsp; &amp;nbsp; &amp;nbsp;&quot; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;` &amp;nbsp; ' &quot; + &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;` &amp;nbsp; &amp;nbsp; &amp;nbsp;+ ' &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;+ &amp;nbsp;, &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;, &amp;nbsp; &amp;nbsp; &amp;nbsp; . &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;` &amp;nbsp; &amp;nbsp; &amp;nbsp;+ , . &amp;nbsp; &amp;nbsp; , &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; + &amp;nbsp; + &amp;nbsp; &amp;nbsp;+ &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot; &amp;nbsp; &amp;nbsp; + &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;, &amp;nbsp; &amp;nbsp; &amp;nbsp; ` &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&quot; , &amp;nbsp; &amp;nbsp; &amp;nbsp;, &amp;nbsp;` &amp;nbsp; &amp;nbsp; &amp;nbsp;+ &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;, ' ' &amp;nbsp; ` &quot; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;. &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;' &amp;nbsp; &quot; &amp;nbsp;' &amp;nbsp;` &quot; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&quot; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; ` &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; ' &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; , &amp;nbsp; &amp;nbsp;&quot; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;, &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; + &amp;nbsp; &amp;nbsp; ` &quot; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; ' &amp;nbsp;` &amp;nbsp; ' &amp;nbsp; &amp;nbsp; &amp;nbsp;+ &amp;nbsp; &amp;nbsp; . &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot; &amp;nbsp; `&lt;/p&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
@@ -3024,7 +3067,7 @@ Your browser does not support the audio element.
  <entry>
    <title>💻 Wordsmash Explosion - Mastermind With Words (Python)</title>
    <link href="http://milofultz.com/2020/07/03/wordsmash"/>
-   <updated>2020-07-03T00:00:00-07:00</updated>
+   <updated>2020-07-03T00:00:00+01:00</updated>
    <id>http://milofultz.com/2020/07/03/wordsmash</id>
    <content type="html">&lt;p&gt;&lt;a href=&quot;https://github.com/milofultz/wordmastermind&quot;&gt;You can visit the project and download the files on GitHub.&lt;/a&gt;&lt;/p&gt;
 
@@ -3049,7 +3092,7 @@ Your browser does not support the audio element.
  <entry>
    <title>💻 Bookmark Crawler - Make Internet More Fun (Python)</title>
    <link href="http://milofultz.com/2020/07/02/bmcrawl"/>
-   <updated>2020-07-02T00:00:00-07:00</updated>
+   <updated>2020-07-02T00:00:00+01:00</updated>
    <id>http://milofultz.com/2020/07/02/bmcrawl</id>
    <content type="html">&lt;p&gt;&lt;a href=&quot;https://github.com/milofultz/bmcrawl&quot;&gt;You can find the updated project and all necessary files here on GitHub.&lt;/a&gt;&lt;/p&gt;
 
@@ -3076,7 +3119,7 @@ Your browser does not support the audio element.
  <entry>
    <title>Nobody Takes Advice</title>
    <link href="http://milofultz.com/2020/06/26/nobody-takes-advice"/>
-   <updated>2020-06-26T00:00:00-07:00</updated>
+   <updated>2020-06-26T00:00:00+01:00</updated>
    <id>http://milofultz.com/2020/06/26/nobody-takes-advice</id>
    <content type="html">&lt;blockquote&gt;
   &lt;p&gt;“The great, unspoken secret of advice is that no one takes it. … People always just do exactly what they want to do in every scenario.” - Nicole Cliffe[1]&lt;/p&gt;
@@ -3094,7 +3137,7 @@ Your browser does not support the audio element.
  <entry>
    <title>Inexpensive and Minimal Equipment Games To Play</title>
    <link href="http://milofultz.com/2020/06/25/inexpensive-games"/>
-   <updated>2020-06-25T00:00:00-07:00</updated>
+   <updated>2020-06-25T00:00:00+01:00</updated>
    <id>http://milofultz.com/2020/06/25/inexpensive-games</id>
    <content type="html">&lt;p&gt;I’ve always been interested in being frugal and wanted a repository of fun and inexpensive games to play by yourself and with others. Here’s a list of what I’ve found.&lt;/p&gt;
 
@@ -3129,7 +3172,7 @@ Your browser does not support the audio element.
  <entry>
    <title>Quality and quantity's relevance to critical feeling</title>
    <link href="http://milofultz.com/2020/06/21/quantity-quality"/>
-   <updated>2020-06-21T00:00:00-07:00</updated>
+   <updated>2020-06-21T00:00:00+01:00</updated>
    <id>http://milofultz.com/2020/06/21/quantity-quality</id>
    <content type="html">&lt;p&gt;Quality is an attribute you give to help label something. Quantity is a measurement you use to help label something.&lt;/p&gt;
 
@@ -3162,7 +3205,7 @@ Your browser does not support the audio element.
  <entry>
    <title>Critical feeling is as important as critical thinking</title>
    <link href="http://milofultz.com/2020/06/10/critical-feeling"/>
-   <updated>2020-06-10T00:00:00-07:00</updated>
+   <updated>2020-06-10T00:00:00+01:00</updated>
    <id>http://milofultz.com/2020/06/10/critical-feeling</id>
    <content type="html">&lt;blockquote&gt;
   &lt;p&gt;Critical feeling is making sure that you don’t get caught up in other people’s feelings.[1]&lt;/p&gt;
@@ -3194,7 +3237,7 @@ Your browser does not support the audio element.
  <entry>
    <title>Simple + Minimal Exercise Routine</title>
    <link href="http://milofultz.com/2020/05/25/exercise-routine"/>
-   <updated>2020-05-25T00:00:00-07:00</updated>
+   <updated>2020-05-25T00:00:00+01:00</updated>
    <id>http://milofultz.com/2020/05/25/exercise-routine</id>
    <content type="html">&lt;p&gt;A couple of weeks ago, I worked on starting my &lt;a href=&quot;/2020/05/22/zettelkasten&quot;&gt;Zettelkasten&lt;/a&gt; and just to try it out and see how it worked, I started with exercise. Using it and a few resources, I was able to come up with a list of various strength, mobility, and flexibility exercises that target various areas and a very basic framework with which to apply them. I won’t be posting all the exercises here, but I will show the system, my focus areas, and my general guidelines it is based on.&lt;/p&gt;
 
@@ -3285,7 +3328,7 @@ Your browser does not support the audio element.
  <entry>
    <title>🗺 Day planner based on location</title>
    <link href="http://milofultz.com/2020/05/23/day-planner"/>
-   <updated>2020-05-23T00:00:00-07:00</updated>
+   <updated>2020-05-23T00:00:00+01:00</updated>
    <id>http://milofultz.com/2020/05/23/day-planner</id>
    <content type="html">&lt;p&gt;I found this idea on the internet probably around 2009, made my own version, and then unfortunately lost the reference to the original page. If you know where or from whom this originated, &lt;strong&gt;please&lt;/strong&gt; tell me!&lt;/p&gt;
 
@@ -3300,7 +3343,7 @@ Your browser does not support the audio element.
  <entry>
    <title>I just found out about Zettelkasten</title>
    <link href="http://milofultz.com/2020/05/22/zettelkasten"/>
-   <updated>2020-05-22T00:00:00-07:00</updated>
+   <updated>2020-05-22T00:00:00+01:00</updated>
    <id>http://milofultz.com/2020/05/22/zettelkasten</id>
    <content type="html">&lt;p&gt;I’m probably going to do a hack job explaining this, so TL;DR: Zettelkasten makes all of your notes easier to develop, utilize, and organize for whatever you need them.&lt;/p&gt;
 
@@ -3328,7 +3371,7 @@ Your browser does not support the audio element.
  <entry>
    <title>Keyboard Remapping on OSX - Adding the Insert Key</title>
    <link href="http://milofultz.com/2020/05/22/keyboard-remapping"/>
-   <updated>2020-05-22T00:00:00-07:00</updated>
+   <updated>2020-05-22T00:00:00+01:00</updated>
    <id>http://milofultz.com/2020/05/22/keyboard-remapping</id>
    <content type="html">&lt;p&gt;I downloaded &lt;a href=&quot;https://www.3eality.com/productions/reality-adlib-tracker&quot;&gt;Reality Adlib Tracker&lt;/a&gt; and &lt;a href=&quot;https://milkytracker.titandemo.org/&quot;&gt;MilkyTracker&lt;/a&gt; the other day and realized that Apple removed their insert key abilities a LONG time ago. The insert key is used quite a bit in these older programs for basic things like adding a line in your tracker, creating your pattern sequence, etc. Along with things like Dosbox, where these old relics are utilized, most of these older programs don’t allow new keybindings, so I had to dig around and find a new solution. I unfortunately couldn’t find anything directly related to trackers and stuff on any of their forums, so I figured I’d try and make something that could be found when searching for trackers, DOS, etc.&lt;/p&gt;
 
@@ -3374,7 +3417,7 @@ Your browser does not support the audio element.
  <entry>
    <title>Buying Things &quot;Just In Case&quot; vs. Real Estate</title>
    <link href="http://milofultz.com/2020/05/22/just-in-case"/>
-   <updated>2020-05-22T00:00:00-07:00</updated>
+   <updated>2020-05-22T00:00:00+01:00</updated>
    <id>http://milofultz.com/2020/05/22/just-in-case</id>
    <content type="html">&lt;p&gt;In wondering if I should make a purchase, I noticed a problem with my thinking early on: if something was on sale, I’d buy it, just in case I needed it later to accomplish some goal or in a project I had in mind. The reasoning was that if I bought it now, in a year when I need that very specific thing on that project, then I won’t have to pay what feels like an extra amount, as well as extra time, to go and buy it.&lt;/p&gt;
 
@@ -3402,7 +3445,7 @@ Your browser does not support the audio element.
  <entry>
    <title>The Adam Savage Trial Method</title>
    <link href="http://milofultz.com/2020/05/17/adam-savage"/>
-   <updated>2020-05-17T00:00:00-07:00</updated>
+   <updated>2020-05-17T00:00:00+01:00</updated>
    <id>http://milofultz.com/2020/05/17/adam-savage</id>
    <content type="html">&lt;p&gt;Adam Savage agreed with the following advice regarding buying tools:&lt;/p&gt;
 
@@ -3443,7 +3486,7 @@ Your browser does not support the audio element.
  <entry>
    <title>I Miss The Old Internet</title>
    <link href="http://milofultz.com/2020/05/01/old-internet"/>
-   <updated>2020-05-01T00:00:00-07:00</updated>
+   <updated>2020-05-01T00:00:00+01:00</updated>
    <id>http://milofultz.com/2020/05/01/old-internet</id>
    <content type="html">&lt;p&gt;I miss the old internet.&lt;/p&gt;
 

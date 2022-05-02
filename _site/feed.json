@@ -17,6 +17,30 @@
 "items": [
     
         {
+            "id": "http://milofultz.com/2022/05/02/ascii-name",
+            "title": "⌨️ My Name In ASCII",
+            "summary": "Riffing on some ASCII art.",
+            "content_text": "I saw some IBM logo[1] in ASCII and wanted to try and recreate it from scratch, so I did and added some shading, too. I’m sure I’ll add more artistic ones later, once I get bored.█████       █████  ██████  ██████        ████████████     ██████  ██████  ██████       ████████  ██████   ██████    ████    ████       ████  ████ ███████ ███████    ████    ████       ████  ████ ███ ███████ ███    ████    ████       ████  ████ ███  █████  ███    ████    ████   ██  ████  ████ ████   ███   ████  ██████  ██████████   ████████████    █    ████  ██████  ██████████    ███████████       █████  ██████  ██████        ████████████     ██████  ██████  ██████       ████████  ▓▓▓▓▓▓   ▓▓▓▓▓▓    ▓▓▓▓    ▓▓▓▓       ▓▓▓▓  ▓▓▓▓ ▓▓▓▓▓▓▓ ▓▓▓▓▓▓▓    ▓▓▓▓    ▓▓▓▓       ▓▓▓▓  ▓▓▓▓ ▒▒▒ ▒▒▒▒▒▒▒ ▒▒▒    ▒▒▒▒    ▒▒▒▒       ▒▒▒▒  ▒▒▒▒ ▒▒▒  ▒▒▒▒▒  ▒▒▒    ▒▒▒▒    ▒▒▒▒   ▒▒  ▒▒▒▒  ▒▒▒▒ ░░░░   ░░░   ░░░░  ░░░░░░  ░░░░░░░░░░   ░░░░░░░░░░░░    ░    ░░░░  ░░░░░░  ░░░░░░░░░░    ░░░░░░█████       █████  ▓▓▓▓▓▓  ▒▒▒▒▒▒        ░░░░░░██████     ██████  ▓▓▓▓▓▓  ▒▒▒▒▒▒       ░░░░░░░░  ██████   ██████    ▓▓▓▓    ▒▒▒▒       ░░░░  ░░░░ ███████ ███████    ▓▓▓▓    ▒▒▒▒       ░░░░  ░░░░ ███ ███████ ███    ▓▓▓▓    ▒▒▒▒       ░░░░  ░░░░ ███  █████  ███    ▓▓▓▓    ▒▒▒▒   ▒▒  ░░░░  ░░░░ ████   ███   ████  ▓▓▓▓▓▓  ▒▒▒▒▒▒▒▒▒▒   ░░░░░░░░████    █    ████  ▓▓▓▓▓▓  ▒▒▒▒▒▒▒▒▒▒    ░░░░░░References  https://github.com/Abhishek-Ghosh/IBM-ASCII-Logo-For-SSH",
+            "content_html": "<p>I saw some IBM logo[1] in ASCII and wanted to try and recreate it from scratch, so I did and added some shading, too. I’m sure I’ll add more artistic ones later, once I get bored.</p><div class=\"highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>█████       █████  ██████  ██████        ████████████     ██████  ██████  ██████       ████████  ██████   ██████    ████    ████       ████  ████ ███████ ███████    ████    ████       ████  ████ ███ ███████ ███    ████    ████       ████  ████ ███  █████  ███    ████    ████   ██  ████  ████ ████   ███   ████  ██████  ██████████   ████████████    █    ████  ██████  ██████████    ███████████       █████  ██████  ██████        ████████████     ██████  ██████  ██████       ████████  ▓▓▓▓▓▓   ▓▓▓▓▓▓    ▓▓▓▓    ▓▓▓▓       ▓▓▓▓  ▓▓▓▓ ▓▓▓▓▓▓▓ ▓▓▓▓▓▓▓    ▓▓▓▓    ▓▓▓▓       ▓▓▓▓  ▓▓▓▓ ▒▒▒ ▒▒▒▒▒▒▒ ▒▒▒    ▒▒▒▒    ▒▒▒▒       ▒▒▒▒  ▒▒▒▒ ▒▒▒  ▒▒▒▒▒  ▒▒▒    ▒▒▒▒    ▒▒▒▒   ▒▒  ▒▒▒▒  ▒▒▒▒ ░░░░   ░░░   ░░░░  ░░░░░░  ░░░░░░░░░░   ░░░░░░░░░░░░    ░    ░░░░  ░░░░░░  ░░░░░░░░░░    ░░░░░░█████       █████  ▓▓▓▓▓▓  ▒▒▒▒▒▒        ░░░░░░██████     ██████  ▓▓▓▓▓▓  ▒▒▒▒▒▒       ░░░░░░░░  ██████   ██████    ▓▓▓▓    ▒▒▒▒       ░░░░  ░░░░ ███████ ███████    ▓▓▓▓    ▒▒▒▒       ░░░░  ░░░░ ███ ███████ ███    ▓▓▓▓    ▒▒▒▒       ░░░░  ░░░░ ███  █████  ███    ▓▓▓▓    ▒▒▒▒   ▒▒  ░░░░  ░░░░ ████   ███   ████  ▓▓▓▓▓▓  ▒▒▒▒▒▒▒▒▒▒   ░░░░░░░░████    █    ████  ▓▓▓▓▓▓  ▒▒▒▒▒▒▒▒▒▒    ░░░░░░</code></pre></div></div><h2 id=\"references\">References</h2><ol>  <li>https://github.com/Abhishek-Ghosh/IBM-ASCII-Logo-For-SSH</li></ol>",
+            "url": "http://milofultz.com/2022/05/02/ascii-name",
+            
+            
+            
+            
+            
+            "date_published": "2022-05-02T00:00:00+01:00",
+            "date_modified": "2022-05-02T00:00:00+01:00",
+            
+                "author":  {
+                "name": "Milo Fultz",
+                "url": "http://milofultz.com",
+                "avatar": null
+                }
+                
+            
+        },
+    
+        {
             "id": "http://milofultz.com/2022/04/17/my-task-management",
             "title": "My Task Management System",
             "summary": "The goal of my task management system is mainly to record captured tasks and be reminded that I care about things that aren't shiny objects.",
@@ -28,8 +52,8 @@
             
             
             
-            "date_published": "2022-04-17T00:00:00-07:00",
-            "date_modified": "2022-04-17T00:00:00-07:00",
+            "date_published": "2022-04-17T00:00:00+01:00",
+            "date_modified": "2022-04-17T00:00:00+01:00",
             
                 "author":  {
                 "name": "Milo Fultz",
@@ -52,8 +76,8 @@
             
             
             
-            "date_published": "2022-04-09T00:00:00-07:00",
-            "date_modified": "2022-04-09T00:00:00-07:00",
+            "date_published": "2022-04-09T00:00:00+01:00",
+            "date_modified": "2022-04-09T00:00:00+01:00",
             
                 "author":  {
                 "name": "Milo Fultz",
@@ -76,8 +100,8 @@
             
             
             
-            "date_published": "2022-03-12T00:00:00-08:00",
-            "date_modified": "2022-03-12T00:00:00-08:00",
+            "date_published": "2022-03-12T00:00:00+00:00",
+            "date_modified": "2022-03-12T00:00:00+00:00",
             
                 "author":  {
                 "name": "Milo Fultz",
@@ -100,8 +124,8 @@
             
             
             
-            "date_published": "2022-02-04T00:00:00-08:00",
-            "date_modified": "2022-02-04T00:00:00-08:00",
+            "date_published": "2022-02-04T00:00:00+00:00",
+            "date_modified": "2022-02-04T00:00:00+00:00",
             
                 "author":  {
                 "name": "Milo Fultz",
@@ -124,8 +148,8 @@
             
             
             
-            "date_published": "2022-02-01T00:00:00-08:00",
-            "date_modified": "2022-02-01T00:00:00-08:00",
+            "date_published": "2022-02-01T00:00:00+00:00",
+            "date_modified": "2022-02-01T00:00:00+00:00",
             
                 "author":  {
                 "name": "Milo Fultz",
@@ -148,8 +172,8 @@
             
             
             
-            "date_published": "2022-01-31T00:00:00-08:00",
-            "date_modified": "2022-01-31T00:00:00-08:00",
+            "date_published": "2022-01-31T00:00:00+00:00",
+            "date_modified": "2022-01-31T00:00:00+00:00",
             
                 "author":  {
                 "name": "Milo Fultz",
@@ -172,8 +196,8 @@
             
             
             
-            "date_published": "2022-01-28T00:00:00-08:00",
-            "date_modified": "2022-01-28T00:00:00-08:00",
+            "date_published": "2022-01-28T00:00:00+00:00",
+            "date_modified": "2022-01-28T00:00:00+00:00",
             
                 "author":  {
                 "name": "Milo Fultz",
@@ -196,8 +220,8 @@
             
             
             
-            "date_published": "2022-01-23T00:00:00-08:00",
-            "date_modified": "2022-01-23T00:00:00-08:00",
+            "date_published": "2022-01-23T00:00:00+00:00",
+            "date_modified": "2022-01-23T00:00:00+00:00",
             
                 "author":  {
                 "name": "Milo Fultz",
@@ -220,8 +244,8 @@
             
             
             
-            "date_published": "2022-01-01T00:00:00-08:00",
-            "date_modified": "2022-01-01T00:00:00-08:00",
+            "date_published": "2022-01-01T00:00:00+00:00",
+            "date_modified": "2022-01-01T00:00:00+00:00",
             
                 "author":  {
                 "name": "Milo Fultz",
@@ -244,8 +268,8 @@
             
             
             
-            "date_published": "2021-12-12T00:00:00-08:00",
-            "date_modified": "2021-12-12T00:00:00-08:00",
+            "date_published": "2021-12-12T00:00:00+00:00",
+            "date_modified": "2021-12-12T00:00:00+00:00",
             
                 "author":  {
                 "name": "Milo Fultz",
@@ -268,8 +292,8 @@
             
             
             
-            "date_published": "2021-11-14T00:00:00-08:00",
-            "date_modified": "2021-11-14T00:00:00-08:00",
+            "date_published": "2021-11-14T00:00:00+00:00",
+            "date_modified": "2021-11-14T00:00:00+00:00",
             
                 "author":  {
                 "name": "Milo Fultz",
@@ -292,8 +316,8 @@
             
             
             
-            "date_published": "2021-10-22T00:00:00-07:00",
-            "date_modified": "2021-10-22T00:00:00-07:00",
+            "date_published": "2021-10-22T00:00:00+01:00",
+            "date_modified": "2021-10-22T00:00:00+01:00",
             
                 "author":  {
                 "name": "Milo Fultz",
@@ -316,8 +340,8 @@
             
             
             
-            "date_published": "2021-09-18T00:00:00-07:00",
-            "date_modified": "2021-09-18T00:00:00-07:00",
+            "date_published": "2021-09-18T00:00:00+01:00",
+            "date_modified": "2021-09-18T00:00:00+01:00",
             
                 "author":  {
                 "name": "Milo Fultz",
@@ -340,8 +364,8 @@
             
             
             
-            "date_published": "2021-07-04T00:00:00-07:00",
-            "date_modified": "2021-07-04T00:00:00-07:00",
+            "date_published": "2021-07-04T00:00:00+01:00",
+            "date_modified": "2021-07-04T00:00:00+01:00",
             
                 "author":  {
                 "name": "Milo Fultz",
@@ -364,8 +388,8 @@
             
             
             
-            "date_published": "2021-07-03T00:00:00-07:00",
-            "date_modified": "2021-07-03T00:00:00-07:00",
+            "date_published": "2021-07-03T00:00:00+01:00",
+            "date_modified": "2021-07-03T00:00:00+01:00",
             
                 "author":  {
                 "name": "Milo Fultz",
@@ -388,8 +412,8 @@
             
             
             
-            "date_published": "2021-04-11T00:00:00-07:00",
-            "date_modified": "2021-04-11T00:00:00-07:00",
+            "date_published": "2021-04-11T00:00:00+01:00",
+            "date_modified": "2021-04-11T00:00:00+01:00",
             
                 "author":  {
                 "name": "Milo Fultz",
@@ -412,8 +436,8 @@
             
             
             
-            "date_published": "2021-03-06T00:00:00-08:00",
-            "date_modified": "2021-03-06T00:00:00-08:00",
+            "date_published": "2021-03-06T00:00:00+00:00",
+            "date_modified": "2021-03-06T00:00:00+00:00",
             
                 "author":  {
                 "name": "Milo Fultz",
@@ -436,8 +460,8 @@
             
             
             
-            "date_published": "2021-01-28T00:00:00-08:00",
-            "date_modified": "2021-01-28T00:00:00-08:00",
+            "date_published": "2021-01-28T00:00:00+00:00",
+            "date_modified": "2021-01-28T00:00:00+00:00",
             
                 "author":  {
                 "name": "Milo Fultz",
@@ -460,8 +484,8 @@
             
             
             
-            "date_published": "2021-01-08T00:00:00-08:00",
-            "date_modified": "2021-01-08T00:00:00-08:00",
+            "date_published": "2021-01-08T00:00:00+00:00",
+            "date_modified": "2021-01-08T00:00:00+00:00",
             
                 "author":  {
                 "name": "Milo Fultz",
@@ -484,8 +508,8 @@
             
             
             
-            "date_published": "2021-01-06T00:00:00-08:00",
-            "date_modified": "2021-01-06T00:00:00-08:00",
+            "date_published": "2021-01-06T00:00:00+00:00",
+            "date_modified": "2021-01-06T00:00:00+00:00",
             
                 "author":  {
                 "name": "Milo Fultz",
@@ -508,8 +532,8 @@
             
             
             
-            "date_published": "2020-12-27T00:00:00-08:00",
-            "date_modified": "2020-12-27T00:00:00-08:00",
+            "date_published": "2020-12-27T00:00:00+00:00",
+            "date_modified": "2020-12-27T00:00:00+00:00",
             
                 "author":  {
                 "name": "Milo Fultz",
@@ -532,8 +556,8 @@
             
             
             
-            "date_published": "2020-12-13T00:00:00-08:00",
-            "date_modified": "2020-12-13T00:00:00-08:00",
+            "date_published": "2020-12-13T00:00:00+00:00",
+            "date_modified": "2020-12-13T00:00:00+00:00",
             
                 "author":  {
                 "name": "Milo Fultz",
@@ -556,8 +580,8 @@
             
             
             
-            "date_published": "2020-12-01T00:00:00-08:00",
-            "date_modified": "2020-12-01T00:00:00-08:00",
+            "date_published": "2020-12-01T00:00:00+00:00",
+            "date_modified": "2020-12-01T00:00:00+00:00",
             
                 "author":  {
                 "name": "Milo Fultz",
@@ -580,8 +604,8 @@
             
             
             
-            "date_published": "2020-11-10T00:00:00-08:00",
-            "date_modified": "2020-11-10T00:00:00-08:00",
+            "date_published": "2020-11-10T00:00:00+00:00",
+            "date_modified": "2020-11-10T00:00:00+00:00",
             
                 "author":  {
                 "name": "Milo Fultz",
@@ -604,8 +628,8 @@
             
             
             
-            "date_published": "2020-11-09T00:00:00-08:00",
-            "date_modified": "2020-11-09T00:00:00-08:00",
+            "date_published": "2020-11-09T00:00:00+00:00",
+            "date_modified": "2020-11-09T00:00:00+00:00",
             
                 "author":  {
                 "name": "Milo Fultz",
@@ -628,8 +652,8 @@
             
             
             
-            "date_published": "2020-11-01T00:00:00-07:00",
-            "date_modified": "2020-11-01T00:00:00-07:00",
+            "date_published": "2020-11-01T00:00:00+00:00",
+            "date_modified": "2020-11-01T00:00:00+00:00",
             
                 "author":  {
                 "name": "Milo Fultz",
@@ -652,8 +676,8 @@
             
             
             
-            "date_published": "2020-10-31T00:00:00-07:00",
-            "date_modified": "2020-10-31T00:00:00-07:00",
+            "date_published": "2020-10-31T00:00:00+00:00",
+            "date_modified": "2020-10-31T00:00:00+00:00",
             
                 "author":  {
                 "name": "Milo Fultz",
@@ -676,8 +700,8 @@
             
             
             
-            "date_published": "2020-10-25T00:00:00-07:00",
-            "date_modified": "2020-10-25T00:00:00-07:00",
+            "date_published": "2020-10-25T00:00:00+01:00",
+            "date_modified": "2020-10-25T00:00:00+01:00",
             
                 "author":  {
                 "name": "Milo Fultz",
@@ -700,8 +724,8 @@
             
             
             
-            "date_published": "2020-10-21T00:00:00-07:00",
-            "date_modified": "2020-10-21T00:00:00-07:00",
+            "date_published": "2020-10-21T00:00:00+01:00",
+            "date_modified": "2020-10-21T00:00:00+01:00",
             
                 "author":  {
                 "name": "Milo Fultz",
@@ -724,8 +748,8 @@
             
             
             
-            "date_published": "2020-10-17T00:00:00-07:00",
-            "date_modified": "2020-10-17T00:00:00-07:00",
+            "date_published": "2020-10-17T00:00:00+01:00",
+            "date_modified": "2020-10-17T00:00:00+01:00",
             
                 "author":  {
                 "name": "Milo Fultz",
@@ -748,8 +772,8 @@
             
             
             
-            "date_published": "2020-10-16T00:00:00-07:00",
-            "date_modified": "2020-10-16T00:00:00-07:00",
+            "date_published": "2020-10-16T00:00:00+01:00",
+            "date_modified": "2020-10-16T00:00:00+01:00",
             
                 "author":  {
                 "name": "Milo Fultz",
@@ -772,8 +796,8 @@
             
             
             
-            "date_published": "2020-10-12T00:00:00-07:00",
-            "date_modified": "2020-10-12T00:00:00-07:00",
+            "date_published": "2020-10-12T00:00:00+01:00",
+            "date_modified": "2020-10-12T00:00:00+01:00",
             
                 "author":  {
                 "name": "Milo Fultz",
@@ -796,8 +820,8 @@
             
             
             
-            "date_published": "2020-10-12T00:00:00-07:00",
-            "date_modified": "2020-10-12T00:00:00-07:00",
+            "date_published": "2020-10-12T00:00:00+01:00",
+            "date_modified": "2020-10-12T00:00:00+01:00",
             
                 "author":  {
                 "name": "Milo Fultz",
@@ -820,8 +844,8 @@
             
             
             
-            "date_published": "2020-10-04T00:00:00-07:00",
-            "date_modified": "2020-10-04T00:00:00-07:00",
+            "date_published": "2020-10-04T00:00:00+01:00",
+            "date_modified": "2020-10-04T00:00:00+01:00",
             
                 "author":  {
                 "name": "Milo Fultz",
@@ -844,32 +868,8 @@
             
             
             
-            "date_published": "2020-10-04T00:00:00-07:00",
-            "date_modified": "2020-10-04T00:00:00-07:00",
-            
-                "author":  {
-                "name": "Milo Fultz",
-                "url": "http://milofultz.com",
-                "avatar": null
-                }
-                
-            
-        },
-    
-        {
-            "id": "http://milofultz.com/2020/09/30/evernote-images",
-            "title": "💻 Maximize Evernote Storage Using Web Clipper (JS)",
-            "summary": "Either using a Google Chrome extension or one line of JS, maximize your snippets in Evernote and stay away from $8 subscriptions for a tiny feature.",
-            "content_text": "Check out the up-to-date version on GitHubWhen using Evernote’s web clipper, I was using too much of my upload cap with Evernote every month, mostly because images are too big when cropping the whole article. So I decided to practice some JS and see if I could make it work better without paying an $8 per month subscription for just a few extra megs of upload per month.On an average article with supporting (but not necessarily useful) pictures, I’ve seen about a 90%+ reduction in note sizes.This extension has been tested to work on the “Article”, “Simplified Article”, and “Full Page” options.Cheap and Easy No-Install Browser Agnostic VersionIn the console of your browser, type the following:document.querySelectorAll('img').forEach(image =&gt; image.remove());To reset this, reload your page.Chrome ExtensionThis extension is really simple: on click, it goes through all the img elements on the page and removes them from the DOM. On another click, the page is refreshed.The original implementation set the element’s display to none on clicking the button again, all display settings for the images were set to their original value. Unfortunately, Evernote adds and modifies inline style on import, so it negated this otherwise more elegant implementation.Installation:To install this extension, please go to the Github page for updated information and instructions.  20201007: Changed to avoid Evernote’s inline styling on import  20201030: Added average space savings",
-            "content_html": "<p><a href=\"https://github.com/milofultz/no-images\"><strong>Check out the up-to-date version on GitHub</strong></a></p><p>When using Evernote’s web clipper, I was using too much of my upload cap with Evernote every month, mostly because images are too big when cropping the whole article. So I decided to practice some JS and see if I could make it work better without paying an $8 per month subscription for just a few extra megs of upload per month.</p><p>On an average article with supporting (but not necessarily useful) pictures, I’ve seen about a <strong>90%+ reduction</strong> in note sizes.</p><p>This extension has been tested to work on the “Article”, “Simplified Article”, and “Full Page” options.</p><h2 id=\"cheap-and-easy-no-install-browser-agnostic-version\">Cheap and Easy No-Install Browser Agnostic Version</h2><p>In the console of your browser, type the following:</p><div class=\"highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>document.querySelectorAll('img').forEach(image =&gt; image.remove());</code></pre></div></div><p>To reset this, reload your page.</p><h2 id=\"chrome-extension\">Chrome Extension</h2><p>This extension is really simple: on click, it goes through all the <code class=\"highlighter-rouge\">img</code> elements on the page and removes them from the DOM. On another click, the page is refreshed.</p><p>The original implementation set the element’s display to <code class=\"highlighter-rouge\">none</code> on clicking the button again, all display settings for the images were set to their original value. Unfortunately, Evernote adds and modifies inline style on import, so it negated this otherwise more elegant implementation.</p><h3 id=\"installation\">Installation:</h3><p>To install this extension, please go to the Github page for updated information and instructions.</p><hr /><ul>  <li><em>20201007: Changed to avoid Evernote’s inline styling on import</em></li>  <li><em>20201030: Added average space savings</em></li></ul>",
-            "url": "http://milofultz.com/2020/09/30/evernote-images",
-            
-            
-            
-            
-            
-            "date_published": "2020-09-30T00:00:00-07:00",
-            "date_modified": "2020-09-30T00:00:00-07:00",
+            "date_published": "2020-10-04T00:00:00+01:00",
+            "date_modified": "2020-10-04T00:00:00+01:00",
             
                 "author":  {
                 "name": "Milo Fultz",

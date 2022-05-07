@@ -4,7 +4,7 @@
  <title>Milo Fultz</title>
  <link href="http://milofultz.com/atom.xml" rel="self"/>
  <link href="http://milofultz.com/"/>
- <updated>2022-05-02T21:42:28+01:00</updated>
+ <updated>2022-05-07T23:53:13+01:00</updated>
  <id>http://milofultz.com</id>
  <author>
    <name>Milo Fultz</name>
@@ -1205,6 +1205,27 @@ Palette:										; Set 'Palette' label
 
 &lt;p&gt;&lt;a href=&quot;https://manropefont.com/&quot;&gt;Manrope&lt;/a&gt;: A nice sans-serif more akin to Helvetica.&lt;/p&gt;
 
+&lt;h3 id=&quot;etc&quot;&gt;Etc.&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://kb.levine.org/homelab/how-to/general/how-to-backup-dotfiles-to-github/&quot;&gt;Dotfiles Backup&lt;/a&gt;: I use a method like this to maintain and backup the following files:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;.zshrc&lt;/li&gt;
+  &lt;li&gt;.bashrc&lt;/li&gt;
+  &lt;li&gt;.bash_profile&lt;/li&gt;
+  &lt;li&gt;.vimrc&lt;/li&gt;
+  &lt;li&gt;.gitignore&lt;/li&gt;
+  &lt;li&gt;.gitconfig&lt;/li&gt;
+  &lt;li&gt;.tod&lt;/li&gt;
+  &lt;li&gt;.bonzo&lt;/li&gt;
+  &lt;li&gt;Daily backup for aText&lt;/li&gt;
+  &lt;li&gt;JSON dump of Redirector for Firefox&lt;/li&gt;
+  &lt;li&gt;.vim directory&lt;/li&gt;
+  &lt;li&gt;.config/karabiner directory&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
 &lt;ul&gt;
   &lt;li&gt;&lt;em&gt;20210206: Added f.lux and Lastpass, SublimeText and VSCodium extensions to programs, Atkinson Hyperlegible to fonts&lt;/em&gt;&lt;/li&gt;
   &lt;li&gt;&lt;em&gt;20210403: Removed Lastpass and added 1Password, HTML-CSS-JS Prettify, Sync Settings&lt;/em&gt;&lt;/li&gt;
@@ -1212,6 +1233,7 @@ Palette:										; Set 'Palette' label
   &lt;li&gt;&lt;em&gt;20211129: Replaced Grand Perspective with DiskInventoryX&lt;/em&gt;&lt;/li&gt;
   &lt;li&gt;&lt;em&gt;20211231: Added Manrope font; removed Bracket Colorizer for VSCode, as it’s built in now; Firefox and plugins&lt;/em&gt;&lt;/li&gt;
   &lt;li&gt;&lt;em&gt;20220412: Added Iosevka, Vim, VLC, and some of my own personal apps.&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;20220507: Added dotfiles backup&lt;/em&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;!-- ---

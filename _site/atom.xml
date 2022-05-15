@@ -4,7 +4,7 @@
  <title>Milo Fultz</title>
  <link href="http://milofultz.com/atom.xml" rel="self"/>
  <link href="http://milofultz.com/"/>
- <updated>2022-05-07T23:53:13+01:00</updated>
+ <updated>2022-05-15T22:02:42+01:00</updated>
  <id>http://milofultz.com</id>
  <author>
    <name>Milo Fultz</name>
@@ -1180,6 +1180,8 @@ Palette:										; Set 'Palette' label
 
 &lt;p&gt;&lt;a href=&quot;https://codeberg.org/milofultz/tod_sh&quot;&gt;Tod&lt;/a&gt;: This is the todo app I use every day. Terminal based, will work on essentially any *nix shell, and is bonehead simple. Essentially is a plain text file at the end of the day.&lt;/p&gt;
 
+&lt;p&gt;&lt;a href=&quot;https://github.com/andreafrancia/trash-cli&quot;&gt;Trash-CLI&lt;/a&gt;: A way to tone down deleting files in the terminal so it isn’t all or nothing, like &lt;code class=&quot;highlighter-rouge&quot;&gt;rm&lt;/code&gt;.&lt;/p&gt;
+
 &lt;p&gt;&lt;a href=&quot;https://typora.io/&quot;&gt;Typora&lt;/a&gt;: Super simple and pretty markdown editor I use all of the time for my blog posts, code diary, note taking, and any other markdown-related stuff. Interchangeable CSS themes make it really easy to customize, too.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://www.vim.org/&quot;&gt;Vim&lt;/a&gt;: Terminal text editor that is built in to pretty much any *nix system. It can do pretty much anything, if you spend enough time with it. Check out &lt;a href=&quot;https://www.tinybrain.fans/vim.html&quot;&gt;my notes on Vim&lt;/a&gt;.&lt;/p&gt;
@@ -1209,20 +1211,19 @@ Palette:										; Set 'Palette' label
 
 &lt;p&gt;&lt;a href=&quot;https://kb.levine.org/homelab/how-to/general/how-to-backup-dotfiles-to-github/&quot;&gt;Dotfiles Backup&lt;/a&gt;: I use a method like this to maintain and backup the following files:&lt;/p&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;.zshrc&lt;/li&gt;
-  &lt;li&gt;.bashrc&lt;/li&gt;
-  &lt;li&gt;.bash_profile&lt;/li&gt;
-  &lt;li&gt;.vimrc&lt;/li&gt;
-  &lt;li&gt;.gitignore&lt;/li&gt;
-  &lt;li&gt;.gitconfig&lt;/li&gt;
-  &lt;li&gt;.tod&lt;/li&gt;
-  &lt;li&gt;.bonzo&lt;/li&gt;
-  &lt;li&gt;Daily backup for aText&lt;/li&gt;
-  &lt;li&gt;JSON dump of Redirector for Firefox&lt;/li&gt;
-  &lt;li&gt;.vim directory&lt;/li&gt;
-  &lt;li&gt;.config/karabiner directory&lt;/li&gt;
-&lt;/ul&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;.zshrc
+.bashrc
+.bash_profile
+.vimrc
+.gitignore
+.gitconfig
+.tod
+.bonzo
+~/.vim/
+~/.config/
+# Daily backup for aText
+# JSON dump of Redirector for Firefox
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;hr /&gt;
 
@@ -1234,6 +1235,7 @@ Palette:										; Set 'Palette' label
   &lt;li&gt;&lt;em&gt;20211231: Added Manrope font; removed Bracket Colorizer for VSCode, as it’s built in now; Firefox and plugins&lt;/em&gt;&lt;/li&gt;
   &lt;li&gt;&lt;em&gt;20220412: Added Iosevka, Vim, VLC, and some of my own personal apps.&lt;/em&gt;&lt;/li&gt;
   &lt;li&gt;&lt;em&gt;20220507: Added dotfiles backup&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;20220515: Added trash-cli&lt;/em&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;!-- ---

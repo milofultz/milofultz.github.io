@@ -4,13 +4,54 @@
  <title>Milo Fultz</title>
  <link href="http://milofultz.com/atom.xml" rel="self"/>
  <link href="http://milofultz.com/"/>
- <updated>2022-05-20T10:00:02+01:00</updated>
+ <updated>2022-05-21T10:49:26+01:00</updated>
  <id>http://milofultz.com</id>
  <author>
    <name>Milo Fultz</name>
    <email>milopfultz@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>🧾 Byonic Reading - 80/20 Version on Bionic Reading</title>
+   <link href="http://milofultz.com/2022/05/21/byonic-reading"/>
+   <updated>2022-05-21T00:00:00+01:00</updated>
+   <id>http://milofultz.com/2022/05/21/byonic-reading</id>
+   <content type="html">&lt;p&gt;&lt;a href=&quot;https://codeberg.org/milofultz/byonic-reading&quot;&gt;Check out the project files on Codeberg&lt;/a&gt; // &lt;a href=&quot;https://milofultz.codeberg.page/byonic-reading/&quot;&gt;See it in action here!&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;According to the designer, &lt;a href=&quot;https://bionic-reading.com/&quot;&gt;Bionic Reading&lt;/a&gt; is a way to aid in reading comprehension and focus, particularly those with difficulties like dyslexia, etc.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Bionic Reading revises texts so that the most concise parts of words are highlighted. This guides the eye over the text and the brain remembers previously learned words more quickly.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I recommend checking it out on their site so you can see what they’re getting at. On first glance, the example they used seemed to make sense. It looked like it was merely highlighting the first half of every word as bold. It seems after reading their page it does a lot more than that, but that initial spark got me wondering how easy it would be to implement this as a basic Javascript snippet?&lt;/p&gt;
+
+&lt;p&gt;It ended up being fairly straightforward. The pseudocode of the whole thing is:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;MakeByonic(element):
+  FOR child of starting element
+    CASE element type of
+      text node:
+        Make first half of text bold
+        Replace original text node with newly formatted text
+      element node:
+        CALL MakeByonic on this child element
+    END CASE
+  END FOR
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;An example looks something like this (in my implementation, anyway):&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;font-weight: bolder;&quot;&gt;Byo&lt;/span&gt;nic &lt;span style=&quot;font-weight: bolder;&quot;&gt;Read&lt;/span&gt;ing &lt;span style=&quot;font-weight: bolder;&quot;&gt;i&lt;/span&gt;s &lt;span style=&quot;font-weight: bolder;&quot;&gt;a&lt;/span&gt; &lt;span style=&quot;font-weight: bolder;&quot;&gt;ne&lt;/span&gt;w &lt;span style=&quot;font-weight: bolder;&quot;&gt;met&lt;/span&gt;hod &lt;span style=&quot;font-weight: bolder;&quot;&gt;facili&lt;/span&gt;tating &lt;span style=&quot;font-weight: bolder;&quot;&gt;th&lt;/span&gt;e &lt;span style=&quot;font-weight: bolder;&quot;&gt;read&lt;/span&gt;ing &lt;span style=&quot;font-weight: bolder;&quot;&gt;proc&lt;/span&gt;ess &lt;span style=&quot;font-weight: bolder;&quot;&gt;b&lt;/span&gt;y &lt;span style=&quot;font-weight: bolder;&quot;&gt;guid&lt;/span&gt;ing &lt;span style=&quot;font-weight: bolder;&quot;&gt;th&lt;/span&gt;e &lt;span style=&quot;font-weight: bolder;&quot;&gt;ey&lt;/span&gt;es &lt;span style=&quot;font-weight: bolder;&quot;&gt;thro&lt;/span&gt;ugh &lt;span style=&quot;font-weight: bolder;&quot;&gt;te&lt;/span&gt;xt &lt;span style=&quot;font-weight: bolder;&quot;&gt;wi&lt;/span&gt;th &lt;span style=&quot;font-weight: bolder;&quot;&gt;artif&lt;/span&gt;icial &lt;span style=&quot;font-weight: bolder;&quot;&gt;fixa&lt;/span&gt;tion &lt;span style=&quot;font-weight: bolder;&quot;&gt;poin&lt;/span&gt;ts. &lt;span style=&quot;font-weight: bolder;&quot;&gt;A&lt;/span&gt;s &lt;span style=&quot;font-weight: bolder;&quot;&gt;a&lt;/span&gt; &lt;span style=&quot;font-weight: bolder;&quot;&gt;resu&lt;/span&gt;lt, &lt;span style=&quot;font-weight: bolder;&quot;&gt;th&lt;/span&gt;e &lt;span style=&quot;font-weight: bolder;&quot;&gt;rea&lt;/span&gt;der &lt;span style=&quot;font-weight: bolder;&quot;&gt;i&lt;/span&gt;s &lt;span style=&quot;font-weight: bolder;&quot;&gt;on&lt;/span&gt;ly &lt;span style=&quot;font-weight: bolder;&quot;&gt;focu&lt;/span&gt;sing &lt;span style=&quot;font-weight: bolder;&quot;&gt;o&lt;/span&gt;n &lt;span style=&quot;font-weight: bolder;&quot;&gt;th&lt;/span&gt;e &lt;span style=&quot;font-weight: bolder;&quot;&gt;highli&lt;/span&gt;ghted &lt;span style=&quot;font-weight: bolder;&quot;&gt;init&lt;/span&gt;ial &lt;span style=&quot;font-weight: bolder;&quot;&gt;lett&lt;/span&gt;ers &lt;span style=&quot;font-weight: bolder;&quot;&gt;an&lt;/span&gt;d &lt;span style=&quot;font-weight: bolder;&quot;&gt;le&lt;/span&gt;ts &lt;span style=&quot;font-weight: bolder;&quot;&gt;th&lt;/span&gt;e &lt;span style=&quot;font-weight: bolder;&quot;&gt;bra&lt;/span&gt;in &lt;span style=&quot;font-weight: bolder;&quot;&gt;cen&lt;/span&gt;ter &lt;span style=&quot;font-weight: bolder;&quot;&gt;comp&lt;/span&gt;lete &lt;span style=&quot;font-weight: bolder;&quot;&gt;th&lt;/span&gt;e &lt;span style=&quot;font-weight: bolder;&quot;&gt;wor&lt;/span&gt;d. &lt;span style=&quot;font-weight: bolder;&quot;&gt;I&lt;/span&gt;n &lt;span style=&quot;font-weight: bolder;&quot;&gt;a&lt;/span&gt; &lt;span style=&quot;font-weight: bolder;&quot;&gt;digi&lt;/span&gt;tal &lt;span style=&quot;font-weight: bolder;&quot;&gt;wor&lt;/span&gt;ld &lt;span style=&quot;font-weight: bolder;&quot;&gt;domin&lt;/span&gt;ated &lt;span style=&quot;font-weight: bolder;&quot;&gt;b&lt;/span&gt;y &lt;span style=&quot;font-weight: bolder;&quot;&gt;shal&lt;/span&gt;low &lt;span style=&quot;font-weight: bolder;&quot;&gt;for&lt;/span&gt;ms &lt;span style=&quot;font-weight: bolder;&quot;&gt;o&lt;/span&gt;f &lt;span style=&quot;font-weight: bolder;&quot;&gt;read&lt;/span&gt;ing, &lt;span style=&quot;font-weight: bolder;&quot;&gt;Byo&lt;/span&gt;nic &lt;span style=&quot;font-weight: bolder;&quot;&gt;Read&lt;/span&gt;ing &lt;span style=&quot;font-weight: bolder;&quot;&gt;ai&lt;/span&gt;ms &lt;span style=&quot;font-weight: bolder;&quot;&gt;t&lt;/span&gt;o &lt;span style=&quot;font-weight: bolder;&quot;&gt;encou&lt;/span&gt;rage &lt;span style=&quot;font-weight: bolder;&quot;&gt;a&lt;/span&gt; &lt;span style=&quot;font-weight: bolder;&quot;&gt;mo&lt;/span&gt;re &lt;span style=&quot;font-weight: bolder;&quot;&gt;i&lt;/span&gt;n-&lt;span style=&quot;font-weight: bolder;&quot;&gt;dep&lt;/span&gt;th &lt;span style=&quot;font-weight: bolder;&quot;&gt;read&lt;/span&gt;ing &lt;span style=&quot;font-weight: bolder;&quot;&gt;an&lt;/span&gt;d &lt;span style=&quot;font-weight: bolder;&quot;&gt;underst&lt;/span&gt;anding &lt;span style=&quot;font-weight: bolder;&quot;&gt;o&lt;/span&gt;f &lt;span style=&quot;font-weight: bolder;&quot;&gt;writ&lt;/span&gt;ten &lt;span style=&quot;font-weight: bolder;&quot;&gt;cont&lt;/span&gt;ent.&lt;/p&gt;
+
+&lt;p&gt;There are some weird things you have to do to make all this work with a webpage and some caveats I added to make it a but more readable and pleasant, but overall it’s pretty straightforward and was a fun project! I may eventually turn it into a Firefox extension because why not.&lt;/p&gt;
+
+&lt;!-- ---
+
+- _202XXXXX: Update format_ --&gt;
+</content>
+ </entry>
  
  <entry>
    <title>⌨️ My Name In ASCII</title>

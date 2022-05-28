@@ -4,7 +4,7 @@
  <title>Milo Fultz</title>
  <link href="http://milofultz.com/atom.xml" rel="self"/>
  <link href="http://milofultz.com/"/>
- <updated>2022-05-28T22:23:40+01:00</updated>
+ <updated>2022-05-28T22:29:14+01:00</updated>
  <id>http://milofultz.com</id>
  <author>
    <name>Milo Fultz</name>
@@ -1175,7 +1175,10 @@ Palette:										; Set 'Palette' label
 
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://github.com/pietervanheijningen/clickbait-remover-for-youtube&quot;&gt;Clickbait Remover for Youtube&lt;/a&gt;: Lowercases all titles and makes thumbnail an actual mid-video screenshot. Surprisingly effective!&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://decentraleyes.org/&quot;&gt;Decentraleyes&lt;/a&gt;: This allows you to not be tracked by sites that offer common libraries via CDN (Google, etc.) by emulating a CDN through local caching.&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://addons.mozilla.org/en-US/firefox/addon/new-tab-override/&quot;&gt;New Tab Override&lt;/a&gt;: Choose a specific homepage to show on every new &lt;em&gt;tab&lt;/em&gt;, not just new &lt;em&gt;windows&lt;/em&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://noscript.net/&quot;&gt;NoScript&lt;/a&gt;: Automatically disables Javascript everywhere and allows you to define custom rules on specific domains for using scripts. Lets you really simplify web browsing and keep you safe from maliciously downloaded JS code.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://privacybadger.org/&quot;&gt;Privacy Badger&lt;/a&gt;: Blocks invisible trackers when browsing the web. Good for foiling gross advertisers and data miners trying to get your info.&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://addons.mozilla.org/en-US/firefox/addon/redirector/&quot;&gt;Redirector&lt;/a&gt;: Use regex and wildcards to automatically modify matching URLs before going there. Useful for things like forcing the use of in-browser options in things like Zoom, looking at all Medium posts on &lt;a href=&quot;http://scribe.rip&quot;&gt;Scribe.rip&lt;/a&gt;, etc.&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://github.com/refined-github/refined-github&quot;&gt;Refined Github&lt;/a&gt;: Makes the Github experience much more pleasant.&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://github.com/iorate/uBlacklist&quot;&gt;uBlacklist&lt;/a&gt;: Block certain websites from showing up in your search results on the major engines.&lt;/li&gt;
@@ -1286,6 +1289,7 @@ Palette:										; Set 'Palette' label
   &lt;li&gt;&lt;em&gt;20220412: Added Iosevka, Vim, VLC, and some of my own personal apps.&lt;/em&gt;&lt;/li&gt;
   &lt;li&gt;&lt;em&gt;20220507: Added dotfiles backup&lt;/em&gt;&lt;/li&gt;
   &lt;li&gt;&lt;em&gt;20220515: Added trash-cli&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;20220528: Added Firefox privacy plugins from &lt;a href=&quot;https://teddit.net/r/pcmasterrace/comments/uqn7kv/choose_wisely/i8scel6/#c&quot;&gt;this Reddit post&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;!-- ---

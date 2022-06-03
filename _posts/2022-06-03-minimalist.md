@@ -12,4 +12,8 @@ Minimalism isn't about design, it's about use.
 
 Minimalism isn't an aesthetic, it's an action.
 
+## References:
+
+1. https://simonsarris.substack.com/p/patina-and-intimacy?s=r
+
 <!-- - _202XXXXX: Update format_ -->

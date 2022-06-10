@@ -36,6 +36,4 @@ An example looks something like this (in my implementation, anyway):
 
 There are some weird things you have to do to make all this work with a webpage and some caveats I added to make it a but more readable and pleasant, but overall it's pretty straightforward and was a fun project! I may eventually turn it into a Firefox extension because why not.
 
-<!-- ---
-
-- _202XXXXX: Update format_ -->
+- *20220610 - Someone else made an extremely thorough version of Bionic Reading [here](https://github.com/axoletl/not-br). Can do way more than just bolding the first half of letters.*

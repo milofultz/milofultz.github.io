@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Keyboard Remapping on OSX - Adding the Insert Key - milo fultz</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="alternate" type="application/rss+xml" title="Keyboard Remapping on OSX - Adding the Insert Key" href="atom.xml">
+  </head>
+  <body>
+    <header>
+    <strong>Milo Land</strong>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="now.html">Now</a></li>
+          <li><a href="atom.xml">RSS</a></li>
+          <li><a href="http://www.tinybrain.fans">Wiki</a></li>
+          <li><a href="http://www.codeberg.org/milofultz">Codeberg</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1>Keyboard Remapping on OSX - Adding the Insert Key</h1><p>I downloaded Reality Adlib Tracker and MilkyTracker the other day and realized that Apple removed their insert key abilities a LONG time ago. The insert key is used quite a bit in these older programs for basic things like adding a line in your tracker, creating your pattern sequence, etc. Along with things like Dosbox, where these old relics are utilized, most of these older programs don’t allow new keybindings, so I had to dig around and find a new solution. I unfortunately couldn’t find anything directly related to trackers and stuff on any of their forums, so I figured I’d try and make something that could be found when searching for trackers, DOS, etc.</p><p><a href="https://www.3eality.com/productions/reality-adlib-tracker">Reality Adlib Tracker</a></p><p><a href="https://milkytracker.titandemo.org/">MilkyTracker</a></p><p>Here’s one very simple and one not very simple but extremely interesting (read: difficult to understand for a rube like me) solution.</p><h2>SIMPLE And Recommended</h2><p>Karabiner-Elements is an open-source program that allows you to remap any key on any device to another key. In this instance, I remapped my right alt/option key to the insert key, as I do not use that option key almost ever. In Karabiner, it’s honestly so simple. Choose what key you want to press and what you want it to output. I tested this in RAD and it works beautifully.</p><h2>NOT AS SIMPLE And Honestly Not Recommended</h2><p>So this way is much more in depth and I honestly don’t really know a lot of what I am doing here. What I tested works for me, but of course YMMV.</p><p>I utilized the ideas listed in nanoant’s article, "macOS function key remapping with hidutil", as well as the USB HID usage table and made a couple lines of code that can be input to achieve the same effect as above.</p><p><a href="https://www.nanoant.com/mac/macos-function-key-remapping-with-hidutil">macOS function key remapping with hidutil</a></p><p><a href="https://www.freebsddiary.org/APC/usb_hid_usages.php">USB HID usage table</a></p><p>Go into terminal and type the following:</p><pre><code>hidutil property --set '{"UserKeyMapping":[
+{"HIDKeyboardModifierMappingSrc":0x7000000e6, "HIDKeyboardModifierMappingDst":0x700000049}]}'
+</code></pre><p>What this does is the hidutil (Human Interface Design utility) is setting a new key map in the following way: key "right alt" is going to now output key "insert". At this point, it wasn’t working, so I figured I needed to do the opposite, setting the "insert" key to map to "right alt".</p><pre><code>hidutil property --set '{"UserKeyMapping":[
+{"HIDKeyboardModifierMappingSrc":0x700000049, "HIDKeyboardModifierMappingDst":0x7000000e6}]}'
+</code></pre><p>This made it work for me, and I don’t fully understand, but it is interesting to note. There are a lot of interesting controls in the USB HID image table, so I wonder if I would need any of these strange controls in the future. At least I’ll know how to map them ... maybe?</p><ul><li>20201001: Used to make caps lock key the escape key for use with Vim</li></ul>
+    </main>
+    <footer>
+      <ul>
+        <li><a rel="me" href="https://merveilles.town/@milofultz">Merveilles</a></li>
+        <li><a rel="me" href="https://oulipo.social/@irondung">Oulipo</a></li>
+        <li><a href="https://lieu.cblgh.org/random">Webring</a></li>
+      </ul>
+    </footer>
+  </body>
+</html>

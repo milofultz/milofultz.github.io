@@ -1,0 +1,15 @@
+# My Favorite Web Radio Stations
+
+=> https://c7.radioboss.fm:18205/stream Bootie Mashup Radio
+=> http://trace.dnbradio.com:8000/dnbradio_main.mp3 DnB Radio
+=> http://listen.freeformportland.org:8000/stream Freeform Portland
+=> http://kwvaradio.uoregon.edu:8000/stream/1/ KWVA - University of Oregon Campus Radio
+=> https://project.stream.laut.fm/project?pl=m3u I can't remember the name of this, but I must have saved it for some reason
+=> http://87.117.201.160:8200/listen.pls UKG247 - UK Garage
+=> http://listen.xray.fm:8000/stream XRAY Portland
+
+Silly but cool:
+
+=> https://www.youtube.com/watch?v=PgbrzmFGUyQ Wreckage Systems
+=> https://www.youtube.com/watch?v=MwtVkPKx3RA&t=0s RELENTLESS DOPPELGANGER
+

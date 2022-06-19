@@ -1,0 +1,13 @@
+# Awfulizer - Make Surfing The Web Awful (Firefox)
+
+You can get the add-on here and see the code on GitHub.
+=> https://addons.mozilla.org/en-US/firefox/addon/awfulizer/
+=> https://github.com/milofultz/awfulizer
+=> https://www.youtube.com/watch?v=dx7hZAAHFuk&feature=youtu.be Watch a video of it in action.
+
+
+While studying some CSS and HTML on FreeCodeCamp, I was trying to figure out how I could exercise some of the skills I was learning. One of the basics of CSS is just changing style of fonts and backgrounds, so I figured why not try and make some program that cycles all of those over and over? I found that making your first extension is very easy, so I tried it. After a ton of trial and error, I made a button that allows you to manually turn it on on a given tab, but you can only turn it off through refreshing it. I've added a static feature and the ability to choose (wow!) in v1.2. In the future, I'm hoping to add an option to turn it off once it starts.
+
+=> https://www.freecodecamp.org/ FreeCodeCamp
+=> https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Your_first_WebExtension Making your first extension
+

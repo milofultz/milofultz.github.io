@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>HIITimer - Exercise Timer w/Routines and TTS (Python) - milo fultz</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="alternate" type="application/rss+xml" title="HIITimer - Exercise Timer w/Routines and TTS (Python)" href="atom.xml">
+  </head>
+  <body>
+    <header>
+    <strong>Milo Land</strong>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="now.html">Now</a></li>
+          <li><a href="atom.xml">RSS</a></li>
+          <li><a href="http://www.tinybrain.fans">Wiki</a></li>
+          <li><a href="http://www.codeberg.org/milofultz">Codeberg</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1>HIITimer - Exercise Timer w/Routines and TTS (Python)</h1><p><a href="https://github.com/milofultz/hiitimer">Check out the up-to-date version on GitHub</a></p><p>I made a basic HIIT timer so I wouldn't have to rely on online pages and<br/>really terrible HIIT phone apps that do too much for me anyway. It's the<br/>bare minimum:</p><ul><li>Say (with TTS) and display the current state of the routine (exercise name, rest, upcoming exercise)</li><li>Make your routine on the fly</li><li>Load up created plaintext routines</li></ul><p>It doesn't do anything else and there is no reason I can find for it to do anything more.</p><br/><h3>Preset Routines</h3><p>Preset routines can be loaded into HIITimer with the `-f` flag followed by the filename:</p><pre><code>python3 hiitimer.py -f preset1.hiit
+</code></pre><p>There are four fields necessary for a successful routine file:</p><ul><li>`exercises:` - A list of exercises which will comprise one rep. This list is comprised of an `exercises:` line, followed by an exercise on each subsequent line.</li><li>`exercise_time:` - How long to spend on one exercise in seconds. This and all the following fields are to be comprised of the key and value on the same line.</li><li>`rest_time:` - How long to spend resting between exercises in seconds.</li><li>`reps:` - How many cycles of the list of exercises to do in total.</li></ul><p>The parser overlooks blank lines and lines that begin with `#`.</p><p>A sample routine that I created looks like this:</p><pre><code># Sample Exercise Routine 1
+
+exercises:
+	Pushups
+	Squats
+	Plank
+	Jumping Jacks
+
+exercise_time: 30
+
+rest_time: 10
+
+reps: 4
+</code></pre><p>This program and all the TTS has only been tested on OSX, so please let me know if you get any errors, as I'd love to figure it out :)</p>
+    </main>
+    <footer>
+      <ul>
+        <li><a rel="me" href="https://merveilles.town/@milofultz">Merveilles</a></li>
+        <li><a rel="me" href="https://oulipo.social/@irondung">Oulipo</a></li>
+        <li><a href="https://lieu.cblgh.org/random">Webring</a></li>
+      </ul>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Track - Daily Journal and Log (Python) - milo fultz</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="alternate" type="application/rss+xml" title="Track - Daily Journal and Log (Python)" href="atom.xml">
+  </head>
+  <body>
+    <header>
+    <strong>Milo Land</strong>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="now.html">Now</a></li>
+          <li><a href="atom.xml">RSS</a></li>
+          <li><a href="http://www.tinybrain.fans">Wiki</a></li>
+          <li><a href="http://www.codeberg.org/milofultz">Codeberg</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1>Track - Daily Journal and Log (Python)</h1><p><a href="https://github.com/milofultz/track">Check out the up-to-date version on GitHub</a></p><p>I wanted to have a way to track my mood and accomplishments over time, keep track of my priority for the next day, as well as a basic journaling platform that was not pretentious or leading. Seemed like a good project and I had seen a few people on merveilles.town making some fun CLI tools in this vein, so I took a swing at it.  Inspo from lon by dstn.</p><p><a href="http://merveilles.town">http://merveilles.town</a></p><p><a href="https://github.com/0xdstn/lon">lon by dstn</a></p><ul><li>Tracks mood, accomplishments, journal entries, and MIT for next day</li><li>Saves data in an easy to read plaintext file in the root folder called `~/.track`</li><li>Integrates with Tod to pull in completed accomplishments</li><li>Allows pulling of MIT into Tod's task list</li></ul><p><a href="2020-10-17-tod-python.html">Tod</a></p><br/><h2>Usage</h2><p>On prompting, input:</p><ul><li>Your mood on a 1-5 scale.</li><li>Your accomplishments for the day. When finished, leave the line blank and press enter.</li><li>Your most important task for the next day.</li><li>A 50 character or less summary of your day.</li><li>A longer journal entry of anything you feel is relevant.</li></ul><p>This will save this data into a file named `.track` in your root folder, formatted like so:</p><pre><code>---
+20201011 (4) Spend time on programming, exercise, and work.
+
+* Write daily tracker program
+* Exercise with 1.5hr walk
+* Brainstorm programming projects
+* Vote in election
+
+> Prepare for next week and resolve all open tasks
+
+I walked farther south than I have since moving here, and I really like how quiet
+the side streets are.
+
+Been listening to vogue ball playlists all night.
+</code></pre>
+    </main>
+    <footer>
+      <ul>
+        <li><a rel="me" href="https://merveilles.town/@milofultz">Merveilles</a></li>
+        <li><a rel="me" href="https://oulipo.social/@irondung">Oulipo</a></li>
+        <li><a href="https://lieu.cblgh.org/random">Webring</a></li>
+      </ul>
+    </footer>
+  </body>
+</html>

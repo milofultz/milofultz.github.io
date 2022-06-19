@@ -1,0 +1,25 @@
+# Domine (game from Hundred Rabbits)
+
+I recently came across this video from Hundred Rabbits of a game called Domine. Super simple game you can play with a set of dominoes. I transcribed the rules for this game from the video since it looks really fun and I can't find the rules page anymore.
+
+=> https://www.youtube.com/watch?v=fjZb190qn00 Video on Domine from Hundred Rabbits
+
+## Setup
+
+* Double 9 domino set
+
+## Rules
+
+The winner has the most "living" dominoes at the end of the round.
+
+Each player draws a hand of seven dominoes and keeps them hidden from their opponent. The two numbers on either side of a domino are the attack and defense points, facing the opponent and the player respectively. The dominoes can be flipped as long as it's before they are played.
+
+Each turn consists of an attack using a domino and choosing which is the attack side and which is the defense.
+
+Players alternate turns until all dominoes have been played. The player with the most living dominoes wins.
+
+When a player attacks with a domino, the opponent must defend with a value equal to or higher than the attack. If the opponent's domino defense value is lower than the attack, the domino is killed. If the opponent's domino defense value is equal to or higher, then they have survived. If the opponent can defend and has an attack number higher than the player's domino defense value, the opponent can counter to kill the player's domino. Double dominoes get first strike, regardless if they initiate the attack.
+
+=> 2020-06-25-inexpensive-games.html Inexpensive and Minimal Equipment Games To Spend Time On
+
+* 20201127: Played as I finally got a hold of dominoes. Can it be played with playing cards?

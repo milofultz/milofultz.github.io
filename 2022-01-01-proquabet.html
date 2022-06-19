@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Proquabet - Encode text in a five-letter mishmash - milo fultz</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="alternate" type="application/rss+xml" title="Proquabet - Encode text in a five-letter mishmash" href="atom.xml">
+  </head>
+  <body>
+    <header>
+    <strong>Milo Land</strong>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="now.html">Now</a></li>
+          <li><a href="atom.xml">RSS</a></li>
+          <li><a href="http://www.tinybrain.fans">Wiki</a></li>
+          <li><a href="http://www.codeberg.org/milofultz">Codeberg</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1>Proquabet - Encode text in a five-letter mishmash</h1><p><a href="https://codeberg.org/milofultz/proquabet">Check out the project files on Codeberg</a></p><blockquote><p>Hodoj; kudos kusob jitoz lanos kibod babap!</p></blockquote><p>Turn your prose into a constant stream of encrypted and meaningless-sounding five-letter words! This Python script will convert a string of text into UTF-8 codes, and then each of those characters into a proquint, and vice versa.</p><h2>Proquints</h2><p>To understand the proquabet, you must first understand proquints. Proquints are a way of encoding numbers into human-readable and pronounceable text by mapping subsets of that number to consonants and vowels. For instance, the 16-bit number 50,416 turns into `cigub`, and the 32-bit hexadecimal number `0x12345678` turns into `damuh-jinum`.</p><p>The creation of a proquint from a number essentially goes like this:</p><ul><li>Convert the number into its binary representation</li><li>For each set of bits in the map, find the corresponding consonant or vowel based on that number</li><li>If the number is greater than 16 bits, repeat this while separating each successive proquint with a hyphen</li><li>Put those characters together and bask in the glory of your new creation</li></ul><p>To understand this better, check out the page on my wiki, as it is a bit confusing without examples.</p><p><a href="https://www.tinybrain.fans/proquints.html">Proquints</a></p><h2>Character Encoding</h2><p>So now that we have the basic idea of what proquints are, we should also talk about character encoding, the most basic of which is ASCII. As you can see in the ASCII table, each basic Western character is mapped to an 8-bit number from `0x00` to `0x7f` in hexadecimal, or `0b00000000` to `0b01111111` in binary. Using this same premise, we now have UTF-8, or Unicode, which is an extendable international character standard that includes over 150 modern and historic scripts, symbols, emojis, and more. These characters are all stored anywhere between an 8-bit to a 32-bit number, for instance 😎 is represented as `0x1F60E` in hexadecimal, or `0b00000000000000011111011000001110`.</p><p><a href="https://www.tinybrain.fans/proquints.html">ASCII table</a></p><p><a href="https://en.wikipedia.org/wiki/Unicode">Unicode</a></p><h2>Okay, okay, what does it do tho</h2><p>So now that you know a proquint can convert any number into a string of text and all characters are stored as numbers, we can see how a pipeline could emerge:</p><pre><code>Characters => Numbers => Proquints
+</code></pre><p>For instance, if we start with a string of characters, like `danger lorries`, we can convert these into a series of numbers, by consulting the ASCII table:</p><pre><code>d = 0x64
+a = 0x61
+n = 0x6e
+g = 0x67
+...
+</code></pre><p>Then once we have our numbers, we can convert those into proquints:</p><pre><code>0x64 = badoh
+0x61 = badod
+0x6e = badov
+0x67 = badol
+...
+</code></pre><p>This is kind of boring, and I knew that all basic ASCII characters were only eight bits long, so I found I could smush them together to make a more varied proquint. (This doesn't work if UTF-8 characters are involved)</p><pre><code>0x6461 = kidod
+0x6e67 = kunol
+...
+</code></pre><p>If we did this with the whole phrase `danger lorries`, we would have:</p><pre><code>kidod kunol kijuf fados kutuf lanon kijug
+</code></pre><p>And this process can be reversed to bring back the characters we encoded.</p><h2>But why?</h2><p>For fun.</p><h2>References</h2><p><a href="https://www.tinybrain.fans/proquints.html">Proquints</a></p><p><a href="https://www.asciitable.com/">ASCII Table</a></p><p><a href="https://en.wikipedia.org/wiki/Unicode">Unicode</a></p><p><!--</p><ul><li>_202XXXXX: Update format_ --></li></ul>
+    </main>
+    <footer>
+      <ul>
+        <li><a rel="me" href="https://merveilles.town/@milofultz">Merveilles</a></li>
+        <li><a rel="me" href="https://oulipo.social/@irondung">Oulipo</a></li>
+        <li><a href="https://lieu.cblgh.org/random">Webring</a></li>
+      </ul>
+    </footer>
+  </body>
+</html>

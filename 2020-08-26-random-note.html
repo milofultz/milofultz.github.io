@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Open A Random Note/Lo-Fi Idea Generator (Python) - milo fultz</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="alternate" type="application/rss+xml" title="Open A Random Note/Lo-Fi Idea Generator (Python)" href="atom.xml">
+  </head>
+  <body>
+    <header>
+    <strong>Milo Land</strong>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="now.html">Now</a></li>
+          <li><a href="atom.xml">RSS</a></li>
+          <li><a href="http://www.tinybrain.fans">Wiki</a></li>
+          <li><a href="http://www.codeberg.org/milofultz">Codeberg</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1>Open A Random Note/Lo-Fi Idea Generator (Python)</h1><p>For the last few months, I have been feeding my Zettelkasten with essentially anything that I find interesting: programming, emotional development, quotes, productivity, book or video reviews, whatever. If I think it's something that will help me or make me excited later, I put it in there.</p><p><a href="2020-05-22-zettelkasten.html">Zettelkasten</a></p><p>The problem I had was that even though I had these notes for reference, I wasn't finding myself reviewing them just for creating those interesting and random connections, which was something that I had initially started using the Zettelkasten for. Those random connections are what creates interesting ideas and diffuse connections, as well as a spaced repetition for ideas that I already decided are worth knowing.</p><p>I found a solution that was implemented by productivity dude and Twitter instigator Tiago Forte. Essentially, his "second brain", analogous to a Zettelkasten, is housed in Evernote, and he had an app developed that would pop open a random Evernote every time he clicked it. He found that this boosted his creativity and because of how easy it was, he was able to do it between meetings, during his breaks, essentially in any spare moment. In doing some research, I found somebody who made a random note Applescript for the Evernote app that looks like this:</p><p><a href="https://discussion.evernote.com/forums/topic/118680-randomnote-web-see-a-random-note-a-day/">The RandomNote app and an applescript that does the same thing</a></p><pre><code># Applescript
+tell application "Evernote"
+	set noteList to find notes
+	set randomNote to some item of noteList
+	set query string of window 1 to (title of randomNote as string)
+end tell
+</code></pre><p>I figured it was just as simple of a task if you had your notes saved locally, which I do as text/Markdown files, so I set out to make a Python script that did this, along with an app implementation that can sit in my dock. I used the same process I did in my "Make Python 'Apps' and Shortcuts To Run Them on OSX" post, so obviously this is geared towards OSX users.</p><p><a href="2020-07-22-make-python-apps.html">Make Python 'Apps' and Shortcuts To Run Them on OSX</a></p><ul><li>Create your Python script, replacing the paths and extension to yours:</li></ul><pre><code>import os
+import random
+
+folder = "/path/to/notes"
+prog = "/path/to/application.app"
+ext = "txt"
+
+file_list = os.listdir(folder)
+txt_list = [file for file in file_list if file.endswith(ext)]
+random_file = random.choice(file_list)
+random_fp = os.path.join(folder, random_file)
+os.system('open "{}" -a "{}"'.format(random_fp, prog))
+</code></pre><ul><li>Save this file and name it whatever you like `.py`, like `random_note.py`. (I saved it where all my code projects are, but you could also create a folder in your Applications folder and stick it there)</li><li>Open Script Editor and make a new document. Ensure that AppleScript is selected in the dropdown menu in the upper left of the window.</li><li>Create your Applescript, replacing the paths and script name to yours: `do shell script "cd '/path/to/script'; python script_name.py"`</li><li>Save the script in your Applications folder as an "Application" file format.</li><li>Put it on your dock and go wild.</li></ul><p>I added a little light bulb icon on mine, as is tradition, and it is a great way to pass the time. I spent all this time curating ideas, recipes, thoughts, information, and experiences I thought were interesting, and now I can really enjoy the payoff in a very fun way.</p><h2>References:</h2><p><a href="2020-07-22-make-python-apps.html">Make Python 'Apps' and Shortcuts To Run Them on OSX</a></p>
+    </main>
+    <footer>
+      <ul>
+        <li><a rel="me" href="https://merveilles.town/@milofultz">Merveilles</a></li>
+        <li><a rel="me" href="https://oulipo.social/@irondung">Oulipo</a></li>
+        <li><a href="https://lieu.cblgh.org/random">Webring</a></li>
+      </ul>
+    </footer>
+  </body>
+</html>

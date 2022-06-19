@@ -1,0 +1,205 @@
+# Apps, Software, and More That I Use Everyday
+
+## Programs
+
+aText: This is the text and snippet expander that I moved to after using TextExpander for years. It's only $5 instead of a $36/year subscription and essentially the same program but with more features available, most notably automated keystrokes. I use it most often in my copywriting for podcasts, emails, and projects with a lot of repetition, but it's also super useful in generating timestamps, datestamps, and ensuring you won't write important info down wrong. Much more fun to use than the built-in OSX feature.
+=> https://trankynam.com/atext/ aText
+
+Bonzo Buddy: I use this to keep on track with my self-care every day. It prompts me throughout the day on various activities and routines I need to do and keeps a log of what I did or didn't do. Super useful for someone like me who gets tunnel vision during long computer sessions. Bonehead simple terminal app that stores your routines and log in plain text.
+=> https://codeberg.org/milofultz/bonzo-buddy Bonzo Buddy
+
+DiskInventoryX: A small utility application for macOS that graphically shows the disk usage within a file system. I use this to monitor unruly client Dropbox folders as well as runaway audio/video projects.
+=> http://derlien.com/ DiskInventoryX
+
+Dozer: Free and open source app to hide menu bar icons to give your Mac a cleaner look. Helps me not get distracted by unimportant stuff.
+=> https://github.com/Mortennn/Dozer Dozer
+
+EasyRes: Menubar app that allows you to switch screen resolutions quickly and easily. Most useful when using multiple monitors or external keyboard/mouse configs that put the laptop farther away from your eyes.
+=> http://easyresapp.com/ EasyRes
+
+Firefox: I prefer not to use Chrome because I don't really want to enourage Google. Plus, Firefox generally works the way I expect and I have seen no downsides in my development and browsing experience.
+=> https://www.mozilla.org/en-US/firefox/new/ Firefox
+
+Here's the extensions I use regularly:
+
+* Clickbait Remover for Youtube: Lowercases all titles and makes thumbnail an actual mid-video screenshot. Surprisingly effective!
+* Decentraleyes: This allows you to not be tracked by sites that offer common libraries via CDN (Google, etc.) by emulating a CDN through local caching.
+* New Tab Override: Choose a specific homepage to show on every new *tab*, not just new *windows*.
+* NoScript: Automatically disables Javascript everywhere and allows you to define custom rules on specific domains for using scripts. Lets you really simplify web browsing and keep you safe from maliciously downloaded JS code.
+* Privacy Badger: Blocks invisible trackers when browsing the web. Good for foiling gross advertisers and data miners trying to get your info.
+* Redirector: Use regex and wildcards to automatically modify matching URLs before going there. Useful for things like forcing the use of in-browser options in things like Zoom, looking at all Medium posts on Scribe.rip, etc.
+* Refined Github: Makes the Github experience much more pleasant.
+* uBlacklist: Block certain websites from showing up in your search results on the major engines.
+* uBlock Origin: An adblocker and general purpose content filter. I have used it to remove ads using their preloaded ad filters, related videos sections, sidebars, elements with classnames matching a pattern, disable Javascript on some or all sites, limit automatic media downloads for files over a certain size, etc. Can do essentially anything.
+
+=> https://github.com/pietervanheijningen/clickbait-remover-for-youtube Clickbait Remover for Youtube
+=> https://decentraleyes.org/ Decentraleyes
+=> https://addons.mozilla.org/en-US/firefox/addon/new-tab-override/ New Tab Override
+=> https://noscript.net/ NoScript
+=> https://privacybadger.org/ Privacy Badger
+=> https://addons.mozilla.org/en-US/firefox/addon/redirector/ Redirector
+=> https://github.com/refined-github/refined-github Refined Github
+=> https://github.com/iorate/uBlacklist uBlacklist
+=> https://ublockorigin.com/ uBlock Origin
+=> https://teddit.net/r/pcmasterrace/comments/uqn7kv/choose_wisely/i8scel6/#c A thread where I learned about NoScript
+
+f.lux: Warms your screen color at sundown until sunup so it doesn't destroy your eyes in the dark. Just essential and makes using a computer without it almost unbearable.
+=> https://justgetflux.com/ f.lux
+
+Flycut: Simple and straightforward clipboard manager. No bullshit, just works.
+=> https://github.com/TermiT/Flycut Flycut
+
+Hazel: Allows you to conditionally automate and script file handling. I personally use it for cleaning up screenshots, moving things out of my downloads into another folder, backing up old files, and managing my trash usage. Powerusers have made it do much cooler things.
+=> https://www.noodlesoft.com/ Hazel
+=> https://www.asianefficiency.com/technology/hazel-intro/ How powerusers use Hazel
+
+iTerm2: Terminal that allows multiple tabs, styling, font choice, etc. Just better than OSX built in.
+=> https://iterm2.com/ iTerm2
+
+Karabiner-Elements: A powerful and stable keyboard customizer for macOS. I use this to map capslock to escape, the bottom right alt button to insert, for some of those old DOS programs, and flip the F-row buttons from having to use `fn` every time I want to press any actual F key.
+=> https://karabiner-elements.pqrs.org/ Karabiner-Elements
+
+Nativefier: A way to make web applications "native" with Electron. I'm not a big Electron guy, as the apps I use that utilize it are bloated as all hell (Slack, VS Code, etc.), but it does the thing to help compartmentalize app spaces. A spiritual successor to fluid.
+=> https://github.com/nativefier/nativefier Nativefier
+=> https://www.fluidapp.com/developer/ fluid
+
+1Password / Keepass (Free): ~~I use Lastpass~~ (I used to use Lastpass, but they are lacking on security, and their free model will only work on a single device at a time, making it useless if you use a phone and computer with it), but use ANY password manager, please please please.
+=> https://www.1password.com/ 1Password
+=> https://keepass.info/index.html Keepass (Free)
+=> https://en.wikipedia.org/wiki/LastPass Lastpass lacking on security
+=> https://www.tomsguide.com/us/password-manager-pros-cons,news-19018.html Use ANY password manager!
+
+OcenAudio: If Audacity was actually pleasant to use. Not *as* powerful, but for 99% of what I do, it is much better for audio editing/manipulation in every way.
+=> https://www.ocenaudio.com/en/ OcenAudio
+
+PyCharm: A much nicer environment to write Python in. Preferred over VSCodium for the built-in Python specific console and debugger.
+=> https://www.jetbrains.com/pycharm/ PyCharm
+
+QuodLibet: A great music library manager for people who like owning our music. Also a great tagging software. This doesn't do everything for me, so I will still often use VLC.
+=> https://quodlibet.readthedocs.io/en/latest/ QuodLibet
+
+Quitter: One of my most useful apps. Quits an app based on minutes of inactivity. Super useful for very distracting and/or power-hungry apps like Messages, Slack, etc.
+=> https://marco.org/apps Quitter
+
+Reaper: I used to use this for all my podcast editing because of the ability to make super useful keyboard shortcuts and Lua scripts along with the varispeed that can go over 2x speed (looking at you, Logic).
+=> https://www.reaper.fm/ Reaper
+
+Rectangle / ShiftIt: Window manager that uses keyboard shortcuts. Super easy to arrange windows into quandrants, screen halves/thirds, etc., or move windows over to other screens. Just overall very useful for smaller single-monitor or large multi-monitor setups.
+=> https://rectangleapp.com/ Rectangle
+=> https://github.com/fikovnik/ShiftIt ShiftIt
+
+SublimeText: This is my coding scratchpad as well as my daily task manager using PlainTasks. Not as full featured towards any given language as PyCharm or as huge as VSCodium, but fantastic, fast, and a pleasure to use.
+=> https://www.sublimetext.com/ SublimeText
+=> https://github.com/aziz/PlainTasks PlainTasks
+
+Sublime packages I use:
+
+* Emmet: If you do any HTML/CSS/JS, get Emmet.
+* HTML-CSS-JS Prettify: Auto-formats different web files for easy editing/analysis a la Prettier.
+* Monokai Pro: Beautiful theme that just feels nice. Definitely a splurge on my part, as it does cost $10 which is $10 more than most themes, but I just like it a lot.
+* PlainTasks: Great todo app. I use it for all my workflows and SOP's since it is not proprietary and is saved as plaintext so anyone can read it.
+* RainbowBrackets: Shows your matching brackets at a glance. Makes debugging missed brackets simple.
+* Sync Settings: Helps sync settings across multiple computers.
+
+=> https://emmet.io/blog/sublime-text-3/ Emmet
+=> https://packagecontrol.io/packages/HTML-CSS-JS%20Prettify HTML-CSS-JS Prettify
+=> https://prettier.io/ Prettier
+=> https://monokai.pro/ Monokai Pro
+=> https://github.com/aziz/PlainTasks PlainTasks
+=> https://packagecontrol.io/packages/RainbowBrackets RainbowBrackets
+=> https://packagecontrol.io/packages/Sync%20Settings Sync Settings
+
+Tod: This is the todo app I use every day. Terminal based, will work on essentially any *nix shell, and is bonehead simple. Essentially is a plain text file at the end of the day.
+=> https://codeberg.org/milofultz/tod_sh Tod
+
+Trash-CLI: A way to tone down deleting files in the terminal so it isn't all or nothing, like `rm`.
+=> https://github.com/andreafrancia/trash-cli Trash-CLI
+
+Typora: Super simple and pretty markdown editor I use all of the time for my blog posts, code diary, note taking, and any other markdown-related stuff. Interchangeable CSS themes make it really easy to customize, too.
+=> https://typora.io/ Typora
+
+Vim: Terminal text editor that is built in to pretty much any *nix system. It can do pretty much anything, if you spend enough time with it.
+=> https://www.vim.org/ Vim
+=> https://www.tinybrain.fans/vim.html My notes on Vim
+
+Extensions I use:
+
+* Pathogen: Easy installing of Vim plugins. Do this first.
+* delimitMate: Handles automatic closing of brackets
+* Emmet: It's emmet.
+* Fugitive: A git wrapper for Vim
+* Repeat: Repeat complex commands with `.`
+* Surround: Insert, change, or remove brackets easily
+
+=> https://github.com/tpope/vim-pathogen Pathogen
+=> https://github.com/Raimondi/delimitMate delimitMate
+=> https://github.com/mattn/emmet-vim Emmet
+=> https://github.com/tpope/vim-fugitive Fugitive
+=> https://github.com/tpope/vim-repeat Repeat
+=> https://github.com/tpope/vim-surround Surround
+
+VLC: Great media player than can play pretty much anything you throw at it.
+=> https://www.videolan.org/vlc/ VLC
+
+VSCodium: An open source version of Microsoft's VSCode, meaning it had none of the bloat that MS adds like tracking, telemetry, etc.
+=> https://vscodium.com/ VSCodium
+
+VS Code extensions I use:
+
+* Colorize: Shows what colors are in your CSS/Sass when using any color method including variables.
+* ESLint: Javascript linter.
+* Monokai Pro: Same as above.
+* Prettier: Helpful for keeping your code matching code style standards. Auto-formats your code according to user-set rules.
+* Stylelint: A CSS linter.
+
+=> https://github.com/KamiKillertO/vscode-colorize/ Colorize
+=> https://eslint.org/ ESLint
+=> https://monokai.pro/ Monokai Pro
+=> https://prettier.io/ Prettier
+=> https://stylelint.io/ Stylelint
+
+## Fonts
+
+Atkinson Hyperlegible Font: I use this as my default font for sans-serif on my browser so I can set the default font size much smaller and still be readable.
+=> https://brailleinstitute.org/freefont Atkinson Hyperlegible Font
+
+Iosevka: I love Iosevka because it is SO THIN. You can fit so many characters on a page and have it still be legible. Seuper useful for coding, and terminal use in general. Good ligatures, as well.
+=> https://typeof.net/Iosevka/ Iosevka
+
+Manrope: A nice sans-serif more akin to Helvetica.
+=> https://manropefont.com/ Manrope
+
+## Etc.
+
+Dotfiles Backup: I use a method like this to maintain and backup my important config files.
+=> https://kb.levine.org/homelab/how-to/general/how-to-backup-dotfiles-to-github/ Dotfiles Backup
+
+Here's an example of the config files I back up:
+
+```
+.zshrc
+.bashrc
+.bash_profile
+.vimrc
+.gitignore
+.gitconfig
+.tod
+.bonzo
+~/.vim/
+~/.config/
+# Daily backup for aText
+# JSON dump of Redirector for Firefox
+```
+
+---
+
+* 20210206: Added f.lux and Lastpass, SublimeText and VSCodium extensions to programs, Atkinson Hyperlegible to fonts
+* 20210403: Removed Lastpass and added 1Password, HTML-CSS-JS Prettify, Sync Settings
+* 20211027: Add Flycut, Hazel, Nativefier, revise various elements
+* 20211129: Replaced Grand Perspective with DiskInventoryX
+* 20211231: Added Manrope font; removed Bracket Colorizer for VSCode, as it's built in now; Firefox and plugins
+* 20220412: Added Iosevka, Vim, VLC, and some of my own personal apps.
+* 20220507: Added dotfiles backup
+* 20220515: Added trash-cli
+* 20220528: Added Firefox privacy plugins
+

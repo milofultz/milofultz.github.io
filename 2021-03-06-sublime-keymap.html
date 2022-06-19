@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Find and Remove Autocompletes in Sublime Text 3 - milo fultz</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="alternate" type="application/rss+xml" title="Find and Remove Autocompletes in Sublime Text 3" href="atom.xml">
+  </head>
+  <body>
+    <header>
+    <strong>Milo Land</strong>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="now.html">Now</a></li>
+          <li><a href="atom.xml">RSS</a></li>
+          <li><a href="http://www.tinybrain.fans">Wiki</a></li>
+          <li><a href="http://www.codeberg.org/milofultz">Codeberg</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1>Find and Remove Autocompletes in Sublime Text 3</h1><p>I just spent forever trying to find a solution for this, so I figure putting it up here will be helpful for me and hopefully for others, too.</p><p>In my case, I have been using Emmet to write HTML and CSS much faster. The issue that first came up was that when typing a colon in CSS, by default Sublime Text will add a semicolon. This doesn't allow Emmet to expand correctly, or at best leaves you with an extra semicolon. After getting a hacky fix for this that didn't fix the same problem in a Sass package, I had to actually figure out how to solve the root issue.</p><p>OdatNurd on StackOverflow provided a fantastic walkthrough to a similar problem and left me with the tools to actually diagnose and solve the problem. You can use this to find out *what* is happening and in *what* part of the program, not just flailing and hoping you fix something.</p><p><a href="https://stackoverflow.com/questions/59635627/how-to-override-sublime-text-3-packages-css3-completion-syntax">OdatNurd's post on StackOverflow</a></p><ul><li>Open the console (`View > Show Console` or ```ctrl + ` ``` on OSX).</li><li>In the console, enter in `sublime.log_commands(True)`.</li><li>Do what you need to recreate the issue. Immediately after triggering the unwanted behavior, document what you think is causing it that is in the console. In my case it was `command: insert_snippet {"contents": ":$0;"}`.</li><li>Depending on which syntax you are in, or which plugin is listed/suspected, use the command palette to `View Package File` and type in the syntax/plugin. This will show files that are hidden, as well, which makes diagnosing issues with default plugins/syntaxes much easier.</li><li>Once you find a possible file, open it. `Save As` in the `Packages` directory under a new folder called the name of the plugin or syntax. e.g. for the Sass plugin/syntax, I created a folder in `Packages` called `Sass` and saved a copy of the `Default.sublime-keymap` file there, which included my additions.</li><li>In my case, I copied the old rule over and changed the `{"contents": ":$0;"}` object to `{"contents": ":$0"}`, which allowed the colon to be typed without adding any additional characters.</li></ul><p><a href="https://www.sublimetext.com/docs/3/packages.html">You can find more on overriding packages here</a></p>
+    </main>
+    <footer>
+      <ul>
+        <li><a rel="me" href="https://merveilles.town/@milofultz">Merveilles</a></li>
+        <li><a rel="me" href="https://oulipo.social/@irondung">Oulipo</a></li>
+        <li><a href="https://lieu.cblgh.org/random">Webring</a></li>
+      </ul>
+    </footer>
+  </body>
+</html>

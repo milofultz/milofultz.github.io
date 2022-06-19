@@ -1,0 +1,11 @@
+# Sorting Algorithms in 6502 Assembly
+
+=> https://github.com/milofultz/sorting-in-6502 Check out the project files on GitHub!
+
+This uses Minicube64 to run, so a lot of this is necessary for that architecture. If you want the meat and potatoes, check out the `ENUM`, the variable initialization, and the `...Sort` label to see how it all works.
+=> https://github.com/aeriform-io/minicube64/ Minicube64
+
+* 20211109: Implement Bubble Sort
+* 20211113: Optimized slightly by decrementing count every iteration of OuterLoop; Implement Selection Sort and Insertion Sort
+* 20211114: Implement Quick Sort
+

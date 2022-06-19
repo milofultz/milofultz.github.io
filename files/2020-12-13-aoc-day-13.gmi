@@ -1,0 +1,157 @@
+# Solution to Advent of Code 13 - LCM with Offsets
+
+Here, to help justify that I definitely stole an answer from somebody on Reddit to answer this question, I'm going to explain _why_ the answer works. Mainly for myself to truly understand this, but also so that if somebody searches for something like this at a later date, there will be a reference. (I'll be using the smaller sample data for the explanation because it is way easier to grok)
+
+=> https://adventofcode.com/2020/day/13 Check out the problem here, or this won't make any sense.
+=> https://github.com/milofultz/aoc2020/blob/master/13/aoc13-2-brute.py My initial solution that used brute force
+
+## Brute Force
+
+My initial solution used brute force, as essentially all of my solutions have so far, and this...didn't work. My computer was working really hard, fans spinning and everything, but wasn't getting anywhere (because the answer for me ended up being 667,437,230,788,118 and I started at _1_). I went to bed and tried to not think about it. First of course we start with parsing the data, which is a line of "bus IDs", which actually correspond to the intervals at which the buses leave the station.
+
+```
+7,13,x,x,59,x,31,19
+```
+
+I put these into an array, converting the numbers to integers and leaving the x's as strings.
+
+```
+[7, 13, 'x', 'x', 59, 'x', 31, 19]
+```
+
+Here's the pseudocode of the brute force solution:
+
+```
+Set 'largest_number' to the largest number in the array
+Set 'largest_offset' to the index of 'largest_number' in the array
+Set the initial value of the 'multiple' by which to multiply the 'largest_number' to 1
+Set a 'found' variable to let the program know the solution has not been found
+While the solution has not been 'found':
+    Set that the solution is 'found' until proven otherwise
+    Set the 'target' test value to the 'multiple' times the 'largest_number'
+    For each 'index' of each 'bus_ID' in the array
+        Set the 'offset' to the 'index' minus the 'largest_offset'
+        If the 'bus_ID' is an 'x', then continue to the next 'bus_ID'
+        If the remainder of (the sum of the 'target' and the 'offset') divided by the 'bus_ID' is not zero:
+        	Set that the solution was not found and break out of the loop
+    Add one to the 'multiple'
+Return the 'target'
+```
+
+I used the largest number in the array to try and speed up the already long search, as their multiples of 59 would get searched way faster than the multiples of 7. As this iterates through, it tests every multiple of the largest number against each number plus or minus its relative offset. Unfortunately, even though this works, it is not fast (at all) for the much longer and much more complex final puzzle input.
+
+One way I could have improved this was in the parsing of the data. Instead of trying to calculate weird offsets, I should have just included the offsets with the bus IDs as a tuple. The result would be a list of tuples, each of which include the __offset__ and the __bus ID/interval__. The 'x's are also discarded, as they are no longer necessary.
+
+```
+# (offset, bus_id)
+[(0,7), (1,13), (4,59), (6,31), (7,19)]
+```
+
+## Sieving
+
+The idea of a 'sieve' in math is to use it to 'sieve' out all non-possibilities, leaving you with a much smaller pool to test. Most notable is the Sieve of Erastosthenes, which is used to calculate prime numbers.
+
+=> https://en.wikipedia.org/wiki/Sieve_theory sieve theory
+=> https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes Sieve of Erastosthenes
+
+The most base case of this problem that I found was to find the least common multiple of a given set of integers. To find this using the sieve method, we can use this pseudocode:
+
+```
+Set the initial value of the 'answer' number to 0
+Set the initial value of 'least common multiple' to 1
+For each 'number' in the array:
+	While the remainder of the 'answer' value divided by the 'number' is not zero:
+		Add the value of the 'least common multiple' to the 'answer'
+	Set the 'least common multiple' to the `answer`
+Return the 'answer'
+```
+
+### Example:
+
+Let's say our given `array` of integers are [2,3,8]. We start by setting our `answer` as 0 and the `least common multiple` to 1. Then we reach the For loop, which will cycle through the `number`s in the `array`:
+
+```
+Set the `number` to the first number in the `array`, 2.
+While `answer` % `number` ≠ 0:
+	0 % 2 ≠ 0 is true, so add `least common multiple` to the `answer`. `answer` now equals 1.
+	1 % 2 ≠ 0 is true, so add `least common multiple` to the `answer`. `answer` now equals 2.
+	2 % 2 ≠ 0 is false, so break out of the while loop.
+Set `least common multiple` to `least common multiple` times `number`: 2.
+We continue through the for loop: `number` is the next in the `array`: 3.
+While `answer` % `number` ≠ 0:
+	2 % 3 ≠ 0 is true, so add `least common multiple` to `answer`: 4.
+	4 % 3 ≠ 0 is true, so add `least common multiple` to `answer`:  6.
+	6 % 3 ≠ 0 is false, so break out of the while loop.
+Set `least common multiple` to `least common multiple` times `number`: 6.
+We continue through the for loop: `number` is the next in the `array`: 8.
+While `answer` % `number` ≠ 0:
+	6 % 8 ≠ 0 is true, so add `least common multiple` to `answer`: 12.
+	12 % 8 ≠ 0 is true, so add `least common multiple` to `answer`: 18.
+	18 % 8 ≠ 0 is true, so add `least common multiple` to `answer`: 24.
+	24 % 8 ≠ 0 is false, so break out of the while loop.
+Set `least common multiple` to `least common multiple` times `number`: 24.
+```
+
+One thing to note going forward is that **all the numbers of the bus IDs are prime numbers**, as if they were not, there would have to be some factorization in preparing to find the least common multiple. Finding the LCM of all primes is to just multiply them together, but with the offsets, we need this longhand to get there.
+
+## Adding the Offsets
+
+Now that we have this pseudocode, adding the offsets is easier for me to grok. The biggest difference is that we are going to utilize the `least common multiple` and the `answer` a _tiny_ bit differently. Assuming we have our list of bus IDs from before, where each ID is a tuple containing the _offset_ and the _bus ID/interval_, we now have to adjust our test in the while loop. Instead of testing for if the remainder of the `answer` divided by the `number` is not zero, we are going to test whether the remainder of the sum of the `answer` and the `offset` all divided by the `number` is not zero.
+
+```
+('answer' + 'offset') % `number` ≠ 0
+```
+
+Now, here is the pseudocode, taking into account the `offset` needed to calculate the answer.
+
+```
+Set the initial value of the 'answer' number to 0
+Set the initial value of 'least common multiple' to 1
+For each 'offset' and 'number' in the array:
+	While the remainder of the sum of the 'answer' and the 'offset' value all divided by the 'number' is not zero:
+		Add the value of the 'least common multiple' to the 'answer'
+	Set the 'least common multiple' to the 'least common multiple' multiplied by the 'number'
+Return the 'answer'
+```
+
+### Example
+
+I'll again use an `array` containing [2,3,8], keeping in mind the new problem: our solution must look for what number is:
+
+* A multiple of the first element, and
+* The sum of the offset plus a multiple of the number, for every other element.
+
+First we will need to parse our array into tuples containing their __offsets__ and __numbers__:
+
+```
+[(0, 2), (1, 3), (2, 4)]
+```
+
+Next, we define `answer` as 0 and `least common multiple` as 1. Then we continue into the For loop:
+
+```
+Set `offset` to the first number of the first tuple in `array`: 0; and set `number` to second number in the first tuple in `array`: 2.
+While (`answer` + `offset`) % `number` ≠ 0:
+	(0 + 0) % 2 ≠ 0 is true, so add `least common multiple` to `answer`: 1.
+	(1 + 0) % 2 ≠ 0 is true, so add `least common multiple` to `answer`: 2.
+	(2 + 0) % 2 ≠ 0 is false, so break out of the while loop.
+Set `least common multiple` to `least common multiple` times `number`: 2.
+We continue through the for loop: set `offset` and `number` as the numbers in the next tuple: 1 and 3.
+While (`answer` + `offset`) % `number` ≠ 0:
+	(2 + 1) % 3 ≠ 0 is true, so break out of the while loop.
+Set `least common multiple` to `least common multiple` times `number`: 6.
+We continue through the for loop: set `offset` and `number` as the numbers in the next tuple: 2 and 8.
+While (`answer` + `offset`) % `number` ≠ 0:
+	(2 + 2) % 8 ≠ 0 is true, so add `least common multiple` to `answer`: 8.
+	(8 + 2) % 8 ≠ 0 is true, so add `least common multiple` to `answer`: 14.
+	(14 + 2) % 8 ≠ 0 is false, so break out of the while loop.
+Set `least common multiple` to `least common multiple` times `number`: 48.
+Return the `answer`: 14.
+```
+
+## Other Solutions
+
+The ones using the Chinese remainder theorem went _way_ over my head and the videos I watched were not enough to compel me to spend time trying to: first, understand it and then second, write the program out. It was well beyond my understanding, but I think it probably is the "desired" solution.
+
+=> https://en.wikipedia.org/wiki/Chinese_remainder_theorem Chinese remainder theorem
+

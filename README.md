@@ -1,1 +1,0 @@
-This website is a static site and largely a fork of [Sidey by RonV](https://github.com/ronv/sidey). I use this to plant whatever ideas or projects I'm working on at the time and would love for you to [check it out](http://www.milofultz.com)!

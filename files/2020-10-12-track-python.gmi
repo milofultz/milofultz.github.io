@@ -1,0 +1,46 @@
+# Track - Daily Journal and Log (Python)
+
+=> https://github.com/milofultz/track Check out the up-to-date version on GitHub
+
+I wanted to have a way to track my mood and accomplishments over time, keep track of my priority for the next day, as well as a basic journaling platform that was not pretentious or leading. Seemed like a good project and I had seen a few people on merveilles.town making some fun CLI tools in this vein, so I took a swing at it.  Inspo from lon by dstn.
+
+=> http://merveilles.town
+=> https://github.com/0xdstn/lon lon by dstn
+
+* Tracks mood, accomplishments, journal entries, and MIT for next day
+* Saves data in an easy to read plaintext file in the root folder called `~/.track`
+* Integrates with Tod to pull in completed accomplishments
+* Allows pulling of MIT into Tod's task list
+
+=> 2020-10-17-tod-python.html Tod
+
+
+## Usage
+
+On prompting, input:
+
+* Your mood on a 1-5 scale.
+* Your accomplishments for the day. When finished, leave the line blank and press enter.
+* Your most important task for the next day.
+* A 50 character or less summary of your day.
+* A longer journal entry of anything you feel is relevant.
+
+This will save this data into a file named `.track` in your root folder, formatted like so:
+
+```
+---
+20201011 (4) Spend time on programming, exercise, and work.
+
+* Write daily tracker program
+* Exercise with 1.5hr walk
+* Brainstorm programming projects
+* Vote in election
+
+> Prepare for next week and resolve all open tasks
+
+I walked farther south than I have since moving here, and I really like how quiet
+the side streets are.
+
+Been listening to vogue ball playlists all night.
+```
+

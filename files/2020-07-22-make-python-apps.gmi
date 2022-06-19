@@ -1,0 +1,42 @@
+# Make Python 'Apps' and Shortcuts To Run Them on OSX
+
+After experimenting with PyInstaller and Platypus to create a standalone app in OSX with no success, I went the much lower fidelity route. But it was successful, so I'm happy with it.
+
+=> https://pyinstaller.readthedocs.io/en/stable/ PyInstaller
+=> https://sveinbjorn.org/platypus Platypus
+
+
+The goal of this was first to make a standalone app that will run Python script, but second to assign it to a keystroke. I have only tested this with running a Python script, but I can't imagine it would be much more difficult for any other bash script. So here is the process:
+
+* Open Script Editor (in Applications/Utilities).
+* Using the `do shell script` command, add the script you want to run. Essentially, you'll want to write in what you normally put into the Terminal, separated by semicolons.
+
+```
+do shell script "cd 'path/to/script'; source venv/bin/activate; python main.py"`
+```
+
+* Save this as an Application to your Applications folder (or wherever makes sense).
+* Close Script Editor. (If you don't want to add a shortcut, you can stop here)
+* Open Automator (in Applications).
+* Create a "Quick Action" or "Service", whatever one your OS says.
+* In the top bar, set the following setting: Workflow receives current no input in any application.
+* In the column second from the left, drag the "Launch Application" task into the "Drag actions or files here" area.
+* Select your application within that dropdown menu.
+* Save this with a memorable name.
+* Close Automator.
+* Open System Preferences and go to "Keyboard".
+* Within this window, click "Shortcuts".
+* Click on the "Services" menu on the left hand side.
+* Scroll to the bottom of the right window until you see your new service you created.
+* Double-click where it says 'none' and set a new shortcut (make sure it's unique and won't conflict with other programs or special characters. I chose `ctrl+opt+shift+A`).
+
+**NOTE**: If you don't do the following steps, your shortcut will not work.
+
+* Close your System Preferences.
+* Click on Finder in your dock.
+* Open the Finder dropdown menu and go into Services. Click on your new service to run it manually.
+
+## References:
+
+=> https://www.makeuseof.com/tag/applescript-bash-scripts-apps/
+=> https://discussions.apple.com/thread/5048120

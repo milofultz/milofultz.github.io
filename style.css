@@ -1,0 +1,42 @@
+body {
+  background-color: #222;
+  color: #e0e0e0;
+  font-family: monospace;
+  margin: auto;
+  max-width: 50rem;
+  padding: 1rem;
+}
+h1, h2, h3 {
+  margin-top: 2rem;
+}
+a:link {
+  color: #9bf;
+}
+a:visited {
+  color: #dad;
+}
+/* Ensure nav is readable */
+header, footer {
+  padding: .5rem;
+  text-align: center;
+}
+header ul, footer ul {
+  list-style: none;
+  margin: 0;
+  padding: 1rem 1rem 1rem 0;
+}
+header ul {
+  padding-top: 0;
+}
+header li, footer li {
+  display: inline-block;
+  margin: 0;
+  padding: 1rem 1rem 1rem 0;
+}
+/* Ensure long code lines are readable */
+pre {
+  background: #222;
+  color: #ddd;
+  padding: 1rem;
+  white-space: pre-wrap;
+}

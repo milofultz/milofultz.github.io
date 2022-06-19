@@ -1,0 +1,121 @@
+# Bytebeat - Overview and How To Make/Record on OSX
+
+"Bytebeat" is the name given to the method of piping mathematical equations to an audio device make lo-fidelity gritty sounds. They often sound pretty musical due to the mathematical nature of the equations and bitwise operations. But that does not mean that it has to be "musical" to be good either, as you will discover when messing around with it.
+
+For a good dive into what Bytebeat is and how it started, check out these links:
+
+=> http://canonical.org/~kragen/bytebeat/ Kragen's Writeup
+=> https://countercomplex.blogspot.com/2011/10/algorithmic-symphonies-from-one-line-of.html The original post from Ville-Matias Heikkilä
+=> https://countercomplex.blogspot.com/2011/10/some-deep-analysis-of-one-line-music.html his follow up post
+=> https://zserge.com/posts/etude-in-c/ ZSerge's article where I first heard about it
+
+## Examples:
+
+=> https://www.youtube.com/watch?v=GtQdIYUtAHg Bytebeat: Experimental music from very short C programs
+=> https://www.youtube.com/watch?v=qlrs2Vorw2Y Bytebeat: Experimental one-line algorithmic music - the 2nd iteration
+=> https://www.youtube.com/watch?v=tCRPUv8V22o Bytebeat: Music from very short programs - the 3rd iteration
+
+## How To Make Your Own
+
+A fantastic how-to of the basics including the math operations and how to use them can be found in PDF at TuesdayNightMachine's Github page. I would highly recommend starting here if you don't get binary or bitwise operations.
+
+=> https://github.com/TuesdayNightMachines/Bytebeats TuesdayNightMachine's Github page
+
+The super simplest way to implement and test (hear) Bytebeat code is through the many online HTML5/JS apps online.
+
+=> https://greggman.com/downloads/examples/html5bytebeat/html5bytebeat.html#t=0&e=0&s=8000&bb=5d00000100180000000000000000141d0150043e1f062919296ab90380807628655b351388d1ffe7d4a000 Gregg Tavares
+=> http://wurstcaptures.untergrund.net/music/ Bemmu and rarefluid (in stereo!)
+
+## Making It Offline On OSX
+
+My desire when starting to mess with this stuff was trying to figure out how I could do it in the command line, as that was how I had seen it laid out in many examples in Linux. The problem was that the built in tools to pipe data into your audio device was not built in to OSX the way it is built in to Linux, so I had to do some sleuthing. With a lot of help from the Merveilles community, I was able to finally figure out the process and I wanted to document it here.
+
+=> https://merveilles.town/web/statuses/105096777143471978 The Merveilles thread on bytebeat
+
+First, install SoX with homebrew: `brew install sox`
+
+Then create a bash script to automate the build, compile, and piping of your Bytebeat formulas all on the CLI.  The way that I did this was pretty much completely stolen from Cole Ingraham's post that I dug up on archive.org. Essentially without this, you have to do quite a few very boring and uninteresting steps which means very little instant gratification, which is what we want.
+
+Here is the script that I created for using it in bash on OSX:
+
+```
+#!/bin/bash
+
+# This script creates and plays a simple ByteBeat
+# ARGS
+# $1: a string with the ByteBeat algorithm e.g. "((t * 3) & (t >> 5))"
+# $2: the name of the file to be creates (without an extension)
+###
+
+# create the C program
+echo "#include <math.h>
+
+int s(double num){
+    return 256*sin(num);
+};
+
+int c(double num){
+    return 256*cos(num);
+};
+
+main(t){
+    for(t=0;;t++){
+        putchar( $1 );
+    }
+};" > "$2.c"
+
+# compile the source
+gcc "$2.c" -o "$2"
+
+# play it with standard ByteBeat settings
+./"$2" | sox -t u8 -r 8k -c 1 - -d
+```
+
+Take this script and copy it into a code editor/text editor, saving it as a file with an `.sh` extension (I called it `bytebeat.sh`). Put it in a folder where you can access it easily with the command line in your terminal. There you will be able to make the audio using the arguments written in the script. But before that,
+
+Turn down your volume! Trust me, it's LOUD. Don't forget!
+
+Once you have saved that script and you have navigated to the enclosing folder in your terminal, you can make some noises! Your script takes two arguments:
+
+* The Bytebeat algorithm/equation
+* The name of the file that will be gnenerated and played (can be whatever, I usually go with test)
+
+For example:
+
+```
+./bytebeat.sh "(t/4)*(t>>8|((14 & t)^3))" test
+```
+
+This runs the bash script (`bytebeat.sh`) and uses the Bytebeat algorithm/equation `(t/4)*(t>>8|((14 & t)^3))` to generate the compiled C program `test`. This program `test` is then piped into sox and plays through the speakers. You're done!
+
+### Record it!
+
+There are two ways you can save the audio you've created. One is fairly user friendly and the other one is a bit clunky.
+
+The easiest way is to download and install Rogue Amoeba's Loopback to record your system audio. This is very simple and highly recommend it.
+
+If for whatever reason that doesn't work for you, you can create a raw audio file on your computer and use Audacity to open it. This may not output exactly what you heard when playing it using the bash script, but it may yield some cool variations.
+
+* Run your script to create the compiled Bytebeat script (give it a proper name instead of `test` if that's easier to find). Within your folder, you should find a file of that name.
+* Send the output of this newly compiled script to a file instead of piped to SoX. (NOTE: This can create endlessly large files on your computer and possibly eat up all empty memory if you don't stop it quickly. To avoid this, cancel (ctrl + C) the process around a half-second to a second after you start it.) To do this, write this in your shell, assuming your newly compiled file is called `test` and the output file is called `output.raw`: `./test > output.raw`
+* As said before, you will want to cancel this process very quickly after you start it with ctrl + C, as it can otherwise create a massive file.
+* Open Audacity. Select `File` > `Import` > `Raw Data...` and choose your newly output file (`output.raw` in our example). Use the following settings in the dialog box:
+
+Encoding: Unsigned 8-bit PCM
+Byte Order: No endianness
+Channels: 1 (Mono)
+Start Offset: 0
+Amount to Import: 100
+Sample Rate: 8000
+
+* Listen to your hideous creation.
+
+### Resources/Implementations
+
+=> https://chrisrosser.net/posts/2020/04/06/using-sox-on-macos/ you can follow this tutorial here if you are confused
+=> https://web.archive.org/web/20160610140821/http://coleingraham.com/2013/04/28/bytebeat-shell-script/ Cole Ingraham's post
+=> https://rogueamoeba.com/loopback/ Loopback
+=> https://www.audacityteam.org/ Audacity
+=> http://royal-paw.com/2012/01/bytebeats-in-c-and-python-generative-symphonies-from-extremely-small-programs/ C and Python implementation
+=> https://gist.github.com/bzamecnik/a2d45dc0addb8d602d70b1d8df0f9fd0 Python implementation
+

@@ -1,0 +1,32 @@
+# Byonic Reading - 80/20 Version on Bionic Reading
+
+=> https://codeberg.org/milofultz/byonic-reading Check out the project files on Codeberg
+=> https://milofultz.codeberg.page/byonic-reading/ See it in action here!
+
+According to the designer, Bionic Reading is a way to aid in reading comprehension and focus, particularly those with difficulties like dyslexia, etc.
+=> https://bionic-reading.com/ Bionic Reading
+
+> Bionic Reading revises texts so that the most concise parts of words are highlighted. This guides the eye over the text and the brain remembers previously learned words more quickly.
+
+I recommend checking it out on their site so you can see what they're getting at. On first glance, the example they used seemed to make sense. It looked like it was merely highlighting the first half of every word as bold. It seems after reading their page it does a lot more than that, but that initial spark got me wondering how easy it would be to implement this as a basic Javascript snippet?
+
+It ended up being fairly straightforward. The pseudocode of the whole thing is:
+
+```
+MakeByonic(element):
+  FOR child of starting element
+    CASE element type of
+      text node:
+        Make first half of text bold
+        Replace original text node with newly formatted text
+      element node:
+        CALL MakeByonic on this child element
+    END CASE
+  END FOR
+```
+
+There are some weird things you have to do to make all this work with a webpage and some caveats I added to make it a but more readable and pleasant, but overall it's pretty straightforward and was a fun project! I may eventually turn it into a Firefox extension because why not.
+
+* 20220610 - Someone else made an extremely thorough version of Bionic Reading here. Can do way more than just bolding the first half of letters.
+
+=> https://github.com/axoletl/not-br

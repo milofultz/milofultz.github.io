@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Milo Land</title>
-  <link href="{{ site_url }}/atom.xml" rel="self" />
-  <id>{{ site_url }}</id>
-  <author>
-    <name>Milo Fultz</name>
-    <email>milopfultz@gmail.com</email>
-  </author>
-  {{ content }}
-</feed>
+<rss version="2.0">
+  <channel>
+    <title>Milo Land</title>
+    <link>{{ site_url }}/rss.xml"</link>
+    <description>Welcome to Milo Land</description>
+    {{ content }}
+  </channel>
+</rss>

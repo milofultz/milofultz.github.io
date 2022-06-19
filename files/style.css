@@ -35,8 +35,8 @@ header li, footer li {
 }
 /* Ensure long code lines are readable */
 pre {
-  background: #222;
-  color: #ddd;
+  background: #ccc;
+  color: #222;
   padding: 1rem;
   white-space: pre-wrap;
 }

@@ -1,3 +1,5 @@
+#!/bin/zsh
+
 gemkill ./files ./ "http://www.milofultz.com"
 
 new_changes=$(git status | grep -i "modified")

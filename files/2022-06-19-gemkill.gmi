@@ -1,0 +1,11 @@
+# gemkill - Generate no-nonsense text-based sites
+
+=> https://codeberg.org/milofultz/gemkill Check out gemkill on Codeberg
+
+I've been using Jekyll for my website since mid 2020, and it has worked well enough that whole time. The real issue I had that whole time was that I didn't actually understand how Jekyll worked. I just followed a tutorial, did all the steps, clicked stuff, and it worked.
+
+This was gratifying until I wanted to change *anything*. If there is one thing I know about myself, it's that I really dislike having weird black boxes that I am beholden to. If I don't know how to tweak a thing, or at the very least extricate myself from it if desired, I get really antsy. Merely one more aspect of some long standing emotional baggage, but at least in this instance, it's beneficial!
+
+Enter gemkill. You have a folder of pages written in gemtext, an ultra-minimal markup language, and a frame to slam these pages into. Bam. You want an RSS feed, too? Easy, make another frame for that. Done.
+
+I wanted it to be pretty no nonsense, and I think I got close. Considering this was a few day project, I feel pretty good about how it turned out! The page you're looking at was built with it, and you can read it, so I'd say it is a success.

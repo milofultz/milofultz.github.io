@@ -29,6 +29,7 @@ Here's the extensions I use regularly:
 * Privacy Badger: Blocks invisible trackers when browsing the web. Good for foiling gross advertisers and data miners trying to get your info.
 * Redirector: Use regex and wildcards to automatically modify matching URLs before going there. Useful for things like forcing the use of in-browser options in things like Zoom, looking at all Medium posts on Scribe.rip, etc.
 * Refined Github: Makes the Github experience much more pleasant.
+* Stylus: Use custom CSS for a given page. I use this to make sites more readable, reduce page width on a given site, etc.
 * uBlacklist: Block certain websites from showing up in your search results on the major engines.
 * uBlock Origin: An adblocker and general purpose content filter. I have used it to remove ads using their preloaded ad filters, related videos sections, sidebars, elements with classnames matching a pattern, disable Javascript on some or all sites, limit automatic media downloads for files over a certain size, etc. Can do essentially anything.
 
@@ -39,6 +40,7 @@ Here's the extensions I use regularly:
 => https://privacybadger.org/ Privacy Badger
 => https://addons.mozilla.org/en-US/firefox/addon/redirector/ Redirector
 => https://github.com/refined-github/refined-github Refined Github
+=> https://addons.mozilla.org/en-US/firefox/addon/styl-us/ Stylus
 => https://github.com/iorate/uBlacklist uBlacklist
 => https://ublockorigin.com/ uBlock Origin
 => https://teddit.net/r/pcmasterrace/comments/uqn7kv/choose_wisely/i8scel6/#c A thread where I learned about NoScript

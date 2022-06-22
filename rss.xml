@@ -5,6 +5,14 @@
     <link>http://www.milofultz.com/rss.xml</link>
     <description>Welcome to Milo Land</description>
     <item>
+  <title>Use uBlock To Set "No Style" as Default</title>
+  <link>http://www.milofultz.com/2022-06-21-no-style.html</link>
+  <guid>http://www.milofultz.com/2022-06-21-no-style.html</guid>
+  <description>&lt;h1&gt;Use uBlock To Set "No Style" as Default&lt;/h1&gt;&lt;p&gt;I really like the default CSS styling for reading basic text and couldn't find a good solution with Stylus, so I figured out a good solution using uBlock:&lt;/p&gt;&lt;pre&gt;&lt;code&gt;example.com##link[rel="stylesheet"]:remove()
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Don't know why this took me so long, but this definitely fixed my problem. Now I can browse in relative simplicity.&lt;/p&gt;&lt;p&gt;&lt;a href="https://ublock.org/"&gt;uBlock&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://addons.mozilla.org/en-US/firefox/addon/styl-us/"&gt;Stylus&lt;/a&gt;&lt;/p&gt;</description>
+  <pubDate>Tue, 21 Jun 2022 00:00:00 +0000</pubDate>
+</item>
+<item>
   <title>gemkill - Generate no-nonsense text-based sites</title>
   <link>http://www.milofultz.com/2022-06-19-gemkill.html</link>
   <guid>http://www.milofultz.com/2022-06-19-gemkill.html</guid>
@@ -119,13 +127,6 @@ x
   <guid>http://www.milofultz.com/2022-02-01-sub2pub.html</guid>
   <description>&lt;h1&gt;Sub2Pub - Convert Youtube Subtitles to EPUBs&lt;/h1&gt;&lt;p&gt;&lt;a href="https://codeberg.org/milofultz/sub2pub"&gt;Check out the project files on Codeberg&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Converts the subtitles of a Youtube video into an EPUB, using yt-dlp, Calibre, and basic \*nix tools in the shell. This technically works with suto generated subtitles, but it isn't pretty.&lt;/p&gt;&lt;p&gt;&lt;a href="https://github.com/yt-dlp/yt-dlp"&gt;yt-dlp&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://manual.calibre-ebook.com/generated/en/cli-index.html"&gt;Calibre&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Pretty much downloads the raw subtitle file from the YT server, formats everything as an HTML file, and then converst it directly. Works pretty well, and was really fun!&lt;/p&gt;</description>
   <pubDate>Tue, 1 Feb 2022 00:00:00 +0000</pubDate>
-</item>
-<item>
-  <title>My Favorite Web Radio Stations</title>
-  <link>http://www.milofultz.com/2022-01-31-web-radio.html</link>
-  <guid>http://www.milofultz.com/2022-01-31-web-radio.html</guid>
-  <description>&lt;h1&gt;My Favorite Web Radio Stations&lt;/h1&gt;&lt;p&gt;&lt;a href="https://c7.radioboss.fm:18205/stream"&gt;Bootie Mashup Radio&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="http://trace.dnbradio.com:8000/dnbradio_main.mp3"&gt;DnB Radio&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="http://listen.freeformportland.org:8000/stream"&gt;Freeform Portland&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="http://kwvaradio.uoregon.edu:8000/stream/1/"&gt;KWVA - University of Oregon Campus Radio&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://project.stream.laut.fm/project?pl=m3u"&gt;I can't remember the name of this, but I must have saved it for some reason&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="http://87.117.201.160:8200/listen.pls"&gt;UKG247 - UK Garage&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="http://listen.xray.fm:8000/stream"&gt;XRAY Portland&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Silly but cool:&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.youtube.com/watch?v=PgbrzmFGUyQ"&gt;Wreckage Systems&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.youtube.com/watch?v=MwtVkPKx3RA&amp;t=0s"&gt;RELENTLESS DOPPELGANGER&lt;/a&gt;&lt;/p&gt;</description>
-  <pubDate>Mon, 31 Jan 2022 00:00:00 +0000</pubDate>
 </item>
 
   </channel>

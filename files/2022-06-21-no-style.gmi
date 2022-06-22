@@ -1,0 +1,12 @@
+# Use uBlock To Set "No Style" as Default
+
+I really like the default CSS styling for reading basic text and couldn't find a good solution with Stylus, so I figured out a good solution using uBlock:
+
+```
+example.com##link[rel="stylesheet"]:remove()
+```
+
+Don't know why this took me so long, but this definitely fixed my problem. Now I can browse in relative simplicity.
+
+=> https://ublock.org/ uBlock
+=> https://addons.mozilla.org/en-US/firefox/addon/styl-us/ Stylus

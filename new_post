@@ -1,0 +1,13 @@
+#!/bin/zsh
+
+if [[ -z $1 ]]
+then
+  echo "Needs a post name"
+  exit 1
+fi
+
+todays_date=$(date "+%Y-%m-%d")
+filename=$(echo "$1" | sed -e 's/ /-/g')
+
+vim "~/Documents/Website/files/${todays_date}-${filename}.gmi"
+

@@ -2,14 +2,13 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <meta content='width=device-width, initial-scale=1' name='viewport'/>
-    <title>{{ title }} - milo fultz</title>
+    <title>Use uBlock To Set "No Style" as Default - milo fultz</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="alternate" type="application/rss+xml" title="{{ title }}" href="rss.xml">
+    <link rel="alternate" type="application/rss+xml" title="Use uBlock To Set "No Style" as Default" href="rss.xml">
   </head>
   <body>
     <header>
-      <strong>Milo Land</strong>
+    <strong>Milo Land</strong>
       <nav>
         <ul>
           <li><a href="index.html">Home</a></li>
@@ -21,7 +20,8 @@
       </nav>
     </header>
     <main>
-    {{ content }}
+      <h1>Use uBlock To Set "No Style" as Default</h1><p>I really like the default CSS styling for reading basic text and couldn't find a good solution with Stylus, so I figured out a good solution using uBlock:</p><pre><code>example.com##link[rel="stylesheet"]:remove()
+</code></pre><p>Don't know why this took me so long, but this definitely fixed my problem. Now I can browse in relative simplicity.</p><p><a href="https://ublock.org/">uBlock</a></p><p><a href="https://addons.mozilla.org/en-US/firefox/addon/styl-us/">Stylus</a></p>
     </main>
     <footer>
       <ul>

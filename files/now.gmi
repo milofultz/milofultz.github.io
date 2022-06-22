@@ -1,6 +1,6 @@
 # Now
 
-=> http://www.wtf.tw/ref/carse.pdf Reading "Finite and Infinite Games" by James P. Carse
+=> https://www.krusch.com/books/evolution/Manual_Creating_Atheists.pdf Reading "A Manual for Creating Atheists" by Peter Boghossian
 
 
 Developing a full-stack (PERN) web card game with Thornhenge
@@ -10,15 +10,17 @@ Learning ed(1) and making vim my main IDE
 
 Building and Dogfooding my Programming Tools
 
-=> https://codeberg.org/milofultz/bonzo-buddy Bonzo Buddy (C)
-=> 2022-01-28-tod-shell.html Tod (Shell)
+=> 2022-06-19-gemkill.html Gemkill - A static site generator (Ruby)
+=> https://codeberg.org/milofultz/bonzo-buddy Bonzo Buddy - Automate your self care (C)
+=> 2022-01-28-tod-shell.html Tod - Pomodoro-centric plaintext todos (Shell)
 
 
 Listening to
 
 => https://inlovewithaghost.bandcamp.com/album/playful-spirits In Love With A Ghost - Playful Spirits
 => https://kraejiyaeji.bandcamp.com/album/ep-1-2 Yaeji - EP 1+2
-=> https://simonstalenhag.bandcamp.com/album/music-for-dos Simon Stålenhag - Music For DOS
+=> https://yewtu.be/watch?v=hyHWKmBL-4s Judee Sill - Self Titled & Heart Food
 
 
 Looking for more cats to pet.
+

@@ -2,13 +2,14 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
+    <meta content='width=device-width, initial-scale=1' name='viewport'/>
     <title>Open A Random Note/Lo-Fi Idea Generator (Python) - milo fultz</title>
     <link rel="stylesheet" href="style.css">
     <link rel="alternate" type="application/rss+xml" title="Open A Random Note/Lo-Fi Idea Generator (Python)" href="rss.xml">
   </head>
   <body>
     <header>
-    <strong>Milo Land</strong>
+      <strong>Milo Land</strong>
       <nav>
         <ul>
           <li><a href="index.html">Home</a></li>
@@ -20,7 +21,7 @@
       </nav>
     </header>
     <main>
-      <h1>Open A Random Note/Lo-Fi Idea Generator (Python)</h1><p>For the last few months, I have been feeding my Zettelkasten with essentially anything that I find interesting: programming, emotional development, quotes, productivity, book or video reviews, whatever. If I think it's something that will help me or make me excited later, I put it in there.</p><p><a href="2020-05-22-zettelkasten.html">Zettelkasten</a></p><p>The problem I had was that even though I had these notes for reference, I wasn't finding myself reviewing them just for creating those interesting and random connections, which was something that I had initially started using the Zettelkasten for. Those random connections are what creates interesting ideas and diffuse connections, as well as a spaced repetition for ideas that I already decided are worth knowing.</p><p>I found a solution that was implemented by productivity dude and Twitter instigator Tiago Forte. Essentially, his "second brain", analogous to a Zettelkasten, is housed in Evernote, and he had an app developed that would pop open a random Evernote every time he clicked it. He found that this boosted his creativity and because of how easy it was, he was able to do it between meetings, during his breaks, essentially in any spare moment. In doing some research, I found somebody who made a random note Applescript for the Evernote app that looks like this:</p><p><a href="https://discussion.evernote.com/forums/topic/118680-randomnote-web-see-a-random-note-a-day/">The RandomNote app and an applescript that does the same thing</a></p><pre><code># Applescript
+    <h1>Open A Random Note/Lo-Fi Idea Generator (Python)</h1><p>For the last few months, I have been feeding my Zettelkasten with essentially anything that I find interesting: programming, emotional development, quotes, productivity, book or video reviews, whatever. If I think it's something that will help me or make me excited later, I put it in there.</p><p><a href="2020-05-22-zettelkasten.html">Zettelkasten</a></p><p>The problem I had was that even though I had these notes for reference, I wasn't finding myself reviewing them just for creating those interesting and random connections, which was something that I had initially started using the Zettelkasten for. Those random connections are what creates interesting ideas and diffuse connections, as well as a spaced repetition for ideas that I already decided are worth knowing.</p><p>I found a solution that was implemented by productivity dude and Twitter instigator Tiago Forte. Essentially, his "second brain", analogous to a Zettelkasten, is housed in Evernote, and he had an app developed that would pop open a random Evernote every time he clicked it. He found that this boosted his creativity and because of how easy it was, he was able to do it between meetings, during his breaks, essentially in any spare moment. In doing some research, I found somebody who made a random note Applescript for the Evernote app that looks like this:</p><p><a href="https://discussion.evernote.com/forums/topic/118680-randomnote-web-see-a-random-note-a-day/">The RandomNote app and an applescript that does the same thing</a></p><pre><code># Applescript
 tell application "Evernote"
 	set noteList to find notes
 	set randomNote to some item of noteList

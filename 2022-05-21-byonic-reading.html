@@ -2,13 +2,14 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
+    <meta content='width=device-width, initial-scale=1' name='viewport'/>
     <title>Byonic Reading - 80/20 Version on Bionic Reading - milo fultz</title>
     <link rel="stylesheet" href="style.css">
     <link rel="alternate" type="application/rss+xml" title="Byonic Reading - 80/20 Version on Bionic Reading" href="rss.xml">
   </head>
   <body>
     <header>
-    <strong>Milo Land</strong>
+      <strong>Milo Land</strong>
       <nav>
         <ul>
           <li><a href="index.html">Home</a></li>
@@ -20,7 +21,7 @@
       </nav>
     </header>
     <main>
-      <h1>Byonic Reading - 80/20 Version on Bionic Reading</h1><p><a href="https://codeberg.org/milofultz/byonic-reading">Check out the project files on Codeberg</a></p><p><a href="https://milofultz.codeberg.page/byonic-reading/">See it in action here!</a></p><p>According to the designer, Bionic Reading is a way to aid in reading comprehension and focus, particularly those with difficulties like dyslexia, etc.</p><p><a href="https://bionic-reading.com/">Bionic Reading</a></p><blockquote><p>Bionic Reading revises texts so that the most concise parts of words are highlighted. This guides the eye over the text and the brain remembers previously learned words more quickly.</p></blockquote><p>I recommend checking it out on their site so you can see what they're getting at. On first glance, the example they used seemed to make sense. It looked like it was merely highlighting the first half of every word as bold. It seems after reading their page it does a lot more than that, but that initial spark got me wondering how easy it would be to implement this as a basic Javascript snippet?</p><p>It ended up being fairly straightforward. The pseudocode of the whole thing is:</p><pre><code>MakeByonic(element):
+    <h1>Byonic Reading - 80/20 Version on Bionic Reading</h1><p><a href="https://codeberg.org/milofultz/byonic-reading">Check out the project files on Codeberg</a></p><p><a href="https://milofultz.codeberg.page/byonic-reading/">See it in action here!</a></p><p>According to the designer, Bionic Reading is a way to aid in reading comprehension and focus, particularly those with difficulties like dyslexia, etc.</p><p><a href="https://bionic-reading.com/">Bionic Reading</a></p><blockquote><p>Bionic Reading revises texts so that the most concise parts of words are highlighted. This guides the eye over the text and the brain remembers previously learned words more quickly.</p></blockquote><p>I recommend checking it out on their site so you can see what they're getting at. On first glance, the example they used seemed to make sense. It looked like it was merely highlighting the first half of every word as bold. It seems after reading their page it does a lot more than that, but that initial spark got me wondering how easy it would be to implement this as a basic Javascript snippet?</p><p>It ended up being fairly straightforward. The pseudocode of the whole thing is:</p><pre><code>MakeByonic(element):
   FOR child of starting element
     CASE element type of
       text node:

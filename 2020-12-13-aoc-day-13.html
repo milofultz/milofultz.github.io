@@ -2,13 +2,14 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
+    <meta content='width=device-width, initial-scale=1' name='viewport'/>
     <title>Solution to Advent of Code 13 - LCM with Offsets - milo fultz</title>
     <link rel="stylesheet" href="style.css">
     <link rel="alternate" type="application/rss+xml" title="Solution to Advent of Code 13 - LCM with Offsets" href="rss.xml">
   </head>
   <body>
     <header>
-    <strong>Milo Land</strong>
+      <strong>Milo Land</strong>
       <nav>
         <ul>
           <li><a href="index.html">Home</a></li>
@@ -20,7 +21,7 @@
       </nav>
     </header>
     <main>
-      <h1>Solution to Advent of Code 13 - LCM with Offsets</h1><p>Here, to help justify that I definitely stole an answer from somebody on Reddit to answer this question, I'm going to explain _why_ the answer works. Mainly for myself to truly understand this, but also so that if somebody searches for something like this at a later date, there will be a reference. (I'll be using the smaller sample data for the explanation because it is way easier to grok)</p><p><a href="https://adventofcode.com/2020/day/13">Check out the problem here, or this won't make any sense.</a></p><p><a href="https://github.com/milofultz/aoc2020/blob/master/13/aoc13-2-brute.py">My initial solution that used brute force</a></p><h2>Brute Force</h2><p>My initial solution used brute force, as essentially all of my solutions have so far, and this...didn't work. My computer was working really hard, fans spinning and everything, but wasn't getting anywhere (because the answer for me ended up being 667,437,230,788,118 and I started at _1_). I went to bed and tried to not think about it. First of course we start with parsing the data, which is a line of "bus IDs", which actually correspond to the intervals at which the buses leave the station.</p><pre><code>7,13,x,x,59,x,31,19
+    <h1>Solution to Advent of Code 13 - LCM with Offsets</h1><p>Here, to help justify that I definitely stole an answer from somebody on Reddit to answer this question, I'm going to explain _why_ the answer works. Mainly for myself to truly understand this, but also so that if somebody searches for something like this at a later date, there will be a reference. (I'll be using the smaller sample data for the explanation because it is way easier to grok)</p><p><a href="https://adventofcode.com/2020/day/13">Check out the problem here, or this won't make any sense.</a></p><p><a href="https://github.com/milofultz/aoc2020/blob/master/13/aoc13-2-brute.py">My initial solution that used brute force</a></p><h2>Brute Force</h2><p>My initial solution used brute force, as essentially all of my solutions have so far, and this...didn't work. My computer was working really hard, fans spinning and everything, but wasn't getting anywhere (because the answer for me ended up being 667,437,230,788,118 and I started at _1_). I went to bed and tried to not think about it. First of course we start with parsing the data, which is a line of "bus IDs", which actually correspond to the intervals at which the buses leave the station.</p><pre><code>7,13,x,x,59,x,31,19
 </code></pre><p>I put these into an array, converting the numbers to integers and leaving the x's as strings.</p><pre><code>[7, 13, 'x', 'x', 59, 'x', 31, 19]
 </code></pre><p>Here's the pseudocode of the brute force solution:</p><pre><code>Set 'largest_number' to the largest number in the array
 Set 'largest_offset' to the index of 'largest_number' in the array

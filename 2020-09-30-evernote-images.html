@@ -2,13 +2,14 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
+    <meta content='width=device-width, initial-scale=1' name='viewport'/>
     <title>Maximize Evernote Storage Using Web Clipper (JS) - milo fultz</title>
     <link rel="stylesheet" href="style.css">
     <link rel="alternate" type="application/rss+xml" title="Maximize Evernote Storage Using Web Clipper (JS)" href="rss.xml">
   </head>
   <body>
     <header>
-    <strong>Milo Land</strong>
+      <strong>Milo Land</strong>
       <nav>
         <ul>
           <li><a href="index.html">Home</a></li>
@@ -20,7 +21,7 @@
       </nav>
     </header>
     <main>
-      <h1>Maximize Evernote Storage Using Web Clipper (JS)</h1><p>When using Evernote's web clipper, I was using too much of my upload cap with Evernote every month, mostly because images are too big when cropping the whole article. So I decided to practice some JS and see if I could make it work better without paying an $8 per month subscription for just a few extra megs of upload per month.</p><p>On an average article with supporting (but not necessarily useful) pictures, I've seen about a 90%+ reduction in note sizes.</p><p>This extension has been tested to work on the "Article", "Simplified Article", and "Full Page" options.</p><h2>Cheap and Easy No-Install Browser Agnostic Version</h2><p>In the console of your browser, type the following:</p><pre><code>document.querySelectorAll('img').forEach(image => image.remove());
+    <h1>Maximize Evernote Storage Using Web Clipper (JS)</h1><p>When using Evernote's web clipper, I was using too much of my upload cap with Evernote every month, mostly because images are too big when cropping the whole article. So I decided to practice some JS and see if I could make it work better without paying an $8 per month subscription for just a few extra megs of upload per month.</p><p>On an average article with supporting (but not necessarily useful) pictures, I've seen about a 90%+ reduction in note sizes.</p><p>This extension has been tested to work on the "Article", "Simplified Article", and "Full Page" options.</p><h2>Cheap and Easy No-Install Browser Agnostic Version</h2><p>In the console of your browser, type the following:</p><pre><code>document.querySelectorAll('img').forEach(image => image.remove());
 </code></pre><p>To reset this, reload your page.</p><h2>Chrome Extension</h2><p><a href="https://github.com/milofultz/no-images">Check out the up-to-date version on GitHub</a></p><p>This extension is really simple: on click, it goes through all the `img` elements on the page and removes them from the DOM. On another click, the page is refreshed.</p><p>The original implementation set the element's display to `none` on clicking the button again, all display settings for the images were set to their original value. Unfortunately, Evernote adds and modifies inline style on import, so it negated this otherwise more elegant implementation.</p><ul><li>20201007: Changed to avoid Evernote's inline styling on import</li><li>20201030: Added average space savings</li></ul>
     </main>
     <footer>

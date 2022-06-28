@@ -14,9 +14,8 @@
         <ul>
           <li><a href="index.html">Home</a></li>
           <li><a href="now.html">Now</a></li>
+          <li><a href="links.html">Links</a></li>
           <li><a href="rss.xml">RSS</a></li>
-          <li><a href="http://www.tinybrain.fans">Wiki</a></li>
-          <li><a href="http://www.codeberg.org/milofultz">Codeberg</a></li>
         </ul>
       </nav>
     </header>
@@ -27,11 +26,15 @@ XXX //  dots representing anything
 </code></pre><h3>2. White Corners</h3><p>First, select a corner/column to focus on. You need to rotate `E` and `D` layers until you have the white corner somewhere within the same column. This could mean on the underside of that column or somewhere on the side of that column.</p><p>The algorithm that is simplest but will take the longest is this: `R' D R D'`. If this is repeated, eventually that black square will end up on the top of the cube.</p><p>There are a few simpler ones that can be deduced from this and I will leave it to the cuber to figure them out. Practice will elucidate these algorithms very clearly!</p><p>Once this is finished, the cube should have all of the white squares on top of the cube.</p><h3>3. Second Layer</h3><p>Assuming the white squares are on top of the cube, you first want to rotate `Dw` until you have the `FU` and `F` as the same color. Sometimes, you can end up with more than one set of connected colors on other layers (`RU` and `R`, `LU` and `L`, or `BU` and `B`) through successive rotations. Our goal is to have the maximum connections possible.</p><p>Once this is complete, there are two possibilities with two different algorithms.</p><h3>Two *adjacent* faces with connected colors</h3><ul><li>Rotate `x` until the two connected color sections are on the `L` and `B` layers (i.e. the `FU`/`F` and `RU`/`R` pairs will *not* be the same. For example, `FU` would be green and `F` orange, and `RU` would be orange and `R` green).</li><li>Do the following: `M D2 M' D M D' M'`. When this is complete, the color that was on `FU` should be on `UD`, and vice versa.</li><li>Rotate `x` and repeat step 2.</li><li>Rotate `x'` and do the following: `M D' M' x M D2 M' x' M D M'`.</li></ul><h3>Two *opposite* faces with connected colors</h3><ul><li>Rotate `x` until the two connected color sections are on the `L` and `R` layers (i.e. the `FU`/`F` and `UU`/`U` pairs will *not* be the same. For example, `FU` would be green and `F` orange, and `UU` would be orange and `U` green).</li><li>Do the following: `M2 D2 M'2`.</li></ul><p>Once complete with any of these situations, you should have all four colors connected on the `M` column of the `T` layer of the `F`, `L`, `R`, and `B` layers.</p><p>NOTE: I have not figured out how to get the side pieces of `T` or `E` aligned yet.</p><h2>References</h2><p><a href="https://ruwix.com/the-rubiks-cube/notation/advanced/">https://ruwix.com/the-rubiks-cube/notation/advanced/</a></p><ul><li>20211022: Add instructions for steps 1, 2, and 3.</li><li>20211025: Added piece notation and revised my rotation notation.</li></ul>
     </main>
     <footer>
-      <ul>
-        <li><a rel="me" href="https://merveilles.town/@milofultz">Merveilles</a></li>
-        <li><a rel="me" href="https://oulipo.social/@irondung">Oulipo</a></li>
-        <li><a href="https://lieu.cblgh.org/random">Webring</a></li>
-      </ul>
+      <nav>
+        <ul>
+          <li><a href="http://www.tinybrain.fans">Wiki</a></li>
+          <li><a href="http://www.codeberg.org/milofultz">Codeberg</a></li>
+          <li><a rel="me" href="https://merveilles.town/@milofultz">Merveilles</a></li>
+          <li><a rel="me" href="https://oulipo.social/@irondung">Oulipo</a></li>
+          <li><a href="https://lieu.cblgh.org/random">Webring</a></li>
+        </ul>
+      </nav>
     </footer>
   </body>
 </html>

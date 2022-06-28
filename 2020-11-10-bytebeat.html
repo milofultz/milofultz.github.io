@@ -14,9 +14,8 @@
         <ul>
           <li><a href="index.html">Home</a></li>
           <li><a href="now.html">Now</a></li>
+          <li><a href="links.html">Links</a></li>
           <li><a href="rss.xml">RSS</a></li>
-          <li><a href="http://www.tinybrain.fans">Wiki</a></li>
-          <li><a href="http://www.codeberg.org/milofultz">Codeberg</a></li>
         </ul>
       </nav>
     </header>
@@ -55,11 +54,15 @@ gcc "$2.c" -o "$2"
 </code></pre><p>This runs the bash script (`bytebeat.sh`) and uses the Bytebeat algorithm/equation `(t/4)*(t>>8|((14 & t)^3))` to generate the compiled C program `test`. This program `test` is then piped into sox and plays through the speakers. You're done!</p><h3>Record it!</h3><p>There are two ways you can save the audio you've created. One is fairly user friendly and the other one is a bit clunky.</p><p>The easiest way is to download and install Rogue Amoeba's Loopback to record your system audio. This is very simple and highly recommend it.</p><p>If for whatever reason that doesn't work for you, you can create a raw audio file on your computer and use Audacity to open it. This may not output exactly what you heard when playing it using the bash script, but it may yield some cool variations.</p><ul><li>Run your script to create the compiled Bytebeat script (give it a proper name instead of `test` if that's easier to find). Within your folder, you should find a file of that name.</li><li>Send the output of this newly compiled script to a file instead of piped to SoX. (NOTE: This can create endlessly large files on your computer and possibly eat up all empty memory if you don't stop it quickly. To avoid this, cancel (ctrl + C) the process around a half-second to a second after you start it.) To do this, write this in your shell, assuming your newly compiled file is called `test` and the output file is called `output.raw`: `./test > output.raw`</li><li>As said before, you will want to cancel this process very quickly after you start it with ctrl + C, as it can otherwise create a massive file.</li><li>Open Audacity. Select `File` > `Import` > `Raw Data...` and choose your newly output file (`output.raw` in our example). Use the following settings in the dialog box:</li></ul><p>Encoding: Unsigned 8-bit PCM<br/>Byte Order: No endianness<br/>Channels: 1 (Mono)<br/>Start Offset: 0<br/>Amount to Import: 100<br/>Sample Rate: 8000</p><ul><li>Listen to your hideous creation.</li></ul><h3>Resources/Implementations</h3><p><a href="https://chrisrosser.net/posts/2020/04/06/using-sox-on-macos/">you can follow this tutorial here if you are confused</a></p><p><a href="https://web.archive.org/web/20160610140821/http://coleingraham.com/2013/04/28/bytebeat-shell-script/">Cole Ingraham's post</a></p><p><a href="https://rogueamoeba.com/loopback/">Loopback</a></p><p><a href="https://www.audacityteam.org/">Audacity</a></p><p><a href="http://royal-paw.com/2012/01/bytebeats-in-c-and-python-generative-symphonies-from-extremely-small-programs/">C and Python implementation</a></p><p><a href="https://gist.github.com/bzamecnik/a2d45dc0addb8d602d70b1d8df0f9fd0">Python implementation</a></p>
     </main>
     <footer>
-      <ul>
-        <li><a rel="me" href="https://merveilles.town/@milofultz">Merveilles</a></li>
-        <li><a rel="me" href="https://oulipo.social/@irondung">Oulipo</a></li>
-        <li><a href="https://lieu.cblgh.org/random">Webring</a></li>
-      </ul>
+      <nav>
+        <ul>
+          <li><a href="http://www.tinybrain.fans">Wiki</a></li>
+          <li><a href="http://www.codeberg.org/milofultz">Codeberg</a></li>
+          <li><a rel="me" href="https://merveilles.town/@milofultz">Merveilles</a></li>
+          <li><a rel="me" href="https://oulipo.social/@irondung">Oulipo</a></li>
+          <li><a href="https://lieu.cblgh.org/random">Webring</a></li>
+        </ul>
+      </nav>
     </footer>
   </body>
 </html>

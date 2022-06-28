@@ -1,6 +1,8 @@
 #!/bin/zsh
 
-gemkill ./files ./ "http://www.milofultz.com"
+ruby=$(which ruby)
+
+"$ruby" "$HOME/Dropbox (Personal)/Code/gemkill/gemkill.rb" ./files ./ "http://www.milofultz.com"
 
 new_changes=$(git status | grep -i "modified")
 

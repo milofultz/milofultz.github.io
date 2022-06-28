@@ -14,9 +14,8 @@
         <ul>
           <li><a href="index.html">Home</a></li>
           <li><a href="now.html">Now</a></li>
+          <li><a href="links.html">Links</a></li>
           <li><a href="rss.xml">RSS</a></li>
-          <li><a href="http://www.tinybrain.fans">Wiki</a></li>
-          <li><a href="http://www.codeberg.org/milofultz">Codeberg</a></li>
         </ul>
       </nav>
     </header>
@@ -25,11 +24,15 @@
 </code></pre><p>To reset this, reload your page.</p><h2>Chrome Extension</h2><p><a href="https://github.com/milofultz/no-images">Check out the up-to-date version on GitHub</a></p><p>This extension is really simple: on click, it goes through all the `img` elements on the page and removes them from the DOM. On another click, the page is refreshed.</p><p>The original implementation set the element's display to `none` on clicking the button again, all display settings for the images were set to their original value. Unfortunately, Evernote adds and modifies inline style on import, so it negated this otherwise more elegant implementation.</p><ul><li>20201007: Changed to avoid Evernote's inline styling on import</li><li>20201030: Added average space savings</li></ul>
     </main>
     <footer>
-      <ul>
-        <li><a rel="me" href="https://merveilles.town/@milofultz">Merveilles</a></li>
-        <li><a rel="me" href="https://oulipo.social/@irondung">Oulipo</a></li>
-        <li><a href="https://lieu.cblgh.org/random">Webring</a></li>
-      </ul>
+      <nav>
+        <ul>
+          <li><a href="http://www.tinybrain.fans">Wiki</a></li>
+          <li><a href="http://www.codeberg.org/milofultz">Codeberg</a></li>
+          <li><a rel="me" href="https://merveilles.town/@milofultz">Merveilles</a></li>
+          <li><a rel="me" href="https://oulipo.social/@irondung">Oulipo</a></li>
+          <li><a href="https://lieu.cblgh.org/random">Webring</a></li>
+        </ul>
+      </nav>
     </footer>
   </body>
 </html>

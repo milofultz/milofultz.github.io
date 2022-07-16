@@ -65,6 +65,9 @@ Nativefier: A way to make web applications "native" with Electron. I'm not a big
 => https://github.com/nativefier/nativefier Nativefier
 => https://www.fluidapp.com/developer/ fluid
 
+NetNewsWire: Open source native MacOS and iOS RSS feeder. It just works!
+=> https://netnewswire.com/ NetNewsWire
+
 1Password / Keepass (Free): ~~I use Lastpass~~ (I used to use Lastpass, but they are lacking on security, and their free model will only work on a single device at a time, making it useless if you use a phone and computer with it), but use ANY password manager, please please please.
 => https://www.1password.com/ 1Password
 => https://keepass.info/index.html Keepass (Free)
@@ -89,6 +92,9 @@ Reaper: I used to use this for all my podcast editing because of the ability to 
 Rectangle / ShiftIt: Window manager that uses keyboard shortcuts. Super easy to arrange windows into quandrants, screen halves/thirds, etc., or move windows over to other screens. Just overall very useful for smaller single-monitor or large multi-monitor setups.
 => https://rectangleapp.com/ Rectangle
 => https://github.com/fikovnik/ShiftIt ShiftIt
+
+Sfeed: This is an awesome all-in-one feed reader, converter, parser, whatever. I use it to update my feeds and generate an HTML file to read the posts so I can then post it onto a Codeberg Pages and access it/read it anywhere. A slightly more involved thing, but once it's set up, super nice to use in this setup.
+=> https://codemadness.org/sfeed-simple-feed-parser.html Sfeed
 
 SublimeText: This is my coding scratchpad as well as my daily task manager using PlainTasks. Not as full featured towards any given language as PyCharm or as huge as VSCodium, but fantastic, fast, and a pleasure to use.
 => https://www.sublimetext.com/ SublimeText

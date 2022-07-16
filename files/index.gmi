@@ -2,7 +2,7 @@
 
 This website is both a repo for random knowledge I find, projects, and thoughts.
 
-# What I love
+## What I love
 
 * creative constraints
 * minimal solutions
